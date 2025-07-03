@@ -12,4 +12,14388 @@
     This ui library is not for public! only use it when NataX has given permission, because NataX have full permission for this ui library
     only NataX has license for this ui
 ]]
-local a={}local b=cloneref or function(...)return...end a['1']=Instance.new('ScreenGui',game:GetService'Players'.LocalPlayer:WaitForChild'PlayerGui')a['1'].Name='NatHub'a['1'].ZIndexBehavior=Enum.ZIndexBehavior.Sibling if protect_gui then protect_gui(a['1'])elseif gethui then a['1'].Parent=gethui()elseif pcall(function()game.CoreGui:GetChildren()end)then a['1'].Parent=b(game:GetService'CoreGui')else a['1'].Parent=game.Players.LocalPlayer:WaitForChild'PlayerGui'end a['2']=Instance.new('Frame',a['1'])a['2'].Visible=false a['2'].ZIndex=0 a['2'].BorderSizePixel=2 a['2'].BackgroundColor3=Color3.fromRGB(37,40,47)a['2'].AnchorPoint=Vector2.new(0.5,0.5)a['2'].Size=UDim2.new(0,528,0,334)a['2'].Position=UDim2.new(0.5278,0,0.5,0)a['2'].BorderColor3=Color3.fromRGB(61,61,75)a['2'].Name='Window'a['3']=Instance.new('UICorner',a['2'])a['3'].CornerRadius=UDim.new(0,10)a['4']=Instance.new('Frame',a['2'])a['4'].Visible=false a['4'].ZIndex=4 a['4'].BorderSizePixel=0 a['4'].BackgroundColor3=Color3.fromRGB(32,35,41)a['4'].AnchorPoint=Vector2.new(0.5,0.5)a['4'].ClipsDescendants=true a['4'].Size=UDim2.new(0.7281,0,0.68367,0)a['4'].Position=UDim2.new(0.5,0,0.5,0)a['4'].BorderColor3=Color3.fromRGB(61,61,75)a['4'].Name='DropdownSelection'a['5']=Instance.new('UICorner',a['4'])a['5'].CornerRadius=UDim.new(0,6)a['6']=Instance.new('UIStroke',a['4'])a['6'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['6'].Thickness=1.5 a['6'].Color=Color3.fromRGB(61,61,75)a['7']=Instance.new('Frame',a['4'])a['7'].BorderSizePixel=0 a['7'].BackgroundColor3=Color3.fromRGB(255,255,255)a['7'].Size=UDim2.new(1,0,0,50)a['7'].Position=UDim2.new(0,0,0,0)a['7'].BorderColor3=Color3.fromRGB(0,0,0)a['7'].Name='TopBar'a['7'].BackgroundTransparency=1 a['8']=Instance.new('Frame',a['7'])a['8'].BorderSizePixel=0 a['8'].AnchorPoint=Vector2.new(1,0.5)a['8'].Size=UDim2.new(0,120,0,25)a['8'].Position=UDim2.new(1,-50,0.5,0)a['8'].Name='BoxFrame'a['8'].BackgroundTransparency=1 a['9']=Instance.new('ImageLabel',a['8'])a['9'].ZIndex=0 a['9'].BorderSizePixel=0 a['9'].SliceCenter=Rect.new(49,49,450,450)a['9'].ScaleType=Enum.ScaleType.Slice a['9'].ImageTransparency=0.75 a['9'].ImageColor3=Color3.fromRGB(0,0,0)a['9'].AnchorPoint=Vector2.new(0.5,0.5)a['9'].Image='rbxassetid://6014261993'a['9'].Size=UDim2.new(1,30,1,30)a['9'].BackgroundTransparency=1 a['9'].Name='DropShadow'a['9'].Position=UDim2.new(0.5,0,0.5,0)a.a=Instance.new('Frame',a['8'])a.a.BorderSizePixel=0 a.a.BackgroundColor3=Color3.fromRGB(43,46,53)a.a.AutomaticSize=Enum.AutomaticSize.Y a.a.Size=UDim2.new(1,0,1,0)a.a.BorderColor3=Color3.fromRGB(0,0,0)a.b=Instance.new('UICorner',a.a)a.b.CornerRadius=UDim.new(0,5)a.c=Instance.new('UIStroke',a.a)a.c.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.c.Thickness=1.5 a.c.Color=Color3.fromRGB(61,61,75)a.d=Instance.new('TextBox',a.a)a.d.TextXAlignment=Enum.TextXAlignment.Left a.d.BorderSizePixel=0 a.d.TextWrapped=true a.d.TextTruncate=Enum.TextTruncate.AtEnd a.d.TextSize=14 a.d.TextColor3=Color3.fromRGB(197,204,219)a.d.BackgroundColor3=Color3.fromRGB(255,255,255)a.d.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.d.ClipsDescendants=true a.d.PlaceholderText='Input here...'a.d.Size=UDim2.new(1,-25,1,0)a.d.BorderColor3=Color3.fromRGB(0,0,0)a.d.Text=''a.d.BackgroundTransparency=1 a.e=Instance.new('UIPadding',a.d)a.e.PaddingTop=UDim.new(0,10)a.e.PaddingRight=UDim.new(0,10)a.e.PaddingLeft=UDim.new(0,10)a.e.PaddingBottom=UDim.new(0,10)a.f=Instance.new('ImageButton',a.a)a.f.BorderSizePixel=0 a.f.BackgroundTransparency=1 a.f.BackgroundColor3=Color3.fromRGB(255,255,255)a.f.ImageColor3=Color3.fromRGB(197,204,219)a.f.AnchorPoint=Vector2.new(1,0.5)a.f.Image='rbxassetid://86928976705683'a.f.Size=UDim2.new(0,15,0,15)a.f.BorderColor3=Color3.fromRGB(0,0,0)a.f.Position=UDim2.new(1,-5,0.5,0)a['10']=Instance.new('ImageButton',a['7'])a['10'].BorderSizePixel=0 a['10'].BackgroundTransparency=1 a['10'].BackgroundColor3=Color3.fromRGB(255,255,255)a['10'].ImageColor3=Color3.fromRGB(197,204,219)a['10'].ZIndex=0 a['10'].AnchorPoint=Vector2.new(1,0.5)a['10'].Image='rbxassetid://132453323679056'a['10'].Size=UDim2.new(0,25,0,25)a['10'].BorderColor3=Color3.fromRGB(0,0,0)a['10'].Name='Close'a['10'].Position=UDim2.new(1,-12,0.5,0)a['11']=Instance.new('TextLabel',a['7'])a['11'].TextWrapped=true a['11'].Interactable=false a['11'].ZIndex=0 a['11'].BorderSizePixel=0 a['11'].TextSize=18 a['11'].TextXAlignment=Enum.TextXAlignment.Left a['11'].TextScaled=true a['11'].BackgroundColor3=Color3.fromRGB(255,255,255)a['11'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['11'].TextColor3=Color3.fromRGB(197,204,219)a['11'].BackgroundTransparency=1 a['11'].AnchorPoint=Vector2.new(0,0.5)a['11'].Size=UDim2.new(0.5,0,0,18)a['11'].BorderColor3=Color3.fromRGB(0,0,0)a['11'].Text='Dropdown'a['11'].Name='Title'a['11'].Position=UDim2.new(0,12,0.5,0)a['12']=Instance.new('Folder',a['4'])a['12'].Name='Dropdowns'a['13']=Instance.new('Frame',a['2'])a['13'].BorderSizePixel=0 a['13'].BackgroundColor3=Color3.fromRGB(37,40,47)a['13'].ClipsDescendants=true a['13'].Size=UDim2.new(0,165,1,-35)a['13'].Position=UDim2.new(0,0,0,35)a['13'].BorderColor3=Color3.fromRGB(61,61,75)a['13'].Name='TabButtons'a['13'].SelectionGroup=true a['14']=Instance.new('ScrollingFrame',a['13'])a['14'].Active=true a['14'].ScrollingDirection=Enum.ScrollingDirection.Y a['14'].BorderSizePixel=2 a['14'].CanvasSize=UDim2.new(0,0,0,0)a['14'].ElasticBehavior=Enum.ElasticBehavior.Never a['14'].TopImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['14'].BackgroundColor3=Color3.fromRGB(37,40,47)a['14'].Name='Lists'a['14'].Selectable=false a['14'].BottomImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['14'].AutomaticCanvasSize=Enum.AutomaticSize.Y a['14'].Size=UDim2.new(1,0,1,0)a['14'].BorderColor3=Color3.fromRGB(61,61,75)a['14'].ScrollBarThickness=4 a['14'].BackgroundTransparency=1 a['15']=Instance.new('UIListLayout',a['14'])a['15'].SortOrder=Enum.SortOrder.LayoutOrder a['16']=Instance.new('Frame',a['14'])a['16'].Visible=false a['16'].BorderSizePixel=0 a['16'].BackgroundColor3=Color3.fromRGB(255,255,255)a['16'].Size=UDim2.new(1,0,0,36)a['16'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['16'].BorderColor3=Color3.fromRGB(0,0,0)a['16'].Name='TabButton'a['16'].BackgroundTransparency=1 a['17']=Instance.new('Frame',a['16'])a['17'].BorderSizePixel=0 a['17'].BackgroundColor3=Color3.fromRGB(197,204,219)a['17'].AnchorPoint=Vector2.new(0,0.5)a['17'].Size=UDim2.new(0,5,0,25)a['17'].Position=UDim2.new(0,8,0,18)a['17'].BorderColor3=Color3.fromRGB(0,0,0)a['17'].Name='Bar'a['18']=Instance.new('UIGradient',a['17'])a['18'].Enabled=false a['18'].Rotation=90 a['18'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(110,212,255)),ColorSequenceKeypoint.new(0.978,Color3.fromRGB(0,124,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,218,255))}a['19']=Instance.new('UICorner',a['17'])a['19'].CornerRadius=UDim.new(0,100)a['1a']=Instance.new('ImageButton',a['16'])a['1a'].BorderSizePixel=0 a['1a'].BackgroundTransparency=1 a['1a'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1a'].ImageColor3=Color3.fromRGB(197,204,219)a['1a'].AnchorPoint=Vector2.new(0,0.5)a['1a'].Image='rbxassetid://113216930555884'a['1a'].Size=UDim2.new(0,31,0,30)a['1a'].BorderColor3=Color3.fromRGB(0,0,0)a['1a'].Position=UDim2.new(0,21,0,18)a['1b']=Instance.new('UIAspectRatioConstraint',a['1a'])a['1c']=Instance.new('TextLabel',a['16'])a['1c'].TextWrapped=true a['1c'].BorderSizePixel=0 a['1c'].TextSize=14 a['1c'].TextXAlignment=Enum.TextXAlignment.Left a['1c'].TextScaled=true a['1c'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1c'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['1c'].TextColor3=Color3.fromRGB(197,204,219)a['1c'].BackgroundTransparency=1 a['1c'].AnchorPoint=Vector2.new(0,0.5)a['1c'].Size=UDim2.new(0,88,0,16)a['1c'].BorderColor3=Color3.fromRGB(0,0,0)a['1c'].Text='NataX'a['1c'].Position=UDim2.new(0,57,0.5,0)a['1d']=Instance.new('UIPadding',a['14'])a['1d'].PaddingTop=UDim.new(0,8)a['1e']=Instance.new('Frame',a['14'])a['1e'].Visible=false a['1e'].BorderSizePixel=0 a['1e'].BackgroundColor3=Color3.fromRGB(61,61,75)a['1e'].Size=UDim2.new(1,0,0,1)a['1e'].BorderColor3=Color3.fromRGB(61,61,75)a['1e'].Name='Divider'a['1f']=Instance.new('ImageButton',a['14'])a['1f'].Active=false a['1f'].BorderSizePixel=0 a['1f'].AutoButtonColor=false a['1f'].Visible=false a['1f'].BackgroundTransparency=1 a['1f'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1f'].Selectable=false a['1f'].Size=UDim2.new(1,0,0,36)a['1f'].BorderColor3=Color3.fromRGB(0,0,0)a['1f'].Name='TabButton'a['20']=Instance.new('ImageButton',a['1f'])a['20'].BorderSizePixel=0 a['20'].ImageTransparency=0.5 a['20'].BackgroundTransparency=1 a['20'].BackgroundColor3=Color3.fromRGB(255,255,255)a['20'].ImageColor3=Color3.fromRGB(197,204,219)a['20'].AnchorPoint=Vector2.new(0,0.5)a['20'].Image='rbxassetid://113216930555884'a['20'].Size=UDim2.new(0,31,0,30)a['20'].BorderColor3=Color3.fromRGB(0,0,0)a['20'].Position=UDim2.new(0,6,0,18)a['21']=Instance.new('UIAspectRatioConstraint',a['20'])a['22']=Instance.new('TextLabel',a['1f'])a['22'].TextWrapped=true a['22'].BorderSizePixel=0 a['22'].TextSize=14 a['22'].TextXAlignment=Enum.TextXAlignment.Left a['22'].TextTransparency=0.5 a['22'].TextScaled=true a['22'].BackgroundColor3=Color3.fromRGB(255,255,255)a['22'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['22'].TextColor3=Color3.fromRGB(197,204,219)a['22'].BackgroundTransparency=1 a['22'].AnchorPoint=Vector2.new(0,0.5)a['22'].Size=UDim2.new(0,103,0,16)a['22'].BorderColor3=Color3.fromRGB(0,0,0)a['22'].Text='NataX'a['22'].Position=UDim2.new(0,42,0.5,0)a['23']=Instance.new('Frame',a['1f'])a['23'].BorderSizePixel=0 a['23'].BackgroundColor3=Color3.fromRGB(197,204,219)a['23'].AnchorPoint=Vector2.new(0,0.5)a['23'].Size=UDim2.new(0,5,0,0)a['23'].Position=UDim2.new(0,8,0,18)a['23'].BorderColor3=Color3.fromRGB(0,0,0)a['23'].Name='Bar'a['23'].BackgroundTransparency=1 a['24']=Instance.new('UICorner',a['23'])a['24'].CornerRadius=UDim.new(0,100)a['25']=Instance.new('UICorner',a['13'])a['25'].CornerRadius=UDim.new(0,6)a['26']=Instance.new('Frame',a['13'])a['26'].BorderSizePixel=0 a['26'].BackgroundColor3=Color3.fromRGB(37,40,47)a['26'].Size=UDim2.new(1,0,0,5)a['26'].BorderColor3=Color3.fromRGB(0,0,0)a['26'].Name='AntiCornerTop'a['27']=Instance.new('Frame',a['13'])a['27'].BorderSizePixel=0 a['27'].BackgroundColor3=Color3.fromRGB(37,40,47)a['27'].AnchorPoint=Vector2.new(0.5,0)a['27'].Size=UDim2.new(0,2,1,0)a['27'].Position=UDim2.new(1,1,0,0)a['27'].BorderColor3=Color3.fromRGB(0,0,0)a['27'].Name='AntiCornerRight'a['28']=Instance.new('Frame',a['13'])a['28'].ZIndex=2 a['28'].BorderSizePixel=0 a['28'].BackgroundColor3=Color3.fromRGB(61,61,75)a['28'].AnchorPoint=Vector2.new(1,0)a['28'].Size=UDim2.new(0,2,1,0)a['28'].Position=UDim2.new(1,0,0,0)a['28'].BorderColor3=Color3.fromRGB(0,0,0)a['28'].Name='Border'a['29']=Instance.new('Frame',a['2'])a['29'].BorderSizePixel=0 a['29'].BackgroundColor3=Color3.fromRGB(37,40,47)a['29'].ClipsDescendants=true a['29'].Size=UDim2.new(1,0,0,35)a['29'].BorderColor3=Color3.fromRGB(61,61,75)a['29'].Name='TopFrame'a['2a']=Instance.new('ImageButton',a['29'])a['2a'].Active=false a['2a'].Interactable=false a['2a'].BorderSizePixel=0 a['2a'].BackgroundTransparency=1 a['2a'].BackgroundColor3=Color3.fromRGB(255,255,255)a['2a'].AnchorPoint=Vector2.new(0,0.5)a['2a'].Image='rbxassetid://113216930555884'a['2a'].Size=UDim2.new(0,25,0,25)a['2a'].BorderColor3=Color3.fromRGB(0,0,0)a['2a'].Name='Icon'a['2a'].Position=UDim2.new(0,10,0.5,0)a['2b']=Instance.new('UIAspectRatioConstraint',a['2a'])a['2c']=Instance.new('TextLabel',a['29'])a['2c'].TextWrapped=true a['2c'].Interactable=false a['2c'].BorderSizePixel=0 a['2c'].TextSize=14 a['2c'].TextScaled=true a['2c'].BackgroundColor3=Color3.fromRGB(255,255,255)a['2c'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['2c'].TextColor3=Color3.fromRGB(197,204,219)a['2c'].BackgroundTransparency=1 a['2c'].AnchorPoint=Vector2.new(0.5,0.5)a['2c'].Size=UDim2.new(1,0,0,16)a['2c'].BorderColor3=Color3.fromRGB(0,0,0)a['2c'].Text='NataX - v1.2.3'a['2c'].Position=UDim2.new(0.5,0,0.5,-1)a['2d']=Instance.new('ImageButton',a['29'])a['2d'].BorderSizePixel=0 a['2d'].BackgroundTransparency=1 a['2d'].BackgroundColor3=Color3.fromRGB(255,255,255)a['2d'].ImageColor3=Color3.fromRGB(197,204,219)a['2d'].AnchorPoint=Vector2.new(1,0.5)a['2d'].Image='rbxassetid://132453323679056'a['2d'].Size=UDim2.new(0,20,0,20)a['2d'].BorderColor3=Color3.fromRGB(0,0,0)a['2d'].Name='Close'a['2d'].Position=UDim2.new(1,-15,0.5,0)a['2e']=Instance.new('ImageButton',a['29'])a['2e'].BorderSizePixel=0 a['2e'].BackgroundTransparency=1 a['2e'].BackgroundColor3=Color3.fromRGB(255,255,255)a['2e'].ImageColor3=Color3.fromRGB(197,204,219)a['2e'].AnchorPoint=Vector2.new(1,0.5)a['2e'].Image='rbxassetid://108285848026510'a['2e'].Size=UDim2.new(0,15,0,15)a['2e'].BorderColor3=Color3.fromRGB(0,0,0)a['2e'].Name='Maximize'a['2e'].Position=UDim2.new(1,-55,0.5,0)a['2f']=Instance.new('ImageButton',a['29'])a['2f'].BorderSizePixel=0 a['2f'].BackgroundTransparency=1 a['2f'].BackgroundColor3=Color3.fromRGB(255,255,255)a['2f'].ImageColor3=Color3.fromRGB(197,204,219)a['2f'].AnchorPoint=Vector2.new(1,0.5)a['2f'].Image='rbxassetid://128209591224511'a['2f'].Size=UDim2.new(0,20,0,20)a['2f'].BorderColor3=Color3.fromRGB(0,0,0)a['2f'].Name='Hide'a['2f'].Position=UDim2.new(1,-90,0.5,0)a['30']=Instance.new('UICorner',a['29'])a['30'].CornerRadius=UDim.new(0,6)a['31']=Instance.new('Frame',a['29'])a['31'].ZIndex=2 a['31'].BorderSizePixel=0 a['31'].BackgroundColor3=Color3.fromRGB(61,61,75)a['31'].AnchorPoint=Vector2.new(0,0.5)a['31'].Size=UDim2.new(1,0,0,2)a['31'].Position=UDim2.new(0,0,1,0)a['31'].BorderColor3=Color3.fromRGB(0,0,0)a['31'].Name='Border'a['32']=Instance.new('UIStroke',a['2'])a['32'].Transparency=0.5 a['32'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['32'].Color=Color3.fromRGB(95,95,117)a['33']=Instance.new('Frame',a['2'])a['33'].BorderSizePixel=0 a['33'].BackgroundColor3=Color3.fromRGB(255,255,255)a['33'].AnchorPoint=Vector2.new(0.5,0)a['33'].ClipsDescendants=true a['33'].Size=UDim2.new(0,630,1,-35)a['33'].Position=UDim2.new(1,0,0,35)a['33'].BorderColor3=Color3.fromRGB(0,0,0)a['33'].Name='NotificationList'a['33'].BackgroundTransparency=1 a['34']=Instance.new('UIListLayout',a['33'])a['34'].Padding=UDim.new(0,12)a['34'].SortOrder=Enum.SortOrder.LayoutOrder a['35']=Instance.new('UIPadding',a['33'])a['35'].PaddingTop=UDim.new(0,10)a['35'].PaddingRight=UDim.new(0,40)a['35'].PaddingLeft=UDim.new(0,40)a['36']=Instance.new('ImageButton',a['2'])a['36'].BorderSizePixel=0 a['36'].AutoButtonColor=false a['36'].Visible=false a['36'].BackgroundTransparency=0.6 a['36'].BackgroundColor3=Color3.fromRGB(0,0,0)a['36'].Selectable=false a['36'].ZIndex=3 a['36'].AnchorPoint=Vector2.new(0.5,0.5)a['36'].Size=UDim2.new(1,0,1,0)a['36'].BorderColor3=Color3.fromRGB(0,0,0)a['36'].Name='DarkOverlay'a['36'].Position=UDim2.new(0.5,0,0.5,0)a['37']=Instance.new('UICorner',a['36'])a['37'].CornerRadius=UDim.new(0,10)a['38']=Instance.new('ImageLabel',a['2'])a['38'].ZIndex=0 a['38'].BorderSizePixel=0 a['38'].SliceCenter=Rect.new(49,49,450,450)a['38'].ScaleType=Enum.ScaleType.Slice a['38'].ImageTransparency=0.5 a['38'].ImageColor3=Color3.fromRGB(32,35,41)a['38'].AnchorPoint=Vector2.new(0.5,0.5)a['38'].Image='rbxassetid://6014261993'a['38'].Size=UDim2.new(1,49,1,49)a['38'].BackgroundTransparency=1 a['38'].Name='DropShadow'a['38'].Position=UDim2.new(0.5,0,0.5,0)a['39']=Instance.new('Frame',a['2'])a['39'].BorderSizePixel=0 a['39'].BackgroundColor3=Color3.fromRGB(32,35,41)a['39'].Size=UDim2.new(1,-165,1,-35)a['39'].Position=UDim2.new(0,165,0,35)a['39'].BorderColor3=Color3.fromRGB(61,61,75)a['39'].Name='Tabs'a['3a']=Instance.new('UICorner',a['39'])a['3a'].CornerRadius=UDim.new(0,6)a['3b']=Instance.new('Frame',a['39'])a['3b'].Visible=false a['3b'].BorderSizePixel=0 a['3b'].BackgroundColor3=Color3.fromRGB(32,35,41)a['3b'].Size=UDim2.new(0,5,1,0)a['3b'].BorderColor3=Color3.fromRGB(0,0,0)a['3b'].Name='AntiCornerLeft'a['3c']=Instance.new('Frame',a['39'])a['3c'].BorderSizePixel=0 a['3c'].BackgroundColor3=Color3.fromRGB(32,35,41)a['3c'].Size=UDim2.new(1,0,0,5)a['3c'].BorderColor3=Color3.fromRGB(0,0,0)a['3c'].Name='AntiCornerTop'a['3d']=Instance.new('TextLabel',a['39'])a['3d'].TextWrapped=true a['3d'].Interactable=false a['3d'].BorderSizePixel=0 a['3d'].TextSize=14 a['3d'].TextScaled=true a['3d'].BackgroundColor3=Color3.fromRGB(255,255,255)a['3d'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['3d'].TextColor3=Color3.fromRGB(135,140,150)a['3d'].BackgroundTransparency=1 a['3d'].AnchorPoint=Vector2.new(0.5,0.5)a['3d'].Size=UDim2.new(1,0,0,16)a['3d'].Visible=false a['3d'].BorderColor3=Color3.fromRGB(0,0,0)a['3d'].Text='This tab is empty :('a['3d'].Name='NoObjectFoundText'a['3d'].Position=UDim2.new(0.5,0,0.45,0)a['3e']=Instance.new('ScrollingFrame',a['39'])a['3e'].Visible=false a['3e'].Active=true a['3e'].ScrollingDirection=Enum.ScrollingDirection.Y a['3e'].BorderSizePixel=0 a['3e'].CanvasSize=UDim2.new(0,0,0,0)a['3e'].ElasticBehavior=Enum.ElasticBehavior.Never a['3e'].TopImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['3e'].BackgroundColor3=Color3.fromRGB(255,255,255)a['3e'].Name='Sample'a['3e'].Selectable=false a['3e'].BottomImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['3e'].AutomaticCanvasSize=Enum.AutomaticSize.Y a['3e'].Size=UDim2.new(1,0,1,0)a['3e'].ScrollBarImageColor3=Color3.fromRGB(99,106,122)a['3e'].BorderColor3=Color3.fromRGB(0,0,0)a['3e'].ScrollBarThickness=5 a['3e'].BackgroundTransparency=1 a['3f']=Instance.new('UIListLayout',a['3e'])a['3f'].Padding=UDim.new(0,15)a['3f'].SortOrder=Enum.SortOrder.LayoutOrder a['40']=Instance.new('UIPadding',a['3e'])a['40'].PaddingTop=UDim.new(0,10)a['40'].PaddingRight=UDim.new(0,14)a['40'].PaddingLeft=UDim.new(0,10)a['40'].PaddingBottom=UDim.new(0,10)a['41']=Instance.new('Frame',a['3e'])a['41'].BorderSizePixel=0 a['41'].BackgroundColor3=Color3.fromRGB(43,46,53)a['41'].AutomaticSize=Enum.AutomaticSize.Y a['41'].Size=UDim2.new(1,0,0,35)a['41'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['41'].BorderColor3=Color3.fromRGB(0,0,0)a['41'].Name='Paragraph'a['42']=Instance.new('UICorner',a['41'])a['42'].CornerRadius=UDim.new(0,6)a['43']=Instance.new('UIStroke',a['41'])a['43'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['43'].Thickness=1.5 a['43'].Color=Color3.fromRGB(61,61,75)a['44']=Instance.new('TextLabel',a['41'])a['44'].TextWrapped=true a['44'].Interactable=false a['44'].BorderSizePixel=0 a['44'].TextSize=16 a['44'].TextXAlignment=Enum.TextXAlignment.Left a['44'].BackgroundColor3=Color3.fromRGB(255,255,255)a['44'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['44'].TextColor3=Color3.fromRGB(197,204,219)a['44'].BackgroundTransparency=1 a['44'].Size=UDim2.new(1,0,0,15)a['44'].BorderColor3=Color3.fromRGB(0,0,0)a['44'].Text='Title'a['44'].AutomaticSize=Enum.AutomaticSize.Y a['44'].Name='Title'a['45']=Instance.new('UIPadding',a['41'])a['45'].PaddingTop=UDim.new(0,10)a['45'].PaddingRight=UDim.new(0,10)a['45'].PaddingLeft=UDim.new(0,10)a['45'].PaddingBottom=UDim.new(0,10)a['46']=Instance.new('UIListLayout',a['41'])a['46'].Padding=UDim.new(0,5)a['46'].SortOrder=Enum.SortOrder.LayoutOrder a['47']=Instance.new('TextLabel',a['41'])a['47'].TextWrapped=true a['47'].Interactable=false a['47'].BorderSizePixel=0 a['47'].TextSize=16 a['47'].TextXAlignment=Enum.TextXAlignment.Left a['47'].BackgroundColor3=Color3.fromRGB(255,255,255)a['47'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['47'].TextColor3=Color3.fromRGB(197,204,219)a['47'].BackgroundTransparency=1 a['47'].Size=UDim2.new(1,0,0,15)a['47'].BorderColor3=Color3.fromRGB(0,0,0)a['47'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['47'].AutomaticSize=Enum.AutomaticSize.Y a['47'].Name='Description'a['48']=Instance.new('ImageButton',a['3e'])a['48'].BorderSizePixel=0 a['48'].AutoButtonColor=false a['48'].BackgroundColor3=Color3.fromRGB(43,46,53)a['48'].Selectable=false a['48'].AutomaticSize=Enum.AutomaticSize.Y a['48'].Size=UDim2.new(1,0,0,35)a['48'].BorderColor3=Color3.fromRGB(0,0,0)a['48'].Name='Button'a['48'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['49']=Instance.new('UICorner',a['48'])a['49'].CornerRadius=UDim.new(0,6)a['4a']=Instance.new('UIStroke',a['48'])a['4a'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['4a'].Thickness=1.5 a['4a'].Color=Color3.fromRGB(61,61,75)a['4b']=Instance.new('TextLabel',a['48'])a['4b'].TextWrapped=true a['4b'].Interactable=false a['4b'].BorderSizePixel=0 a['4b'].TextSize=16 a['4b'].TextXAlignment=Enum.TextXAlignment.Left a['4b'].BackgroundColor3=Color3.fromRGB(255,255,255)a['4b'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['4b'].TextColor3=Color3.fromRGB(197,204,219)a['4b'].BackgroundTransparency=1 a['4b'].Size=UDim2.new(1,0,0,15)a['4b'].BorderColor3=Color3.fromRGB(0,0,0)a['4b'].Text='Button'a['4b'].Name='Title'a['4c']=Instance.new('ImageButton',a['4b'])a['4c'].BorderSizePixel=0 a['4c'].AutoButtonColor=false a['4c'].BackgroundTransparency=1 a['4c'].BackgroundColor3=Color3.fromRGB(255,255,255)a['4c'].ImageColor3=Color3.fromRGB(197,204,219)a['4c'].AnchorPoint=Vector2.new(1,0.5)a['4c'].Image='rbxassetid://91877599529856'a['4c'].Size=UDim2.new(0,23,0,23)a['4c'].BorderColor3=Color3.fromRGB(0,0,0)a['4c'].Name='ClickIcon'a['4c'].Position=UDim2.new(1,0,0.5,0)a['4d']=Instance.new('UIPadding',a['48'])a['4d'].PaddingTop=UDim.new(0,10)a['4d'].PaddingRight=UDim.new(0,10)a['4d'].PaddingLeft=UDim.new(0,10)a['4d'].PaddingBottom=UDim.new(0,10)a['4e']=Instance.new('UIListLayout',a['48'])a['4e'].Padding=UDim.new(0,5)a['4e'].SortOrder=Enum.SortOrder.LayoutOrder a['4f']=Instance.new('TextLabel',a['48'])a['4f'].TextWrapped=true a['4f'].Interactable=false a['4f'].BorderSizePixel=0 a['4f'].TextSize=16 a['4f'].TextXAlignment=Enum.TextXAlignment.Left a['4f'].BackgroundColor3=Color3.fromRGB(255,255,255)a['4f'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['4f'].TextColor3=Color3.fromRGB(197,204,219)a['4f'].BackgroundTransparency=1 a['4f'].Size=UDim2.new(1,0,0,15)a['4f'].Visible=false a['4f'].BorderColor3=Color3.fromRGB(0,0,0)a['4f'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['4f'].AutomaticSize=Enum.AutomaticSize.Y a['4f'].Name='Description'a['50']=Instance.new('UIGradient',a['48'])a['50'].Enabled=false a['50'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['51']=Instance.new('UIGradient',a['48'])a['51'].Enabled=false a['51'].Transparency=NumberSequence.new{NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(1,1)}a['51'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['52']=Instance.new('UIGradient',a['48'])a['52'].Enabled=false a['52'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['53']=Instance.new('ImageButton',a['3e'])a['53'].BorderSizePixel=0 a['53'].AutoButtonColor=false a['53'].BackgroundColor3=Color3.fromRGB(255,255,255)a['53'].Selectable=false a['53'].AutomaticSize=Enum.AutomaticSize.Y a['53'].Size=UDim2.new(1,0,0,35)a['53'].BorderColor3=Color3.fromRGB(0,0,0)a['53'].Name='Button'a['53'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['54']=Instance.new('UIStroke',a['53'])a['54'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['54'].Thickness=1.5 a['54'].Color=Color3.fromRGB(11,136,214)a['55']=Instance.new('TextLabel',a['53'])a['55'].TextWrapped=true a['55'].Interactable=false a['55'].BorderSizePixel=0 a['55'].TextSize=16 a['55'].TextXAlignment=Enum.TextXAlignment.Left a['55'].BackgroundColor3=Color3.fromRGB(255,255,255)a['55'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['55'].TextColor3=Color3.fromRGB(255,255,255)a['55'].BackgroundTransparency=1 a['55'].Size=UDim2.new(1,0,0,15)a['55'].BorderColor3=Color3.fromRGB(0,0,0)a['55'].Text='Button'a['55'].Name='Title'a['56']=Instance.new('ImageButton',a['55'])a['56'].BorderSizePixel=0 a['56'].AutoButtonColor=false a['56'].BackgroundTransparency=1 a['56'].BackgroundColor3=Color3.fromRGB(255,255,255)a['56'].AnchorPoint=Vector2.new(1,0.5)a['56'].Image='rbxassetid://91877599529856'a['56'].Size=UDim2.new(0,23,0,23)a['56'].BorderColor3=Color3.fromRGB(0,0,0)a['56'].Name='ClickIcon'a['56'].Position=UDim2.new(1,0,0.5,0)a['57']=Instance.new('UIPadding',a['53'])a['57'].PaddingTop=UDim.new(0,10)a['57'].PaddingRight=UDim.new(0,10)a['57'].PaddingLeft=UDim.new(0,10)a['57'].PaddingBottom=UDim.new(0,10)a['58']=Instance.new('UIListLayout',a['53'])a['58'].Padding=UDim.new(0,5)a['58'].SortOrder=Enum.SortOrder.LayoutOrder a['59']=Instance.new('TextLabel',a['53'])a['59'].TextWrapped=true a['59'].Interactable=false a['59'].BorderSizePixel=0 a['59'].TextSize=16 a['59'].TextXAlignment=Enum.TextXAlignment.Left a['59'].BackgroundColor3=Color3.fromRGB(255,255,255)a['59'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['59'].TextColor3=Color3.fromRGB(255,255,255)a['59'].BackgroundTransparency=1 a['59'].Size=UDim2.new(1,0,0,15)a['59'].Visible=false a['59'].BorderColor3=Color3.fromRGB(0,0,0)a['59'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['59'].AutomaticSize=Enum.AutomaticSize.Y a['59'].Name='Description'a['5a']=Instance.new('UIGradient',a['53'])a['5a'].Enabled=false a['5a'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['5b']=Instance.new('UIGradient',a['53'])a['5b'].Enabled=false a['5b'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['5c']=Instance.new('UIGradient',a['53'])a['5c'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['5d']=Instance.new('Folder',a['53'])a['5e']=Instance.new('UICorner',a['53'])a['5e'].CornerRadius=UDim.new(0,6)a['5f']=Instance.new('ImageButton',a['3e'])a['5f'].BorderSizePixel=0 a['5f'].AutoButtonColor=false a['5f'].BackgroundColor3=Color3.fromRGB(33,36,41)a['5f'].Selectable=false a['5f'].AutomaticSize=Enum.AutomaticSize.Y a['5f'].Size=UDim2.new(1,0,0,35)a['5f'].BorderColor3=Color3.fromRGB(0,0,0)a['5f'].Name='Button'a['5f'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['60']=Instance.new('UICorner',a['5f'])a['60'].CornerRadius=UDim.new(0,6)a['61']=Instance.new('UIStroke',a['5f'])a['61'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['61'].Thickness=1.5 a['61'].Color=Color3.fromRGB(48,48,59)a['62']=Instance.new('TextLabel',a['5f'])a['62'].TextWrapped=true a['62'].Interactable=false a['62'].BorderSizePixel=0 a['62'].TextSize=16 a['62'].TextXAlignment=Enum.TextXAlignment.Left a['62'].BackgroundColor3=Color3.fromRGB(255,255,255)a['62'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['62'].TextColor3=Color3.fromRGB(76,78,84)a['62'].BackgroundTransparency=1 a['62'].Size=UDim2.new(1,0,0,15)a['62'].BorderColor3=Color3.fromRGB(0,0,0)a['62'].Text='Button'a['62'].Name='Title'a['63']=Instance.new('ImageButton',a['62'])a['63'].BorderSizePixel=0 a['63'].AutoButtonColor=false a['63'].BackgroundTransparency=1 a['63'].BackgroundColor3=Color3.fromRGB(255,255,255)a['63'].ImageColor3=Color3.fromRGB(76,78,84)a['63'].AnchorPoint=Vector2.new(1,0.5)a['63'].Image='rbxassetid://91877599529856'a['63'].Size=UDim2.new(0,23,0,23)a['63'].BorderColor3=Color3.fromRGB(0,0,0)a['63'].Name='ClickIcon'a['63'].Position=UDim2.new(1,0,0.5,0)a['64']=Instance.new('UIPadding',a['5f'])a['64'].PaddingTop=UDim.new(0,10)a['64'].PaddingRight=UDim.new(0,10)a['64'].PaddingLeft=UDim.new(0,10)a['64'].PaddingBottom=UDim.new(0,10)a['65']=Instance.new('UIListLayout',a['5f'])a['65'].Padding=UDim.new(0,5)a['65'].SortOrder=Enum.SortOrder.LayoutOrder a['66']=Instance.new('TextLabel',a['5f'])a['66'].TextWrapped=true a['66'].Interactable=false a['66'].BorderSizePixel=0 a['66'].TextSize=16 a['66'].TextXAlignment=Enum.TextXAlignment.Left a['66'].BackgroundColor3=Color3.fromRGB(255,255,255)a['66'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['66'].TextColor3=Color3.fromRGB(197,204,219)a['66'].BackgroundTransparency=1 a['66'].Size=UDim2.new(1,0,0,15)a['66'].Visible=false a['66'].BorderColor3=Color3.fromRGB(0,0,0)a['66'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['66'].AutomaticSize=Enum.AutomaticSize.Y a['66'].Name='Description'a['67']=Instance.new('UIGradient',a['5f'])a['67'].Enabled=false a['67'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['68']=Instance.new('UIGradient',a['5f'])a['68'].Enabled=false a['68'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['69']=Instance.new('UIGradient',a['5f'])a['69'].Enabled=false a['69'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['6a']=Instance.new('Frame',a['3e'])a['6a'].BorderSizePixel=0 a['6a'].BackgroundColor3=Color3.fromRGB(43,46,53)a['6a'].AutomaticSize=Enum.AutomaticSize.Y a['6a'].Size=UDim2.new(1,0,0,35)a['6a'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['6a'].BorderColor3=Color3.fromRGB(0,0,0)a['6a'].Name='TextBox'a['6b']=Instance.new('UICorner',a['6a'])a['6b'].CornerRadius=UDim.new(0,6)a['6c']=Instance.new('UIStroke',a['6a'])a['6c'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['6c'].Thickness=1.5 a['6c'].Color=Color3.fromRGB(61,61,75)a['6d']=Instance.new('TextLabel',a['6a'])a['6d'].TextWrapped=true a['6d'].Interactable=false a['6d'].BorderSizePixel=0 a['6d'].TextSize=16 a['6d'].TextXAlignment=Enum.TextXAlignment.Left a['6d'].BackgroundColor3=Color3.fromRGB(255,255,255)a['6d'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['6d'].TextColor3=Color3.fromRGB(197,204,219)a['6d'].BackgroundTransparency=1 a['6d'].Size=UDim2.new(1,0,0,15)a['6d'].BorderColor3=Color3.fromRGB(0,0,0)a['6d'].Text='Input Textbox'a['6d'].AutomaticSize=Enum.AutomaticSize.Y a['6d'].Name='Title'a['6e']=Instance.new('UIPadding',a['6a'])a['6e'].PaddingTop=UDim.new(0,10)a['6e'].PaddingRight=UDim.new(0,10)a['6e'].PaddingLeft=UDim.new(0,10)a['6e'].PaddingBottom=UDim.new(0,10)a['6f']=Instance.new('UIListLayout',a['6a'])a['6f'].Padding=UDim.new(0,5)a['6f'].SortOrder=Enum.SortOrder.LayoutOrder a['70']=Instance.new('TextLabel',a['6a'])a['70'].TextWrapped=true a['70'].Interactable=false a['70'].BorderSizePixel=0 a['70'].TextSize=16 a['70'].TextXAlignment=Enum.TextXAlignment.Left a['70'].BackgroundColor3=Color3.fromRGB(255,255,255)a['70'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['70'].TextColor3=Color3.fromRGB(197,204,219)a['70'].BackgroundTransparency=1 a['70'].Size=UDim2.new(1,0,0,15)a['70'].Visible=false a['70'].BorderColor3=Color3.fromRGB(0,0,0)a['70'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['70'].AutomaticSize=Enum.AutomaticSize.Y a['70'].Name='Description'a['71']=Instance.new('Frame',a['6a'])a['71'].ZIndex=0 a['71'].BorderSizePixel=0 a['71'].Size=UDim2.new(1,0,0,25)a['71'].Name='BoxFrame'a['71'].BackgroundTransparency=1 a['72']=Instance.new('ImageLabel',a['71'])a['72'].ZIndex=0 a['72'].BorderSizePixel=0 a['72'].SliceCenter=Rect.new(49,49,450,450)a['72'].ScaleType=Enum.ScaleType.Slice a['72'].ImageTransparency=0.75 a['72'].ImageColor3=Color3.fromRGB(0,0,0)a['72'].AnchorPoint=Vector2.new(0.5,0.5)a['72'].Image='rbxassetid://6014261993'a['72'].Size=UDim2.new(1,35,1,35)a['72'].BackgroundTransparency=1 a['72'].Name='DropShadow'a['72'].Position=UDim2.new(0.5,0,0.5,0)a['73']=Instance.new('Frame',a['71'])a['73'].BorderSizePixel=0 a['73'].BackgroundColor3=Color3.fromRGB(43,46,53)a['73'].AutomaticSize=Enum.AutomaticSize.Y a['73'].Size=UDim2.new(1,0,1,0)a['73'].BorderColor3=Color3.fromRGB(0,0,0)a['74']=Instance.new('UICorner',a['73'])a['74'].CornerRadius=UDim.new(0,5)a['75']=Instance.new('UIStroke',a['73'])a['75'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['75'].Thickness=1.5 a['75'].Color=Color3.fromRGB(61,61,75)a['76']=Instance.new('UIListLayout',a['73'])a['76'].Padding=UDim.new(0,5)a['76'].SortOrder=Enum.SortOrder.LayoutOrder a['77']=Instance.new('TextBox',a['73'])a['77'].TextXAlignment=Enum.TextXAlignment.Left a['77'].BorderSizePixel=0 a['77'].TextWrapped=true a['77'].TextTruncate=Enum.TextTruncate.AtEnd a['77'].TextSize=14 a['77'].TextColor3=Color3.fromRGB(197,204,219)a['77'].BackgroundColor3=Color3.fromRGB(255,255,255)a['77'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['77'].ClipsDescendants=true a['77'].PlaceholderText='Input here...'a['77'].Size=UDim2.new(1,0,1,0)a['77'].BorderColor3=Color3.fromRGB(0,0,0)a['77'].Text=''a['77'].BackgroundTransparency=1 a['78']=Instance.new('UIPadding',a['77'])a['78'].PaddingTop=UDim.new(0,10)a['78'].PaddingRight=UDim.new(0,10)a['78'].PaddingLeft=UDim.new(0,10)a['78'].PaddingBottom=UDim.new(0,10)a['79']=Instance.new('ImageButton',a['3e'])a['79'].BorderSizePixel=0 a['79'].AutoButtonColor=false a['79'].BackgroundColor3=Color3.fromRGB(43,46,53)a['79'].Selectable=false a['79'].AutomaticSize=Enum.AutomaticSize.Y a['79'].Size=UDim2.new(1,0,0,35)a['79'].BorderColor3=Color3.fromRGB(0,0,0)a['79'].Name='Dropdown'a['79'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['7a']=Instance.new('UICorner',a['79'])a['7a'].CornerRadius=UDim.new(0,6)a['7b']=Instance.new('UIStroke',a['79'])a['7b'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['7b'].Thickness=1.5 a['7b'].Color=Color3.fromRGB(61,61,75)a['7c']=Instance.new('TextLabel',a['79'])a['7c'].TextWrapped=true a['7c'].Interactable=false a['7c'].BorderSizePixel=0 a['7c'].TextSize=16 a['7c'].TextXAlignment=Enum.TextXAlignment.Left a['7c'].BackgroundColor3=Color3.fromRGB(255,255,255)a['7c'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['7c'].TextColor3=Color3.fromRGB(197,204,219)a['7c'].BackgroundTransparency=1 a['7c'].Size=UDim2.new(1,0,0,15)a['7c'].BorderColor3=Color3.fromRGB(0,0,0)a['7c'].Text='Dropdown'a['7c'].Name='Title'a['7c'].Position=UDim2.new(0.03135,0,0,0)a['7d']=Instance.new('ImageButton',a['7c'])a['7d'].BorderSizePixel=0 a['7d'].AutoButtonColor=false a['7d'].BackgroundTransparency=1 a['7d'].BackgroundColor3=Color3.fromRGB(255,255,255)a['7d'].ImageColor3=Color3.fromRGB(197,204,219)a['7d'].AnchorPoint=Vector2.new(1,0.5)a['7d'].Image='rbxassetid://77563793724007'a['7d'].Size=UDim2.new(0,23,0,23)a['7d'].BorderColor3=Color3.fromRGB(0,0,0)a['7d'].Name='ClickIcon'a['7d'].Position=UDim2.new(1,0,0.5,0)a['7e']=Instance.new('ImageButton',a['7c'])a['7e'].BorderSizePixel=0 a['7e'].BackgroundTransparency=1 a['7e'].Selectable=false a['7e'].ZIndex=0 a['7e'].AnchorPoint=Vector2.new(1,0.5)a['7e'].AutomaticSize=Enum.AutomaticSize.X a['7e'].Size=UDim2.new(0,20,0,20)a['7e'].Name='BoxFrame'a['7e'].Position=UDim2.new(1,-33,0.5,0)a['7f']=Instance.new('ImageLabel',a['7e'])a['7f'].Interactable=false a['7f'].ZIndex=0 a['7f'].BorderSizePixel=0 a['7f'].SliceCenter=Rect.new(49,49,450,450)a['7f'].ScaleType=Enum.ScaleType.Slice a['7f'].ImageTransparency=0.75 a['7f'].AutomaticSize=Enum.AutomaticSize.X a['7f'].ImageColor3=Color3.fromRGB(0,0,0)a['7f'].AnchorPoint=Vector2.new(0.5,0.5)a['7f'].Image='rbxassetid://6014261993'a['7f'].Size=UDim2.new(1,28,1,28)a['7f'].Visible=false a['7f'].BackgroundTransparency=1 a['7f'].Name='DropShadow'a['7f'].Position=UDim2.new(0.5,0,0.5,0)a['80']=Instance.new('Frame',a['7e'])a['80'].Interactable=false a['80'].BorderSizePixel=0 a['80'].BackgroundColor3=Color3.fromRGB(43,46,53)a['80'].AnchorPoint=Vector2.new(0.5,0.5)a['80'].AutomaticSize=Enum.AutomaticSize.X a['80'].Size=UDim2.new(0,20,0,20)a['80'].Position=UDim2.new(0.5,0,0.5,0)a['80'].BorderColor3=Color3.fromRGB(0,0,0)a['81']=Instance.new('UICorner',a['80'])a['81'].CornerRadius=UDim.new(0,5)a['82']=Instance.new('UIStroke',a['80'])a['82'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['82'].Thickness=1.5 a['82'].Color=Color3.fromRGB(61,61,75)a['83']=Instance.new('UIListLayout',a['80'])a['83'].Padding=UDim.new(0,5)a['83'].VerticalAlignment=Enum.VerticalAlignment.Center a['83'].SortOrder=Enum.SortOrder.LayoutOrder a['84']=Instance.new('TextLabel',a['80'])a['84'].TextWrapped=true a['84'].Interactable=false a['84'].BorderSizePixel=0 a['84'].TextSize=16 a['84'].TextScaled=true a['84'].BackgroundColor3=Color3.fromRGB(255,255,255)a['84'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['84'].TextColor3=Color3.fromRGB(197,204,219)a['84'].BackgroundTransparency=1 a['84'].AnchorPoint=Vector2.new(0,0.5)a['84'].Size=UDim2.new(0,14,0,14)a['84'].BorderColor3=Color3.fromRGB(0,0,0)a['84'].Text=''a['84'].AutomaticSize=Enum.AutomaticSize.X a['84'].Name='Title'a['84'].Position=UDim2.new(-0.59091,0,0.5,0)a['85']=Instance.new('UIPadding',a['80'])a['85'].PaddingRight=UDim.new(0,5)a['85'].PaddingLeft=UDim.new(0,5)a['86']=Instance.new('UIPadding',a['79'])a['86'].PaddingTop=UDim.new(0,10)a['86'].PaddingRight=UDim.new(0,10)a['86'].PaddingLeft=UDim.new(0,10)a['86'].PaddingBottom=UDim.new(0,10)a['87']=Instance.new('UIListLayout',a['79'])a['87'].Padding=UDim.new(0,5)a['87'].SortOrder=Enum.SortOrder.LayoutOrder a['88']=Instance.new('TextLabel',a['79'])a['88'].TextWrapped=true a['88'].Interactable=false a['88'].BorderSizePixel=0 a['88'].TextSize=16 a['88'].TextXAlignment=Enum.TextXAlignment.Left a['88'].BackgroundColor3=Color3.fromRGB(255,255,255)a['88'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['88'].TextColor3=Color3.fromRGB(197,204,219)a['88'].BackgroundTransparency=1 a['88'].Size=UDim2.new(1,0,0,15)a['88'].Visible=false a['88'].BorderColor3=Color3.fromRGB(0,0,0)a['88'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['88'].AutomaticSize=Enum.AutomaticSize.Y a['88'].Name='Description'a['89']=Instance.new('UIGradient',a['79'])a['89'].Enabled=false a['89'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['8a']=Instance.new('UIGradient',a['79'])a['8a'].Enabled=false a['8a'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['8b']=Instance.new('UIGradient',a['79'])a['8b'].Enabled=false a['8b'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['8c']=Instance.new('ImageButton',a['3e'])a['8c'].BorderSizePixel=0 a['8c'].AutoButtonColor=false a['8c'].BackgroundColor3=Color3.fromRGB(43,46,53)a['8c'].Selectable=false a['8c'].AutomaticSize=Enum.AutomaticSize.Y a['8c'].Size=UDim2.new(1,0,0,35)a['8c'].BorderColor3=Color3.fromRGB(0,0,0)a['8c'].Name='Keybind'a['8c'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['8d']=Instance.new('UICorner',a['8c'])a['8d'].CornerRadius=UDim.new(0,6)a['8e']=Instance.new('UIStroke',a['8c'])a['8e'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['8e'].Thickness=1.5 a['8e'].Color=Color3.fromRGB(61,61,75)a['8f']=Instance.new('TextLabel',a['8c'])a['8f'].TextWrapped=true a['8f'].BorderSizePixel=0 a['8f'].TextSize=16 a['8f'].TextXAlignment=Enum.TextXAlignment.Left a['8f'].BackgroundColor3=Color3.fromRGB(255,255,255)a['8f'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['8f'].TextColor3=Color3.fromRGB(197,204,219)a['8f'].BackgroundTransparency=1 a['8f'].Size=UDim2.new(1,0,0,15)a['8f'].BorderColor3=Color3.fromRGB(0,0,0)a['8f'].Text='Keybind'a['8f'].Name='Title'a['8f'].Position=UDim2.new(0.03135,0,0,0)a['90']=Instance.new('ImageButton',a['8f'])a['90'].BorderSizePixel=0 a['90'].BackgroundTransparency=1 a['90'].Selectable=false a['90'].ZIndex=0 a['90'].AnchorPoint=Vector2.new(1,0.5)a['90'].AutomaticSize=Enum.AutomaticSize.X a['90'].Size=UDim2.new(0,20,0,20)a['90'].Name='BoxFrame'a['90'].Position=UDim2.new(1,-33,0.5,0)a['91']=Instance.new('ImageLabel',a['90'])a['91'].Interactable=false a['91'].ZIndex=0 a['91'].BorderSizePixel=0 a['91'].SliceCenter=Rect.new(49,49,450,450)a['91'].ScaleType=Enum.ScaleType.Slice a['91'].ImageTransparency=0.75 a['91'].AutomaticSize=Enum.AutomaticSize.X a['91'].ImageColor3=Color3.fromRGB(0,0,0)a['91'].AnchorPoint=Vector2.new(0.5,0.5)a['91'].Image='rbxassetid://6014261993'a['91'].Size=UDim2.new(1,28,1,28)a['91'].Visible=false a['91'].BackgroundTransparency=1 a['91'].Name='DropShadow'a['91'].Position=UDim2.new(0.5,0,0.5,0)a['92']=Instance.new('Frame',a['90'])a['92'].Interactable=false a['92'].BorderSizePixel=0 a['92'].BackgroundColor3=Color3.fromRGB(43,46,53)a['92'].AnchorPoint=Vector2.new(0.5,0.5)a['92'].AutomaticSize=Enum.AutomaticSize.X a['92'].Size=UDim2.new(0,20,0,20)a['92'].Position=UDim2.new(0.5,0,0.5,0)a['92'].BorderColor3=Color3.fromRGB(0,0,0)a['93']=Instance.new('UICorner',a['92'])a['93'].CornerRadius=UDim.new(0,5)a['94']=Instance.new('UIStroke',a['92'])a['94'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['94'].Thickness=1.5 a['94'].Color=Color3.fromRGB(61,61,75)a['95']=Instance.new('UIListLayout',a['92'])a['95'].Padding=UDim.new(0,5)a['95'].VerticalAlignment=Enum.VerticalAlignment.Center a['95'].SortOrder=Enum.SortOrder.LayoutOrder a['96']=Instance.new('TextLabel',a['92'])a['96'].TextWrapped=true a['96'].Interactable=false a['96'].BorderSizePixel=0 a['96'].TextSize=16 a['96'].TextScaled=true a['96'].BackgroundColor3=Color3.fromRGB(255,255,255)a['96'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['96'].TextColor3=Color3.fromRGB(197,204,219)a['96'].BackgroundTransparency=1 a['96'].AnchorPoint=Vector2.new(0,0.5)a['96'].Size=UDim2.new(0,14,0,14)a['96'].BorderColor3=Color3.fromRGB(0,0,0)a['96'].Text='W'a['96'].AutomaticSize=Enum.AutomaticSize.X a['96'].Name='Title'a['96'].Position=UDim2.new(-0.59091,0,0.5,0)a['97']=Instance.new('UIPadding',a['92'])a['97'].PaddingRight=UDim.new(0,5)a['97'].PaddingLeft=UDim.new(0,5)a['98']=Instance.new('ImageButton',a['8f'])a['98'].BorderSizePixel=0 a['98'].AutoButtonColor=false a['98'].BackgroundTransparency=1 a['98'].BackgroundColor3=Color3.fromRGB(255,255,255)a['98'].ImageColor3=Color3.fromRGB(197,204,219)a['98'].AnchorPoint=Vector2.new(1,0.5)a['98'].Image='rbxassetid://95517331027026'a['98'].Size=UDim2.new(0,23,0,23)a['98'].BorderColor3=Color3.fromRGB(0,0,0)a['98'].Name='ClickIcon'a['98'].Position=UDim2.new(1,0,0.5,0)a['99']=Instance.new('UIPadding',a['8c'])a['99'].PaddingTop=UDim.new(0,10)a['99'].PaddingRight=UDim.new(0,10)a['99'].PaddingLeft=UDim.new(0,10)a['99'].PaddingBottom=UDim.new(0,10)a['9a']=Instance.new('UIListLayout',a['8c'])a['9a'].Padding=UDim.new(0,5)a['9a'].SortOrder=Enum.SortOrder.LayoutOrder a['9b']=Instance.new('TextLabel',a['8c'])a['9b'].TextWrapped=true a['9b'].Interactable=false a['9b'].BorderSizePixel=0 a['9b'].TextSize=16 a['9b'].TextXAlignment=Enum.TextXAlignment.Left a['9b'].BackgroundColor3=Color3.fromRGB(255,255,255)a['9b'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['9b'].TextColor3=Color3.fromRGB(197,204,219)a['9b'].BackgroundTransparency=1 a['9b'].Size=UDim2.new(1,0,0,15)a['9b'].Visible=false a['9b'].BorderColor3=Color3.fromRGB(0,0,0)a['9b'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['9b'].AutomaticSize=Enum.AutomaticSize.Y a['9b'].Name='Description'a['9c']=Instance.new('UIGradient',a['8c'])a['9c'].Enabled=false a['9c'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['9d']=Instance.new('UIGradient',a['8c'])a['9d'].Enabled=false a['9d'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['9e']=Instance.new('UIGradient',a['8c'])a['9e'].Enabled=false a['9e'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['9f']=Instance.new('ImageButton',a['3e'])a['9f'].BorderSizePixel=0 a['9f'].AutoButtonColor=false a['9f'].BackgroundColor3=Color3.fromRGB(43,46,53)a['9f'].Selectable=false a['9f'].AutomaticSize=Enum.AutomaticSize.Y a['9f'].Size=UDim2.new(1,0,0,35)a['9f'].BorderColor3=Color3.fromRGB(0,0,0)a['9f'].Name='MultiDropdown'a['9f'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a.a0=Instance.new('UICorner',a['9f'])a.a0.CornerRadius=UDim.new(0,6)a.a1=Instance.new('UIStroke',a['9f'])a.a1.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.a1.Thickness=1.5 a.a1.Color=Color3.fromRGB(61,61,75)a.a2=Instance.new('TextLabel',a['9f'])a.a2.TextWrapped=true a.a2.BorderSizePixel=0 a.a2.TextSize=16 a.a2.TextXAlignment=Enum.TextXAlignment.Left a.a2.BackgroundColor3=Color3.fromRGB(255,255,255)a.a2.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a.a2.TextColor3=Color3.fromRGB(197,204,219)a.a2.BackgroundTransparency=1 a.a2.Size=UDim2.new(1,0,0,15)a.a2.BorderColor3=Color3.fromRGB(0,0,0)a.a2.Text='Multi Dropdown'a.a2.Name='Title'a.a2.Position=UDim2.new(0.03135,0,0,0)a.a3=Instance.new('ImageButton',a.a2)a.a3.BorderSizePixel=0 a.a3.AutoButtonColor=false a.a3.BackgroundTransparency=1 a.a3.BackgroundColor3=Color3.fromRGB(255,255,255)a.a3.ImageColor3=Color3.fromRGB(197,204,219)a.a3.AnchorPoint=Vector2.new(1,0.5)a.a3.Image='rbxassetid://91415671397056'a.a3.Size=UDim2.new(0,23,0,23)a.a3.BorderColor3=Color3.fromRGB(0,0,0)a.a3.Name='ClickIcon'a.a3.Position=UDim2.new(1,0,0.5,0)a.a4=Instance.new('ImageButton',a.a2)a.a4.BorderSizePixel=0 a.a4.BackgroundTransparency=1 a.a4.Selectable=false a.a4.ZIndex=0 a.a4.AnchorPoint=Vector2.new(1,0.5)a.a4.AutomaticSize=Enum.AutomaticSize.X a.a4.Size=UDim2.new(0,20,0,20)a.a4.Name='BoxFrame'a.a4.Position=UDim2.new(1,-33,0.5,0)a.a5=Instance.new('ImageLabel',a.a4)a.a5.Interactable=false a.a5.ZIndex=0 a.a5.BorderSizePixel=0 a.a5.SliceCenter=Rect.new(49,49,450,450)a.a5.ScaleType=Enum.ScaleType.Slice a.a5.ImageTransparency=0.75 a.a5.AutomaticSize=Enum.AutomaticSize.X a.a5.ImageColor3=Color3.fromRGB(0,0,0)a.a5.AnchorPoint=Vector2.new(0.5,0.5)a.a5.Image='rbxassetid://6014261993'a.a5.Size=UDim2.new(1,28,1,28)a.a5.Visible=false a.a5.BackgroundTransparency=1 a.a5.Name='DropShadow'a.a5.Position=UDim2.new(0.5,0,0.5,0)a.a6=Instance.new('Frame',a.a4)a.a6.Interactable=false a.a6.BorderSizePixel=0 a.a6.BackgroundColor3=Color3.fromRGB(43,46,53)a.a6.AnchorPoint=Vector2.new(0.5,0.5)a.a6.AutomaticSize=Enum.AutomaticSize.X a.a6.Size=UDim2.new(0,20,0,20)a.a6.Position=UDim2.new(0.5,0,0.5,0)a.a6.BorderColor3=Color3.fromRGB(0,0,0)a.a7=Instance.new('UICorner',a.a6)a.a7.CornerRadius=UDim.new(0,5)a.a8=Instance.new('UIStroke',a.a6)a.a8.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.a8.Thickness=1.5 a.a8.Color=Color3.fromRGB(61,61,75)a.a9=Instance.new('UIListLayout',a.a6)a.a9.Padding=UDim.new(0,5)a.a9.VerticalAlignment=Enum.VerticalAlignment.Center a.a9.SortOrder=Enum.SortOrder.LayoutOrder a.aa=Instance.new('TextLabel',a.a6)a.aa.TextWrapped=true a.aa.Interactable=false a.aa.BorderSizePixel=0 a.aa.TextSize=16 a.aa.TextScaled=true a.aa.BackgroundColor3=Color3.fromRGB(255,255,255)a.aa.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.aa.TextColor3=Color3.fromRGB(197,204,219)a.aa.BackgroundTransparency=1 a.aa.AnchorPoint=Vector2.new(0,0.5)a.aa.Size=UDim2.new(0,14,0,14)a.aa.BorderColor3=Color3.fromRGB(0,0,0)a.aa.Text=''a.aa.AutomaticSize=Enum.AutomaticSize.X a.aa.Name='Title'a.aa.Position=UDim2.new(-0.59091,0,0.5,0)a.ab=Instance.new('UIPadding',a.a6)a.ab.PaddingRight=UDim.new(0,5)a.ab.PaddingLeft=UDim.new(0,5)a.ac=Instance.new('UIPadding',a['9f'])a.ac.PaddingTop=UDim.new(0,10)a.ac.PaddingRight=UDim.new(0,10)a.ac.PaddingLeft=UDim.new(0,10)a.ac.PaddingBottom=UDim.new(0,10)a.ad=Instance.new('UIListLayout',a['9f'])a.ad.Padding=UDim.new(0,5)a.ad.SortOrder=Enum.SortOrder.LayoutOrder a.ae=Instance.new('TextLabel',a['9f'])a.ae.TextWrapped=true a.ae.Interactable=false a.ae.BorderSizePixel=0 a.ae.TextSize=16 a.ae.TextXAlignment=Enum.TextXAlignment.Left a.ae.BackgroundColor3=Color3.fromRGB(255,255,255)a.ae.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.ae.TextColor3=Color3.fromRGB(197,204,219)a.ae.BackgroundTransparency=1 a.ae.Size=UDim2.new(1,0,0,15)a.ae.Visible=false a.ae.BorderColor3=Color3.fromRGB(0,0,0)a.ae.Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a.ae.AutomaticSize=Enum.AutomaticSize.Y a.ae.Name='Description'a.af=Instance.new('UIGradient',a['9f'])a.af.Enabled=false a.af.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.b0=Instance.new('UIGradient',a['9f'])a.b0.Enabled=false a.b0.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.b1=Instance.new('UIGradient',a['9f'])a.b1.Enabled=false a.b1.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.b2=Instance.new('ImageButton',a['3e'])a.b2.BorderSizePixel=0 a.b2.AutoButtonColor=false a.b2.BackgroundColor3=Color3.fromRGB(43,46,53)a.b2.Selectable=false a.b2.AutomaticSize=Enum.AutomaticSize.Y a.b2.Size=UDim2.new(1,0,0,35)a.b2.BorderColor3=Color3.fromRGB(0,0,0)a.b2.Name='Toggle'a.b2.Position=UDim2.new(-3.75E-2,0,0.38434,0)a.b3=Instance.new('UICorner',a.b2)a.b3.CornerRadius=UDim.new(0,6)a.b4=Instance.new('UIStroke',a.b2)a.b4.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.b4.Thickness=1.5 a.b4.Color=Color3.fromRGB(61,61,75)a.b5=Instance.new('TextLabel',a.b2)a.b5.TextWrapped=true a.b5.Interactable=false a.b5.BorderSizePixel=0 a.b5.TextSize=16 a.b5.TextXAlignment=Enum.TextXAlignment.Left a.b5.BackgroundColor3=Color3.fromRGB(255,255,255)a.b5.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a.b5.TextColor3=Color3.fromRGB(197,204,219)a.b5.BackgroundTransparency=1 a.b5.Size=UDim2.new(1,0,0,15)a.b5.BorderColor3=Color3.fromRGB(0,0,0)a.b5.Text='Toggle'a.b5.Name='Title'a.b6=Instance.new('ImageButton',a.b5)a.b6.BorderSizePixel=0 a.b6.AutoButtonColor=false a.b6.BackgroundColor3=Color3.fromRGB(193,210,200)a.b6.ImageColor3=Color3.fromRGB(197,204,219)a.b6.AnchorPoint=Vector2.new(1,0.5)a.b6.Size=UDim2.new(0,45,0,25)a.b6.BorderColor3=Color3.fromRGB(0,0,0)a.b6.Name='Fill'a.b6.Position=UDim2.new(1,0,0.5,0)a.b7=Instance.new('UICorner',a.b6)a.b7.CornerRadius=UDim.new(100,0)a.b8=Instance.new('ImageButton',a.b6)a.b8.BorderSizePixel=0 a.b8.AutoButtonColor=false a.b8.BackgroundColor3=Color3.fromRGB(255,255,255)a.b8.ImageColor3=Color3.fromRGB(197,204,219)a.b8.AnchorPoint=Vector2.new(0,0.5)a.b8.Size=UDim2.new(0,20,0,20)a.b8.BorderColor3=Color3.fromRGB(0,0,0)a.b8.Name='Ball'a.b8.Position=UDim2.new(0.5,0,0.5,0)a.b9=Instance.new('UICorner',a.b8)a.b9.CornerRadius=UDim.new(100,0)a.ba=Instance.new('UIPadding',a.b6)a.ba.PaddingTop=UDim.new(0,2)a.ba.PaddingRight=UDim.new(0,2)a.ba.PaddingLeft=UDim.new(0,2)a.ba.PaddingBottom=UDim.new(0,2)a.bb=Instance.new('UIPadding',a.b2)a.bb.PaddingTop=UDim.new(0,10)a.bb.PaddingRight=UDim.new(0,10)a.bb.PaddingLeft=UDim.new(0,10)a.bb.PaddingBottom=UDim.new(0,10)a.bc=Instance.new('UIListLayout',a.b2)a.bc.Padding=UDim.new(0,5)a.bc.SortOrder=Enum.SortOrder.LayoutOrder a.bd=Instance.new('TextLabel',a.b2)a.bd.TextWrapped=true a.bd.Interactable=false a.bd.BorderSizePixel=0 a.bd.TextSize=16 a.bd.TextXAlignment=Enum.TextXAlignment.Left a.bd.BackgroundColor3=Color3.fromRGB(255,255,255)a.bd.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.bd.TextColor3=Color3.fromRGB(197,204,219)a.bd.BackgroundTransparency=1 a.bd.Size=UDim2.new(1,0,0,15)a.bd.Visible=false a.bd.BorderColor3=Color3.fromRGB(0,0,0)a.bd.Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a.bd.AutomaticSize=Enum.AutomaticSize.Y a.bd.Name='Description'a.be=Instance.new('ImageButton',a['3e'])a.be.BorderSizePixel=0 a.be.AutoButtonColor=false a.be.BackgroundColor3=Color3.fromRGB(43,46,53)a.be.Selectable=false a.be.AutomaticSize=Enum.AutomaticSize.Y a.be.Size=UDim2.new(1,0,0,35)a.be.BorderColor3=Color3.fromRGB(0,0,0)a.be.Name='Toggle'a.be.Position=UDim2.new(-3.75E-2,0,0.38434,0)a.bf=Instance.new('UICorner',a.be)a.bf.CornerRadius=UDim.new(0,6)a.c0=Instance.new('UIStroke',a.be)a.c0.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.c0.Thickness=1.5 a.c0.Color=Color3.fromRGB(61,61,75)a.c1=Instance.new('TextLabel',a.be)a.c1.TextWrapped=true a.c1.Interactable=false a.c1.BorderSizePixel=0 a.c1.TextSize=16 a.c1.TextXAlignment=Enum.TextXAlignment.Left a.c1.BackgroundColor3=Color3.fromRGB(255,255,255)a.c1.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a.c1.TextColor3=Color3.fromRGB(197,204,219)a.c1.BackgroundTransparency=1 a.c1.Size=UDim2.new(1,0,0,15)a.c1.BorderColor3=Color3.fromRGB(0,0,0)a.c1.Text='Toggle'a.c1.Name='Title'a.c2=Instance.new('ImageButton',a.c1)a.c2.BorderSizePixel=0 a.c2.AutoButtonColor=false a.c2.BackgroundColor3=Color3.fromRGB(54,57,63)a.c2.ImageColor3=Color3.fromRGB(197,204,219)a.c2.AnchorPoint=Vector2.new(1,0.5)a.c2.Size=UDim2.new(0,45,0,25)a.c2.BorderColor3=Color3.fromRGB(0,0,0)a.c2.Name='Fill'a.c2.Position=UDim2.new(1,0,0.5,0)a.c3=Instance.new('UICorner',a.c2)a.c3.CornerRadius=UDim.new(100,0)a.c4=Instance.new('ImageButton',a.c2)a.c4.BorderSizePixel=0 a.c4.AutoButtonColor=false a.c4.BackgroundColor3=Color3.fromRGB(255,255,255)a.c4.ImageColor3=Color3.fromRGB(197,204,219)a.c4.AnchorPoint=Vector2.new(0,0.5)a.c4.Size=UDim2.new(0,20,0,20)a.c4.BorderColor3=Color3.fromRGB(0,0,0)a.c4.Name='Ball'a.c4.Position=UDim2.new(0,0,0.5,0)a.c5=Instance.new('UICorner',a.c4)a.c5.CornerRadius=UDim.new(100,0)a.c6=Instance.new('ImageLabel',a.c4)a.c6.BorderSizePixel=0 a.c6.BackgroundColor3=Color3.fromRGB(255,255,255)a.c6.ImageColor3=Color3.fromRGB(54,57,63)a.c6.AnchorPoint=Vector2.new(0.5,0.5)a.c6.Size=UDim2.new(1,-5,1,-5)a.c6.BorderColor3=Color3.fromRGB(0,0,0)a.c6.BackgroundTransparency=1 a.c6.Name='Icon'a.c6.Position=UDim2.new(0.5,0,0.5,0)a.c7=Instance.new('UIPadding',a.c2)a.c7.PaddingTop=UDim.new(0,2)a.c7.PaddingRight=UDim.new(0,2)a.c7.PaddingLeft=UDim.new(0,2)a.c7.PaddingBottom=UDim.new(0,2)a.c8=Instance.new('UIPadding',a.be)a.c8.PaddingTop=UDim.new(0,10)a.c8.PaddingRight=UDim.new(0,10)a.c8.PaddingLeft=UDim.new(0,10)a.c8.PaddingBottom=UDim.new(0,10)a.c9=Instance.new('UIListLayout',a.be)a.c9.Padding=UDim.new(0,5)a.c9.SortOrder=Enum.SortOrder.LayoutOrder a.ca=Instance.new('TextLabel',a.be)a.ca.TextWrapped=true a.ca.Interactable=false a.ca.BorderSizePixel=0 a.ca.TextSize=16 a.ca.TextXAlignment=Enum.TextXAlignment.Left a.ca.BackgroundColor3=Color3.fromRGB(255,255,255)a.ca.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.ca.TextColor3=Color3.fromRGB(197,204,219)a.ca.BackgroundTransparency=1 a.ca.Size=UDim2.new(1,0,0,15)a.ca.Visible=false a.ca.BorderColor3=Color3.fromRGB(0,0,0)a.ca.Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a.ca.AutomaticSize=Enum.AutomaticSize.Y a.ca.Name='Description'a.cb=Instance.new('Frame',a['3e'])a.cb.BorderSizePixel=0 a.cb.BackgroundColor3=Color3.fromRGB(43,46,53)a.cb.AutomaticSize=Enum.AutomaticSize.Y a.cb.Size=UDim2.new(1,0,0,35)a.cb.Position=UDim2.new(0,0,0.43728,0)a.cb.BorderColor3=Color3.fromRGB(0,0,0)a.cb.Name='Section'a.cb.BackgroundTransparency=1 a.cc=Instance.new('ImageButton',a.cb)a.cc.BorderSizePixel=0 a.cc.AutoButtonColor=false a.cc.BackgroundColor3=Color3.fromRGB(43,46,53)a.cc.Selectable=false a.cc.AutomaticSize=Enum.AutomaticSize.Y a.cc.Size=UDim2.new(1,0,0,35)a.cc.BorderColor3=Color3.fromRGB(0,0,0)a.cc.Name='Button'a.cd=Instance.new('UICorner',a.cc)a.cd.CornerRadius=UDim.new(0,6)a.ce=Instance.new('UIStroke',a.cc)a.ce.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.ce.Thickness=1.5 a.ce.Color=Color3.fromRGB(61,61,75)a.cf=Instance.new('TextLabel',a.cc)a.cf.TextWrapped=true a.cf.Interactable=false a.cf.BorderSizePixel=0 a.cf.TextSize=16 a.cf.TextXAlignment=Enum.TextXAlignment.Left a.cf.BackgroundColor3=Color3.fromRGB(255,255,255)a.cf.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a.cf.TextColor3=Color3.fromRGB(197,204,219)a.cf.BackgroundTransparency=1 a.cf.Size=UDim2.new(1,0,0,15)a.cf.BorderColor3=Color3.fromRGB(0,0,0)a.cf.Text='Section'a.cf.Name='Title'a.d0=Instance.new('ImageButton',a.cf)a.d0.BorderSizePixel=0 a.d0.AutoButtonColor=false a.d0.BackgroundTransparency=1 a.d0.BackgroundColor3=Color3.fromRGB(255,255,255)a.d0.ImageColor3=Color3.fromRGB(197,204,219)a.d0.AnchorPoint=Vector2.new(1,0.5)a.d0.Image='rbxassetid://120292618616139'a.d0.Size=UDim2.new(0,23,0,23)a.d0.BorderColor3=Color3.fromRGB(0,0,0)a.d0.Name='Arrow'a.d0.Position=UDim2.new(1,0,0.5,0)a.d1=Instance.new('UIPadding',a.cc)a.d1.PaddingTop=UDim.new(0,10)a.d1.PaddingRight=UDim.new(0,10)a.d1.PaddingLeft=UDim.new(0,10)a.d1.PaddingBottom=UDim.new(0,10)a.d2=Instance.new('UIListLayout',a.cc)a.d2.Padding=UDim.new(0,5)a.d2.SortOrder=Enum.SortOrder.LayoutOrder a.d3=Instance.new('TextLabel',a.cc)a.d3.TextWrapped=true a.d3.Interactable=false a.d3.BorderSizePixel=0 a.d3.TextSize=16 a.d3.TextXAlignment=Enum.TextXAlignment.Left a.d3.BackgroundColor3=Color3.fromRGB(255,255,255)a.d3.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.d3.TextColor3=Color3.fromRGB(197,204,219)a.d3.BackgroundTransparency=1 a.d3.Size=UDim2.new(1,0,0,15)a.d3.Visible=false a.d3.BorderColor3=Color3.fromRGB(0,0,0)a.d3.Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a.d3.AutomaticSize=Enum.AutomaticSize.Y a.d3.Name='Description'a.d4=Instance.new('UIGradient',a.cc)a.d4.Enabled=false a.d4.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.d5=Instance.new('UIGradient',a.cc)a.d5.Enabled=false a.d5.Transparency=NumberSequence.new{NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(1,1)}a.d5.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.d6=Instance.new('UIGradient',a.cc)a.d6.Enabled=false a.d6.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.d7=Instance.new('UIStroke',a.cc)a.d7.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.d7.Thickness=1.5 a.d7.Color=Color3.fromRGB(61,61,75)a.d8=Instance.new('Frame',a.cb)a.d8.Visible=false a.d8.BorderSizePixel=0 a.d8.BackgroundColor3=Color3.fromRGB(43,46,53)a.d8.Size=UDim2.new(1,0,0,0)a.d8.Position=UDim2.new(0,0,0,35)a.d8.BorderColor3=Color3.fromRGB(0,0,0)a.d8.BackgroundTransparency=1 a.d9=Instance.new('UIListLayout',a.d8)a.d9.HorizontalAlignment=Enum.HorizontalAlignment.Center a.d9.Padding=UDim.new(0,10)a.d9.SortOrder=Enum.SortOrder.LayoutOrder a.da=Instance.new('UIPadding',a.d8)a.da.PaddingTop=UDim.new(0,10)a.da.PaddingRight=UDim.new(0,10)a.da.PaddingLeft=UDim.new(0,5)a.da.PaddingBottom=UDim.new(0,10)a.db=Instance.new('Frame',a.d8)a.db.BorderSizePixel=0 a.db.BackgroundColor3=Color3.fromRGB(61,61,75)a.db.Size=UDim2.new(1,0,0,3)a.db.BorderColor3=Color3.fromRGB(61,61,75)a.db.Name='Divider'a.dc=Instance.new('Frame',a['3e'])a.dc.BorderSizePixel=0 a.dc.BackgroundColor3=Color3.fromRGB(43,46,53)a.dc.AutomaticSize=Enum.AutomaticSize.Y a.dc.Size=UDim2.new(1,0,0,35)a.dc.Position=UDim2.new(0,0,0.43728,0)a.dc.BorderColor3=Color3.fromRGB(0,0,0)a.dc.Name='Section'a.dc.BackgroundTransparency=1 a.dd=Instance.new('ImageButton',a.dc)a.dd.BorderSizePixel=0 a.dd.AutoButtonColor=false a.dd.BackgroundColor3=Color3.fromRGB(43,46,53)a.dd.Selectable=false a.dd.AutomaticSize=Enum.AutomaticSize.Y a.dd.Size=UDim2.new(1,0,0,35)a.dd.BorderColor3=Color3.fromRGB(0,0,0)a.dd.Name='Button'a.de=Instance.new('UICorner',a.dd)a.de.CornerRadius=UDim.new(0,6)a.df=Instance.new('UIStroke',a.dd)a.df.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.df.Thickness=1.5 a.df.Color=Color3.fromRGB(61,61,75)a.e0=Instance.new('TextLabel',a.dd)a.e0.TextWrapped=true a.e0.Interactable=false a.e0.BorderSizePixel=0 a.e0.TextSize=16 a.e0.TextXAlignment=Enum.TextXAlignment.Left a.e0.BackgroundColor3=Color3.fromRGB(255,255,255)a.e0.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a.e0.TextColor3=Color3.fromRGB(197,204,219)a.e0.BackgroundTransparency=1 a.e0.Size=UDim2.new(1,0,0,15)a.e0.BorderColor3=Color3.fromRGB(0,0,0)a.e0.Text='Section'a.e0.Name='Title'a.e1=Instance.new('ImageButton',a.e0)a.e1.BorderSizePixel=0 a.e1.AutoButtonColor=false a.e1.BackgroundTransparency=1 a.e1.BackgroundColor3=Color3.fromRGB(255,255,255)a.e1.ImageColor3=Color3.fromRGB(197,204,219)a.e1.AnchorPoint=Vector2.new(1,0.5)a.e1.Image='rbxassetid://120292618616139'a.e1.Size=UDim2.new(0,23,0,23)a.e1.BorderColor3=Color3.fromRGB(0,0,0)a.e1.Name='Arrow'a.e1.Rotation=90 a.e1.Position=UDim2.new(1,0,0.5,0)a.e2=Instance.new('UIPadding',a.dd)a.e2.PaddingTop=UDim.new(0,10)a.e2.PaddingRight=UDim.new(0,10)a.e2.PaddingLeft=UDim.new(0,10)a.e2.PaddingBottom=UDim.new(0,10)a.e3=Instance.new('UIListLayout',a.dd)a.e3.Padding=UDim.new(0,5)a.e3.SortOrder=Enum.SortOrder.LayoutOrder a.e4=Instance.new('TextLabel',a.dd)a.e4.TextWrapped=true a.e4.Interactable=false a.e4.BorderSizePixel=0 a.e4.TextSize=16 a.e4.TextXAlignment=Enum.TextXAlignment.Left a.e4.BackgroundColor3=Color3.fromRGB(255,255,255)a.e4.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.e4.TextColor3=Color3.fromRGB(197,204,219)a.e4.BackgroundTransparency=1 a.e4.Size=UDim2.new(1,0,0,15)a.e4.Visible=false a.e4.BorderColor3=Color3.fromRGB(0,0,0)a.e4.Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a.e4.AutomaticSize=Enum.AutomaticSize.Y a.e4.Name='Description'a.e5=Instance.new('UIGradient',a.dd)a.e5.Enabled=false a.e5.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.e6=Instance.new('UIGradient',a.dd)a.e6.Enabled=false a.e6.Transparency=NumberSequence.new{NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(1,1)}a.e6.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.e7=Instance.new('UIGradient',a.dd)a.e7.Enabled=false a.e7.Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a.e8=Instance.new('UIStroke',a.dd)a.e8.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.e8.Thickness=1.5 a.e8.Color=Color3.fromRGB(61,61,75)a.e9=Instance.new('Frame',a.dc)a.e9.BorderSizePixel=0 a.e9.BackgroundColor3=Color3.fromRGB(43,46,53)a.e9.AutomaticSize=Enum.AutomaticSize.Y a.e9.Size=UDim2.new(1,0,0,0)a.e9.Position=UDim2.new(0,0,0,35)a.e9.BorderColor3=Color3.fromRGB(0,0,0)a.e9.BackgroundTransparency=1 a.ea=Instance.new('UIListLayout',a.e9)a.ea.HorizontalAlignment=Enum.HorizontalAlignment.Center a.ea.Padding=UDim.new(0,10)a.ea.SortOrder=Enum.SortOrder.LayoutOrder a.eb=Instance.new('UIPadding',a.e9)a.eb.PaddingTop=UDim.new(0,10)a.eb.PaddingRight=UDim.new(0,10)a.eb.PaddingLeft=UDim.new(0,5)a.eb.PaddingBottom=UDim.new(0,10)a.ec=Instance.new('Frame',a.e9)a.ec.BorderSizePixel=0 a.ec.BackgroundColor3=Color3.fromRGB(61,61,75)a.ec.Size=UDim2.new(1,0,0,3)a.ec.BorderColor3=Color3.fromRGB(61,61,75)a.ec.Name='Divider'a.ed=Instance.new('Frame',a['3e'])a.ed.BorderSizePixel=0 a.ed.BackgroundColor3=Color3.fromRGB(33,36,41)a.ed.AutomaticSize=Enum.AutomaticSize.Y a.ed.Size=UDim2.new(1,0,0,35)a.ed.Position=UDim2.new(-3.75E-2,0,0.38434,0)a.ed.BorderColor3=Color3.fromRGB(0,0,0)a.ed.Name='Slider'a.ee=Instance.new('UICorner',a.ed)a.ee.CornerRadius=UDim.new(0,6)a.ef=Instance.new('UIStroke',a.ed)a.ef.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.ef.Thickness=1.5 a.ef.Color=Color3.fromRGB(48,48,59)a.f0=Instance.new('TextLabel',a.ed)a.f0.TextWrapped=true a.f0.Interactable=false a.f0.BorderSizePixel=0 a.f0.TextSize=16 a.f0.TextXAlignment=Enum.TextXAlignment.Left a.f0.BackgroundColor3=Color3.fromRGB(255,255,255)a.f0.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a.f0.TextColor3=Color3.fromRGB(76,78,84)a.f0.BackgroundTransparency=1 a.f0.Size=UDim2.new(1,0,0,15)a.f0.BorderColor3=Color3.fromRGB(0,0,0)a.f0.Text='Slider'a.f0.AutomaticSize=Enum.AutomaticSize.Y a.f0.Name='Title'a.f1=Instance.new('UIPadding',a.ed)a.f1.PaddingTop=UDim.new(0,10)a.f1.PaddingRight=UDim.new(0,10)a.f1.PaddingLeft=UDim.new(0,10)a.f1.PaddingBottom=UDim.new(0,10)a.f2=Instance.new('UIListLayout',a.ed)a.f2.Padding=UDim.new(0,5)a.f2.SortOrder=Enum.SortOrder.LayoutOrder a.f3=Instance.new('TextLabel',a.ed)a.f3.TextWrapped=true a.f3.Interactable=false a.f3.BorderSizePixel=0 a.f3.TextSize=16 a.f3.TextXAlignment=Enum.TextXAlignment.Left a.f3.BackgroundColor3=Color3.fromRGB(255,255,255)a.f3.FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a.f3.TextColor3=Color3.fromRGB(197,204,219)a.f3.BackgroundTransparency=1 a.f3.Size=UDim2.new(1,0,0,15)a.f3.Visible=false a.f3.BorderColor3=Color3.fromRGB(0,0,0)a.f3.Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a.f3.AutomaticSize=Enum.AutomaticSize.Y a.f3.Name='Description'a.f4=Instance.new('Frame',a.ed)a.f4.ZIndex=0 a.f4.BorderSizePixel=0 a.f4.Size=UDim2.new(1,0,0,25)a.f4.Name='SliderFrame'a.f4.BackgroundTransparency=1 a.f5=Instance.new('Frame',a.f4)a.f5.ZIndex=0 a.f5.BorderSizePixel=0 a.f5.AnchorPoint=Vector2.new(0,0.5)a.f5.Size=UDim2.new(1,0,0,20)a.f5.Position=UDim2.new(0,0,0.5,0)a.f5.BackgroundTransparency=1 a.f6=Instance.new('ImageLabel',a.f5)a.f6.ZIndex=0 a.f6.BorderSizePixel=0 a.f6.SliceCenter=Rect.new(49,49,450,450)a.f6.ScaleType=Enum.ScaleType.Slice a.f6.ImageTransparency=0.75 a.f6.ImageColor3=Color3.fromRGB(0,0,0)a.f6.AnchorPoint=Vector2.new(0.5,0.5)a.f6.Image='rbxassetid://6014261993'a.f6.Size=UDim2.new(1,25,1,25)a.f6.BackgroundTransparency=1 a.f6.Name='DropShadow'a.f6.Position=UDim2.new(0.5,0,0.5,0)a.f7=Instance.new('CanvasGroup',a.f5)a.f7.BorderSizePixel=0 a.f7.BackgroundColor3=Color3.fromRGB(43,46,53)a.f7.Size=UDim2.new(1,0,1,0)a.f7.BorderColor3=Color3.fromRGB(0,0,0)a.f7.Name='Slider'a.f7.BackgroundTransparency=0.5 a.f8=Instance.new('UICorner',a.f7)a.f8.CornerRadius=UDim.new(0,5)a.f9=Instance.new('UIStroke',a.f7)a.f9.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.f9.Thickness=1.5 a.f9.Color=Color3.fromRGB(48,48,59)a.fa=Instance.new('UIPadding',a.f7)a.fa.PaddingTop=UDim.new(0,2)a.fa.PaddingRight=UDim.new(0,2)a.fa.PaddingLeft=UDim.new(0,2)a.fa.PaddingBottom=UDim.new(0,2)a.fb=Instance.new('TextButton',a.f7)a.fb.BorderSizePixel=0 a.fb.TextSize=14 a.fb.AutoButtonColor=false a.fb.TextColor3=Color3.fromRGB(76,78,84)a.fb.BackgroundColor3=Color3.fromRGB(255,255,255)a.fb.FontFace=Font.new('rbxasset://fonts/families/SourceSansPro.json',Enum.FontWeight.Regular,Enum.FontStyle.Normal)a.fb.BackgroundTransparency=1 a.fb.Size=UDim2.new(1,0,1,0)a.fb.BorderColor3=Color3.fromRGB(0,0,0)a.fb.Text=''a.fb.Name='Trigger'a.fc=Instance.new('ImageButton',a.f7)a.fc.Active=false a.fc.Interactable=false a.fc.BorderSizePixel=0 a.fc.AutoButtonColor=false a.fc.BackgroundTransparency=1 a.fc.BackgroundColor3=Color3.fromRGB(255,255,255)a.fc.Selectable=false a.fc.AnchorPoint=Vector2.new(0,0.5)a.fc.Size=UDim2.new(0.4127,0,1,0)a.fc.ClipsDescendants=true a.fc.BorderColor3=Color3.fromRGB(0,0,0)a.fc.Name='Fill'a.fc.Position=UDim2.new(0,0,0.5,0)a.fd=Instance.new('UICorner',a.fc)a.fd.CornerRadius=UDim.new(0,4)a.fe=Instance.new('UIStroke',a.fc)a.fe.Transparency=0.5 a.fe.ApplyStrokeMode=Enum.ApplyStrokeMode.Border a.fe.Thickness=1.5 a.fe.Color=Color3.fromRGB(11,136,214)a.ff=Instance.new('ImageButton',a.fc)a.ff.Active=false a.ff.Interactable=false a.ff.BorderSizePixel=0 a.ff.AutoButtonColor=false a.ff.BackgroundTransparency=0.5 a.ff.BackgroundColor3=Color3.fromRGB(255,255,255)a.ff.Selectable=false a.ff.AnchorPoint=Vector2.new(0,0.5)a.ff.Size=UDim2.new(1,0,1,0)a.ff.BorderColor3=Color3.fromRGB(0,0,0)a.ff.Name='BackgroundGradient'a.ff.Position=UDim2.new(0,0,0.5,0)a['100']=Instance.new('UICorner',a.ff)a['100'].CornerRadius=UDim.new(0,4)a['101']=Instance.new('UIGradient',a.ff)a['101'].Enabled=false a['101'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['102']=Instance.new('UIGradient',a.ff)a['102'].Enabled=false a['102'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['103']=Instance.new('UIGradient',a.ff)a['103'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['104']=Instance.new('TextLabel',a.f5)a['104'].TextWrapped=true a['104'].Interactable=false a['104'].ZIndex=2 a['104'].BorderSizePixel=0 a['104'].TextSize=14 a['104'].TextXAlignment=Enum.TextXAlignment.Left a['104'].TextTransparency=0.75 a['104'].BackgroundColor3=Color3.fromRGB(255,255,255)a['104'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['104'].TextColor3=Color3.fromRGB(197,204,219)a['104'].BackgroundTransparency=1 a['104'].RichText=true a['104'].AnchorPoint=Vector2.new(0.5,0.5)a['104'].Size=UDim2.new(1,-15,1,0)a['104'].BorderColor3=Color3.fromRGB(0,0,0)a['104'].Text='0'a['104'].Name='ValueText'a['104'].Position=UDim2.new(0.5,0,0.5,0)a['105']=Instance.new('Frame',a['3e'])a['105'].BorderSizePixel=0 a['105'].BackgroundColor3=Color3.fromRGB(43,46,53)a['105'].AutomaticSize=Enum.AutomaticSize.Y a['105'].Size=UDim2.new(1,0,0,35)a['105'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['105'].BorderColor3=Color3.fromRGB(0,0,0)a['105'].Name='TextBox'a['106']=Instance.new('UICorner',a['105'])a['106'].CornerRadius=UDim.new(0,6)a['107']=Instance.new('UIStroke',a['105'])a['107'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['107'].Thickness=1.5 a['107'].Color=Color3.fromRGB(61,61,75)a['108']=Instance.new('TextLabel',a['105'])a['108'].TextWrapped=true a['108'].Interactable=false a['108'].BorderSizePixel=0 a['108'].TextSize=16 a['108'].TextXAlignment=Enum.TextXAlignment.Left a['108'].BackgroundColor3=Color3.fromRGB(255,255,255)a['108'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['108'].TextColor3=Color3.fromRGB(197,204,219)a['108'].BackgroundTransparency=1 a['108'].Size=UDim2.new(1,0,0,15)a['108'].BorderColor3=Color3.fromRGB(0,0,0)a['108'].Text='Input Textbox'a['108'].AutomaticSize=Enum.AutomaticSize.Y a['108'].Name='Title'a['109']=Instance.new('UIPadding',a['105'])a['109'].PaddingTop=UDim.new(0,10)a['109'].PaddingRight=UDim.new(0,10)a['109'].PaddingLeft=UDim.new(0,10)a['109'].PaddingBottom=UDim.new(0,10)a['10a']=Instance.new('UIListLayout',a['105'])a['10a'].Padding=UDim.new(0,5)a['10a'].SortOrder=Enum.SortOrder.LayoutOrder a['10b']=Instance.new('TextLabel',a['105'])a['10b'].TextWrapped=true a['10b'].Interactable=false a['10b'].BorderSizePixel=0 a['10b'].TextSize=16 a['10b'].TextXAlignment=Enum.TextXAlignment.Left a['10b'].BackgroundColor3=Color3.fromRGB(255,255,255)a['10b'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['10b'].TextColor3=Color3.fromRGB(197,204,219)a['10b'].BackgroundTransparency=1 a['10b'].Size=UDim2.new(1,0,0,15)a['10b'].Visible=false a['10b'].BorderColor3=Color3.fromRGB(0,0,0)a['10b'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['10b'].AutomaticSize=Enum.AutomaticSize.Y a['10b'].Name='Description'a['10c']=Instance.new('Frame',a['105'])a['10c'].ZIndex=0 a['10c'].BorderSizePixel=0 a['10c'].Size=UDim2.new(1,0,0,25)a['10c'].Name='BoxFrame'a['10c'].BackgroundTransparency=1 a['10d']=Instance.new('ImageLabel',a['10c'])a['10d'].ZIndex=0 a['10d'].BorderSizePixel=0 a['10d'].SliceCenter=Rect.new(49,49,450,450)a['10d'].ScaleType=Enum.ScaleType.Slice a['10d'].ImageTransparency=0.75 a['10d'].ImageColor3=Color3.fromRGB(0,0,0)a['10d'].AnchorPoint=Vector2.new(0.5,0.5)a['10d'].Image='rbxassetid://6014261993'a['10d'].Size=UDim2.new(1,35,1,35)a['10d'].BackgroundTransparency=1 a['10d'].Name='DropShadow'a['10d'].Position=UDim2.new(0.5,0,0.5,0)a['10e']=Instance.new('Frame',a['10c'])a['10e'].BorderSizePixel=0 a['10e'].BackgroundColor3=Color3.fromRGB(43,46,53)a['10e'].AutomaticSize=Enum.AutomaticSize.Y a['10e'].Size=UDim2.new(1,0,1,0)a['10e'].BorderColor3=Color3.fromRGB(0,0,0)a['10f']=Instance.new('UICorner',a['10e'])a['10f'].CornerRadius=UDim.new(0,5)a['110']=Instance.new('UIStroke',a['10e'])a['110'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['110'].Thickness=1.5 a['110'].Color=Color3.fromRGB(61,61,75)a['111']=Instance.new('UIListLayout',a['10e'])a['111'].Padding=UDim.new(0,5)a['111'].SortOrder=Enum.SortOrder.LayoutOrder a['112']=Instance.new('TextBox',a['10e'])a['112'].TextXAlignment=Enum.TextXAlignment.Left a['112'].PlaceholderColor3=Color3.fromRGB(140,140,140)a['112'].BorderSizePixel=0 a['112'].TextWrapped=true a['112'].TextTruncate=Enum.TextTruncate.AtEnd a['112'].TextSize=14 a['112'].TextColor3=Color3.fromRGB(197,204,219)a['112'].BackgroundColor3=Color3.fromRGB(255,255,255)a['112'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['112'].ClipsDescendants=true a['112'].PlaceholderText='Input here...'a['112'].Size=UDim2.new(1,0,1,0)a['112'].BorderColor3=Color3.fromRGB(0,0,0)a['112'].Text=''a['112'].BackgroundTransparency=1 a['113']=Instance.new('UIPadding',a['112'])a['113'].PaddingTop=UDim.new(0,10)a['113'].PaddingRight=UDim.new(0,10)a['113'].PaddingLeft=UDim.new(0,10)a['113'].PaddingBottom=UDim.new(0,10)a['114']=Instance.new('Frame',a['3e'])a['114'].BorderSizePixel=0 a['114'].BackgroundColor3=Color3.fromRGB(33,36,41)a['114'].AutomaticSize=Enum.AutomaticSize.Y a['114'].Size=UDim2.new(1,0,0,35)a['114'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['114'].BorderColor3=Color3.fromRGB(0,0,0)a['114'].Name='TextBox'a['115']=Instance.new('UICorner',a['114'])a['115'].CornerRadius=UDim.new(0,6)a['116']=Instance.new('TextLabel',a['114'])a['116'].TextWrapped=true a['116'].Interactable=false a['116'].BorderSizePixel=0 a['116'].TextSize=16 a['116'].TextXAlignment=Enum.TextXAlignment.Left a['116'].BackgroundColor3=Color3.fromRGB(255,255,255)a['116'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['116'].TextColor3=Color3.fromRGB(76,78,84)a['116'].BackgroundTransparency=1 a['116'].Size=UDim2.new(1,0,0,15)a['116'].BorderColor3=Color3.fromRGB(0,0,0)a['116'].Text='Input Textbox'a['116'].AutomaticSize=Enum.AutomaticSize.Y a['116'].Name='Title'a['117']=Instance.new('UIPadding',a['114'])a['117'].PaddingTop=UDim.new(0,10)a['117'].PaddingRight=UDim.new(0,10)a['117'].PaddingLeft=UDim.new(0,10)a['117'].PaddingBottom=UDim.new(0,10)a['118']=Instance.new('UIListLayout',a['114'])a['118'].Padding=UDim.new(0,5)a['118'].SortOrder=Enum.SortOrder.LayoutOrder a['119']=Instance.new('TextLabel',a['114'])a['119'].TextWrapped=true a['119'].Interactable=false a['119'].BorderSizePixel=0 a['119'].TextSize=16 a['119'].TextXAlignment=Enum.TextXAlignment.Left a['119'].BackgroundColor3=Color3.fromRGB(255,255,255)a['119'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['119'].TextColor3=Color3.fromRGB(76,78,84)a['119'].BackgroundTransparency=1 a['119'].Size=UDim2.new(1,0,0,15)a['119'].Visible=false a['119'].BorderColor3=Color3.fromRGB(0,0,0)a['119'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['119'].AutomaticSize=Enum.AutomaticSize.Y a['119'].Name='Description'a['11a']=Instance.new('Frame',a['114'])a['11a'].ZIndex=0 a['11a'].BorderSizePixel=0 a['11a'].Size=UDim2.new(1,0,0,25)a['11a'].Name='BoxFrame'a['11a'].BackgroundTransparency=1 a['11b']=Instance.new('ImageLabel',a['11a'])a['11b'].ZIndex=0 a['11b'].BorderSizePixel=0 a['11b'].SliceCenter=Rect.new(49,49,450,450)a['11b'].ScaleType=Enum.ScaleType.Slice a['11b'].ImageTransparency=0.75 a['11b'].ImageColor3=Color3.fromRGB(0,0,0)a['11b'].AnchorPoint=Vector2.new(0.5,0.5)a['11b'].Image='rbxassetid://6014261993'a['11b'].Size=UDim2.new(1,35,1,35)a['11b'].BackgroundTransparency=1 a['11b'].Name='DropShadow'a['11b'].Position=UDim2.new(0.5,0,0.5,0)a['11c']=Instance.new('Frame',a['11a'])a['11c'].BorderSizePixel=0 a['11c'].BackgroundColor3=Color3.fromRGB(33,36,41)a['11c'].AutomaticSize=Enum.AutomaticSize.Y a['11c'].Size=UDim2.new(1,0,1,0)a['11c'].BorderColor3=Color3.fromRGB(0,0,0)a['11d']=Instance.new('UICorner',a['11c'])a['11d'].CornerRadius=UDim.new(0,5)a['11e']=Instance.new('UIStroke',a['11c'])a['11e'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['11e'].Thickness=1.5 a['11e'].Color=Color3.fromRGB(48,48,59)a['11f']=Instance.new('UIListLayout',a['11c'])a['11f'].Padding=UDim.new(0,5)a['11f'].SortOrder=Enum.SortOrder.LayoutOrder a['120']=Instance.new('TextBox',a['11c'])a['120'].TextXAlignment=Enum.TextXAlignment.Left a['120'].PlaceholderColor3=Color3.fromRGB(76,78,84)a['120'].BorderSizePixel=0 a['120'].TextWrapped=true a['120'].TextTruncate=Enum.TextTruncate.AtEnd a['120'].TextSize=14 a['120'].TextColor3=Color3.fromRGB(76,78,84)a['120'].BackgroundColor3=Color3.fromRGB(255,255,255)a['120'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['120'].ClipsDescendants=true a['120'].PlaceholderText='Input here...'a['120'].Size=UDim2.new(1,0,1,0)a['120'].BorderColor3=Color3.fromRGB(0,0,0)a['120'].Text=''a['120'].BackgroundTransparency=1 a['121']=Instance.new('UIPadding',a['120'])a['121'].PaddingTop=UDim.new(0,10)a['121'].PaddingRight=UDim.new(0,10)a['121'].PaddingLeft=UDim.new(0,10)a['121'].PaddingBottom=UDim.new(0,10)a['122']=Instance.new('UIStroke',a['114'])a['122'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['122'].Thickness=1.5 a['122'].Color=Color3.fromRGB(48,48,59)a['123']=Instance.new('ModuleScript',a['1'])a['123'].Name='Library'a['124']=Instance.new('ModuleScript',a['123'])a['124'].Name='IconModule'a['125']=Instance.new('ModuleScript',a['124'])a['125'].Name='Lucide'a['126']=Instance.new('Folder',a['1'])a['126'].Name='Templates'a['127']=Instance.new('Frame',a['126'])a['127'].Visible=false a['127'].BorderSizePixel=0 a['127'].BackgroundColor3=Color3.fromRGB(61,61,75)a['127'].Size=UDim2.new(1,0,0,1)a['127'].BorderColor3=Color3.fromRGB(61,61,75)a['127'].Name='Divider'a['128']=Instance.new('ScrollingFrame',a['126'])a['128'].Visible=false a['128'].Active=true a['128'].ScrollingDirection=Enum.ScrollingDirection.Y a['128'].BorderSizePixel=0 a['128'].CanvasSize=UDim2.new(0,0,0,0)a['128'].ElasticBehavior=Enum.ElasticBehavior.Never a['128'].TopImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['128'].BackgroundColor3=Color3.fromRGB(255,255,255)a['128'].Name='Tab'a['128'].Selectable=false a['128'].BottomImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['128'].AutomaticCanvasSize=Enum.AutomaticSize.Y a['128'].Size=UDim2.new(1,0,1,0)a['128'].ScrollBarImageColor3=Color3.fromRGB(99,106,122)a['128'].BorderColor3=Color3.fromRGB(0,0,0)a['128'].ScrollBarThickness=5 a['128'].BackgroundTransparency=1 a['129']=Instance.new('UIListLayout',a['128'])a['129'].Padding=UDim.new(0,15)a['129'].SortOrder=Enum.SortOrder.LayoutOrder a['12a']=Instance.new('UIPadding',a['128'])a['12a'].PaddingTop=UDim.new(0,10)a['12a'].PaddingRight=UDim.new(0,14)a['12a'].PaddingLeft=UDim.new(0,10)a['12a'].PaddingBottom=UDim.new(0,10)a['12b']=Instance.new('ImageButton',a['126'])a['12b'].BorderSizePixel=0 a['12b'].AutoButtonColor=false a['12b'].Visible=false a['12b'].BackgroundTransparency=1 a['12b'].BackgroundColor3=Color3.fromRGB(255,255,255)a['12b'].Selectable=false a['12b'].Size=UDim2.new(1,0,0,36)a['12b'].BorderColor3=Color3.fromRGB(0,0,0)a['12b'].Name='TabButton'a['12c']=Instance.new('ImageButton',a['12b'])a['12c'].BorderSizePixel=0 a['12c'].ImageTransparency=0.5 a['12c'].BackgroundTransparency=1 a['12c'].BackgroundColor3=Color3.fromRGB(255,255,255)a['12c'].ImageColor3=Color3.fromRGB(197,204,219)a['12c'].AnchorPoint=Vector2.new(0,0.5)a['12c'].Image='rbxassetid://113216930555884'a['12c'].Size=UDim2.new(0,20,0,20)a['12c'].BorderColor3=Color3.fromRGB(0,0,0)a['12c'].Position=UDim2.new(0,12,0,18)a['12d']=Instance.new('UIAspectRatioConstraint',a['12c'])a['12e']=Instance.new('TextLabel',a['12b'])a['12e'].TextWrapped=true a['12e'].BorderSizePixel=0 a['12e'].TextSize=14 a['12e'].TextXAlignment=Enum.TextXAlignment.Left a['12e'].TextTransparency=0.5 a['12e'].TextScaled=true a['12e'].BackgroundColor3=Color3.fromRGB(255,255,255)a['12e'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['12e'].TextColor3=Color3.fromRGB(197,204,219)a['12e'].BackgroundTransparency=1 a['12e'].AnchorPoint=Vector2.new(0,0.5)a['12e'].Size=UDim2.new(0,103,0,16)a['12e'].BorderColor3=Color3.fromRGB(0,0,0)a['12e'].Text=''a['12e'].Position=UDim2.new(0,42,0.5,0)a['12f']=Instance.new('Frame',a['12b'])a['12f'].BorderSizePixel=0 a['12f'].BackgroundColor3=Color3.fromRGB(197,204,219)a['12f'].AnchorPoint=Vector2.new(0,0.5)a['12f'].Size=UDim2.new(0,5,0,0)a['12f'].Position=UDim2.new(0,8,0,18)a['12f'].BorderColor3=Color3.fromRGB(0,0,0)a['12f'].Name='Bar'a['12f'].BackgroundTransparency=1 a['130']=Instance.new('UICorner',a['12f'])a['130'].CornerRadius=UDim.new(0,100)a['131']=Instance.new('ImageButton',a['126'])a['131'].BorderSizePixel=0 a['131'].AutoButtonColor=false a['131'].Visible=false a['131'].BackgroundColor3=Color3.fromRGB(43,46,53)a['131'].Selectable=false a['131'].AutomaticSize=Enum.AutomaticSize.Y a['131'].Size=UDim2.new(1,0,0,35)a['131'].BorderColor3=Color3.fromRGB(0,0,0)a['131'].Name='Button'a['131'].Position=UDim2.new(0,0,0.384,0)a['132']=Instance.new('UICorner',a['131'])a['132'].CornerRadius=UDim.new(0,6)a['133']=Instance.new('Frame',a['131'])a['133'].BorderSizePixel=0 a['133'].BackgroundColor3=Color3.fromRGB(255,255,255)a['133'].AutomaticSize=Enum.AutomaticSize.Y a['133'].Size=UDim2.new(1,0,0,35)a['133'].BorderColor3=Color3.fromRGB(0,0,0)a['133'].BackgroundTransparency=1 a['134']=Instance.new('UIListLayout',a['133'])a['134'].Padding=UDim.new(0,5)a['134'].SortOrder=Enum.SortOrder.LayoutOrder a['135']=Instance.new('UIPadding',a['133'])a['135'].PaddingTop=UDim.new(0,10)a['135'].PaddingRight=UDim.new(0,10)a['135'].PaddingLeft=UDim.new(0,10)a['135'].PaddingBottom=UDim.new(0,10)a['136']=Instance.new('TextLabel',a['133'])a['136'].TextWrapped=true a['136'].Interactable=false a['136'].BorderSizePixel=0 a['136'].TextSize=16 a['136'].TextXAlignment=Enum.TextXAlignment.Left a['136'].BackgroundColor3=Color3.fromRGB(255,255,255)a['136'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['136'].TextColor3=Color3.fromRGB(197,204,219)a['136'].BackgroundTransparency=1 a['136'].Size=UDim2.new(1,0,0,15)a['136'].BorderColor3=Color3.fromRGB(0,0,0)a['136'].Text='Button'a['136'].Name='Title'a['137']=Instance.new('ImageButton',a['136'])a['137'].BorderSizePixel=0 a['137'].AutoButtonColor=false a['137'].BackgroundTransparency=1 a['137'].BackgroundColor3=Color3.fromRGB(255,255,255)a['137'].ImageColor3=Color3.fromRGB(197,204,219)a['137'].AnchorPoint=Vector2.new(1,0.5)a['137'].Image='rbxassetid://91877599529856'a['137'].Size=UDim2.new(0,23,0,23)a['137'].BorderColor3=Color3.fromRGB(0,0,0)a['137'].Name='ClickIcon'a['137'].Position=UDim2.new(1,0,0.5,0)a['138']=Instance.new('TextLabel',a['133'])a['138'].TextWrapped=true a['138'].Interactable=false a['138'].BorderSizePixel=0 a['138'].TextSize=16 a['138'].TextXAlignment=Enum.TextXAlignment.Left a['138'].BackgroundColor3=Color3.fromRGB(255,255,255)a['138'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['138'].TextColor3=Color3.fromRGB(197,204,219)a['138'].BackgroundTransparency=1 a['138'].Size=UDim2.new(1,0,0,15)a['138'].Visible=false a['138'].BorderColor3=Color3.fromRGB(0,0,0)a['138'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['138'].LayoutOrder=1 a['138'].AutomaticSize=Enum.AutomaticSize.Y a['138'].Name='Description'a['139']=Instance.new('UIGradient',a['133'])a['139'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['13a']=Instance.new('UIGradient',a['133'])a['13a'].Enabled=false a['13a'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['13b']=Instance.new('UIGradient',a['133'])a['13b'].Enabled=false a['13b'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['13c']=Instance.new('UICorner',a['133'])a['13c'].CornerRadius=UDim.new(0,6)a['13d']=Instance.new('UIStroke',a['131'])a['13d'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['13d'].Thickness=1.5 a['13d'].Color=Color3.fromRGB(61,61,75)a['13e']=Instance.new('Frame',a['126'])a['13e'].Visible=false a['13e'].BorderSizePixel=0 a['13e'].BackgroundColor3=Color3.fromRGB(43,46,53)a['13e'].AutomaticSize=Enum.AutomaticSize.Y a['13e'].Size=UDim2.new(1,0,0,35)a['13e'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['13e'].BorderColor3=Color3.fromRGB(0,0,0)a['13e'].Name='Paragraph'a['13f']=Instance.new('UICorner',a['13e'])a['13f'].CornerRadius=UDim.new(0,6)a['140']=Instance.new('UIStroke',a['13e'])a['140'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['140'].Thickness=1.5 a['140'].Color=Color3.fromRGB(61,61,75)a['141']=Instance.new('TextLabel',a['13e'])a['141'].TextWrapped=true a['141'].Interactable=false a['141'].BorderSizePixel=0 a['141'].TextSize=16 a['141'].TextXAlignment=Enum.TextXAlignment.Left a['141'].BackgroundColor3=Color3.fromRGB(255,255,255)a['141'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['141'].TextColor3=Color3.fromRGB(197,204,219)a['141'].BackgroundTransparency=1 a['141'].Size=UDim2.new(1,0,0,15)a['141'].BorderColor3=Color3.fromRGB(0,0,0)a['141'].Text='Title'a['141'].AutomaticSize=Enum.AutomaticSize.Y a['141'].Name='Title'a['142']=Instance.new('UIPadding',a['13e'])a['142'].PaddingTop=UDim.new(0,10)a['142'].PaddingRight=UDim.new(0,10)a['142'].PaddingLeft=UDim.new(0,10)a['142'].PaddingBottom=UDim.new(0,10)a['143']=Instance.new('UIListLayout',a['13e'])a['143'].Padding=UDim.new(0,5)a['143'].SortOrder=Enum.SortOrder.LayoutOrder a['144']=Instance.new('TextLabel',a['13e'])a['144'].TextWrapped=true a['144'].Interactable=false a['144'].BorderSizePixel=0 a['144'].TextSize=16 a['144'].TextXAlignment=Enum.TextXAlignment.Left a['144'].BackgroundColor3=Color3.fromRGB(255,255,255)a['144'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['144'].TextColor3=Color3.fromRGB(197,204,219)a['144'].BackgroundTransparency=1 a['144'].Size=UDim2.new(1,0,0,15)a['144'].Visible=false a['144'].BorderColor3=Color3.fromRGB(0,0,0)a['144'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['144'].LayoutOrder=1 a['144'].AutomaticSize=Enum.AutomaticSize.Y a['144'].Name='Description'a['145']=Instance.new('ImageButton',a['126'])a['145'].BorderSizePixel=0 a['145'].AutoButtonColor=false a['145'].Visible=false a['145'].BackgroundColor3=Color3.fromRGB(43,46,53)a['145'].Selectable=false a['145'].AutomaticSize=Enum.AutomaticSize.Y a['145'].Size=UDim2.new(1,0,0,35)a['145'].BorderColor3=Color3.fromRGB(0,0,0)a['145'].Name='Toggle'a['145'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['146']=Instance.new('UICorner',a['145'])a['146'].CornerRadius=UDim.new(0,6)a['147']=Instance.new('UIStroke',a['145'])a['147'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['147'].Thickness=1.5 a['147'].Color=Color3.fromRGB(61,61,75)a['148']=Instance.new('UIPadding',a['145'])a['148'].PaddingTop=UDim.new(0,10)a['148'].PaddingRight=UDim.new(0,10)a['148'].PaddingLeft=UDim.new(0,10)a['148'].PaddingBottom=UDim.new(0,10)a['149']=Instance.new('UIListLayout',a['145'])a['149'].Padding=UDim.new(0,5)a['149'].SortOrder=Enum.SortOrder.LayoutOrder a['14a']=Instance.new('TextLabel',a['145'])a['14a'].TextWrapped=true a['14a'].Interactable=false a['14a'].BorderSizePixel=0 a['14a'].TextSize=16 a['14a'].TextXAlignment=Enum.TextXAlignment.Left a['14a'].BackgroundColor3=Color3.fromRGB(255,255,255)a['14a'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['14a'].TextColor3=Color3.fromRGB(197,204,219)a['14a'].BackgroundTransparency=1 a['14a'].Size=UDim2.new(1,0,0,15)a['14a'].Visible=false a['14a'].BorderColor3=Color3.fromRGB(0,0,0)a['14a'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['14a'].LayoutOrder=1 a['14a'].AutomaticSize=Enum.AutomaticSize.Y a['14a'].Name='Description'a['14b']=Instance.new('TextLabel',a['145'])a['14b'].TextWrapped=true a['14b'].BorderSizePixel=0 a['14b'].TextSize=16 a['14b'].TextXAlignment=Enum.TextXAlignment.Left a['14b'].BackgroundColor3=Color3.fromRGB(255,255,255)a['14b'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['14b'].TextColor3=Color3.fromRGB(197,204,219)a['14b'].BackgroundTransparency=1 a['14b'].Size=UDim2.new(1,0,0,15)a['14b'].BorderColor3=Color3.fromRGB(0,0,0)a['14b'].Text='Toggle'a['14b'].Name='Title'a['14c']=Instance.new('ImageButton',a['14b'])a['14c'].BorderSizePixel=0 a['14c'].AutoButtonColor=false a['14c'].BackgroundColor3=Color3.fromRGB(54,57,63)a['14c'].ImageColor3=Color3.fromRGB(197,204,219)a['14c'].AnchorPoint=Vector2.new(1,0.5)a['14c'].Size=UDim2.new(0,45,0,25)a['14c'].BorderColor3=Color3.fromRGB(0,0,0)a['14c'].Name='Fill'a['14c'].Position=UDim2.new(1,0,0.5,0)a['14d']=Instance.new('UICorner',a['14c'])a['14d'].CornerRadius=UDim.new(100,0)a['14e']=Instance.new('ImageButton',a['14c'])a['14e'].Active=false a['14e'].Interactable=false a['14e'].BorderSizePixel=0 a['14e'].AutoButtonColor=false a['14e'].BackgroundColor3=Color3.fromRGB(255,255,255)a['14e'].ImageColor3=Color3.fromRGB(197,204,219)a['14e'].AnchorPoint=Vector2.new(0,0.5)a['14e'].Size=UDim2.new(0,20,0,20)a['14e'].BorderColor3=Color3.fromRGB(0,0,0)a['14e'].Name='Ball'a['14e'].Position=UDim2.new(0,0,0.5,0)a['14f']=Instance.new('UICorner',a['14e'])a['14f'].CornerRadius=UDim.new(100,0)a['150']=Instance.new('ImageLabel',a['14e'])a['150'].BorderSizePixel=0 a['150'].BackgroundColor3=Color3.fromRGB(255,255,255)a['150'].ImageColor3=Color3.fromRGB(54,57,63)a['150'].AnchorPoint=Vector2.new(0.5,0.5)a['150'].Size=UDim2.new(1,-5,1,-5)a['150'].BorderColor3=Color3.fromRGB(0,0,0)a['150'].BackgroundTransparency=1 a['150'].Name='Icon'a['150'].Position=UDim2.new(0.5,0,0.5,0)a['151']=Instance.new('UIPadding',a['14c'])a['151'].PaddingTop=UDim.new(0,2)a['151'].PaddingRight=UDim.new(0,2)a['151'].PaddingLeft=UDim.new(0,2)a['151'].PaddingBottom=UDim.new(0,2)a['152']=Instance.new('Frame',a['126'])a['152'].Visible=false a['152'].BorderSizePixel=0 a['152'].BackgroundColor3=Color3.fromRGB(37,40,47)a['152'].AnchorPoint=Vector2.new(0.5,0.5)a['152'].AutomaticSize=Enum.AutomaticSize.Y a['152'].Size=UDim2.new(1,0,0,65)a['152'].Position=UDim2.new(0.8244,0,0.88221,0)a['152'].BorderColor3=Color3.fromRGB(0,0,0)a['152'].Name='Notification'a['152'].BackgroundTransparency=1 a['153']=Instance.new('CanvasGroup',a['152'])a['153'].ZIndex=2 a['153'].BorderSizePixel=0 a['153'].BackgroundColor3=Color3.fromRGB(37,40,47)a['153'].AutomaticSize=Enum.AutomaticSize.Y a['153'].Size=UDim2.new(0,265,0,70)a['153'].BorderColor3=Color3.fromRGB(0,0,0)a['153'].Name='Items'a['154']=Instance.new('Frame',a['153'])a['154'].BorderSizePixel=0 a['154'].BackgroundColor3=Color3.fromRGB(255,255,255)a['154'].AutomaticSize=Enum.AutomaticSize.Y a['154'].Size=UDim2.new(0,265,0,70)a['154'].BorderColor3=Color3.fromRGB(0,0,0)a['154'].BackgroundTransparency=1 a['155']=Instance.new('UIListLayout',a['154'])a['155'].Padding=UDim.new(0,5)a['155'].VerticalAlignment=Enum.VerticalAlignment.Center a['155'].SortOrder=Enum.SortOrder.LayoutOrder a['156']=Instance.new('UIPadding',a['154'])a['156'].PaddingTop=UDim.new(0,15)a['156'].PaddingLeft=UDim.new(0,15)a['156'].PaddingBottom=UDim.new(0,15)a['157']=Instance.new('TextLabel',a['154'])a['157'].TextWrapped=true a['157'].BorderSizePixel=0 a['157'].TextSize=12 a['157'].TextXAlignment=Enum.TextXAlignment.Left a['157'].BackgroundColor3=Color3.fromRGB(255,255,255)a['157'].FontFace=Font.new('rbxasset://fonts/families/GothamSSm.json',Enum.FontWeight.Regular,Enum.FontStyle.Normal)a['157'].TextColor3=Color3.fromRGB(181,181,181)a['157'].BackgroundTransparency=1 a['157'].AnchorPoint=Vector2.new(0,0.5)a['157'].Size=UDim2.new(0,218,0,10)a['157'].Visible=false a['157'].BorderColor3=Color3.fromRGB(0,0,0)a['157'].Text='This is a notification'a['157'].LayoutOrder=1 a['157'].AutomaticSize=Enum.AutomaticSize.Y a['157'].Name='SubContent'a['157'].Position=UDim2.new(0,0,0,19)a['158']=Instance.new('UIGradient',a['157'])a['158'].Enabled=false a['158'].Rotation=-90 a['158'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(3,100,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,255,226))}a['159']=Instance.new('TextLabel',a['154'])a['159'].TextWrapped=true a['159'].BorderSizePixel=0 a['159'].TextSize=16 a['159'].TextXAlignment=Enum.TextXAlignment.Left a['159'].TextScaled=true a['159'].BackgroundColor3=Color3.fromRGB(255,255,255)a['159'].FontFace=Font.new('rbxasset://fonts/families/GothamSSm.json',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['159'].TextColor3=Color3.fromRGB(197,204,219)a['159'].BackgroundTransparency=1 a['159'].AnchorPoint=Vector2.new(0,0.5)a['159'].Size=UDim2.new(0,235,0,18)a['159'].BorderColor3=Color3.fromRGB(0,0,0)a['159'].Text='Title'a['159'].Name='Title'a['159'].Position=UDim2.new(0,0,0,9)a['15a']=Instance.new('ImageButton',a['159'])a['15a'].BorderSizePixel=0 a['15a'].BackgroundTransparency=1 a['15a'].BackgroundColor3=Color3.fromRGB(255,255,255)a['15a'].ImageColor3=Color3.fromRGB(197,204,219)a['15a'].AnchorPoint=Vector2.new(0,0.5)a['15a'].Image='rbxassetid://132453323679056'a['15a'].Size=UDim2.new(0.09706,0,1.33333,0)a['15a'].BorderColor3=Color3.fromRGB(0,0,0)a['15a'].Name='Close'a['15a'].Position=UDim2.new(0.92,0,0.5,0)a['15b']=Instance.new('UIAspectRatioConstraint',a['15a'])a['15c']=Instance.new('UIPadding',a['159'])a['15c'].PaddingLeft=UDim.new(0,30)a['15d']=Instance.new('ImageButton',a['159'])a['15d'].BorderSizePixel=0 a['15d'].BackgroundTransparency=1 a['15d'].BackgroundColor3=Color3.fromRGB(255,255,255)a['15d'].ImageColor3=Color3.fromRGB(197,204,219)a['15d'].AnchorPoint=Vector2.new(0,0.5)a['15d'].Image='rbxassetid://92049322344253'a['15d'].Size=UDim2.new(0.09706,0,1.33333,0)a['15d'].BorderColor3=Color3.fromRGB(0,0,0)a['15d'].Name='Icon'a['15d'].Position=UDim2.new(0,-30,0.5,0)a['15e']=Instance.new('UIAspectRatioConstraint',a['15d'])a['15f']=Instance.new('TextLabel',a['154'])a['15f'].TextWrapped=true a['15f'].BorderSizePixel=0 a['15f'].TextSize=16 a['15f'].TextXAlignment=Enum.TextXAlignment.Left a['15f'].BackgroundColor3=Color3.fromRGB(255,255,255)a['15f'].FontFace=Font.new('rbxasset://fonts/families/GothamSSm.json',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['15f'].TextColor3=Color3.fromRGB(197,204,219)a['15f'].BackgroundTransparency=1 a['15f'].AnchorPoint=Vector2.new(0,0.5)a['15f'].Size=UDim2.new(0,218,0,10)a['15f'].BorderColor3=Color3.fromRGB(0,0,0)a['15f'].Text='Content'a['15f'].LayoutOrder=2 a['15f'].AutomaticSize=Enum.AutomaticSize.Y a['15f'].Name='Content'a['15f'].Position=UDim2.new(0,0,0,19)a['160']=Instance.new('UIGradient',a['15f'])a['160'].Enabled=false a['160'].Rotation=-90 a['160'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(3,100,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,255,226))}a['161']=Instance.new('Frame',a['153'])a['161'].BorderSizePixel=0 a['161'].BackgroundColor3=Color3.fromRGB(61,61,75)a['161'].AnchorPoint=Vector2.new(0,1)a['161'].Size=UDim2.new(1,0,0,5)a['161'].Position=UDim2.new(0,0,1,0)a['161'].BorderColor3=Color3.fromRGB(0,0,0)a['161'].Name='TimerBarFill'a['161'].BackgroundTransparency=0.7 a['162']=Instance.new('UICorner',a['161'])a['163']=Instance.new('Frame',a['161'])a['163'].BorderSizePixel=0 a['163'].BackgroundColor3=Color3.fromRGB(61,61,75)a['163'].Size=UDim2.new(1,0,1,0)a['163'].BorderColor3=Color3.fromRGB(0,0,0)a['163'].Name='Bar'a['164']=Instance.new('UICorner',a['163'])a['165']=Instance.new('UIStroke',a['153'])a['165'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['165'].Thickness=1.5 a['165'].Color=Color3.fromRGB(61,61,75)a['166']=Instance.new('UICorner',a['153'])a['167']=Instance.new('Frame',a['126'])a['167'].Visible=false a['167'].BorderSizePixel=0 a['167'].BackgroundColor3=Color3.fromRGB(43,46,53)a['167'].AutomaticSize=Enum.AutomaticSize.Y a['167'].Size=UDim2.new(1,0,0,35)a['167'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['167'].BorderColor3=Color3.fromRGB(0,0,0)a['167'].Name='Slider'a['168']=Instance.new('UICorner',a['167'])a['168'].CornerRadius=UDim.new(0,6)a['169']=Instance.new('UIStroke',a['167'])a['169'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['169'].Thickness=1.5 a['169'].Color=Color3.fromRGB(61,61,75)a['16a']=Instance.new('TextLabel',a['167'])a['16a'].TextWrapped=true a['16a'].Interactable=false a['16a'].BorderSizePixel=0 a['16a'].TextSize=16 a['16a'].TextXAlignment=Enum.TextXAlignment.Left a['16a'].BackgroundColor3=Color3.fromRGB(255,255,255)a['16a'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['16a'].TextColor3=Color3.fromRGB(197,204,219)a['16a'].BackgroundTransparency=1 a['16a'].Size=UDim2.new(1,0,0,15)a['16a'].BorderColor3=Color3.fromRGB(0,0,0)a['16a'].Text='Slider'a['16a'].AutomaticSize=Enum.AutomaticSize.Y a['16a'].Name='Title'a['16b']=Instance.new('UIPadding',a['167'])a['16b'].PaddingTop=UDim.new(0,10)a['16b'].PaddingRight=UDim.new(0,10)a['16b'].PaddingLeft=UDim.new(0,10)a['16b'].PaddingBottom=UDim.new(0,10)a['16c']=Instance.new('UIListLayout',a['167'])a['16c'].Padding=UDim.new(0,5)a['16c'].SortOrder=Enum.SortOrder.LayoutOrder a['16d']=Instance.new('TextLabel',a['167'])a['16d'].TextWrapped=true a['16d'].Interactable=false a['16d'].BorderSizePixel=0 a['16d'].TextSize=16 a['16d'].TextXAlignment=Enum.TextXAlignment.Left a['16d'].BackgroundColor3=Color3.fromRGB(255,255,255)a['16d'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['16d'].TextColor3=Color3.fromRGB(197,204,219)a['16d'].BackgroundTransparency=1 a['16d'].Size=UDim2.new(1,0,0,15)a['16d'].Visible=false a['16d'].BorderColor3=Color3.fromRGB(0,0,0)a['16d'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['16d'].LayoutOrder=1 a['16d'].AutomaticSize=Enum.AutomaticSize.Y a['16d'].Name='Description'a['16e']=Instance.new('Frame',a['167'])a['16e'].ZIndex=0 a['16e'].BorderSizePixel=0 a['16e'].Size=UDim2.new(1,0,0,25)a['16e'].Name='SliderFrame'a['16e'].LayoutOrder=2 a['16e'].BackgroundTransparency=1 a['16f']=Instance.new('Frame',a['16e'])a['16f'].ZIndex=0 a['16f'].BorderSizePixel=0 a['16f'].AnchorPoint=Vector2.new(0,0.5)a['16f'].Size=UDim2.new(1,0,0,20)a['16f'].Position=UDim2.new(0,0,0.5,0)a['16f'].BackgroundTransparency=1 a['170']=Instance.new('ImageLabel',a['16f'])a['170'].ZIndex=0 a['170'].BorderSizePixel=0 a['170'].SliceCenter=Rect.new(49,49,450,450)a['170'].ScaleType=Enum.ScaleType.Slice a['170'].ImageTransparency=0.75 a['170'].ImageColor3=Color3.fromRGB(0,0,0)a['170'].AnchorPoint=Vector2.new(0.5,0.5)a['170'].Image='rbxassetid://6014261993'a['170'].Size=UDim2.new(1,25,1,25)a['170'].BackgroundTransparency=1 a['170'].Name='DropShadow'a['170'].Position=UDim2.new(0.5,0,0.5,0)a['171']=Instance.new('CanvasGroup',a['16f'])a['171'].BorderSizePixel=0 a['171'].BackgroundColor3=Color3.fromRGB(43,46,53)a['171'].Size=UDim2.new(1,0,1,0)a['171'].BorderColor3=Color3.fromRGB(0,0,0)a['171'].Name='Slider'a['172']=Instance.new('UICorner',a['171'])a['172'].CornerRadius=UDim.new(0,5)a['173']=Instance.new('UIStroke',a['171'])a['173'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['173'].Thickness=1.5 a['173'].Color=Color3.fromRGB(61,61,75)a['174']=Instance.new('UIPadding',a['171'])a['174'].PaddingTop=UDim.new(0,2)a['174'].PaddingRight=UDim.new(0,2)a['174'].PaddingLeft=UDim.new(0,2)a['174'].PaddingBottom=UDim.new(0,2)a['175']=Instance.new('TextButton',a['171'])a['175'].BorderSizePixel=0 a['175'].TextSize=14 a['175'].AutoButtonColor=false a['175'].TextColor3=Color3.fromRGB(0,0,0)a['175'].BackgroundColor3=Color3.fromRGB(255,255,255)a['175'].FontFace=Font.new('rbxasset://fonts/families/SourceSansPro.json',Enum.FontWeight.Regular,Enum.FontStyle.Normal)a['175'].BackgroundTransparency=1 a['175'].Size=UDim2.new(1,0,1,0)a['175'].BorderColor3=Color3.fromRGB(0,0,0)a['175'].Text=''a['175'].Name='Trigger'a['176']=Instance.new('ImageButton',a['171'])a['176'].Active=false a['176'].Interactable=false a['176'].BorderSizePixel=0 a['176'].AutoButtonColor=false a['176'].BackgroundTransparency=1 a['176'].BackgroundColor3=Color3.fromRGB(255,255,255)a['176'].Selectable=false a['176'].AnchorPoint=Vector2.new(0,0.5)a['176'].Size=UDim2.new(0,0,1,0)a['176'].ClipsDescendants=true a['176'].BorderColor3=Color3.fromRGB(0,0,0)a['176'].Name='Fill'a['176'].Position=UDim2.new(0,0,0.5,0)a['177']=Instance.new('UICorner',a['176'])a['177'].CornerRadius=UDim.new(0,4)a['178']=Instance.new('UIStroke',a['176'])a['178'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['178'].Thickness=1.5 a['178'].Color=Color3.fromRGB(11,136,214)a['179']=Instance.new('ImageButton',a['176'])a['179'].Active=false a['179'].Interactable=false a['179'].BorderSizePixel=0 a['179'].AutoButtonColor=false a['179'].BackgroundColor3=Color3.fromRGB(255,255,255)a['179'].Selectable=false a['179'].AnchorPoint=Vector2.new(0,0.5)a['179'].Size=UDim2.new(1,0,1,0)a['179'].BorderColor3=Color3.fromRGB(0,0,0)a['179'].Name='BackgroundGradient'a['179'].Position=UDim2.new(0,0,0.5,0)a['17a']=Instance.new('UICorner',a['179'])a['17a'].CornerRadius=UDim.new(0,4)a['17b']=Instance.new('UIGradient',a['179'])a['17b'].Enabled=false a['17b'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['17c']=Instance.new('UIGradient',a['179'])a['17c'].Enabled=false a['17c'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['17d']=Instance.new('UIGradient',a['179'])a['17d'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['17e']=Instance.new('TextLabel',a['16f'])a['17e'].TextWrapped=true a['17e'].Interactable=false a['17e'].ZIndex=2 a['17e'].BorderSizePixel=0 a['17e'].TextSize=14 a['17e'].TextXAlignment=Enum.TextXAlignment.Left a['17e'].BackgroundColor3=Color3.fromRGB(255,255,255)a['17e'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['17e'].TextColor3=Color3.fromRGB(197,204,219)a['17e'].BackgroundTransparency=1 a['17e'].RichText=true a['17e'].AnchorPoint=Vector2.new(0.5,0.5)a['17e'].Size=UDim2.new(1,-15,1,0)a['17e'].BorderColor3=Color3.fromRGB(0,0,0)a['17e'].Text='0'a['17e'].Name='ValueText'a['17e'].Position=UDim2.new(0.5,0,0.5,0)a['17f']=Instance.new('Frame',a['126'])a['17f'].Visible=false a['17f'].BorderSizePixel=0 a['17f'].BackgroundColor3=Color3.fromRGB(43,46,53)a['17f'].AutomaticSize=Enum.AutomaticSize.Y a['17f'].Size=UDim2.new(1,0,0,35)a['17f'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['17f'].BorderColor3=Color3.fromRGB(0,0,0)a['17f'].Name='TextBox'a['180']=Instance.new('UICorner',a['17f'])a['180'].CornerRadius=UDim.new(0,6)a['181']=Instance.new('UIStroke',a['17f'])a['181'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['181'].Thickness=1.5 a['181'].Color=Color3.fromRGB(61,61,75)a['182']=Instance.new('TextLabel',a['17f'])a['182'].TextWrapped=true a['182'].Interactable=false a['182'].BorderSizePixel=0 a['182'].TextSize=16 a['182'].TextXAlignment=Enum.TextXAlignment.Left a['182'].BackgroundColor3=Color3.fromRGB(255,255,255)a['182'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['182'].TextColor3=Color3.fromRGB(197,204,219)a['182'].BackgroundTransparency=1 a['182'].Size=UDim2.new(1,0,0,15)a['182'].BorderColor3=Color3.fromRGB(0,0,0)a['182'].Text='Input Textbox'a['182'].AutomaticSize=Enum.AutomaticSize.Y a['182'].Name='Title'a['183']=Instance.new('UIPadding',a['17f'])a['183'].PaddingTop=UDim.new(0,10)a['183'].PaddingRight=UDim.new(0,10)a['183'].PaddingLeft=UDim.new(0,10)a['183'].PaddingBottom=UDim.new(0,10)a['184']=Instance.new('UIListLayout',a['17f'])a['184'].Padding=UDim.new(0,10)a['184'].SortOrder=Enum.SortOrder.LayoutOrder a['185']=Instance.new('TextLabel',a['17f'])a['185'].TextWrapped=true a['185'].Interactable=false a['185'].BorderSizePixel=0 a['185'].TextSize=16 a['185'].TextXAlignment=Enum.TextXAlignment.Left a['185'].BackgroundColor3=Color3.fromRGB(255,255,255)a['185'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['185'].TextColor3=Color3.fromRGB(197,204,219)a['185'].BackgroundTransparency=1 a['185'].Size=UDim2.new(1,0,0,15)a['185'].Visible=false a['185'].BorderColor3=Color3.fromRGB(0,0,0)a['185'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['185'].LayoutOrder=1 a['185'].AutomaticSize=Enum.AutomaticSize.Y a['185'].Name='Description'a['186']=Instance.new('Frame',a['17f'])a['186'].ZIndex=0 a['186'].BorderSizePixel=0 a['186'].AutomaticSize=Enum.AutomaticSize.Y a['186'].Size=UDim2.new(1,0,0,25)a['186'].Name='BoxFrame'a['186'].LayoutOrder=2 a['186'].BackgroundTransparency=1 a['187']=Instance.new('ImageLabel',a['186'])a['187'].ZIndex=0 a['187'].BorderSizePixel=0 a['187'].SliceCenter=Rect.new(49,49,450,450)a['187'].ScaleType=Enum.ScaleType.Slice a['187'].ImageTransparency=0.75 a['187'].ImageColor3=Color3.fromRGB(0,0,0)a['187'].AnchorPoint=Vector2.new(0.5,0.5)a['187'].Image='rbxassetid://6014261993'a['187'].Size=UDim2.new(1,35,1,30)a['187'].BackgroundTransparency=1 a['187'].Name='DropShadow'a['187'].Position=UDim2.new(0.5,0,0.5,0)a['188']=Instance.new('Frame',a['186'])a['188'].BorderSizePixel=0 a['188'].BackgroundColor3=Color3.fromRGB(43,46,53)a['188'].AutomaticSize=Enum.AutomaticSize.Y a['188'].Size=UDim2.new(1,0,0,25)a['188'].BorderColor3=Color3.fromRGB(0,0,0)a['189']=Instance.new('UICorner',a['188'])a['189'].CornerRadius=UDim.new(0,5)a['18a']=Instance.new('UIStroke',a['188'])a['18a'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['18a'].Thickness=1.5 a['18a'].Color=Color3.fromRGB(61,61,75)a['18b']=Instance.new('UIListLayout',a['188'])a['18b'].HorizontalAlignment=Enum.HorizontalAlignment.Center a['18b'].Padding=UDim.new(0,5)a['18b'].VerticalAlignment=Enum.VerticalAlignment.Center a['18b'].SortOrder=Enum.SortOrder.LayoutOrder a['18c']=Instance.new('TextBox',a['188'])a['18c'].TextXAlignment=Enum.TextXAlignment.Left a['18c'].PlaceholderColor3=Color3.fromRGB(140,140,140)a['18c'].BorderSizePixel=0 a['18c'].TextWrapped=true a['18c'].TextTruncate=Enum.TextTruncate.AtEnd a['18c'].TextSize=14 a['18c'].TextColor3=Color3.fromRGB(197,204,219)a['18c'].BackgroundColor3=Color3.fromRGB(255,255,255)a['18c'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['18c'].AutomaticSize=Enum.AutomaticSize.Y a['18c'].ClipsDescendants=true a['18c'].PlaceholderText='Input here...'a['18c'].Size=UDim2.new(1,0,0,25)a['18c'].BorderColor3=Color3.fromRGB(0,0,0)a['18c'].Text=''a['18c'].BackgroundTransparency=1 a['18d']=Instance.new('UIPadding',a['18c'])a['18d'].PaddingTop=UDim.new(0,5)a['18d'].PaddingRight=UDim.new(0,10)a['18d'].PaddingLeft=UDim.new(0,10)a['18d'].PaddingBottom=UDim.new(0,5)a['18e']=Instance.new('ImageButton',a['126'])a['18e'].BorderSizePixel=0 a['18e'].AutoButtonColor=false a['18e'].Visible=false a['18e'].BackgroundColor3=Color3.fromRGB(43,46,53)a['18e'].Selectable=false a['18e'].AutomaticSize=Enum.AutomaticSize.Y a['18e'].Size=UDim2.new(1,0,0,35)a['18e'].BorderColor3=Color3.fromRGB(0,0,0)a['18e'].Name='Dropdown'a['18e'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['18f']=Instance.new('UICorner',a['18e'])a['18f'].CornerRadius=UDim.new(0,6)a['190']=Instance.new('UIStroke',a['18e'])a['190'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['190'].Thickness=1.5 a['190'].Color=Color3.fromRGB(61,61,75)a['191']=Instance.new('TextLabel',a['18e'])a['191'].TextWrapped=true a['191'].Active=true a['191'].BorderSizePixel=0 a['191'].TextSize=16 a['191'].TextXAlignment=Enum.TextXAlignment.Left a['191'].BackgroundColor3=Color3.fromRGB(255,255,255)a['191'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['191'].TextColor3=Color3.fromRGB(197,204,219)a['191'].BackgroundTransparency=1 a['191'].Size=UDim2.new(1,0,0,15)a['191'].BorderColor3=Color3.fromRGB(0,0,0)a['191'].Text='Dropdown'a['191'].Name='Title'a['191'].Position=UDim2.new(0.03135,0,0,0)a['192']=Instance.new('ImageButton',a['191'])a['192'].BorderSizePixel=0 a['192'].AutoButtonColor=false a['192'].BackgroundTransparency=1 a['192'].BackgroundColor3=Color3.fromRGB(255,255,255)a['192'].ImageColor3=Color3.fromRGB(197,204,219)a['192'].AnchorPoint=Vector2.new(1,0.5)a['192'].Image='rbxassetid://77563793724007'a['192'].Size=UDim2.new(0,23,0,23)a['192'].BorderColor3=Color3.fromRGB(0,0,0)a['192'].Name='ClickIcon'a['192'].Position=UDim2.new(1,0,0.5,0)a['193']=Instance.new('ImageButton',a['191'])a['193'].BorderSizePixel=0 a['193'].BackgroundTransparency=1 a['193'].Selectable=false a['193'].ZIndex=0 a['193'].AnchorPoint=Vector2.new(1,0.5)a['193'].AutomaticSize=Enum.AutomaticSize.X a['193'].Size=UDim2.new(0,20,0,20)a['193'].Name='BoxFrame'a['193'].Position=UDim2.new(1,-33,0.5,0)a['194']=Instance.new('ImageLabel',a['193'])a['194'].Interactable=false a['194'].ZIndex=0 a['194'].BorderSizePixel=0 a['194'].SliceCenter=Rect.new(49,49,450,450)a['194'].ScaleType=Enum.ScaleType.Slice a['194'].ImageTransparency=0.75 a['194'].AutomaticSize=Enum.AutomaticSize.X a['194'].ImageColor3=Color3.fromRGB(0,0,0)a['194'].AnchorPoint=Vector2.new(0.5,0.5)a['194'].Image='rbxassetid://6014261993'a['194'].Size=UDim2.new(1,28,1,28)a['194'].Visible=false a['194'].BackgroundTransparency=1 a['194'].Name='DropShadow'a['194'].Position=UDim2.new(0.5,0,0.5,0)a['195']=Instance.new('Frame',a['193'])a['195'].Interactable=false a['195'].BorderSizePixel=0 a['195'].BackgroundColor3=Color3.fromRGB(43,46,53)a['195'].AnchorPoint=Vector2.new(0.5,0.5)a['195'].AutomaticSize=Enum.AutomaticSize.X a['195'].Size=UDim2.new(0,20,0,20)a['195'].Position=UDim2.new(0.5,0,0.5,0)a['195'].BorderColor3=Color3.fromRGB(0,0,0)a['196']=Instance.new('UICorner',a['195'])a['196'].CornerRadius=UDim.new(0,5)a['197']=Instance.new('UIStroke',a['195'])a['197'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['197'].Thickness=1.5 a['197'].Color=Color3.fromRGB(61,61,75)a['198']=Instance.new('UIListLayout',a['195'])a['198'].Padding=UDim.new(0,5)a['198'].VerticalAlignment=Enum.VerticalAlignment.Center a['198'].SortOrder=Enum.SortOrder.LayoutOrder a['199']=Instance.new('TextLabel',a['195'])a['199'].TextWrapped=true a['199'].Interactable=false a['199'].BorderSizePixel=0 a['199'].TextSize=16 a['199'].TextScaled=true a['199'].BackgroundColor3=Color3.fromRGB(255,255,255)a['199'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['199'].TextColor3=Color3.fromRGB(197,204,219)a['199'].BackgroundTransparency=1 a['199'].AnchorPoint=Vector2.new(0,0.5)a['199'].Size=UDim2.new(0,14,0,14)a['199'].BorderColor3=Color3.fromRGB(0,0,0)a['199'].Text=''a['199'].AutomaticSize=Enum.AutomaticSize.X a['199'].Name='Title'a['199'].Position=UDim2.new(-0.59091,0,0.5,0)a['19a']=Instance.new('UIPadding',a['195'])a['19a'].PaddingRight=UDim.new(0,5)a['19a'].PaddingLeft=UDim.new(0,5)a['19b']=Instance.new('UIPadding',a['18e'])a['19b'].PaddingTop=UDim.new(0,10)a['19b'].PaddingRight=UDim.new(0,10)a['19b'].PaddingLeft=UDim.new(0,10)a['19b'].PaddingBottom=UDim.new(0,10)a['19c']=Instance.new('UIListLayout',a['18e'])a['19c'].Padding=UDim.new(0,5)a['19c'].SortOrder=Enum.SortOrder.LayoutOrder a['19d']=Instance.new('TextLabel',a['18e'])a['19d'].TextWrapped=true a['19d'].Interactable=false a['19d'].BorderSizePixel=0 a['19d'].TextSize=16 a['19d'].TextXAlignment=Enum.TextXAlignment.Left a['19d'].BackgroundColor3=Color3.fromRGB(255,255,255)a['19d'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['19d'].TextColor3=Color3.fromRGB(197,204,219)a['19d'].BackgroundTransparency=1 a['19d'].Size=UDim2.new(1,0,0,15)a['19d'].Visible=false a['19d'].BorderColor3=Color3.fromRGB(0,0,0)a['19d'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['19d'].LayoutOrder=1 a['19d'].AutomaticSize=Enum.AutomaticSize.Y a['19d'].Name='Description'a['19e']=Instance.new('UIGradient',a['18e'])a['19e'].Enabled=false a['19e'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['19f']=Instance.new('UIGradient',a['18e'])a['19f'].Enabled=false a['19f'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1a0']=Instance.new('UIGradient',a['18e'])a['1a0'].Enabled=false a['1a0'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1a1']=Instance.new('Folder',a['126'])a['1a1'].Name='DropdownList'a['1a2']=Instance.new('ScrollingFrame',a['1a1'])a['1a2'].Visible=false a['1a2'].Active=true a['1a2'].ScrollingDirection=Enum.ScrollingDirection.Y a['1a2'].BorderSizePixel=0 a['1a2'].CanvasSize=UDim2.new(0,0,0,0)a['1a2'].ElasticBehavior=Enum.ElasticBehavior.Never a['1a2'].TopImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['1a2'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1a2'].Name='DropdownItems'a['1a2'].Selectable=false a['1a2'].BottomImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['1a2'].AutomaticCanvasSize=Enum.AutomaticSize.Y a['1a2'].Size=UDim2.new(1,0,1,-50)a['1a2'].ScrollBarImageColor3=Color3.fromRGB(99,106,122)a['1a2'].Position=UDim2.new(0,0,0,50)a['1a2'].BorderColor3=Color3.fromRGB(0,0,0)a['1a2'].ScrollBarThickness=5 a['1a2'].BackgroundTransparency=1 a['1a3']=Instance.new('UIListLayout',a['1a2'])a['1a3'].Padding=UDim.new(0,15)a['1a3'].SortOrder=Enum.SortOrder.LayoutOrder a['1a4']=Instance.new('UIPadding',a['1a2'])a['1a4'].PaddingTop=UDim.new(0,2)a['1a4'].PaddingRight=UDim.new(0,10)a['1a4'].PaddingLeft=UDim.new(0,10)a['1a4'].PaddingBottom=UDim.new(0,10)a['1a5']=Instance.new('ScrollingFrame',a['1a1'])a['1a5'].Visible=false a['1a5'].Active=true a['1a5'].ScrollingDirection=Enum.ScrollingDirection.Y a['1a5'].BorderSizePixel=0 a['1a5'].CanvasSize=UDim2.new(0,0,0,0)a['1a5'].ElasticBehavior=Enum.ElasticBehavior.Never a['1a5'].TopImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['1a5'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1a5'].Name='DropdownItemsSearch'a['1a5'].Selectable=false a['1a5'].BottomImage='rbxasset://textures/ui/Scroll/scroll-middle.png'a['1a5'].AutomaticCanvasSize=Enum.AutomaticSize.Y a['1a5'].Size=UDim2.new(1,0,1,-50)a['1a5'].ScrollBarImageColor3=Color3.fromRGB(99,106,122)a['1a5'].Position=UDim2.new(0,0,0,50)a['1a5'].BorderColor3=Color3.fromRGB(0,0,0)a['1a5'].ScrollBarThickness=5 a['1a5'].BackgroundTransparency=1 a['1a6']=Instance.new('UIListLayout',a['1a5'])a['1a6'].Padding=UDim.new(0,15)a['1a6'].SortOrder=Enum.SortOrder.LayoutOrder a['1a7']=Instance.new('UIPadding',a['1a5'])a['1a7'].PaddingTop=UDim.new(0,2)a['1a7'].PaddingRight=UDim.new(0,10)a['1a7'].PaddingLeft=UDim.new(0,10)a['1a7'].PaddingBottom=UDim.new(0,10)a['1a8']=Instance.new('ImageButton',a['126'])a['1a8'].BorderSizePixel=0 a['1a8'].AutoButtonColor=false a['1a8'].Visible=false a['1a8'].BackgroundColor3=Color3.fromRGB(43,46,53)a['1a8'].Selectable=false a['1a8'].AutomaticSize=Enum.AutomaticSize.Y a['1a8'].Size=UDim2.new(1,0,0,35)a['1a8'].BorderColor3=Color3.fromRGB(0,0,0)a['1a8'].Name='DropdownButton'a['1a8'].Position=UDim2.new(0,0,0.384,0)a['1a9']=Instance.new('UICorner',a['1a8'])a['1a9'].CornerRadius=UDim.new(0,6)a['1aa']=Instance.new('Frame',a['1a8'])a['1aa'].BorderSizePixel=0 a['1aa'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1aa'].AutomaticSize=Enum.AutomaticSize.Y a['1aa'].Size=UDim2.new(1,0,0,35)a['1aa'].BorderColor3=Color3.fromRGB(0,0,0)a['1aa'].BackgroundTransparency=1 a['1ab']=Instance.new('UIListLayout',a['1aa'])a['1ab'].Padding=UDim.new(0,5)a['1ab'].SortOrder=Enum.SortOrder.LayoutOrder a['1ac']=Instance.new('UIPadding',a['1aa'])a['1ac'].PaddingTop=UDim.new(0,10)a['1ac'].PaddingRight=UDim.new(0,10)a['1ac'].PaddingLeft=UDim.new(0,10)a['1ac'].PaddingBottom=UDim.new(0,10)a['1ad']=Instance.new('TextLabel',a['1aa'])a['1ad'].TextWrapped=true a['1ad'].Interactable=false a['1ad'].BorderSizePixel=0 a['1ad'].TextSize=16 a['1ad'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1ad'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['1ad'].TextColor3=Color3.fromRGB(197,204,219)a['1ad'].BackgroundTransparency=1 a['1ad'].Size=UDim2.new(1,0,0,15)a['1ad'].BorderColor3=Color3.fromRGB(0,0,0)a['1ad'].Text='Button'a['1ad'].Name='Title'a['1ae']=Instance.new('TextLabel',a['1aa'])a['1ae'].TextWrapped=true a['1ae'].Interactable=false a['1ae'].BorderSizePixel=0 a['1ae'].TextSize=16 a['1ae'].TextXAlignment=Enum.TextXAlignment.Left a['1ae'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1ae'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['1ae'].TextColor3=Color3.fromRGB(197,204,219)a['1ae'].BackgroundTransparency=1 a['1ae'].Size=UDim2.new(1,0,0,15)a['1ae'].Visible=false a['1ae'].BorderColor3=Color3.fromRGB(0,0,0)a['1ae'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['1ae'].LayoutOrder=1 a['1ae'].AutomaticSize=Enum.AutomaticSize.Y a['1ae'].Name='Description'a['1af']=Instance.new('UIGradient',a['1aa'])a['1af'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1b0']=Instance.new('UIGradient',a['1aa'])a['1b0'].Enabled=false a['1b0'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1b1']=Instance.new('UIGradient',a['1aa'])a['1b1'].Enabled=false a['1b1'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1b2']=Instance.new('UICorner',a['1aa'])a['1b2'].CornerRadius=UDim.new(0,6)a['1b3']=Instance.new('UIStroke',a['1a8'])a['1b3'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['1b3'].Thickness=1.5 a['1b3'].Color=Color3.fromRGB(61,61,75)a['1b4']=Instance.new('Frame',a['126'])a['1b4'].Visible=false a['1b4'].BorderSizePixel=0 a['1b4'].BackgroundColor3=Color3.fromRGB(43,46,53)a['1b4'].AutomaticSize=Enum.AutomaticSize.Y a['1b4'].Size=UDim2.new(1,0,0,35)a['1b4'].Position=UDim2.new(-3.75E-2,0,0.38434,0)a['1b4'].BorderColor3=Color3.fromRGB(0,0,0)a['1b4'].Name='Code'a['1b5']=Instance.new('UICorner',a['1b4'])a['1b5'].CornerRadius=UDim.new(0,6)a['1b6']=Instance.new('UIStroke',a['1b4'])a['1b6'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['1b6'].Thickness=1.5 a['1b6'].Color=Color3.fromRGB(61,61,75)a['1b7']=Instance.new('TextLabel',a['1b4'])a['1b7'].TextWrapped=true a['1b7'].Interactable=false a['1b7'].BorderSizePixel=0 a['1b7'].TextSize=16 a['1b7'].TextXAlignment=Enum.TextXAlignment.Left a['1b7'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1b7'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Bold,Enum.FontStyle.Normal)a['1b7'].TextColor3=Color3.fromRGB(197,204,219)a['1b7'].BackgroundTransparency=1 a['1b7'].Size=UDim2.new(1,0,0,15)a['1b7'].BorderColor3=Color3.fromRGB(0,0,0)a['1b7'].Text='Title'a['1b7'].AutomaticSize=Enum.AutomaticSize.Y a['1b7'].Name='Title'a['1b8']=Instance.new('UIPadding',a['1b4'])a['1b8'].PaddingTop=UDim.new(0,10)a['1b8'].PaddingRight=UDim.new(0,10)a['1b8'].PaddingLeft=UDim.new(0,10)a['1b8'].PaddingBottom=UDim.new(0,10)a['1b9']=Instance.new('UIListLayout',a['1b4'])a['1b9'].Padding=UDim.new(0,5)a['1b9'].SortOrder=Enum.SortOrder.LayoutOrder a['1ba']=Instance.new('TextBox',a['1b4'])a['1ba'].Name='Code'a['1ba'].TextXAlignment=Enum.TextXAlignment.Left a['1ba'].BorderSizePixel=0 a['1ba'].TextEditable=false a['1ba'].TextWrapped=true a['1ba'].TextSize=16 a['1ba'].TextColor3=Color3.fromRGB(197,204,219)a['1ba'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1ba'].FontFace=Font.new('rbxasset://fonts/families/Inconsolata.json',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['1ba'].AutomaticSize=Enum.AutomaticSize.Y a['1ba'].Selectable=false a['1ba'].MultiLine=true a['1ba'].ClearTextOnFocus=false a['1ba'].Size=UDim2.new(1,0,0,15)a['1ba'].BorderColor3=Color3.fromRGB(0,0,0)a['1ba'].Text='print("Hello World!")'a['1ba'].LayoutOrder=1 a['1ba'].BackgroundTransparency=1 a['1bb']=Instance.new('Frame',a['126'])a['1bb'].Visible=false a['1bb'].BorderSizePixel=0 a['1bb'].BackgroundColor3=Color3.fromRGB(43,46,53)a['1bb'].AutomaticSize=Enum.AutomaticSize.Y a['1bb'].Size=UDim2.new(1,0,0,35)a['1bb'].Position=UDim2.new(0,0,0.43728,0)a['1bb'].BorderColor3=Color3.fromRGB(0,0,0)a['1bb'].Name='Section'a['1bb'].BackgroundTransparency=1 a['1bc']=Instance.new('ImageButton',a['1bb'])a['1bc'].BorderSizePixel=0 a['1bc'].AutoButtonColor=false a['1bc'].BackgroundColor3=Color3.fromRGB(43,46,53)a['1bc'].Selectable=false a['1bc'].AutomaticSize=Enum.AutomaticSize.Y a['1bc'].Size=UDim2.new(1,0,0,35)a['1bc'].BorderColor3=Color3.fromRGB(0,0,0)a['1bc'].Name='Button'a['1bd']=Instance.new('UICorner',a['1bc'])a['1bd'].CornerRadius=UDim.new(0,6)a['1be']=Instance.new('UIStroke',a['1bc'])a['1be'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['1be'].Thickness=1.5 a['1be'].Color=Color3.fromRGB(61,61,75)a['1bf']=Instance.new('TextLabel',a['1bc'])a['1bf'].TextWrapped=true a['1bf'].Interactable=false a['1bf'].BorderSizePixel=0 a['1bf'].TextSize=16 a['1bf'].TextXAlignment=Enum.TextXAlignment.Left a['1bf'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1bf'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['1bf'].TextColor3=Color3.fromRGB(197,204,219)a['1bf'].BackgroundTransparency=1 a['1bf'].Size=UDim2.new(1,0,0,15)a['1bf'].BorderColor3=Color3.fromRGB(0,0,0)a['1bf'].Text='Section'a['1bf'].Name='Title'a['1c0']=Instance.new('ImageButton',a['1bf'])a['1c0'].BorderSizePixel=0 a['1c0'].AutoButtonColor=false a['1c0'].BackgroundTransparency=1 a['1c0'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1c0'].ImageColor3=Color3.fromRGB(197,204,219)a['1c0'].AnchorPoint=Vector2.new(1,0.5)a['1c0'].Image='rbxassetid://120292618616139'a['1c0'].Size=UDim2.new(0,23,0,23)a['1c0'].BorderColor3=Color3.fromRGB(0,0,0)a['1c0'].Name='Arrow'a['1c0'].Position=UDim2.new(1,0,0.5,0)a['1c1']=Instance.new('UIPadding',a['1bc'])a['1c1'].PaddingTop=UDim.new(0,10)a['1c1'].PaddingRight=UDim.new(0,10)a['1c1'].PaddingLeft=UDim.new(0,10)a['1c1'].PaddingBottom=UDim.new(0,10)a['1c2']=Instance.new('UIListLayout',a['1bc'])a['1c2'].Padding=UDim.new(0,5)a['1c2'].SortOrder=Enum.SortOrder.LayoutOrder a['1c3']=Instance.new('TextLabel',a['1bc'])a['1c3'].TextWrapped=true a['1c3'].Interactable=false a['1c3'].BorderSizePixel=0 a['1c3'].TextSize=16 a['1c3'].TextXAlignment=Enum.TextXAlignment.Left a['1c3'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1c3'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.Medium,Enum.FontStyle.Normal)a['1c3'].TextColor3=Color3.fromRGB(197,204,219)a['1c3'].BackgroundTransparency=1 a['1c3'].Size=UDim2.new(1,0,0,15)a['1c3'].Visible=false a['1c3'].BorderColor3=Color3.fromRGB(0,0,0)a['1c3'].Text=[[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]]a['1c3'].LayoutOrder=1 a['1c3'].AutomaticSize=Enum.AutomaticSize.Y a['1c3'].Name='Description'a['1c4']=Instance.new('UIGradient',a['1bc'])a['1c4'].Enabled=false a['1c4'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1c5']=Instance.new('UIGradient',a['1bc'])a['1c5'].Enabled=false a['1c5'].Transparency=NumberSequence.new{NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(1,1)}a['1c5'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1c6']=Instance.new('UIGradient',a['1bc'])a['1c6'].Enabled=false a['1c6'].Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.16,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(0.32,Color3.fromRGB(0,158,255)),ColorSequenceKeypoint.new(0.54,Color3.fromRGB(0,5,255)),ColorSequenceKeypoint.new(0.782,Color3.fromRGB(0,235,255)),ColorSequenceKeypoint.new(1,Color3.fromRGB(0,158,255))}a['1c7']=Instance.new('UIStroke',a['1bc'])a['1c7'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['1c7'].Thickness=1.5 a['1c7'].Color=Color3.fromRGB(61,61,75)a['1c8']=Instance.new('Frame',a['1bb'])a['1c8'].Visible=false a['1c8'].BorderSizePixel=0 a['1c8'].BackgroundColor3=Color3.fromRGB(207,222,255)a['1c8'].AutomaticSize=Enum.AutomaticSize.Y a['1c8'].Size=UDim2.new(1,0,0,30)a['1c8'].Position=UDim2.new(0,0,0,35)a['1c8'].BorderColor3=Color3.fromRGB(0,0,0)a['1c8'].BackgroundTransparency=1 a['1c9']=Instance.new('UIListLayout',a['1c8'])a['1c9'].HorizontalAlignment=Enum.HorizontalAlignment.Center a['1c9'].Padding=UDim.new(0,10)a['1c9'].SortOrder=Enum.SortOrder.LayoutOrder a['1ca']=Instance.new('UIPadding',a['1c8'])a['1ca'].PaddingTop=UDim.new(0,10)a['1ca'].PaddingRight=UDim.new(0,8)a['1ca'].PaddingLeft=UDim.new(0,8)a['1cb']=Instance.new('Frame',a['1c8'])a['1cb'].BorderSizePixel=0 a['1cb'].BackgroundColor3=Color3.fromRGB(61,61,75)a['1cb'].Size=UDim2.new(1,0,0,3)a['1cb'].BorderColor3=Color3.fromRGB(61,61,75)a['1cb'].Name='Divider'a['1cc']=Instance.new('Frame',a['1'])a['1cc'].BorderSizePixel=0 a['1cc'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1cc'].AnchorPoint=Vector2.new(0.5,0)a['1cc'].Size=UDim2.new(0,630,1,0)a['1cc'].Position=UDim2.new(1,0,0,0)a['1cc'].BorderColor3=Color3.fromRGB(0,0,0)a['1cc'].Name='NotificationList'a['1cc'].BackgroundTransparency=1 a['1cd']=Instance.new('UIListLayout',a['1cc'])a['1cd'].Padding=UDim.new(0,12)a['1cd'].SortOrder=Enum.SortOrder.LayoutOrder a['1ce']=Instance.new('UIPadding',a['1cc'])a['1ce'].PaddingTop=UDim.new(0,10)a['1ce'].PaddingRight=UDim.new(0,40)a['1ce'].PaddingLeft=UDim.new(0,40)a['1cf']=Instance.new('Frame',a['1'])a['1cf'].Visible=false a['1cf'].ZIndex=0 a['1cf'].BorderSizePixel=2 a['1cf'].BackgroundColor3=Color3.fromRGB(37,40,47)a['1cf'].AnchorPoint=Vector2.new(0.5,0.5)a['1cf'].ClipsDescendants=true a['1cf'].AutomaticSize=Enum.AutomaticSize.X a['1cf'].Size=UDim2.new(0,85,0,45)a['1cf'].Position=UDim2.new(0.5,0,0,45)a['1cf'].BorderColor3=Color3.fromRGB(61,61,75)a['1cf'].Name='FloatIcon'a['1d0']=Instance.new('UICorner',a['1cf'])a['1d0'].CornerRadius=UDim.new(0,10)a['1d1']=Instance.new('UIStroke',a['1cf'])a['1d1'].Transparency=0.5 a['1d1'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border a['1d1'].Thickness=1.5 a['1d1'].Color=Color3.fromRGB(95,95,117)a['1d2']=Instance.new('UIPadding',a['1cf'])a['1d2'].PaddingTop=UDim.new(0,8)a['1d2'].PaddingRight=UDim.new(0,10)a['1d2'].PaddingLeft=UDim.new(0,10)a['1d2'].PaddingBottom=UDim.new(0,8)a['1d3']=Instance.new('UIListLayout',a['1cf'])a['1d3'].Padding=UDim.new(0,8)a['1d3'].VerticalAlignment=Enum.VerticalAlignment.Center a['1d3'].SortOrder=Enum.SortOrder.LayoutOrder a['1d3'].FillDirection=Enum.FillDirection.Horizontal a['1d4']=Instance.new('ImageButton',a['1cf'])a['1d4'].Active=false a['1d4'].Interactable=false a['1d4'].BorderSizePixel=0 a['1d4'].AutoButtonColor=false a['1d4'].BackgroundTransparency=1 a['1d4'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1d4'].AnchorPoint=Vector2.new(0,0.5)a['1d4'].Image='rbxassetid://113216930555884'a['1d4'].Size=UDim2.new(1,0,1,0)a['1d4'].BorderColor3=Color3.fromRGB(0,0,0)a['1d4'].Name='Icon'a['1d4'].Position=UDim2.new(0,10,0.5,0)a['1d5']=Instance.new('UIAspectRatioConstraint',a['1d4'])a['1d6']=Instance.new('TextLabel',a['1cf'])a['1d6'].Interactable=false a['1d6'].BorderSizePixel=0 a['1d6'].TextSize=16 a['1d6'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1d6'].FontFace=Font.new('rbxassetid://11702779517',Enum.FontWeight.SemiBold,Enum.FontStyle.Normal)a['1d6'].TextColor3=Color3.fromRGB(197,204,219)a['1d6'].BackgroundTransparency=1 a['1d6'].AnchorPoint=Vector2.new(0.5,0.5)a['1d6'].Size=UDim2.new(0,20,0,20)a['1d6'].BorderColor3=Color3.fromRGB(0,0,0)a['1d6'].Text='NataX'a['1d6'].AutomaticSize=Enum.AutomaticSize.X a['1d6'].Position=UDim2.new(0.38615,0,0.53448,-1)a['1d7']=Instance.new('ImageButton',a['1cf'])a['1d7'].BorderSizePixel=0 a['1d7'].AutoButtonColor=false a['1d7'].BackgroundTransparency=1 a['1d7'].BackgroundColor3=Color3.fromRGB(255,255,255)a['1d7'].ImageColor3=Color3.fromRGB(197,204,219)a['1d7'].Selectable=false a['1d7'].AnchorPoint=Vector2.new(0,0.5)a['1d7'].Image='rbxassetid://122219713887461'a['1d7'].Size=UDim2.new(0,20,0,20)a['1d7'].BorderColor3=Color3.fromRGB(0,0,0)a['1d7'].Name='Open'a['1d7'].Position=UDim2.new(0,128,0.5,0)a['1d8']=Instance.new('UIAspectRatioConstraint',a['1d7'])a['1d9']=Instance.new('UICorner',a['1d7'])local c=require local d={}local function require(e:ModuleScript)local f=d[e]if f then if not f.Required then f.Required=true f.Value=f.Closure()end return f.Value end return c(e)end d[a['123'] ]={Closure=function()local e=a['123']local f={}local g=pcall(protect_gui)or pcall(gethui)or pcall(game.CoreGui)or game.Players.LocalPlayer.PlayerGui local h=require(e.IconModule)local i=e.Parent local j=e.Parent.Templates local k=e.Parent.Window local l=e.Parent.FloatIcon j.Parent=nil i.Parent=g k.Parent=nil l.Parent=nil local m={Global={Duration=0.25,EasingStyle=Enum.EasingStyle.Quart,EasingDirection=Enum.EasingDirection.Out},Notification={Duration=0.5,EasingStyle=Enum.EasingStyle.Back,EasingDirection=Enum.EasingDirection.Out},PopupOpen={Duration=0.4,EasingStyle=Enum.EasingStyle.Back,EasingDirection=Enum.EasingDirection.Out},PopupClose={Duration=0.4,EasingStyle=Enum.EasingStyle.Back,EasingDirection=Enum.EasingDirection.In}}local function Tween(n,o,p)local q=TweenInfo.new(p.Duration,p.EasingStyle or Enum.EasingStyle.Linear,p.EasingDirection or Enum.EasingDirection.Out)local r=game:GetService'TweenService':Create(n,q,o)r:Play()return r end local function Draggable(n,o)local p={}local q=game:GetService'TweenService'local r local s local t local u local v=true local function Update(w)local x=w.Position-t local y=UDim2.new(u.X.Scale,u.X.Offset+x.X,u.Y.Scale,u.Y.Offset+x.Y)q:Create(o,TweenInfo.new(0.2,Enum.EasingStyle.Quart),{Position=y}):Play()end n.InputBegan:Connect(function(w)if v and w.UserInputType==Enum.UserInputType.MouseButton1 or w.UserInputType==Enum.UserInputType.Touch then r=true t=w.Position u=o.Position w.Changed:Connect(function()if w.UserInputState==Enum.UserInputState.End then r=false end end)end end)n.InputChanged:Connect(function(w)if v and w.UserInputType==Enum.UserInputType.MouseMovement or w.UserInputType==Enum.UserInputType.Touch then s=w end end)game:GetService'UserInputService'.InputChanged:Connect(function(w)if v and w==s and r then Update(w)end end)function p.SetAllowDragging(w,x)v=x end return p end local n={}function f.CreateWindow(o,p)local q={Title=p.Title,Icon=p.Icon,Version=p.Author,Folder=p.Folder,Size=p.Size,LiveSearchDropdown=p.LiveSearchDropdown or false}local r=Instance.new'Folder'r.Parent=i i.Name=q.Title local s=l:Clone()s.Parent=r s.TextLabel.Text=q.Title s.Visible=false if not q.Icon:find'rbxassetid'then s.Icon.Image=h.Icon(q.Icon)[1]or q.Icon or''s.Icon.ImageRectOffset=h.Icon(q.Icon)[2].ImageRectPosition or Vector2.new(0,0)s.Icon.ImageRectSize=h.Icon(q.Icon)[2].ImageRectSize or Vector2.new(0,0)else s.Icon.Image=q.Icon end local t=k:Clone()local u=t local v=u.TopFrame local w=u.TabButtons local x=u.Tabs t.Name=q.Title v.TextLabel.Text=q.Title..' - '..q.Version if not q.Icon:find'rbxassetid'then v.Icon.Image=h.Icon(q.Icon)[1]or q.Icon or''v.Icon.ImageRectOffset=h.Icon(q.Icon)[2].ImageRectPosition or Vector2.new(0,0)v.Icon.ImageRectSize=h.Icon(q.Icon)[2].ImageRectSize or Vector2.new(0,0)else v.Icon.Image=q.Icon end t.Size=q.Size t.Visible=false t.Parent=r table.insert(n,t)local y local z={}local A={}local function AddTabToList(B:string,C:ScrollingFrame,D:GuiButton,E:boolean)local F={Name=B,TabObject=C,TabButton=D,HasIcon=E}z[B]=F table.insert(A,z[B])end local B local C=false local function DropdownPopup(D,E)if E and C==false then B=E for F,G in t.DropdownSelection.Dropdowns:GetChildren()do if G:IsA'Folder'then G:FindFirstChild'DropdownItems'.Visible=false G:FindFirstChild'DropdownItemsSearch'.Visible=false end end t.DropdownSelection.TopBar.Title.Text=E t.DropdownSelection.Dropdowns:FindFirstChild(E):FindFirstChild'DropdownItems'.Visible=true t.DropdownSelection.Dropdowns:FindFirstChild(E):FindFirstChild'DropdownItemsSearch'.Visible=false end if D==true then t.DropdownSelection.Size=UDim2.new(0,0,0,0)t.DarkOverlay.BackgroundTransparency=1 t.DropdownSelection.Visible=true t.DarkOverlay.Visible=true Tween(t.DropdownSelection,{Size=UDim2.new(0.728,0,0.684,0)},m.PopupOpen)Tween(t.DarkOverlay,{BackgroundTransparency=0.6},m.PopupOpen)C=D elseif D==false then Tween(t.DropdownSelection,{Size=UDim2.new(0,0,0,0)},m.PopupClose)local F=Tween(t.DarkOverlay,{BackgroundTransparency=1},m.PopupClose)F.Completed:Wait()t.DropdownSelection.Visible=false t.DarkOverlay.Visible=false C=D else if C then Tween(t.DropdownSelection,{Size=UDim2.new(0,0,0,0)},m.PopupClose)local F=Tween(t.DarkOverlay,{BackgroundTransparency=1},m.PopupClose)F.Completed:Wait()t.DropdownSelection.Visible=false t.DarkOverlay.Visible=false C=false else t.DropdownSelection.Size=UDim2.new(0,0,0,0)t.DarkOverlay.BackgroundTransparency=1 t.DropdownSelection.Visible=true t.DarkOverlay.Visible=true Tween(t.DropdownSelection,{Size=UDim2.new(0.728,0,0.684,0)},m.PopupOpen)Tween(t.DarkOverlay,{BackgroundTransparency=0.6},m.PopupOpen)C=true end end end local function SelectTab(D)for E,F in pairs(z)do if E~=D then F.TabObject.Visible=false Tween(F.TabButton.TextLabel,{Position=UDim2.new(0,42,0.5,0),Size=UDim2.new(0,103,0,16),TextTransparency=0.5},m.Global)Tween(F.TabButton.ImageButton,{Position=UDim2.new(0,12,0,18),ImageTransparency=0.5},m.Global)Tween(F.TabButton.Bar,{Size=UDim2.new(0,5,0,0),BackgroundTransparency=1},m.Global)elseif E==D then y=D F.TabObject.Visible=true Tween(F.TabButton.TextLabel,{Position=UDim2.new(0,57,0.5,0),Size=UDim2.new(0,88,0,16),TextTransparency=0},m.Global)Tween(F.TabButton.ImageButton,{Position=UDim2.new(0,25,0,18),ImageTransparency=0},m.Global)Tween(F.TabButton.Bar,{Size=UDim2.new(0,5,0,25),BackgroundTransparency=0},m.Global)local G=0 for H,I in ipairs(F.TabObject:GetChildren())do if I:IsA'GuiObject'then G=G+1 end end if G==0 then x.NoObjectFoundText.Visible=true else x.NoObjectFoundText.Visible=false end end end end t.DropdownSelection.TopBar.Close.MouseButton1Click:Connect(function()DropdownPopup(false)end)local D=t.DropdownSelection.TopBar.BoxFrame.Frame.TextBox D:GetPropertyChangedSignal'Text':Connect(function()if not q.LiveSearchDropdown then return end local E=t.DropdownSelection.Dropdowns:FindFirstChild(B)if string.gsub(D.Text,' ','')~=''then if not E then return end E:FindFirstChild'DropdownItems'.Visible=false E:FindFirstChild'DropdownItemsSearch'.Visible=true for F,G in E:FindFirstChild'DropdownItemsSearch':GetChildren()do if G:IsA'GuiButton'then if string.find(G.Name:lower(),D.Text:lower())then G.Visible=true else G.Visible=false end end end else E:FindFirstChild'DropdownItems'.Visible=true E:FindFirstChild'DropdownItemsSearch'.Visible=false end end)D.FocusLost:Connect(function()if q.LiveSearchDropdown then return end local E=t.DropdownSelection.Dropdowns:FindFirstChild(B)if string.gsub(D.Text,' ','')~=''then if not E then return end E:FindFirstChild'DropdownItems'.Visible=false E:FindFirstChild'DropdownItemsSearch'.Visible=true for F,G in E:FindFirstChild'DropdownItemsSearch':GetChildren()do if G:IsA'GuiButton'then if string.find(G.Name:lower(),D.Text:lower())then G.Visible=true else G.Visible=false end end end else E:FindFirstChild'DropdownItems'.Visible=true E:FindFirstChild'DropdownItemsSearch'.Visible=false end end)local E=s.Size local F=q.Size local G=q.Size local H=t.Position local I=false local J=Draggable(t.TopFrame,t)Draggable(s,s)t.Visible=true t.Size=UDim2.fromOffset(0,0)t.TopFrame.Hide.MouseButton1Click:Connect(function()F=t.Size s.Size=UDim2.fromOffset(0,0)s.Visible=true Tween(s,{Size=E},m.Global)Tween(t,{Size=UDim2.fromOffset(0,0)},m.Global).Completed:Wait()t.Visible=false end)s.Open.MouseButton1Click:Connect(function()l=s.Size t.Size=UDim2.fromOffset(0,0)t.Visible=true Tween(s,{Size=UDim2.new(0,0,0,0)},m.Global)Tween(t,{Size=F},m.Global).Completed:Wait()s.Visible=false end)t.TopFrame.Close.MouseButton1Click:Connect(function()r.Parent=nil end)t.TopFrame.Maximize.MouseButton1Click:Connect(function()if not I then J:SetAllowDragging(false)G=t.Size H=t.Position Tween(t,{Size=UDim2.new(1,0,1,0)},m.Global)Tween(t,{Position=UDim2.new(0.5,0,0.5,0)},m.Global)Tween(t.UICorner,{CornerRadius=UDim.new(0,0)},m.Global)I=true else J:SetAllowDragging(true)Tween(t,{Size=G},m.Global)Tween(t,{Position=H},m.Global)Tween(t.UICorner,{CornerRadius=UDim.new(0,10)},m.Global)I=false end end)Tween(t,{Size=F},m.Global)function q.Tab(K,L)local M={}local N={Title=L.Title,Icon=L.Icon,Callback=L.Callback or function()end}local O=j.TabButton:Clone()O.Name=N.Title O.Parent=t.TabButtons.Lists O.Visible=true O.TextLabel.Text=N.Title O.ImageButton.Image=(h.Icon(N.Icon)and h.Icon(N.Icon)[1])or N.Icon or''O.ImageButton.ImageRectOffset=(h.Icon(N.Icon)and h.Icon(N.Icon)[2].ImageRectPosition)or Vector2.new(0,0)O.ImageButton.ImageRectSize=(h.Icon(N.Icon)and h.Icon(N.Icon)[2].ImageRectSize)or Vector2.new(0,0)local P=j.Tab:Clone()P.Name=N.Title P.Parent=t.Tabs P.Visible=false AddTabToList(L.Title,P,O)if y==N.Title then P.Visible=true O.TextLabel.Position=UDim2.new(0,57,0.5,0)O.TextLabel.Size=UDim2.new(0,88,0,16)O.TextLabel.TextTransparency=0 O.ImageButton.Position=UDim2.new(0,25,0,18)O.ImageButton.ImageTransparency=0 O.Bar.Size=UDim2.new(0,5,0,25)O.Bar.BackgroundTransparency=0 else O.TextLabel.Position=UDim2.new(0,42,0.5,0)O.TextLabel.Size=UDim2.new(0,103,0,16)O.TextLabel.TextTransparency=0.5 O.ImageButton.Position=UDim2.new(0,12,0,18)O.ImageButton.ImageTransparency=0.5 O.Bar.Size=UDim2.new(0,5,0,0)O.Bar.BackgroundTransparency=1 end O.MouseButton1Click:Connect(function()SelectTab(N.Title)end)local function GetCurrentElementObjects()local Q={}for R,S in pairs(P:GetChildren())do if S:IsA'GuiObject'then table.insert(Q,S)end end return Q end local Q=P function M.Section(R,S)local T={Title=S.Title,State=S.Default or false,TextXAlignment=S.TextXAlignment or'Left'}local U=j.Section:Clone()U.Name=T.Title U.Button.Title.Text=T.Title U.Button.Title.TextXAlignment=Enum.TextXAlignment[T.TextXAlignment]U.Visible=true U.Parent=P U.Button.MouseButton1Click:Connect(function()if T.State==true then U.Frame.Visible=false Tween(U.Button.Title.Arrow,{Rotation=0},m.Global)T.State=false elseif T.State==false then U.Frame.Visible=true Tween(U.Button.Title.Arrow,{Rotation=90},m.Global)T.State=true end end)function T.SetTitle(V,W)T.Title=W U.Button.Title.Text=W end function T.Destroy(V)Q:Destroy()end Q=U.Frame return T end function M.Button(R,S)local T={}local U={Title=S.Title,Desc=S.Desc,Locked=S.Locked or false,Callback=S.Callback or function()end}local V=j.Button:Clone()V.Name=U.Title V.Parent=Q V.Frame.Title.Text=U.Title if U.Desc and U.Desc~=''then V.Frame.Description.Visible=true V.Frame.Description.Text=U.Desc end if U.Locked then V.UIStroke.Color=Color3.fromRGB(47,47,58)V.BackgroundColor3=Color3.fromRGB(32,35,40)V.Frame.Title.TextColor3=Color3.fromRGB(75,77,83)V.Frame.Title.ClickIcon.ImageColor3=Color3.fromRGB(75,77,83)V.Frame.Description.TextColor3=Color3.fromRGB(75,77,83)end V.Visible=true local function GetRandomGradient()local W={}for X,Y in ipairs(V.Frame:GetChildren())do if Y:IsA'UIGradient'then Y.Enabled=false table.insert(W,Y)end end local X=W[math.random(1,#W)]X.Enabled=true return X end GetRandomGradient()V.MouseEnter:Connect(function()if not U.Locked then Tween(V.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)end end)V.MouseLeave:Connect(function()if not U.Locked then Tween(V.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)V.BackgroundColor3=Color3.fromRGB(42,45,52)Tween(V.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(V.Frame.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)end end)V.MouseButton1Down:Connect(function()if not U.Locked then GetRandomGradient()Tween(V.Frame.Title,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(V.Frame.Title.ClickIcon,{ImageColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(V.Frame.Description,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(V.Frame,{BackgroundTransparency=0},m.Global)end end)V.MouseButton1Up:Connect(function()if not U.Locked then Tween(V.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(V.Frame.Title.ClickIcon,{ImageColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(V.Frame.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(V.Frame,{BackgroundTransparency=1},m.Global)end end)V.MouseButton1Click:Connect(function()if not U.Locked then U.Callback()end end)P.ChildAdded:Connect(function()if#GetCurrentElementObjects()>0 then x.NoObjectFoundText.Visible=false else x.NoObjectFoundText.Visible=true end end)P.ChildRemoved:Connect(function()if#GetCurrentElementObjects()>0 then x.NoObjectFoundText.Visible=false else x.NoObjectFoundText.Visible=true end end)function T.SetTitle(W,X)V.Frame.Title.Text=X end function T.SetDesc(W,X)if X and X~=''then V.Frame.Description.Text=X end end function T.Lock(W)U.Locked=true Tween(V,{BackgroundColor3=Color3.fromRGB(32,35,40)},m.Global)Tween(V.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(V.Frame.Title,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(V.Frame.Title.ClickIcon,{ImageColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(V.Frame.Description,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)end function T.Unlock(W)U.Locked=false Tween(V,{BackgroundColor3=Color3.fromRGB(42,45,52)},m.Global)Tween(V.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(V.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(V.Frame.Title.ClickIcon,{ImageColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(V.Frame.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)end function T.Destroy(W)V:Destroy()end return T end function M.Code(R,S)local T={Title=S.Title,Code=S.Code}local U=j.Code:Clone()U.Name=T.Title U.Parent=Q U.Title.Text=T.Title U.Code.Text=T.Code U.Code.Visible=true U.Code.Font=Enum.Font.Code U.Visible=true function T.SetTitle(V,W)T.Title=W U.Title.Text=W end function T.SetCode(V,W)T.Code=W U.Code.Text=W end function T.Destroy(V)U:Destroy()end return T end function M.Paragraph(R,S)local T={Title=S.Title,Desc=S.Desc}local U=j.Paragraph:Clone()U.Name=T.Title U.Parent=Q U.Title.Text=T.Title if T.Desc and T.Desc~=''then U.Description.Text=T.Desc U.Description.Visible=true else U.Description.Visible=false end U.Visible=true function T.SetTitle(V,W)T.Title=W U.Title.Text=W end function T.SetDesc(V,W)T.Desc=W U.Description.Text=W if W~=''then U.Visible=true else U.Visible=false end end function T.Destroy(V)U:Destroy()end return T end function M.Colorpicker(R)end function M.Toggle(R,S)local T={Title=S.Title,Desc=S.Desc,State=S.Default or false,Locked=S.Locked or false,Icon=S.Icon,Callback=S.Callback or function()end}local U=j.Toggle:Clone()U.Name=T.Title U.Parent=Q U.Title.Text=T.Title U.Title.Fill.Ball.Icon.Image=(h.Icon(T.Icon)and h.Icon(T.Icon)[1])or T.Icon or''U.Title.Fill.Ball.Icon.ImageRectOffset=(h.Icon(T.Icon)and h.Icon(T.Icon)[2].ImageRectPosition)or Vector2.new(0,0)U.Title.Fill.Ball.Icon.ImageRectSize=(h.Icon(T.Icon)and h.Icon(T.Icon)[2].ImageRectSize)or Vector2.new(0,0)if T.Desc and T.Desc~=''then U.Description.Visible=true U.Description.Text=T.Desc end if T.State==true then U.Title.Fill.Ball.Position=UDim2.new(0.5,0,0.5,0)U.Title.Fill.BackgroundColor3=Color3.fromRGB(192,209,199)U.Title.Fill.Ball.Icon.ImageTransparency=0 else U.Title.Fill.Ball.Position=UDim2.new(0,0,0.5,0)U.Title.Fill.BackgroundColor3=Color3.fromRGB(53,56,62)U.Title.Fill.Ball.Icon.ImageTransparency=1 end if T.Locked then U.UIStroke.Color=Color3.fromRGB(47,47,58)U.BackgroundColor3=Color3.fromRGB(32,35,40)U.Title.TextColor3=Color3.fromRGB(75,77,83)U.Description.TextColor3=Color3.fromRGB(75,77,83)U.Title.Fill.BackgroundTransparency=0.7 U.Title.Fill.Ball.BackgroundTransparency=0.7 end U.Visible=true U.Title.Fill.MouseEnter:Connect(function()if not T.Locked then Tween(U.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)end end)U.Title.Fill.MouseLeave:Connect(function()if not T.Locked then Tween(U.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)U.BackgroundColor3=Color3.fromRGB(42,45,52)Tween(U.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(U.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)end end)local function AnimateSwitch(V)if V==true then Tween(U.Title.Fill.Ball,{Position=UDim2.new(0.5,0,0.5,0)},m.Global)Tween(U.Title.Fill,{BackgroundColor3=Color3.fromRGB(192,209,199)},m.Global)Tween(U.Title.Fill.Ball.Icon,{ImageTransparency=0},m.Global)elseif V==false then Tween(U.Title.Fill.Ball,{Position=UDim2.new(0,0,0.5,0)},m.Global)Tween(U.Title.Fill,{BackgroundColor3=Color3.fromRGB(53,56,62)},m.Global)Tween(U.Title.Fill.Ball.Icon,{ImageTransparency=1},m.Global)end end local function SetState(V)if V then AnimateSwitch(V)else AnimateSwitch(not T.State)end T.State=V or not T.State T.Callback(T.State)end U.Title.Fill.MouseButton1Click:Connect(function()if not T.Locked then SetState()end end)function T.SetTitle(V,W)T.Title=W U.Title.Text=W end function T.SetDesc(V,W)if W and W~=''then T.Desc=W U.Description.Text=W end end function T.Set(V,W)SetState(W)end function T.Lock(V)T.Locked=true Tween(U,{BackgroundColor3=Color3.fromRGB(32,35,40)},m.Global)Tween(U.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(U.Title,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(U.Description,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(U.Title.Fill,{BackgroundTransparency=0.7},m.Global)Tween(U.Title.Fill.Ball,{BackgroundTransparency=0.7},m.Global)end function T.Unlock(V)T.Locked=false Tween(U,{BackgroundColor3=Color3.fromRGB(42,45,52)},m.Global)Tween(U.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(U.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(U.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(U.Title.Fill,{BackgroundTransparency=0},m.Global)Tween(U.Title.Fill.Ball,{BackgroundTransparency=0},m.Global)end function T.Destroy(V)U:Destroy()end T.Callback(T.State)return T end function M.Slider(R,S)local T={Title=S.Title,Desc=S.Desc,Step=S.Step or 1,Value={Min=S.Value.Min or 0,Max=S.Value.Max or nil,Default=nil},Locked=S.Locked,Callback=S.Callback or function()end}T.Value.Default=S.Value.Default or S.Value.Min local U=T.Step j.Slider:Clone()local V=game.Players.LocalPlayer:GetMouse()local W=j.Slider:Clone()W.Parent=Q W.Name=T.Title W.Title.Text=T.Title if T.Desc and T.Desc~=''then W.Description.Visible=true W.Description.Text=T.Desc end W.Visible=true local function GetRandomGradient()local X={}for Y,Z in ipairs(W.SliderFrame.Frame.Slider.Fill.BackgroundGradient:GetChildren())do if Z:IsA'UIGradient'then Z.Enabled=false table.insert(X,Z)end end local Y=X[math.random(1,#X)]Y.Enabled=true return Y end W.SliderFrame.Frame.Slider.Fill.BackgroundGradient.Size=UDim2.new(0,W.SliderFrame.Frame.Slider.AbsoluteSize.X,1,0)W.SliderFrame.Frame.Slider:GetPropertyChangedSignal'AbsoluteSize':Connect(function()W.SliderFrame.Frame.Slider.Fill.BackgroundGradient.Size=UDim2.new(0,W.SliderFrame.Frame.Slider.AbsoluteSize.X,1,0)end)local X W.SliderFrame.Frame.Slider.Fill:GetPropertyChangedSignal'AbsoluteSize':Connect(function()if W.SliderFrame.Frame.Slider.Fill.AbsoluteSize.X<=3 then X=W.SliderFrame.Frame.Slider.Fill.AbsoluteSize.X end if X and W.SliderFrame.Frame.Slider.Fill.AbsoluteSize.X>X then GetRandomGradient()X=nil end end)GetRandomGradient()if T.Locked then W.UIStroke.Color=Color3.fromRGB(47,47,58)W.BackgroundColor3=Color3.fromRGB(32,35,40)W.Title.TextColor3=Color3.fromRGB(75,77,83)W.Description.TextColor3=Color3.fromRGB(75,77,83)W.SliderFrame.Frame.Slider.UIStroke.Color=Color3.fromRGB(47,47,58)W.SliderFrame.Frame.Slider.BackgroundTransparency=0.5 W.SliderFrame.Frame.Slider.Fill.UIStroke.Transparency=0.5 W.SliderFrame.Frame.Slider.Fill.BackgroundGradient.BackgroundTransparency=0.5 W.SliderFrame.Frame.ValueText.TextTransparency=0.6 end local Y=W.SliderFrame.Frame.Slider.Trigger local Z=W.SliderFrame.Frame.ValueText local _=W.SliderFrame.Frame.Slider.Fill local aa=W local ab=T.Value.Default local ac=T.Value.Min local ad=T.Value.Max local ae=U or 1 local af=T.Value.Default local ag local ah=false local ai=false local function convertValueToScale(aj)return(aj-ac)/(ad-ac)*(1)+0 end Z.Text=tostring(ab)or tostring(ac)_.Size=UDim2.fromScale(convertValueToScale(ab),1)local function Slide()ah=true if T.Locked then return end repeat task.wait()ag=math.clamp((V.X-aa.AbsolutePosition.X)/aa.AbsoluteSize.X,0,1)af=ac+(ag*(ad-ac))local aj=math.round(af/ae)*ae af=math.clamp(aj,ac,ad)Tween(_,{Size=UDim2.fromScale(convertValueToScale(af),1)},m.Global)Z.Text=tostring(af)T.Value=af task.spawn(T.Callback,af)until ah==false or T.Locked==true if not ai then Tween(W.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)end end local function Update(aj)if not aj or aj>ad or aj<ac then return end local ak=math.round(aj/ae)*ae af=math.clamp(ak,ac,ad)Tween(_,{Size=UDim2.fromScale(convertValueToScale(aj),1)},m.Global)af=aj Z.Text=tostring(af)T.Value=af task.spawn(T.Callback,af)end Y.MouseEnter:Connect(function()ai=true if not T.Locked then Tween(W.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)end end)Y.MouseLeave:Connect(function()ai=false if not T.Locked and not ah then Tween(W.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)end end)Y.MouseButton1Down:Connect(function()Slide()end)game:GetService'UserInputService'.InputEnded:Connect(function(aj)if aj.UserInputType==Enum.UserInputType.MouseButton1 or aj.UserInputType==Enum.UserInputType.Touch then ah=false end end)function T.SetTitle(aj,ak)T.Title=ak W.Title.Text=ak end function T.SetDesc(aj,ak)if ak and ak~=''then T.Desc=ak W.Description.Text=ak end end function T.Set(aj,ak)Update(ak)end function T.Lock(aj)T.Locked=true Tween(W,{BackgroundColor3=Color3.fromRGB(32,35,40)},m.Global)Tween(W.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(W.Title,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(W.Description,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(W.SliderFrame.Frame.Slider.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(W.SliderFrame.Frame.Slider,{BackgroundTransparency=0.5},m.Global)Tween(W.SliderFrame.Frame.Slider.Fill.UIStroke,{Transparency=0.5},m.Global)Tween(W.SliderFrame.Frame.Slider.Fill.BackgroundGradient,{BackgroundTransparency=0.5},m.Global)Tween(W.SliderFrame.Frame.ValueText,{TextTransparency=0.6},m.Global)end function T.Unlock(aj)T.Locked=false Tween(W,{BackgroundColor3=Color3.fromRGB(42,45,52)},m.Global)Tween(W.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(W.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(W.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(W.SliderFrame.Frame.Slider.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(W.SliderFrame.Frame.Slider,{BackgroundTransparency=0},m.Global)Tween(W.SliderFrame.Frame.Slider.Fill.UIStroke,{Transparency=0},m.Global)Tween(W.SliderFrame.Frame.Slider.Fill.BackgroundGradient,{BackgroundTransparency=0},m.Global)Tween(W.SliderFrame.Frame.ValueText,{TextTransparency=0},m.Global)end function T.Destroy(aj)W:Destroy()end T.Callback(ab)return T end function M.Input(aa,ab)local ac={Title=ab.Title,Desc=ab.Desc,Placeholder=ab.Placeholder or'',Default=ab.Default or ab.Value or'',Text=ab.Default or ab.Value or'',ClearTextOnFocus=ab.ClearTextOnFocus or true,Locked=ab.Locked or false,MultiLine=ab.MultiLine or true,Callback=ab.Callback or function()end}local ad=j.TextBox:Clone()ad.Name=ac.Title ad.Parent=Q ad.Title.Text=ac.Title if ac.Desc and ac.Desc~=''then ad.Description.Text=ac.Desc ad.Description.Visible=true else ad.Description.Visible=false end if ac.Locked then ad.UIStroke.Color=Color3.fromRGB(47,47,58)ad.BackgroundColor3=Color3.fromRGB(32,35,40)ad.Title.TextColor3=Color3.fromRGB(75,77,83)ad.Description.TextColor3=Color3.fromRGB(75,77,83)ad.BoxFrame.Frame.BackgroundColor3=Color3.fromRGB(32,35,40)ad.BoxFrame.Frame.UIStroke.Color=Color3.fromRGB(47,47,58)ad.BoxFrame.Frame.TextBox.TextColor3=Color3.fromRGB(75,77,83)ad.BoxFrame.Frame.TextBox.PlaceholderColor3=Color3.fromRGB(75,77,83)ad.BoxFrame.Frame.TextBox.Active=false ad.BoxFrame.Frame.TextBox.Interactable=false ad.BoxFrame.Frame.TextBox.TextEditable=false end ad.BoxFrame.Frame.TextBox.Text=ac.Default ad.BoxFrame.Frame.TextBox.PlaceholderText=ac.Placeholder ad.BoxFrame.Frame.TextBox.MultiLine=ac.MultiLine ad.BoxFrame.Frame.TextBox.ClearTextOnFocus=ac.ClearTextOnFocus ad.Visible=true ad.BoxFrame.Frame.TextBox.MouseEnter:Connect(function()if not ac.Locked then Tween(ad.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)end end)ad.BoxFrame.Frame.TextBox.MouseLeave:Connect(function()if not ac.Locked then Tween(ad.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)end end)ad.BoxFrame.Frame.TextBox.Focused:Connect(function()if not ac.Locked then Tween(ad.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(ad.BoxFrame.Frame.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)end end)ad.BoxFrame.Frame.TextBox.FocusLost:Connect(function()if not ac.Locked then Tween(ad.BoxFrame.Frame.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)ac.Text=ad.BoxFrame.Frame.TextBox.Text ac.Callback(ac.Text)end end)function ac.Set(ae,af)ad.BoxFrame.Frame.TextBox.Text=af ac.Text=af ac.Callback(af)end function ac.SetTitle(ae,af)ad.Title.Text=af end function ac.SetDesc(ae,af)if af and af~=''then ad.Description.Text=af end end function ac.Lock(ae)ac.Locked=true Tween(ad.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(ad,{BackgroundColor3=Color3.fromRGB(32,35,40)},m.Global)Tween(ad.Title,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(ad.Description,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(ad.BoxFrame.Frame,{BackgroundColor3=Color3.fromRGB(32,35,40)},m.Global)Tween(ad.BoxFrame.Frame.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(ad.BoxFrame.Frame.TextBox,{TextColor3=Color3.fromRGB(75,77,83),PlaceholderColor3=Color3.fromRGB(75,77,83)},m.Global)ad.BoxFrame.Frame.TextBox.Active=false ad.BoxFrame.Frame.TextBox.Interactable=false ad.BoxFrame.Frame.TextBox.TextEditable=false end function ac.Unlock(ae)ac.Locked=false Tween(ad.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(ad,{BackgroundColor3=Color3.fromRGB(42,45,52)},m.Global)Tween(ad.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(ad.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(ad.BoxFrame.Frame,{BackgroundColor3=Color3.fromRGB(42,45,52)},m.Global)Tween(ad.BoxFrame.Frame.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(ad.BoxFrame.Frame.TextBox,{TextColor3=Color3.fromRGB(196,203,218),PlaceholderColor3=Color3.fromRGB(139,139,139)},m.Global)ad.BoxFrame.Frame.TextBox.Active=true ad.BoxFrame.Frame.TextBox.Interactable=true ad.BoxFrame.Frame.TextBox.TextEditable=true end function ac.Destroy(ae)ad:Destroy()end ac.Callback(ac.Text)return ac end local function AddDropdownButton(aa,ab)local ac=j.DropdownButton:Clone()ac.Parent=ab or nil ac.Name=aa ac.Frame.Title.Text=aa local function GetRandomGradient()local ad={}for ae,af in ipairs(ac.Frame:GetChildren())do if af:IsA'UIGradient'then af.Enabled=false table.insert(ad,af)end end local ae=ad[math.random(1,#ad)]ae.Enabled=true return ae end GetRandomGradient()return ac end local function TableToString(aa)return table.concat(aa,', ')end function M.Dropdown(aa,ab)local ac={Title=ab.Title,Desc=ab.Desc,Multi=ab.Multi or false,Values=ab.Values or{},Value=ab.Value,AllowNone=ab.AllowNone or false,Locked=ab.Locked or false,Callback=ab.Callback or function()end}local ad local ae=j.Dropdown:Clone()local af=j.DropdownList:Clone()af.Name=ac.Title af.Parent=t.DropdownSelection.Dropdowns ae.Parent=Q ae.Name=ac.Title ae.Title.Text=ac.Title if ac.Desc and ac.Desc~=''then ae.Description.Visible=true ae.Description.Text=ac.Desc else ae.Description.Visible=false end if ac.Locked then ae.UIStroke.Color=Color3.fromRGB(47,47,58)ae.BackgroundColor3=Color3.fromRGB(32,35,40)ae.Title.TextColor3=Color3.fromRGB(75,77,83)ae.Description.TextColor3=Color3.fromRGB(75,77,83)ae.Title.ClickIcon.ImageColor3=Color3.fromRGB(75,77,83)ae.Title.BoxFrame.Frame.BackgroundColor3=Color3.fromRGB(32,35,40)ae.Title.BoxFrame.Frame.UIStroke.Color=Color3.fromRGB(47,47,58)ae.Title.BoxFrame.Frame.Title.TextColor3=Color3.fromRGB(75,77,83)ae.Active=false ae.Interactable=false end ae.Visible=true local function SelectValue(ag,ah)if not ag then local ai=af.DropdownItems:FindFirstChild(ah)local aj=af.DropdownItemsSearch:FindFirstChild(ah)ad=ah ac.Value=ad ae.Title.BoxFrame.Frame.Title.Text=ad for ak,R in af.DropdownItems:GetChildren()do if R:IsA'GuiButton'and R.Name~=ah then Tween(R.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(R.Frame.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(R.Frame,{BackgroundTransparency=1},m.Global)Tween(R.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)end end for ak,R in af.DropdownItemsSearch:GetChildren()do if R:IsA'GuiButton'and R.Name~=ah then Tween(R.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(R.Frame.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(R.Frame,{BackgroundTransparency=1},m.Global)Tween(R.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)end end Tween(ai.Frame.Title,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(ai.Frame.Description,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(ai.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)Tween(ai.Frame,{BackgroundTransparency=0},m.Global)Tween(aj.Frame.Title,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(aj.Frame.Description,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(aj.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)Tween(aj.Frame,{BackgroundTransparency=0},m.Global)return ad elseif ag then for ai,aj in ah do local ak=af.DropdownItems:FindFirstChild(aj)local R=af.DropdownItemsSearch:FindFirstChild(aj)local S=table.find(ad,aj)if S then if not ac.AllowNone and#ac.Value==1 then return end table.remove(ad,S)Tween(ak.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(ak.Frame.Description,{TextColor3=Color3.fromRGB(196,203,2185)},m.Global)Tween(ak.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(ak.Frame,{BackgroundTransparency=1},m.Global)Tween(R.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(R.Frame.Description,{TextColor3=Color3.fromRGB(196,203,2185)},m.Global)Tween(R.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(R.Frame,{BackgroundTransparency=1},m.Global)else table.insert(ad,aj)Tween(ak.Frame.Title,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(ak.Frame.Description,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(ak.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)Tween(ak.Frame,{BackgroundTransparency=0},m.Global)Tween(R.Frame.Title,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(R.Frame.Description,{TextColor3=Color3.fromRGB(255,255,255)},m.Global)Tween(R.UIStroke,{Color=Color3.fromRGB(10,135,213)},m.Global)Tween(R.Frame,{BackgroundTransparency=0},m.Global)end end ac.Value=ad ae.Title.BoxFrame.Frame.Title.Text=TableToString(ad)return ad end end local function AddButtons(ag,ah)if ah then ac.Values=ag for ai,aj in af.DropdownItems:GetChildren()do if aj:IsA'GuiButton'then aj:Destroy()end end for ai,aj in af.DropdownItemsSearch:GetChildren()do if aj:IsA'GuiButton'then aj:Destroy()end end end if not ac.Multi then if ah then ad=nil ae.Title.BoxFrame.Frame.Title.Text=''end for ai,aj in ag do local ak=AddDropdownButton(aj,af.DropdownItems)local R=AddDropdownButton(aj,af.DropdownItemsSearch)ak.Visible=true R.Visible=true if ad==aj then ak.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)ak.Frame.Description.TextColor3=Color3.fromRGB(255,255,255)ak.UIStroke.Color=Color3.fromRGB(10,135,213)ak.Frame.BackgroundTransparency=0 ak.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)R.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)R.Frame.Description.TextColor3=Color3.fromRGB(255,255,255)R.UIStroke.Color=Color3.fromRGB(10,135,213)R.Frame.BackgroundTransparency=0 R.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)end ak.MouseButton1Click:Connect(function()if not ac.Locked then local S=SelectValue(false,aj)if S then ac.Callback(S)end end end)R.MouseButton1Click:Connect(function()if not ac.Locked then local S=SelectValue(false,aj)if S then ac.Callback(S)end end end)end elseif ac.Multi then if ah then ad={}ae.Title.BoxFrame.Frame.Title.Text=TableToString(ad)end for ai,aj in ag do local ak=AddDropdownButton(aj,af.DropdownItems)local R=AddDropdownButton(aj,af.DropdownItemsSearch)ak.Visible=true R.Visible=true if table.find(ad,aj)then ak.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)ak.Frame.Description.TextColor3=Color3.fromRGB(255,255,255)ak.UIStroke.Color=Color3.fromRGB(10,135,213)ak.Frame.BackgroundTransparency=0 ak.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)R.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)R.Frame.Description.TextColor3=Color3.fromRGB(255,255,255)R.UIStroke.Color=Color3.fromRGB(10,135,213)R.Frame.BackgroundTransparency=0 R.Frame.Title.TextColor3=Color3.fromRGB(255,255,255)end ak.MouseButton1Click:Connect(function()if not ac.Locked then local S=SelectValue(true,{aj})if S then ac.Callback(S)end end end)R.MouseButton1Click:Connect(function()if not ac.Locked then local S=SelectValue(true,{aj})if S then ac.Callback(S)end end end)end end end if not ac.Multi then ad=ac.Value or nil ae.Title.BoxFrame.Frame.Title.Text=ad AddButtons(ac.Values)elseif ac.Multi then ae.Title.ClickIcon.Image='rbxassetid://91415671397056'ad=ac.Value or{}ae.Title.BoxFrame.Frame.Title.Text=TableToString(ad)AddButtons(ac.Values)end ae.Title.BoxFrame.MouseButton1Click:Connect(function()DropdownPopup(nil,ac.Title)end)function ac.SetTitle(ag,ah)ac.Title=ah ae.Title.Text=ah end function ac.SetDesc(ag,ah)if ah and ah~=''then ac.Desc=ah ae.Description.Text=ah end end function ac.Refresh(ag,ah)AddButtons(ah,true)end function ac.Select(ag,ah)ac.Callback(SelectValue(ac.Multi,ah))end function ac.Lock(ag)ac.Locked=true Tween(ae.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(ae,{BackgroundColor3=Color3.fromRGB(32,35,40)},m.Global)Tween(ae.Title,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(ae.Description,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(ae.Title.ClickIcon,{ImageColor3=Color3.fromRGB(75,77,83)},m.Global)Tween(ae.Title.BoxFrame.Frame,{BackgroundColor3=Color3.fromRGB(32,35,40)},m.Global)Tween(ae.Title.BoxFrame.Frame.UIStroke,{Color=Color3.fromRGB(47,47,58)},m.Global)Tween(ae.Title.BoxFrame.Frame.Title,{TextColor3=Color3.fromRGB(75,77,83)},m.Global)ae.Active=false ae.Interactable=false end function ac.Unlock(ag)ac.Locked=false Tween(ae.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(ae,{BackgroundColor3=Color3.fromRGB(42,45,52)},m.Global)Tween(ae.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(ae.Description,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(ae.Title.ClickIcon,{ImageColor3=Color3.fromRGB(196,203,218)},m.Global)Tween(ae.Title.BoxFrame.Frame,{BackgroundColor3=Color3.fromRGB(42,45,52)},m.Global)Tween(ae.Title.BoxFrame.Frame.UIStroke,{Color=Color3.fromRGB(60,60,74)},m.Global)Tween(ae.Title.BoxFrame.Frame.Title,{TextColor3=Color3.fromRGB(196,203,218)},m.Global)ae.Active=true ae.Interactable=true end function ac.Destroy(ag)ae:Destroy()end ac.Callback(ac.Value)return ac end return M end function q.SelectTab(aa,ab)local ac=A[ab]if ac then SelectTab(ac.Name)end end function q.Divider(aa)local ab=j.Divider:Clone()ab.Parent=t.TabButtons.Lists ab.Visible=true end function q.EditOpenButton(aa)end return q end function f.Notify(aa,ab)local ac={}local ad={Title=ab.Title,Content=ab.Content,Icon=ab.Icon,Duration=ab.Duration or 5}local ae=j.Notification:Clone()if#n==1 then ae.Parent=n[1].NotificationList else ae.Parent=i.NotificationList end ae.Items.Frame.Title.Text=ad.Title ae.Items.Frame.Content.Text=ad.Content ae.Items.Frame.Title.Icon.Image=(h.Icon(ad.Icon)and h.Icon(ad.Icon)[1])or ad.Icon or''ae.Items.Frame.Title.Icon.ImageRectOffset=(h.Icon(ad.Icon)and h.Icon(ad.Icon)[2].ImageRectPosition)or Vector2.new(0,0)ae.Items.Frame.Title.Icon.ImageRectSize=(h.Icon(ad.Icon)and h.Icon(ad.Icon)[2].ImageRectSize)or Vector2.new(0,0)ae.Items.Position=UDim2.new(0.75,0,0,0)ae.Visible=true local function Close()if ae then Tween(ae.Items,{Position=UDim2.new(0.75,0,0,0)},m.Notification)task.wait(m.Notification.Duration-(m.Notification.Duration/2))ae:Destroy()ae=nil end end ae.Items.Frame.Title.Close.MouseButton1Click:Connect(Close)local af=Tween(ae.Items,{Position=UDim2.new(0,0,0,0)},m.Notification)af.Completed:Connect(function()Tween(ae.Items.TimerBarFill.Bar,{Size=UDim2.new(0,0,1,0)},{Duration=ad.Duration})task.delay(ad.Duration,Close)end)function ac.Close(ag)Close()end return ac end return f end}d[a['124'] ]={Closure=function()local aa=a['124']local ab={lucide=require(aa.Lucide)}local ac={IconsType='lucide'}function ac.SetIconsType(ad)ac.IconsType=ad end function ac.Icon(ad,ae)local af=ab[ae or ac.IconsType]if af.Icons[ad]then return{af.Spritesheets[tostring(af.Icons[ad].Image)],af.Icons[ad]}end return nil end return ac end}d[a['125'] ]={Closure=function()local aa=a['125']return{Spritesheets={['1']='rbxassetid://131526378523863',['10']='rbxassetid://98656588890340',['11']='rbxassetid://122516128999742',['12']='rbxassetid://136045238860745',['13']='rbxassetid://138056954680929',['14']='rbxassetid://139241675471365',['15']='rbxassetid://120281540002144',['16']='rbxassetid://122481504913348',['2']='rbxassetid://125136326597802',['3']='rbxassetid://132619645919851',['4']='rbxassetid://124546836680911',['5']='rbxassetid://138714413596023',['6']='rbxassetid://95318701976229',['7']='rbxassetid://87465848394141',['8']='rbxassetid://77771201330939',['9']='rbxassetid://126006375824005'},Icons={['a-arrow-down']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=1},['a-arrow-up']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=1},['a-large-small']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=1},accessibility={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=1},activity={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=1},['air-vent']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=1},airplay={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=1},['alarm-clock-check']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=1},['alarm-clock-minus']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=1},['alarm-clock-off']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=1},['alarm-clock-plus']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=1},['alarm-clock']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=1},['alarm-smoke']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=1},album={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=1},['align-center-horizontal']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=1},['align-center-vertical']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=1},['align-center']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=1},['align-end-horizontal']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=1},['align-end-vertical']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-distribute-center']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-distribute-end']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-distribute-start']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-justify-center']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-justify-end']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-justify-start']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-space-around']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-horizontal-space-between']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-justify']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-left']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-right']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=1},['align-start-horizontal']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-start-vertical']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-distribute-center']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-distribute-end']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-distribute-start']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-justify-center']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-justify-end']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-justify-start']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-space-around']={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=1},['align-vertical-space-between']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=1},ambulance={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=1},ampersand={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=1},ampersands={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=1},amphora={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=1},anchor={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=1},angry={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=1},annoyed={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=1},antenna={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=1},anvil={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=1},aperture={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=1},['app-window-mac']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=1},['app-window']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=1},apple={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=1},['archive-restore']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=1},['archive-x']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=1},archive={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=1},armchair={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-down-dash']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-down']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-left-dash']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-left']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-right-dash']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-right']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-up-dash']={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-big-up']={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-0-1']={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-1-0']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-a-z']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-from-line']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-left']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-narrow-wide']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-right']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-to-dot']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-to-line']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-up']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-wide-narrow']={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down-z-a']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-down']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-left-from-line']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-left-right']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-left-to-line']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-left']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-right-from-line']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-right-left']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-right-to-line']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-right']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-0-1']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-1-0']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-a-z']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-down']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-from-dot']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-from-line']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-left']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-narrow-wide']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-right']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-to-line']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-wide-narrow']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up-z-a']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrow-up']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=1},['arrows-up-from-line']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=1},asterisk={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=2},['at-sign']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=2},atom={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=2},['audio-lines']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=2},['audio-waveform']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=2},award={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=2},axe={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=2},['axis-3d']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=2},baby={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=2},backpack={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=2},['badge-alert']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-cent']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-check']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-dollar-sign']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-euro']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-help']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-indian-rupee']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-info']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-japanese-yen']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-minus']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=2},['badge-percent']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=2},['badge-plus']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=2},['badge-pound-sterling']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=2},['badge-russian-ruble']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=2},['badge-swiss-franc']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=2},['badge-x']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=2},badge={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=2},['baggage-claim']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=2},ban={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=2},banana={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=2},bandage={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=2},banknote={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=2},barcode={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=2},baseline={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=2},bath={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=2},['battery-charging']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=2},['battery-full']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=2},['battery-low']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=2},['battery-medium']={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=2},['battery-plus']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=2},['battery-warning']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=2},battery={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=2},beaker={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=2},['bean-off']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=2},bean={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=2},['bed-double']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=2},['bed-single']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=2},bed={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=2},beef={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=2},['beer-off']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=2},beer={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=2},['bell-dot']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=2},['bell-electric']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=2},['bell-minus']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=2},['bell-off']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=2},['bell-plus']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=2},['bell-ring']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=2},bell={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=2},['between-horizontal-end']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=2},['between-horizontal-start']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=2},['between-vertical-end']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=2},['between-vertical-start']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=2},['biceps-flexed']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=2},bike={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=2},binary={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=2},binoculars={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=2},biohazard={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=2},bird={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=2},bitcoin={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=2},blend={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=2},blinds={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=2},blocks={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=2},['bluetooth-connected']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=2},['bluetooth-off']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=2},['bluetooth-searching']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=2},bluetooth={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=2},bold={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=2},bolt={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=2},bomb={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=2},bone={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=2},['book-a']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-audio']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-check']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-copy']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-dashed']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-down']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-headphones']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-heart']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-image']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-key']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=2},['book-lock']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-marked']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-minus']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-open-check']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-open-text']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-open']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-plus']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-text']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-type']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-up-2']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=2},['book-up']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=3},['book-user']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=3},['book-x']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=3},book={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=3},['bookmark-check']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=3},['bookmark-minus']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=3},['bookmark-plus']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=3},['bookmark-x']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=3},bookmark={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=3},['boom-box']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=3},['bot-message-square']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=3},['bot-off']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=3},bot={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=3},box={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=3},boxes={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=3},braces={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=3},brackets={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=3},['brain-circuit']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=3},['brain-cog']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=3},brain={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=3},['brick-wall']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=3},['briefcase-business']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=3},['briefcase-conveyor-belt']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=3},['briefcase-medical']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=3},briefcase={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=3},['bring-to-front']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=3},brush={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=3},['bug-off']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=3},['bug-play']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=3},bug={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=3},['building-2']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=3},building={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=3},['bus-front']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=3},bus={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=3},['cable-car']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=3},cable={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=3},['cake-slice']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=3},cake={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=3},calculator={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-1']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-arrow-down']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-arrow-up']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-check-2']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-check']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-clock']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-cog']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-days']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-fold']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-heart']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-minus-2']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-minus']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-off']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-plus-2']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-plus']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-range']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-search']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-sync']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-x-2']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=3},['calendar-x']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=3},calendar={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=3},['camera-off']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=3},camera={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=3},['candy-cane']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=3},['candy-off']={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=3},candy={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=3},cannabis={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=3},['captions-off']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=3},captions={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=3},['car-front']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=3},['car-taxi-front']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=3},car={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=3},caravan={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=3},carrot={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=3},['case-lower']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=3},['case-sensitive']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=3},['case-upper']={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=3},['cassette-tape']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=3},cast={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=3},castle={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=3},cat={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=3},cctv={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-area']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-bar-big']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-bar-decreasing']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-bar-increasing']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-bar-stacked']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-bar']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-candlestick']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-column-big']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-column-decreasing']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=3},['chart-column-increasing']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-column-stacked']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-column']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-gantt']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-line']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-network']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-no-axes-column-decreasing']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-no-axes-column-increasing']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-no-axes-column']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-no-axes-combined']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=3},['chart-no-axes-gantt']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=4},['chart-pie']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=4},['chart-scatter']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=4},['chart-spline']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=4},['check-check']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=4},check={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=4},['chef-hat']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=4},cherry={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=4},['chevron-down']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=4},['chevron-first']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=4},['chevron-last']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevron-left']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevron-right']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevron-up']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-down-up']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-down']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-left-right-ellipsis']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-left-right']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-left']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-right-left']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-right']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-up-down']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=4},['chevrons-up']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=4},chrome={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=4},church={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=4},['cigarette-off']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=4},cigarette={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=4},['circle-alert']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-down']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-left']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-out-down-left']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-out-down-right']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-out-up-left']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-out-up-right']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-right']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-arrow-up']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-check-big']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-check']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-chevron-down']={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-chevron-left']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=4},['circle-chevron-right']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-chevron-up']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-dashed']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-divide']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-dollar-sign']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-dot-dashed']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-dot']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-ellipsis']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-equal']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-fading-arrow-up']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=4},['circle-fading-plus']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-gauge']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-help']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-minus']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-off']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-parking-off']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-parking']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-pause']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-percent']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-play']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=4},['circle-plus']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=4},['circle-power']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=4},['circle-slash-2']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=4},['circle-slash']={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=4},['circle-stop']={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=4},['circle-user-round']={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=4},['circle-user']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=4},['circle-x']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=4},circle={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=4},['circuit-board']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=4},citrus={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=4},clapperboard={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-check']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-copy']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-list']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-minus']={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-paste']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-pen-line']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-pen']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-plus']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-type']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=4},['clipboard-x']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=4},clipboard={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-1']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-10']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-11']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-12']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-2']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-3']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-4']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=4},['clock-5']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=4},['clock-6']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=4},['clock-7']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=4},['clock-8']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=4},['clock-9']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=4},['clock-alert']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=4},['clock-arrow-down']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=4},['clock-arrow-up']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=4},clock={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=4},['cloud-alert']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=4},['cloud-cog']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-download']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-drizzle']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-fog']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-hail']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-lightning']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-moon-rain']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-moon']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-off']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-rain-wind']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-rain']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-snow']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-sun-rain']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-sun']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=5},['cloud-upload']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=5},cloud={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=5},cloudy={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=5},clover={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=5},club={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=5},['code-xml']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=5},code={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=5},codepen={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=5},codesandbox={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=5},coffee={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=5},cog={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=5},coins={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=5},['columns-2']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=5},['columns-3']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=5},['columns-4']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=5},combine={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=5},command={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=5},compass={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=5},component={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=5},computer={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=5},['concierge-bell']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=5},cone={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=5},construction={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=5},['contact-round']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=5},contact={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=5},container={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=5},contrast={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=5},cookie={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=5},['cooking-pot']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=5},['copy-check']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=5},['copy-minus']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=5},['copy-plus']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=5},['copy-slash']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=5},['copy-x']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=5},copy={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=5},copyleft={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=5},copyright={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-down-left']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-down-right']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-left-down']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-left-up']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-right-down']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-right-up']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-up-left']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=5},['corner-up-right']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=5},cpu={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=5},['creative-commons']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=5},['credit-card']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=5},croissant={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=5},crop={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=5},cross={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=5},crosshair={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=5},crown={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=5},cuboid={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=5},['cup-soda']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=5},currency={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=5},cylinder={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=5},dam={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=5},['database-backup']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=5},['database-zap']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=5},database={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=5},delete={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=5},dessert={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=5},diameter={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=5},['diamond-minus']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=5},['diamond-percent']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=5},['diamond-plus']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=5},diamond={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=5},['dice-1']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=5},['dice-2']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=5},['dice-3']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=5},['dice-4']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=5},['dice-5']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=5},['dice-6']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=5},dices={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=5},diff={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=5},['disc-2']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=5},['disc-3']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=5},['disc-album']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=5},disc={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=5},divide={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=5},['dna-off']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=5},dna={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=5},dock={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=5},dog={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=5},['dollar-sign']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=5},donut={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=6},['door-closed']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=6},['door-open']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=6},dot={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=6},download={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=6},['drafting-compass']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=6},drama={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=6},dribbble={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=6},drill={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=6},['droplet-off']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=6},droplet={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=6},droplets={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=6},drum={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=6},drumstick={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=6},dumbbell={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=6},['ear-off']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=6},ear={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=6},['earth-lock']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=6},earth={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=6},eclipse={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=6},['egg-fried']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=6},['egg-off']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=6},egg={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=6},['ellipsis-vertical']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=6},ellipsis={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=6},['equal-approximately']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=6},['equal-not']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=6},equal={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=6},eraser={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=6},['ethernet-port']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=6},euro={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=6},expand={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=6},['external-link']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=6},['eye-closed']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=6},['eye-off']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=6},eye={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=6},facebook={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=6},factory={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=6},fan={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=6},['fast-forward']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=6},feather={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=6},fence={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=6},['ferris-wheel']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=6},figma={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=6},['file-archive']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=6},['file-audio-2']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=6},['file-audio']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=6},['file-axis-3d']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=6},['file-badge-2']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=6},['file-badge']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=6},['file-box']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-chart-column-increasing']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-chart-column']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-chart-line']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-chart-pie']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-check-2']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-check']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-clock']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-code-2']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-code']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=6},['file-cog']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-diff']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-digit']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-down']={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-heart']={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-image']={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-input']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-json-2']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-json']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-key-2']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=6},['file-key']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-lock-2']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-lock']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-minus-2']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-minus']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-music']={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-output']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-pen-line']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-pen']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-plus-2']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=6},['file-plus']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-question']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-scan']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-search-2']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-search']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-sliders']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-spreadsheet']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-stack']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-symlink']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-terminal']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=6},['file-text']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-type-2']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-type']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-up']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-user']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-video-2']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-video']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-volume-2']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-volume']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-warning']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=6},['file-x-2']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=7},['file-x']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=7},file={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=7},files={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=7},film={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=7},['filter-x']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=7},filter={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=7},fingerprint={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=7},['fire-extinguisher']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=7},['fish-off']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=7},['fish-symbol']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=7},fish={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=7},['flag-off']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=7},['flag-triangle-left']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=7},['flag-triangle-right']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=7},flag={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=7},['flame-kindling']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=7},flame={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=7},['flashlight-off']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=7},flashlight={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=7},['flask-conical-off']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=7},['flask-conical']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=7},['flask-round']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=7},['flip-horizontal-2']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=7},['flip-horizontal']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=7},['flip-vertical-2']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=7},['flip-vertical']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=7},['flower-2']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=7},flower={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=7},focus={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=7},['fold-horizontal']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=7},['fold-vertical']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-archive']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-check']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-clock']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-closed']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-code']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-cog']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-dot']={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-down']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=7},['folder-git-2']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-git']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-heart']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-input']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-kanban']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-key']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-lock']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-minus']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-open-dot']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-open']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=7},['folder-output']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-pen']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-plus']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-root']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-search-2']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-search']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-symlink']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-sync']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-tree']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-up']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=7},['folder-x']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=7},folder={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=7},folders={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=7},footprints={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=7},forklift={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=7},forward={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=7},frame={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=7},framer={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=7},frown={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=7},fuel={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=7},fullscreen={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=7},['gallery-horizontal-end']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=7},['gallery-horizontal']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=7},['gallery-thumbnails']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=7},['gallery-vertical-end']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=7},['gallery-vertical']={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=7},['gamepad-2']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=7},gamepad={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=7},gauge={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=7},gavel={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=7},gem={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=7},ghost={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=7},gift={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-branch-plus']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-branch']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-commit-horizontal']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-commit-vertical']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-compare-arrows']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-compare']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-fork']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=7},['git-graph']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=7},['git-merge']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=7},['git-pull-request-arrow']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=7},['git-pull-request-closed']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=7},['git-pull-request-create-arrow']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=7},['git-pull-request-create']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=7},['git-pull-request-draft']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=7},['git-pull-request']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=7},github={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=7},gitlab={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=7},['glass-water']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=8},glasses={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=8},['globe-lock']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=8},globe={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=8},goal={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=8},grab={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=8},['graduation-cap']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=8},grape={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=8},['grid-2x2-check']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=8},['grid-2x2-plus']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=8},['grid-2x2-x']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=8},['grid-2x2']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=8},['grid-3x3']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=8},['grip-horizontal']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=8},['grip-vertical']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=8},grip={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=8},group={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=8},guitar={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=8},ham={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=8},hammer={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=8},['hand-coins']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=8},['hand-heart']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=8},['hand-helping']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=8},['hand-metal']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=8},['hand-platter']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=8},hand={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=8},handshake={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=8},['hard-drive-download']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=8},['hard-drive-upload']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=8},['hard-drive']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=8},['hard-hat']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=8},hash={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=8},haze={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=8},['hdmi-port']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=8},['heading-1']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=8},['heading-2']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=8},['heading-3']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=8},['heading-4']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=8},['heading-5']={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=8},['heading-6']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=8},heading={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=8},['headphone-off']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=8},headphones={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=8},headset={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=8},['heart-crack']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=8},['heart-handshake']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=8},['heart-off']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=8},['heart-pulse']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=8},heart={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=8},heater={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=8},hexagon={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=8},highlighter={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=8},history={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=8},['hop-off']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=8},hop={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=8},hospital={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=8},hotel={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=8},hourglass={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=8},['house-plug']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=8},['house-plus']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=8},['house-wifi']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=8},house={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=8},['ice-cream-bowl']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=8},['ice-cream-cone']={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=8},['id-card']={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=8},['image-down']={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=8},['image-minus']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=8},['image-off']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=8},['image-play']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=8},['image-plus']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=8},['image-up']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=8},['image-upscale']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=8},image={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=8},images={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=8},import={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=8},inbox={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=8},['indent-decrease']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=8},['indent-increase']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=8},['indian-rupee']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=8},infinity={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=8},info={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=8},['inspection-panel']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=8},instagram={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=8},italic={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=8},['iteration-ccw']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=8},['iteration-cw']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=8},['japanese-yen']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=8},joystick={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=8},kanban={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=8},['key-round']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=8},['key-square']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=8},key={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=8},['keyboard-music']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=8},['keyboard-off']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=8},keyboard={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=8},['lamp-ceiling']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=8},['lamp-desk']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=8},['lamp-floor']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=8},['lamp-wall-down']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=8},['lamp-wall-up']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=8},lamp={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=9},['land-plot']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=9},landmark={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=9},languages={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=9},['laptop-minimal-check']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=9},['laptop-minimal']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=9},laptop={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=9},['lasso-select']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=9},lasso={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=9},laugh={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=9},['layers-2']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=9},layers={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=9},['layout-dashboard']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=9},['layout-grid']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=9},['layout-list']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=9},['layout-panel-left']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=9},['layout-panel-top']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=9},['layout-template']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=9},leaf={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=9},['leafy-green']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=9},lectern={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=9},['letter-text']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=9},['library-big']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=9},library={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=9},['life-buoy']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=9},ligature={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=9},['lightbulb-off']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=9},lightbulb={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=9},['link-2-off']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=9},['link-2']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=9},link={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=9},linkedin={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-check']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-checks']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-collapse']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-end']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-filter-plus']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-filter']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-minus']={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-music']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=9},['list-ordered']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=9},['list-plus']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=9},['list-restart']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=9},['list-start']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=9},['list-todo']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=9},['list-tree']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=9},['list-video']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=9},['list-x']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=9},list={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=9},['loader-circle']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=9},['loader-pinwheel']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=9},loader={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=9},['locate-fixed']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=9},['locate-off']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=9},locate={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=9},['lock-keyhole-open']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=9},['lock-keyhole']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=9},['lock-open']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=9},lock={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=9},['log-in']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=9},['log-out']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=9},logs={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=9},lollipop={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=9},luggage={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=9},magnet={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=9},['mail-check']={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=9},['mail-minus']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=9},['mail-open']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=9},['mail-plus']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=9},['mail-question']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=9},['mail-search']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=9},['mail-warning']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=9},['mail-x']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=9},mail={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=9},mailbox={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=9},mails={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-check-inside']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-check']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-house']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-minus-inside']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-minus']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-off']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-plus-inside']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-plus']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-x-inside']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin-x']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-pin']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-pinned']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=9},['map-plus']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=9},map={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=9},martini={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=9},['maximize-2']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=9},maximize={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=9},medal={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=9},['megaphone-off']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=9},megaphone={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=9},meh={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=9},['memory-stick']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=9},menu={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=9},merge={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=9},['message-circle-code']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-dashed']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-heart']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-more']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-off']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-plus']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-question']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-reply']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-warning']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle-x']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=10},['message-circle']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-code']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-dashed']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-diff']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-dot']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-heart']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-lock']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-more']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-off']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-plus']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-quote']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-reply']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-share']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-text']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-warning']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=10},['message-square-x']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=10},['message-square']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=10},['messages-square']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=10},['mic-off']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=10},['mic-vocal']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=10},mic={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=10},microchip={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=10},microscope={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=10},microwave={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=10},milestone={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=10},['milk-off']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=10},milk={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=10},['minimize-2']={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=10},minimize={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=10},minus={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-check']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-cog']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-dot']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-down']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-off']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-pause']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-play']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-smartphone']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-speaker']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-stop']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-up']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=10},['monitor-x']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=10},monitor={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=10},['moon-star']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=10},moon={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=10},['mountain-snow']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=10},mountain={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=10},['mouse-off']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=10},['mouse-pointer-2']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=10},['mouse-pointer-ban']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=10},['mouse-pointer-click']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=10},['mouse-pointer']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=10},mouse={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-3d']={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-diagonal-2']={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-diagonal']={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-down-left']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-down-right']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-down']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-horizontal']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=10},['move-left']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=10},['move-right']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=10},['move-up-left']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=10},['move-up-right']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=10},['move-up']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=10},['move-vertical']={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=10},move={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=10},['music-2']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=10},['music-3']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=10},['music-4']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=10},music={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=10},['navigation-2-off']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=10},['navigation-2']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=10},['navigation-off']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=10},navigation={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=10},network={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=10},newspaper={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=10},nfc={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=10},['notebook-pen']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=10},['notebook-tabs']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=10},['notebook-text']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=10},notebook={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=10},['notepad-text-dashed']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=10},['notepad-text']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=10},['nut-off']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=10},nut={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=10},['octagon-alert']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=10},['octagon-minus']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=10},['octagon-pause']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=10},['octagon-x']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=10},octagon={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=11},omega={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=11},option={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=11},orbit={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=11},origami={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=11},['package-2']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=11},['package-check']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=11},['package-minus']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=11},['package-open']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=11},['package-plus']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=11},['package-search']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=11},['package-x']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=11},package={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=11},['paint-bucket']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=11},['paint-roller']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=11},['paintbrush-vertical']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=11},paintbrush={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=11},palette={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=11},['panel-bottom-close']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=11},['panel-bottom-dashed']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=11},['panel-bottom-open']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-bottom']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-left-close']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-left-dashed']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-left-open']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-left']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-right-close']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-right-dashed']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-right-open']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-right']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=11},['panel-top-close']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=11},['panel-top-dashed']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=11},['panel-top-open']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=11},['panel-top']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=11},['panels-left-bottom']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=11},['panels-right-bottom']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=11},['panels-top-left']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=11},paperclip={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=11},parentheses={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=11},['parking-meter']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=11},['party-popper']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=11},pause={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=11},['paw-print']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=11},['pc-case']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=11},['pen-line']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=11},['pen-off']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=11},['pen-tool']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=11},pen={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=11},['pencil-line']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=11},['pencil-off']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=11},['pencil-ruler']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=11},pencil={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=11},pentagon={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=11},percent={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=11},['person-standing']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=11},['philippine-peso']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=11},['phone-call']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=11},['phone-forwarded']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=11},['phone-incoming']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=11},['phone-missed']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=11},['phone-off']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=11},['phone-outgoing']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=11},phone={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=11},pi={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=11},piano={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=11},pickaxe={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=11},['picture-in-picture-2']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=11},['picture-in-picture']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=11},['piggy-bank']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=11},['pilcrow-left']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=11},['pilcrow-right']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=11},pilcrow={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=11},['pill-bottle']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=11},pill={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=11},['pin-off']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=11},pin={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=11},pipette={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=11},pizza={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=11},['plane-landing']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=11},['plane-takeoff']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=11},plane={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=11},play={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=11},['plug-2']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=11},['plug-zap']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=11},plug={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=11},plus={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=11},['pocket-knife']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=11},pocket={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=11},podcast={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=11},['pointer-off']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=11},pointer={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=11},popcorn={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=11},popsicle={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=11},['pound-sterling']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=11},['power-off']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=11},power={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=11},presentation={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=11},['printer-check']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=11},printer={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=11},projector={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=11},proportions={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=12},puzzle={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=12},pyramid={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=12},['qr-code']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=12},quote={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=12},rabbit={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=12},radar={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=12},radiation={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=12},radical={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=12},['radio-receiver']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=12},['radio-tower']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=12},radio={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=12},radius={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=12},['rail-symbol']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=12},rainbow={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=12},rat={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=12},ratio={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-cent']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-euro']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-indian-rupee']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-japanese-yen']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-pound-sterling']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-russian-ruble']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-swiss-franc']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=12},['receipt-text']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=12},receipt={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=12},['rectangle-ellipsis']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=12},['rectangle-horizontal']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=12},['rectangle-vertical']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=12},recycle={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=12},['redo-2']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=12},['redo-dot']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=12},redo={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=12},['refresh-ccw-dot']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=12},['refresh-ccw']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=12},['refresh-cw-off']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=12},['refresh-cw']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=12},refrigerator={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=12},regex={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=12},['remove-formatting']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=12},['repeat-1']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=12},['repeat-2']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=12},['repeat']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=12},['replace-all']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=12},replace={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=12},['reply-all']={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=12},reply={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=12},rewind={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=12},ribbon={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=12},rocket={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=12},['rocking-chair']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=12},['roller-coaster']={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=12},['rotate-3d']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=12},['rotate-ccw-square']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=12},['rotate-ccw']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=12},['rotate-cw-square']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=12},['rotate-cw']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=12},['route-off']={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=12},route={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=12},router={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=12},['rows-2']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=12},['rows-3']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=12},['rows-4']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=12},rss={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=12},ruler={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=12},['russian-ruble']={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=12},sailboat={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=12},salad={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=12},sandwich={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=12},['satellite-dish']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=12},satellite={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=12},['save-all']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=12},['save-off']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=12},save={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=12},['scale-3d']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=12},scale={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=12},scaling={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=12},['scan-barcode']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=12},['scan-eye']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=12},['scan-face']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=12},['scan-heart']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=12},['scan-line']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=12},['scan-qr-code']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=12},['scan-search']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=12},['scan-text']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=12},scan={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=12},school={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=12},['scissors-line-dashed']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=12},scissors={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=12},['screen-share-off']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=12},['screen-share']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=12},['scroll-text']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=12},scroll={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=12},['search-check']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=12},['search-code']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=12},['search-slash']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=12},['search-x']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=12},search={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=12},section={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=12},['send-horizontal']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=12},['send-to-back']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=13},send={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=13},['separator-horizontal']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=13},['separator-vertical']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=13},['server-cog']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=13},['server-crash']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=13},['server-off']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=13},server={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=13},['settings-2']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=13},settings={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=13},shapes={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=13},['share-2']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=13},share={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=13},sheet={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=13},shell={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=13},['shield-alert']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=13},['shield-ban']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=13},['shield-check']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=13},['shield-ellipsis']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=13},['shield-half']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=13},['shield-minus']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=13},['shield-off']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=13},['shield-plus']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=13},['shield-question']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=13},['shield-x']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=13},shield={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=13},['ship-wheel']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=13},ship={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=13},shirt={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=13},['shopping-bag']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=13},['shopping-basket']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=13},['shopping-cart']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=13},shovel={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=13},['shower-head']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=13},shrink={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=13},shrub={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=13},shuffle={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=13},sigma={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=13},['signal-high']={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=13},['signal-low']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=13},['signal-medium']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=13},['signal-zero']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=13},signal={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=13},signature={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=13},['signpost-big']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=13},signpost={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=13},siren={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=13},['skip-back']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=13},['skip-forward']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=13},skull={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=13},slack={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=13},slash={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=13},slice={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=13},['sliders-horizontal']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=13},['sliders-vertical']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=13},['smartphone-charging']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=13},['smartphone-nfc']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=13},smartphone={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=13},['smile-plus']={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=13},smile={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=13},snail={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=13},snowflake={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=13},sofa={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=13},soup={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=13},space={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=13},spade={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=13},sparkle={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=13},sparkles={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=13},speaker={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=13},speech={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=13},['spell-check-2']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=13},['spell-check']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=13},spline={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=13},split={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=13},['spray-can']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=13},sprout={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=13},['square-activity']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-down-left']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-down-right']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-down']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-left']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-out-down-left']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-out-down-right']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-out-up-left']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-out-up-right']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-right']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-up-left']={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-up-right']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-arrow-up']={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-asterisk']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=13},['square-bottom-dashed-scissors']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-chart-gantt']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-check-big']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-check']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-chevron-down']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-chevron-left']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-chevron-right']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-chevron-up']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-code']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-dashed-bottom-code']={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=13},['square-dashed-bottom']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-dashed-kanban']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-dashed-mouse-pointer']={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-dashed']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-divide']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-dot']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-equal']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-function']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-kanban']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-library']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=14},['square-m']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-menu']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-minus']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-mouse-pointer']={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-parking-off']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-parking']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-pen']={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-percent']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-pi']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-pilcrow']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=14},['square-play']={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-plus']={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-power']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-radical']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-scissors']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-sigma']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-slash']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-split-horizontal']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-split-vertical']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-square']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=14},['square-stack']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=14},['square-terminal']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=14},['square-user-round']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=14},['square-user']={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=14},['square-x']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=14},square={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=14},squircle={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=14},squirrel={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=14},stamp={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=14},['star-half']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=14},['star-off']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=14},star={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=14},['step-back']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=14},['step-forward']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=14},stethoscope={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=14},sticker={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=14},['sticky-note']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=14},store={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=14},['stretch-horizontal']={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=14},['stretch-vertical']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=14},strikethrough={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=14},subscript={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=14},['sun-dim']={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=14},['sun-medium']={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=14},['sun-moon']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=14},['sun-snow']={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=14},sun={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=14},sunrise={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=14},sunset={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=14},superscript={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=14},['swatch-book']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=14},['swiss-franc']={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=14},['switch-camera']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=14},sword={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=14},swords={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=14},syringe={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=14},['table-2']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=14},['table-cells-merge']={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=14},['table-cells-split']={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=14},['table-columns-split']={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=14},['table-of-contents']={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=14},['table-properties']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=14},['table-rows-split']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=14},table={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=14},['tablet-smartphone']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=14},tablet={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=14},tablets={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=14},tag={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=14},tags={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=14},['tally-1']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=14},['tally-2']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=14},['tally-3']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=14},['tally-4']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=14},['tally-5']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=14},tangent={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=14},target={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=14},telescope={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=14},['tent-tree']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=14},tent={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=14},terminal={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=14},['test-tube-diagonal']={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=14},['test-tube']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=14},['test-tubes']={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=14},['text-cursor-input']={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=14},['text-cursor']={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=14},['text-quote']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=14},['text-search']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=14},['text-select']={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=14},text={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=14},theater={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=14},['thermometer-snowflake']={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=15},['thermometer-sun']={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=15},thermometer={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=15},['thumbs-down']={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=15},['thumbs-up']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=15},['ticket-check']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=15},['ticket-minus']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=15},['ticket-percent']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=15},['ticket-plus']={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=15},['ticket-slash']={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=15},['ticket-x']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=15},ticket={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=15},['tickets-plane']={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=15},tickets={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=15},['timer-off']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=15},['timer-reset']={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=15},timer={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=15},['toggle-left']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=15},['toggle-right']={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=15},toilet={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=15},tornado={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=15},torus={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=15},['touchpad-off']={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=15},touchpad={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=15},['tower-control']={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=15},['toy-brick']={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=15},tractor={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=15},['traffic-cone']={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=15},['train-front-tunnel']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=15},['train-front']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=15},['train-track']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=15},['tram-front']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=15},['trash-2']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=15},trash={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=15},['tree-deciduous']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=15},['tree-palm']={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=15},['tree-pine']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=15},trees={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=15},trello={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=15},['trending-down']={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=15},['trending-up-down']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=15},['trending-up']={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=15},['triangle-alert']={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=15},['triangle-dashed']={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=15},['triangle-right']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=15},triangle={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=15},trophy={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=15},truck={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=15},turtle={ImageRectPosition=Vector2.new(768,384),ImageRectSize=Vector2.new(96,96),Image=15},['tv-minimal-play']={ImageRectPosition=Vector2.new(864,384),ImageRectSize=Vector2.new(96,96),Image=15},['tv-minimal']={ImageRectPosition=Vector2.new(0,480),ImageRectSize=Vector2.new(96,96),Image=15},tv={ImageRectPosition=Vector2.new(96,480),ImageRectSize=Vector2.new(96,96),Image=15},twitch={ImageRectPosition=Vector2.new(192,480),ImageRectSize=Vector2.new(96,96),Image=15},twitter={ImageRectPosition=Vector2.new(288,480),ImageRectSize=Vector2.new(96,96),Image=15},['type-outline']={ImageRectPosition=Vector2.new(384,480),ImageRectSize=Vector2.new(96,96),Image=15},type={ImageRectPosition=Vector2.new(480,480),ImageRectSize=Vector2.new(96,96),Image=15},['umbrella-off']={ImageRectPosition=Vector2.new(576,480),ImageRectSize=Vector2.new(96,96),Image=15},umbrella={ImageRectPosition=Vector2.new(672,480),ImageRectSize=Vector2.new(96,96),Image=15},underline={ImageRectPosition=Vector2.new(768,480),ImageRectSize=Vector2.new(96,96),Image=15},['undo-2']={ImageRectPosition=Vector2.new(864,480),ImageRectSize=Vector2.new(96,96),Image=15},['undo-dot']={ImageRectPosition=Vector2.new(0,576),ImageRectSize=Vector2.new(96,96),Image=15},undo={ImageRectPosition=Vector2.new(96,576),ImageRectSize=Vector2.new(96,96),Image=15},['unfold-horizontal']={ImageRectPosition=Vector2.new(192,576),ImageRectSize=Vector2.new(96,96),Image=15},['unfold-vertical']={ImageRectPosition=Vector2.new(288,576),ImageRectSize=Vector2.new(96,96),Image=15},ungroup={ImageRectPosition=Vector2.new(384,576),ImageRectSize=Vector2.new(96,96),Image=15},university={ImageRectPosition=Vector2.new(480,576),ImageRectSize=Vector2.new(96,96),Image=15},['unlink-2']={ImageRectPosition=Vector2.new(576,576),ImageRectSize=Vector2.new(96,96),Image=15},unlink={ImageRectPosition=Vector2.new(672,576),ImageRectSize=Vector2.new(96,96),Image=15},unplug={ImageRectPosition=Vector2.new(768,576),ImageRectSize=Vector2.new(96,96),Image=15},upload={ImageRectPosition=Vector2.new(864,576),ImageRectSize=Vector2.new(96,96),Image=15},usb={ImageRectPosition=Vector2.new(0,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-check']={ImageRectPosition=Vector2.new(96,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-cog']={ImageRectPosition=Vector2.new(192,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-minus']={ImageRectPosition=Vector2.new(288,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-pen']={ImageRectPosition=Vector2.new(384,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-plus']={ImageRectPosition=Vector2.new(480,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-round-check']={ImageRectPosition=Vector2.new(576,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-round-cog']={ImageRectPosition=Vector2.new(672,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-round-minus']={ImageRectPosition=Vector2.new(768,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-round-pen']={ImageRectPosition=Vector2.new(864,672),ImageRectSize=Vector2.new(96,96),Image=15},['user-round-plus']={ImageRectPosition=Vector2.new(0,768),ImageRectSize=Vector2.new(96,96),Image=15},['user-round-search']={ImageRectPosition=Vector2.new(96,768),ImageRectSize=Vector2.new(96,96),Image=15},['user-round-x']={ImageRectPosition=Vector2.new(192,768),ImageRectSize=Vector2.new(96,96),Image=15},['user-round']={ImageRectPosition=Vector2.new(288,768),ImageRectSize=Vector2.new(96,96),Image=15},['user-search']={ImageRectPosition=Vector2.new(384,768),ImageRectSize=Vector2.new(96,96),Image=15},['user-x']={ImageRectPosition=Vector2.new(480,768),ImageRectSize=Vector2.new(96,96),Image=15},user={ImageRectPosition=Vector2.new(576,768),ImageRectSize=Vector2.new(96,96),Image=15},['users-round']={ImageRectPosition=Vector2.new(672,768),ImageRectSize=Vector2.new(96,96),Image=15},users={ImageRectPosition=Vector2.new(768,768),ImageRectSize=Vector2.new(96,96),Image=15},['utensils-crossed']={ImageRectPosition=Vector2.new(864,768),ImageRectSize=Vector2.new(96,96),Image=15},utensils={ImageRectPosition=Vector2.new(0,864),ImageRectSize=Vector2.new(96,96),Image=15},['utility-pole']={ImageRectPosition=Vector2.new(96,864),ImageRectSize=Vector2.new(96,96),Image=15},variable={ImageRectPosition=Vector2.new(192,864),ImageRectSize=Vector2.new(96,96),Image=15},vault={ImageRectPosition=Vector2.new(288,864),ImageRectSize=Vector2.new(96,96),Image=15},vegan={ImageRectPosition=Vector2.new(384,864),ImageRectSize=Vector2.new(96,96),Image=15},['venetian-mask']={ImageRectPosition=Vector2.new(480,864),ImageRectSize=Vector2.new(96,96),Image=15},['vibrate-off']={ImageRectPosition=Vector2.new(576,864),ImageRectSize=Vector2.new(96,96),Image=15},vibrate={ImageRectPosition=Vector2.new(672,864),ImageRectSize=Vector2.new(96,96),Image=15},['video-off']={ImageRectPosition=Vector2.new(768,864),ImageRectSize=Vector2.new(96,96),Image=15},video={ImageRectPosition=Vector2.new(864,864),ImageRectSize=Vector2.new(96,96),Image=15},videotape={ImageRectPosition=Vector2.new(0,0),ImageRectSize=Vector2.new(96,96),Image=16},view={ImageRectPosition=Vector2.new(96,0),ImageRectSize=Vector2.new(96,96),Image=16},voicemail={ImageRectPosition=Vector2.new(192,0),ImageRectSize=Vector2.new(96,96),Image=16},volleyball={ImageRectPosition=Vector2.new(288,0),ImageRectSize=Vector2.new(96,96),Image=16},['volume-1']={ImageRectPosition=Vector2.new(384,0),ImageRectSize=Vector2.new(96,96),Image=16},['volume-2']={ImageRectPosition=Vector2.new(480,0),ImageRectSize=Vector2.new(96,96),Image=16},['volume-off']={ImageRectPosition=Vector2.new(576,0),ImageRectSize=Vector2.new(96,96),Image=16},['volume-x']={ImageRectPosition=Vector2.new(672,0),ImageRectSize=Vector2.new(96,96),Image=16},volume={ImageRectPosition=Vector2.new(768,0),ImageRectSize=Vector2.new(96,96),Image=16},vote={ImageRectPosition=Vector2.new(864,0),ImageRectSize=Vector2.new(96,96),Image=16},['wallet-cards']={ImageRectPosition=Vector2.new(0,96),ImageRectSize=Vector2.new(96,96),Image=16},['wallet-minimal']={ImageRectPosition=Vector2.new(96,96),ImageRectSize=Vector2.new(96,96),Image=16},wallet={ImageRectPosition=Vector2.new(192,96),ImageRectSize=Vector2.new(96,96),Image=16},wallpaper={ImageRectPosition=Vector2.new(288,96),ImageRectSize=Vector2.new(96,96),Image=16},['wand-sparkles']={ImageRectPosition=Vector2.new(384,96),ImageRectSize=Vector2.new(96,96),Image=16},wand={ImageRectPosition=Vector2.new(480,96),ImageRectSize=Vector2.new(96,96),Image=16},warehouse={ImageRectPosition=Vector2.new(576,96),ImageRectSize=Vector2.new(96,96),Image=16},['washing-machine']={ImageRectPosition=Vector2.new(672,96),ImageRectSize=Vector2.new(96,96),Image=16},watch={ImageRectPosition=Vector2.new(768,96),ImageRectSize=Vector2.new(96,96),Image=16},['waves-ladder']={ImageRectPosition=Vector2.new(864,96),ImageRectSize=Vector2.new(96,96),Image=16},waves={ImageRectPosition=Vector2.new(0,192),ImageRectSize=Vector2.new(96,96),Image=16},waypoints={ImageRectPosition=Vector2.new(96,192),ImageRectSize=Vector2.new(96,96),Image=16},webcam={ImageRectPosition=Vector2.new(192,192),ImageRectSize=Vector2.new(96,96),Image=16},['webhook-off']={ImageRectPosition=Vector2.new(288,192),ImageRectSize=Vector2.new(96,96),Image=16},webhook={ImageRectPosition=Vector2.new(384,192),ImageRectSize=Vector2.new(96,96),Image=16},weight={ImageRectPosition=Vector2.new(480,192),ImageRectSize=Vector2.new(96,96),Image=16},['wheat-off']={ImageRectPosition=Vector2.new(576,192),ImageRectSize=Vector2.new(96,96),Image=16},wheat={ImageRectPosition=Vector2.new(672,192),ImageRectSize=Vector2.new(96,96),Image=16},['whole-word']={ImageRectPosition=Vector2.new(768,192),ImageRectSize=Vector2.new(96,96),Image=16},['wifi-high']={ImageRectPosition=Vector2.new(864,192),ImageRectSize=Vector2.new(96,96),Image=16},['wifi-low']={ImageRectPosition=Vector2.new(0,288),ImageRectSize=Vector2.new(96,96),Image=16},['wifi-off']={ImageRectPosition=Vector2.new(96,288),ImageRectSize=Vector2.new(96,96),Image=16},['wifi-zero']={ImageRectPosition=Vector2.new(192,288),ImageRectSize=Vector2.new(96,96),Image=16},wifi={ImageRectPosition=Vector2.new(288,288),ImageRectSize=Vector2.new(96,96),Image=16},['wind-arrow-down']={ImageRectPosition=Vector2.new(384,288),ImageRectSize=Vector2.new(96,96),Image=16},wind={ImageRectPosition=Vector2.new(480,288),ImageRectSize=Vector2.new(96,96),Image=16},['wine-off']={ImageRectPosition=Vector2.new(576,288),ImageRectSize=Vector2.new(96,96),Image=16},wine={ImageRectPosition=Vector2.new(672,288),ImageRectSize=Vector2.new(96,96),Image=16},workflow={ImageRectPosition=Vector2.new(768,288),ImageRectSize=Vector2.new(96,96),Image=16},worm={ImageRectPosition=Vector2.new(864,288),ImageRectSize=Vector2.new(96,96),Image=16},['wrap-text']={ImageRectPosition=Vector2.new(0,384),ImageRectSize=Vector2.new(96,96),Image=16},wrench={ImageRectPosition=Vector2.new(96,384),ImageRectSize=Vector2.new(96,96),Image=16},x={ImageRectPosition=Vector2.new(192,384),ImageRectSize=Vector2.new(96,96),Image=16},youtube={ImageRectPosition=Vector2.new(288,384),ImageRectSize=Vector2.new(96,96),Image=16},['zap-off']={ImageRectPosition=Vector2.new(384,384),ImageRectSize=Vector2.new(96,96),Image=16},zap={ImageRectPosition=Vector2.new(480,384),ImageRectSize=Vector2.new(96,96),Image=16},['zoom-in']={ImageRectPosition=Vector2.new(576,384),ImageRectSize=Vector2.new(96,96),Image=16},['zoom-out']={ImageRectPosition=Vector2.new(672,384),ImageRectSize=Vector2.new(96,96),Image=16}}}end}return require(a['123'])
+local NatHubGUI = {};
+
+local cloneref = cloneref or function(...) return ... end
+
+-- NatHub
+NatHubGUI["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+NatHubGUI["1"]["Name"] = [[NatHub]];
+NatHubGUI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+if protect_gui then
+	protect_gui(NatHubGUI["1"])
+elseif gethui then
+	NatHubGUI["1"].Parent = gethui()
+elseif pcall(function() game.CoreGui:GetChildren() end) then
+	NatHubGUI["1"].Parent = cloneref(game:GetService("CoreGui"))
+else
+	NatHubGUI["1"].Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+end
+
+-- NatHub.Window
+NatHubGUI["2"] = Instance.new("Frame", NatHubGUI["1"]);
+NatHubGUI["2"]["Visible"] = false;
+NatHubGUI["2"]["ZIndex"] = 0;
+NatHubGUI["2"]["BorderSizePixel"] = 2;
+NatHubGUI["2"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["2"]["Size"] = UDim2.new(0, 528, 0, 334);
+NatHubGUI["2"]["Position"] = UDim2.new(0.5278, 0, 0.5, 0);
+NatHubGUI["2"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["2"]["Name"] = [[Window]];
+
+
+-- NatHub.Window.UICorner
+NatHubGUI["3"] = Instance.new("UICorner", NatHubGUI["2"]);
+NatHubGUI["3"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.DropdownSelection
+NatHubGUI["4"] = Instance.new("Frame", NatHubGUI["2"]);
+NatHubGUI["4"]["Visible"] = false;
+NatHubGUI["4"]["ZIndex"] = 4;
+NatHubGUI["4"]["BorderSizePixel"] = 0;
+NatHubGUI["4"]["BackgroundColor3"] = Color3.fromRGB(32, 35, 41);
+NatHubGUI["4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["4"]["ClipsDescendants"] = true;
+NatHubGUI["4"]["Size"] = UDim2.new(0.7281, 0, 0.68367, 0);
+NatHubGUI["4"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+NatHubGUI["4"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["4"]["Name"] = [[DropdownSelection]];
+
+
+-- NatHub.Window.DropdownSelection.UICorner
+NatHubGUI["5"] = Instance.new("UICorner", NatHubGUI["4"]);
+NatHubGUI["5"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.DropdownSelection.UIStroke
+NatHubGUI["6"] = Instance.new("UIStroke", NatHubGUI["4"]);
+NatHubGUI["6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["6"]["Thickness"] = 1.5;
+NatHubGUI["6"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.DropdownSelection.TopBar
+NatHubGUI["7"] = Instance.new("Frame", NatHubGUI["4"]);
+NatHubGUI["7"]["BorderSizePixel"] = 0;
+NatHubGUI["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["7"]["Size"] = UDim2.new(1, 0, 0, 50);
+NatHubGUI["7"]["Position"] = UDim2.new(0, 0, 0, 0);
+NatHubGUI["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["7"]["Name"] = [[TopBar]];
+NatHubGUI["7"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame
+NatHubGUI["8"] = Instance.new("Frame", NatHubGUI["7"]);
+NatHubGUI["8"]["BorderSizePixel"] = 0;
+NatHubGUI["8"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["8"]["Size"] = UDim2.new(0, 120, 0, 25);
+NatHubGUI["8"]["Position"] = UDim2.new(1, -50, 0.5, 0);
+NatHubGUI["8"]["Name"] = [[BoxFrame]];
+NatHubGUI["8"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame.DropShadow
+NatHubGUI["9"] = Instance.new("ImageLabel", NatHubGUI["8"]);
+NatHubGUI["9"]["ZIndex"] = 0;
+NatHubGUI["9"]["BorderSizePixel"] = 0;
+NatHubGUI["9"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["9"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["9"]["ImageTransparency"] = 0.75;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["9"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["9"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["9"]["Size"] = UDim2.new(1, 30, 1, 30);
+NatHubGUI["9"]["BackgroundTransparency"] = 1;
+NatHubGUI["9"]["Name"] = [[DropShadow]];
+NatHubGUI["9"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame.Frame
+NatHubGUI["a"] = Instance.new("Frame", NatHubGUI["8"]);
+NatHubGUI["a"]["BorderSizePixel"] = 0;
+NatHubGUI["a"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["a"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["a"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame.Frame.UICorner
+NatHubGUI["b"] = Instance.new("UICorner", NatHubGUI["a"]);
+NatHubGUI["b"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame.Frame.UIStroke
+NatHubGUI["c"] = Instance.new("UIStroke", NatHubGUI["a"]);
+NatHubGUI["c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["c"]["Thickness"] = 1.5;
+NatHubGUI["c"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame.Frame.TextBox
+NatHubGUI["d"] = Instance.new("TextBox", NatHubGUI["a"]);
+NatHubGUI["d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["d"]["BorderSizePixel"] = 0;
+NatHubGUI["d"]["TextWrapped"] = true;
+NatHubGUI["d"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+NatHubGUI["d"]["TextSize"] = 14;
+NatHubGUI["d"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["d"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["d"]["ClipsDescendants"] = true;
+NatHubGUI["d"]["PlaceholderText"] = [[Input here...]];
+NatHubGUI["d"]["Size"] = UDim2.new(1, -25, 1, 0);
+NatHubGUI["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["d"]["Text"] = [[]];
+NatHubGUI["d"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame.Frame.TextBox.UIPadding
+NatHubGUI["e"] = Instance.new("UIPadding", NatHubGUI["d"]);
+NatHubGUI["e"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["e"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["e"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["e"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.DropdownSelection.TopBar.BoxFrame.Frame.ImageButton
+NatHubGUI["f"] = Instance.new("ImageButton", NatHubGUI["a"]);
+NatHubGUI["f"]["BorderSizePixel"] = 0;
+NatHubGUI["f"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["f"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["f"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["f"]["Image"] = [[rbxassetid://86928976705683]];
+NatHubGUI["f"]["Size"] = UDim2.new(0, 15, 0, 15);
+NatHubGUI["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["f"]["Position"] = UDim2.new(1, -5, 0.5, 0);
+
+
+-- NatHub.Window.DropdownSelection.TopBar.Close
+NatHubGUI["10"] = Instance.new("ImageButton", NatHubGUI["7"]);
+NatHubGUI["10"]["BorderSizePixel"] = 0;
+NatHubGUI["10"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["10"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["10"]["ZIndex"] = 0;
+NatHubGUI["10"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["10"]["Image"] = [[rbxassetid://132453323679056]];
+NatHubGUI["10"]["Size"] = UDim2.new(0, 25, 0, 25);
+NatHubGUI["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["10"]["Name"] = [[Close]];
+NatHubGUI["10"]["Position"] = UDim2.new(1, -12, 0.5, 0);
+
+
+-- NatHub.Window.DropdownSelection.TopBar.Title
+NatHubGUI["11"] = Instance.new("TextLabel", NatHubGUI["7"]);
+NatHubGUI["11"]["TextWrapped"] = true;
+NatHubGUI["11"]["Interactable"] = false;
+NatHubGUI["11"]["ZIndex"] = 0;
+NatHubGUI["11"]["BorderSizePixel"] = 0;
+NatHubGUI["11"]["TextSize"] = 18;
+NatHubGUI["11"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["11"]["TextScaled"] = true;
+NatHubGUI["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["11"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["11"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["11"]["BackgroundTransparency"] = 1;
+NatHubGUI["11"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["11"]["Size"] = UDim2.new(0.5, 0, 0, 18);
+NatHubGUI["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["11"]["Text"] = [[Dropdown]];
+NatHubGUI["11"]["Name"] = [[Title]];
+NatHubGUI["11"]["Position"] = UDim2.new(0, 12, 0.5, 0);
+
+
+-- NatHub.Window.DropdownSelection.Dropdowns
+NatHubGUI["12"] = Instance.new("Folder", NatHubGUI["4"]);
+NatHubGUI["12"]["Name"] = [[Dropdowns]];
+
+
+-- NatHub.Window.TabButtons
+NatHubGUI["13"] = Instance.new("Frame", NatHubGUI["2"]);
+NatHubGUI["13"]["BorderSizePixel"] = 0;
+NatHubGUI["13"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["13"]["ClipsDescendants"] = true;
+NatHubGUI["13"]["Size"] = UDim2.new(0, 165, 1, -35);
+NatHubGUI["13"]["Position"] = UDim2.new(0, 0, 0, 35);
+NatHubGUI["13"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["13"]["Name"] = [[TabButtons]];
+NatHubGUI["13"]["SelectionGroup"] = true;
+
+
+-- NatHub.Window.TabButtons.Lists
+NatHubGUI["14"] = Instance.new("ScrollingFrame", NatHubGUI["13"]);
+NatHubGUI["14"]["Active"] = true;
+NatHubGUI["14"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+NatHubGUI["14"]["BorderSizePixel"] = 2;
+NatHubGUI["14"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+NatHubGUI["14"]["ElasticBehavior"] = Enum.ElasticBehavior.Never;
+NatHubGUI["14"]["TopImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["14"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["14"]["Name"] = [[Lists]];
+NatHubGUI["14"]["Selectable"] = false;
+NatHubGUI["14"]["BottomImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["14"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["14"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["14"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["14"]["ScrollBarThickness"] = 4;
+NatHubGUI["14"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.TabButtons.Lists.UIListLayout
+NatHubGUI["15"] = Instance.new("UIListLayout", NatHubGUI["14"]);
+NatHubGUI["15"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton
+NatHubGUI["16"] = Instance.new("Frame", NatHubGUI["14"]);
+NatHubGUI["16"]["Visible"] = false;
+NatHubGUI["16"]["BorderSizePixel"] = 0;
+NatHubGUI["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["16"]["Size"] = UDim2.new(1, 0, 0, 36);
+NatHubGUI["16"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["16"]["Name"] = [[TabButton]];
+NatHubGUI["16"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.Bar
+NatHubGUI["17"] = Instance.new("Frame", NatHubGUI["16"]);
+NatHubGUI["17"]["BorderSizePixel"] = 0;
+NatHubGUI["17"]["BackgroundColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["17"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["17"]["Size"] = UDim2.new(0, 5, 0, 25);
+NatHubGUI["17"]["Position"] = UDim2.new(0, 8, 0, 18);
+NatHubGUI["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["17"]["Name"] = [[Bar]];
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.Bar.UIGradient
+NatHubGUI["18"] = Instance.new("UIGradient", NatHubGUI["17"]);
+NatHubGUI["18"]["Enabled"] = false;
+NatHubGUI["18"]["Rotation"] = 90;
+NatHubGUI["18"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(110, 212, 255)),ColorSequenceKeypoint.new(0.978, Color3.fromRGB(0, 124, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 218, 255))};
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.Bar.UICorner
+NatHubGUI["19"] = Instance.new("UICorner", NatHubGUI["17"]);
+NatHubGUI["19"]["CornerRadius"] = UDim.new(0, 100);
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.ImageButton
+NatHubGUI["1a"] = Instance.new("ImageButton", NatHubGUI["16"]);
+NatHubGUI["1a"]["BorderSizePixel"] = 0;
+NatHubGUI["1a"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1a"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1a"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["1a"]["Image"] = [[rbxassetid://113216930555884]];
+NatHubGUI["1a"]["Size"] = UDim2.new(0, 31, 0, 30);
+NatHubGUI["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1a"]["Position"] = UDim2.new(0, 21, 0, 18);
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.ImageButton.UIAspectRatioConstraint
+NatHubGUI["1b"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["1a"]);
+
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.TextLabel
+NatHubGUI["1c"] = Instance.new("TextLabel", NatHubGUI["16"]);
+NatHubGUI["1c"]["TextWrapped"] = true;
+NatHubGUI["1c"]["BorderSizePixel"] = 0;
+NatHubGUI["1c"]["TextSize"] = 14;
+NatHubGUI["1c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["1c"]["TextScaled"] = true;
+NatHubGUI["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1c"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["1c"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1c"]["BackgroundTransparency"] = 1;
+NatHubGUI["1c"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["1c"]["Size"] = UDim2.new(0, 88, 0, 16);
+NatHubGUI["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1c"]["Text"] = [[NataX]];
+NatHubGUI["1c"]["Position"] = UDim2.new(0, 57, 0.5, 0);
+
+
+-- NatHub.Window.TabButtons.Lists.UIPadding
+NatHubGUI["1d"] = Instance.new("UIPadding", NatHubGUI["14"]);
+NatHubGUI["1d"]["PaddingTop"] = UDim.new(0, 8);
+
+
+-- NatHub.Window.TabButtons.Lists.Divider
+NatHubGUI["1e"] = Instance.new("Frame", NatHubGUI["14"]);
+NatHubGUI["1e"]["Visible"] = false;
+NatHubGUI["1e"]["BorderSizePixel"] = 0;
+NatHubGUI["1e"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["1e"]["Size"] = UDim2.new(1, 0, 0, 1);
+NatHubGUI["1e"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["1e"]["Name"] = [[Divider]];
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton
+NatHubGUI["1f"] = Instance.new("ImageButton", NatHubGUI["14"]);
+NatHubGUI["1f"]["Active"] = false;
+NatHubGUI["1f"]["BorderSizePixel"] = 0;
+NatHubGUI["1f"]["AutoButtonColor"] = false;
+NatHubGUI["1f"]["Visible"] = false;
+NatHubGUI["1f"]["BackgroundTransparency"] = 1;
+NatHubGUI["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1f"]["Selectable"] = false;
+NatHubGUI["1f"]["Size"] = UDim2.new(1, 0, 0, 36);
+NatHubGUI["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1f"]["Name"] = [[TabButton]];
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.ImageButton
+NatHubGUI["20"] = Instance.new("ImageButton", NatHubGUI["1f"]);
+NatHubGUI["20"]["BorderSizePixel"] = 0;
+NatHubGUI["20"]["ImageTransparency"] = 0.5;
+NatHubGUI["20"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["20"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["20"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["20"]["Image"] = [[rbxassetid://113216930555884]];
+NatHubGUI["20"]["Size"] = UDim2.new(0, 31, 0, 30);
+NatHubGUI["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["20"]["Position"] = UDim2.new(0, 6, 0, 18);
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.ImageButton.UIAspectRatioConstraint
+NatHubGUI["21"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["20"]);
+
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.TextLabel
+NatHubGUI["22"] = Instance.new("TextLabel", NatHubGUI["1f"]);
+NatHubGUI["22"]["TextWrapped"] = true;
+NatHubGUI["22"]["BorderSizePixel"] = 0;
+NatHubGUI["22"]["TextSize"] = 14;
+NatHubGUI["22"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["22"]["TextTransparency"] = 0.5;
+NatHubGUI["22"]["TextScaled"] = true;
+NatHubGUI["22"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["22"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["22"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["22"]["BackgroundTransparency"] = 1;
+NatHubGUI["22"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["22"]["Size"] = UDim2.new(0, 103, 0, 16);
+NatHubGUI["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["22"]["Text"] = [[NataX]];
+NatHubGUI["22"]["Position"] = UDim2.new(0, 42, 0.5, 0);
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.Bar
+NatHubGUI["23"] = Instance.new("Frame", NatHubGUI["1f"]);
+NatHubGUI["23"]["BorderSizePixel"] = 0;
+NatHubGUI["23"]["BackgroundColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["23"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["23"]["Size"] = UDim2.new(0, 5, 0, 0);
+NatHubGUI["23"]["Position"] = UDim2.new(0, 8, 0, 18);
+NatHubGUI["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["23"]["Name"] = [[Bar]];
+NatHubGUI["23"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.TabButtons.Lists.TabButton.Bar.UICorner
+NatHubGUI["24"] = Instance.new("UICorner", NatHubGUI["23"]);
+NatHubGUI["24"]["CornerRadius"] = UDim.new(0, 100);
+
+
+-- NatHub.Window.TabButtons.UICorner
+NatHubGUI["25"] = Instance.new("UICorner", NatHubGUI["13"]);
+NatHubGUI["25"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.TabButtons.AntiCornerTop
+NatHubGUI["26"] = Instance.new("Frame", NatHubGUI["13"]);
+NatHubGUI["26"]["BorderSizePixel"] = 0;
+NatHubGUI["26"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["26"]["Size"] = UDim2.new(1, 0, 0, 5);
+NatHubGUI["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["26"]["Name"] = [[AntiCornerTop]];
+
+
+-- NatHub.Window.TabButtons.AntiCornerRight
+NatHubGUI["27"] = Instance.new("Frame", NatHubGUI["13"]);
+NatHubGUI["27"]["BorderSizePixel"] = 0;
+NatHubGUI["27"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["27"]["AnchorPoint"] = Vector2.new(0.5, 0);
+NatHubGUI["27"]["Size"] = UDim2.new(0, 2, 1, 0);
+NatHubGUI["27"]["Position"] = UDim2.new(1, 1, 0, 0);
+NatHubGUI["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["27"]["Name"] = [[AntiCornerRight]];
+
+
+-- NatHub.Window.TabButtons.Border
+NatHubGUI["28"] = Instance.new("Frame", NatHubGUI["13"]);
+NatHubGUI["28"]["ZIndex"] = 2;
+NatHubGUI["28"]["BorderSizePixel"] = 0;
+NatHubGUI["28"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["28"]["AnchorPoint"] = Vector2.new(1, 0);
+NatHubGUI["28"]["Size"] = UDim2.new(0, 2, 1, 0);
+NatHubGUI["28"]["Position"] = UDim2.new(1, 0, 0, 0);
+NatHubGUI["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["28"]["Name"] = [[Border]];
+
+
+-- NatHub.Window.TopFrame
+NatHubGUI["29"] = Instance.new("Frame", NatHubGUI["2"]);
+NatHubGUI["29"]["BorderSizePixel"] = 0;
+NatHubGUI["29"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["29"]["ClipsDescendants"] = true;
+NatHubGUI["29"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["29"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["29"]["Name"] = [[TopFrame]];
+
+
+-- NatHub.Window.TopFrame.Icon
+NatHubGUI["2a"] = Instance.new("ImageButton", NatHubGUI["29"]);
+NatHubGUI["2a"]["Active"] = false;
+NatHubGUI["2a"]["Interactable"] = false;
+NatHubGUI["2a"]["BorderSizePixel"] = 0;
+NatHubGUI["2a"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["2a"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["2a"]["Image"] = [[rbxassetid://113216930555884]];
+NatHubGUI["2a"]["Size"] = UDim2.new(0, 25, 0, 25);
+NatHubGUI["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["2a"]["Name"] = [[Icon]];
+NatHubGUI["2a"]["Position"] = UDim2.new(0, 10, 0.5, 0);
+
+
+-- NatHub.Window.TopFrame.Icon.UIAspectRatioConstraint
+NatHubGUI["2b"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["2a"]);
+
+
+
+-- NatHub.Window.TopFrame.TextLabel
+NatHubGUI["2c"] = Instance.new("TextLabel", NatHubGUI["29"]);
+NatHubGUI["2c"]["TextWrapped"] = true;
+NatHubGUI["2c"]["Interactable"] = false;
+NatHubGUI["2c"]["BorderSizePixel"] = 0;
+NatHubGUI["2c"]["TextSize"] = 14;
+NatHubGUI["2c"]["TextScaled"] = true;
+NatHubGUI["2c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["2c"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["2c"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["2c"]["BackgroundTransparency"] = 1;
+NatHubGUI["2c"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["2c"]["Size"] = UDim2.new(1, 0, 0, 16);
+NatHubGUI["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["2c"]["Text"] = [[NataX - v1.2.3]];
+NatHubGUI["2c"]["Position"] = UDim2.new(0.5, 0, 0.5, -1);
+
+
+-- NatHub.Window.TopFrame.Close
+NatHubGUI["2d"] = Instance.new("ImageButton", NatHubGUI["29"]);
+NatHubGUI["2d"]["BorderSizePixel"] = 0;
+NatHubGUI["2d"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["2d"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["2d"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["2d"]["Image"] = [[rbxassetid://132453323679056]];
+NatHubGUI["2d"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["2d"]["Name"] = [[Close]];
+NatHubGUI["2d"]["Position"] = UDim2.new(1, -15, 0.5, 0);
+
+
+-- NatHub.Window.TopFrame.Maximize
+NatHubGUI["2e"] = Instance.new("ImageButton", NatHubGUI["29"]);
+NatHubGUI["2e"]["BorderSizePixel"] = 0;
+NatHubGUI["2e"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["2e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["2e"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["2e"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["2e"]["Image"] = [[rbxassetid://108285848026510]];
+NatHubGUI["2e"]["Size"] = UDim2.new(0, 15, 0, 15);
+NatHubGUI["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["2e"]["Name"] = [[Maximize]];
+NatHubGUI["2e"]["Position"] = UDim2.new(1, -55, 0.5, 0);
+
+
+-- NatHub.Window.TopFrame.Hide
+NatHubGUI["2f"] = Instance.new("ImageButton", NatHubGUI["29"]);
+NatHubGUI["2f"]["BorderSizePixel"] = 0;
+NatHubGUI["2f"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["2f"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["2f"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["2f"]["Image"] = [[rbxassetid://128209591224511]];
+NatHubGUI["2f"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["2f"]["Name"] = [[Hide]];
+NatHubGUI["2f"]["Position"] = UDim2.new(1, -90, 0.5, 0);
+
+
+-- NatHub.Window.TopFrame.UICorner
+NatHubGUI["30"] = Instance.new("UICorner", NatHubGUI["29"]);
+NatHubGUI["30"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.TopFrame.Border
+NatHubGUI["31"] = Instance.new("Frame", NatHubGUI["29"]);
+NatHubGUI["31"]["ZIndex"] = 2;
+NatHubGUI["31"]["BorderSizePixel"] = 0;
+NatHubGUI["31"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["31"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["31"]["Size"] = UDim2.new(1, 0, 0, 2);
+NatHubGUI["31"]["Position"] = UDim2.new(0, 0, 1, 0);
+NatHubGUI["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["31"]["Name"] = [[Border]];
+
+
+-- NatHub.Window.UIStroke
+NatHubGUI["32"] = Instance.new("UIStroke", NatHubGUI["2"]);
+NatHubGUI["32"]["Transparency"] = 0.5;
+NatHubGUI["32"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["32"]["Color"] = Color3.fromRGB(95, 95, 117);
+
+
+-- NatHub.Window.NotificationList
+NatHubGUI["33"] = Instance.new("Frame", NatHubGUI["2"]);
+NatHubGUI["33"]["BorderSizePixel"] = 0;
+NatHubGUI["33"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["33"]["AnchorPoint"] = Vector2.new(0.5, 0);
+NatHubGUI["33"]["ClipsDescendants"] = true;
+NatHubGUI["33"]["Size"] = UDim2.new(0, 630, 1, -35);
+NatHubGUI["33"]["Position"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["33"]["Name"] = [[NotificationList]];
+NatHubGUI["33"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.NotificationList.UIListLayout
+NatHubGUI["34"] = Instance.new("UIListLayout", NatHubGUI["33"]);
+NatHubGUI["34"]["Padding"] = UDim.new(0, 12);
+NatHubGUI["34"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.NotificationList.UIPadding
+NatHubGUI["35"] = Instance.new("UIPadding", NatHubGUI["33"]);
+NatHubGUI["35"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["35"]["PaddingRight"] = UDim.new(0, 40);
+NatHubGUI["35"]["PaddingLeft"] = UDim.new(0, 40);
+
+
+-- NatHub.Window.DarkOverlay
+NatHubGUI["36"] = Instance.new("ImageButton", NatHubGUI["2"]);
+NatHubGUI["36"]["BorderSizePixel"] = 0;
+NatHubGUI["36"]["AutoButtonColor"] = false;
+NatHubGUI["36"]["Visible"] = false;
+NatHubGUI["36"]["BackgroundTransparency"] = 0.6;
+NatHubGUI["36"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["36"]["Selectable"] = false;
+NatHubGUI["36"]["ZIndex"] = 3;
+NatHubGUI["36"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["36"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["36"]["Name"] = [[DarkOverlay]];
+NatHubGUI["36"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.DarkOverlay.UICorner
+NatHubGUI["37"] = Instance.new("UICorner", NatHubGUI["36"]);
+NatHubGUI["37"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.DropShadow
+NatHubGUI["38"] = Instance.new("ImageLabel", NatHubGUI["2"]);
+NatHubGUI["38"]["ZIndex"] = 0;
+NatHubGUI["38"]["BorderSizePixel"] = 0;
+NatHubGUI["38"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["38"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["38"]["ImageTransparency"] = 0.5;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["38"]["ImageColor3"] = Color3.fromRGB(32, 35, 41);
+NatHubGUI["38"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["38"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["38"]["Size"] = UDim2.new(1, 49, 1, 49);
+NatHubGUI["38"]["BackgroundTransparency"] = 1;
+NatHubGUI["38"]["Name"] = [[DropShadow]];
+NatHubGUI["38"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs
+NatHubGUI["39"] = Instance.new("Frame", NatHubGUI["2"]);
+NatHubGUI["39"]["BorderSizePixel"] = 0;
+NatHubGUI["39"]["BackgroundColor3"] = Color3.fromRGB(32, 35, 41);
+NatHubGUI["39"]["Size"] = UDim2.new(1, -165, 1, -35);
+NatHubGUI["39"]["Position"] = UDim2.new(0, 165, 0, 35);
+NatHubGUI["39"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["39"]["Name"] = [[Tabs]];
+
+
+-- NatHub.Window.Tabs.UICorner
+NatHubGUI["3a"] = Instance.new("UICorner", NatHubGUI["39"]);
+NatHubGUI["3a"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.AntiCornerLeft
+NatHubGUI["3b"] = Instance.new("Frame", NatHubGUI["39"]);
+NatHubGUI["3b"]["Visible"] = false;
+NatHubGUI["3b"]["BorderSizePixel"] = 0;
+NatHubGUI["3b"]["BackgroundColor3"] = Color3.fromRGB(32, 35, 41);
+NatHubGUI["3b"]["Size"] = UDim2.new(0, 5, 1, 0);
+NatHubGUI["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["3b"]["Name"] = [[AntiCornerLeft]];
+
+
+-- NatHub.Window.Tabs.AntiCornerTop
+NatHubGUI["3c"] = Instance.new("Frame", NatHubGUI["39"]);
+NatHubGUI["3c"]["BorderSizePixel"] = 0;
+NatHubGUI["3c"]["BackgroundColor3"] = Color3.fromRGB(32, 35, 41);
+NatHubGUI["3c"]["Size"] = UDim2.new(1, 0, 0, 5);
+NatHubGUI["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["3c"]["Name"] = [[AntiCornerTop]];
+
+
+-- NatHub.Window.Tabs.NoObjectFoundText
+NatHubGUI["3d"] = Instance.new("TextLabel", NatHubGUI["39"]);
+NatHubGUI["3d"]["TextWrapped"] = true;
+NatHubGUI["3d"]["Interactable"] = false;
+NatHubGUI["3d"]["BorderSizePixel"] = 0;
+NatHubGUI["3d"]["TextSize"] = 14;
+NatHubGUI["3d"]["TextScaled"] = true;
+NatHubGUI["3d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["3d"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["3d"]["TextColor3"] = Color3.fromRGB(135, 140, 150);
+NatHubGUI["3d"]["BackgroundTransparency"] = 1;
+NatHubGUI["3d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["3d"]["Size"] = UDim2.new(1, 0, 0, 16);
+NatHubGUI["3d"]["Visible"] = false;
+NatHubGUI["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["3d"]["Text"] = [[This tab is empty :(]];
+NatHubGUI["3d"]["Name"] = [[NoObjectFoundText]];
+NatHubGUI["3d"]["Position"] = UDim2.new(0.5, 0, 0.45, 0);
+
+
+-- NatHub.Window.Tabs.Sample
+NatHubGUI["3e"] = Instance.new("ScrollingFrame", NatHubGUI["39"]);
+NatHubGUI["3e"]["Visible"] = false;
+NatHubGUI["3e"]["Active"] = true;
+NatHubGUI["3e"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+NatHubGUI["3e"]["BorderSizePixel"] = 0;
+NatHubGUI["3e"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+NatHubGUI["3e"]["ElasticBehavior"] = Enum.ElasticBehavior.Never;
+NatHubGUI["3e"]["TopImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["3e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["3e"]["Name"] = [[Sample]];
+NatHubGUI["3e"]["Selectable"] = false;
+NatHubGUI["3e"]["BottomImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["3e"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["3e"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["3e"]["ScrollBarImageColor3"] = Color3.fromRGB(99, 106, 122);
+NatHubGUI["3e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["3e"]["ScrollBarThickness"] = 5;
+NatHubGUI["3e"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.UIListLayout
+NatHubGUI["3f"] = Instance.new("UIListLayout", NatHubGUI["3e"]);
+NatHubGUI["3f"]["Padding"] = UDim.new(0, 15);
+NatHubGUI["3f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.UIPadding
+NatHubGUI["40"] = Instance.new("UIPadding", NatHubGUI["3e"]);
+NatHubGUI["40"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["40"]["PaddingRight"] = UDim.new(0, 14);
+NatHubGUI["40"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["40"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Paragraph
+NatHubGUI["41"] = Instance.new("Frame", NatHubGUI["3e"]);
+NatHubGUI["41"]["BorderSizePixel"] = 0;
+NatHubGUI["41"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["41"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["41"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["41"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["41"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["41"]["Name"] = [[Paragraph]];
+
+
+-- NatHub.Window.Tabs.Sample.Paragraph.UICorner
+NatHubGUI["42"] = Instance.new("UICorner", NatHubGUI["41"]);
+NatHubGUI["42"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Paragraph.UIStroke
+NatHubGUI["43"] = Instance.new("UIStroke", NatHubGUI["41"]);
+NatHubGUI["43"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["43"]["Thickness"] = 1.5;
+NatHubGUI["43"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Paragraph.Title
+NatHubGUI["44"] = Instance.new("TextLabel", NatHubGUI["41"]);
+NatHubGUI["44"]["TextWrapped"] = true;
+NatHubGUI["44"]["Interactable"] = false;
+NatHubGUI["44"]["BorderSizePixel"] = 0;
+NatHubGUI["44"]["TextSize"] = 16;
+NatHubGUI["44"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["44"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["44"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["44"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["44"]["BackgroundTransparency"] = 1;
+NatHubGUI["44"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["44"]["Text"] = [[Title]];
+NatHubGUI["44"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["44"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Paragraph.UIPadding
+NatHubGUI["45"] = Instance.new("UIPadding", NatHubGUI["41"]);
+NatHubGUI["45"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["45"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["45"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["45"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Paragraph.UIListLayout
+NatHubGUI["46"] = Instance.new("UIListLayout", NatHubGUI["41"]);
+NatHubGUI["46"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["46"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Paragraph.Description
+NatHubGUI["47"] = Instance.new("TextLabel", NatHubGUI["41"]);
+NatHubGUI["47"]["TextWrapped"] = true;
+NatHubGUI["47"]["Interactable"] = false;
+NatHubGUI["47"]["BorderSizePixel"] = 0;
+NatHubGUI["47"]["TextSize"] = 16;
+NatHubGUI["47"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["47"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["47"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["47"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["47"]["BackgroundTransparency"] = 1;
+NatHubGUI["47"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["47"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["47"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["47"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["47"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Button
+NatHubGUI["48"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["48"]["BorderSizePixel"] = 0;
+NatHubGUI["48"]["AutoButtonColor"] = false;
+NatHubGUI["48"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["48"]["Selectable"] = false;
+NatHubGUI["48"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["48"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["48"]["Name"] = [[Button]];
+NatHubGUI["48"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UICorner
+NatHubGUI["49"] = Instance.new("UICorner", NatHubGUI["48"]);
+NatHubGUI["49"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIStroke
+NatHubGUI["4a"] = Instance.new("UIStroke", NatHubGUI["48"]);
+NatHubGUI["4a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["4a"]["Thickness"] = 1.5;
+NatHubGUI["4a"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Button.Title
+NatHubGUI["4b"] = Instance.new("TextLabel", NatHubGUI["48"]);
+NatHubGUI["4b"]["TextWrapped"] = true;
+NatHubGUI["4b"]["Interactable"] = false;
+NatHubGUI["4b"]["BorderSizePixel"] = 0;
+NatHubGUI["4b"]["TextSize"] = 16;
+NatHubGUI["4b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["4b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["4b"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["4b"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["4b"]["BackgroundTransparency"] = 1;
+NatHubGUI["4b"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["4b"]["Text"] = [[Button]];
+NatHubGUI["4b"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Button.Title.ClickIcon
+NatHubGUI["4c"] = Instance.new("ImageButton", NatHubGUI["4b"]);
+NatHubGUI["4c"]["BorderSizePixel"] = 0;
+NatHubGUI["4c"]["AutoButtonColor"] = false;
+NatHubGUI["4c"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["4c"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["4c"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["4c"]["Image"] = [[rbxassetid://91877599529856]];
+NatHubGUI["4c"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["4c"]["Name"] = [[ClickIcon]];
+NatHubGUI["4c"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIPadding
+NatHubGUI["4d"] = Instance.new("UIPadding", NatHubGUI["48"]);
+NatHubGUI["4d"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["4d"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["4d"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["4d"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIListLayout
+NatHubGUI["4e"] = Instance.new("UIListLayout", NatHubGUI["48"]);
+NatHubGUI["4e"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["4e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Button.Description
+NatHubGUI["4f"] = Instance.new("TextLabel", NatHubGUI["48"]);
+NatHubGUI["4f"]["TextWrapped"] = true;
+NatHubGUI["4f"]["Interactable"] = false;
+NatHubGUI["4f"]["BorderSizePixel"] = 0;
+NatHubGUI["4f"]["TextSize"] = 16;
+NatHubGUI["4f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["4f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["4f"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["4f"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["4f"]["BackgroundTransparency"] = 1;
+NatHubGUI["4f"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["4f"]["Visible"] = false;
+NatHubGUI["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["4f"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["4f"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["4f"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["50"] = Instance.new("UIGradient", NatHubGUI["48"]);
+NatHubGUI["50"]["Enabled"] = false;
+NatHubGUI["50"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["51"] = Instance.new("UIGradient", NatHubGUI["48"]);
+NatHubGUI["51"]["Enabled"] = false;
+NatHubGUI["51"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 1),NumberSequenceKeypoint.new(1.000, 1)};
+NatHubGUI["51"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["52"] = Instance.new("UIGradient", NatHubGUI["48"]);
+NatHubGUI["52"]["Enabled"] = false;
+NatHubGUI["52"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button
+NatHubGUI["53"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["53"]["BorderSizePixel"] = 0;
+NatHubGUI["53"]["AutoButtonColor"] = false;
+NatHubGUI["53"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["53"]["Selectable"] = false;
+NatHubGUI["53"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["53"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["53"]["Name"] = [[Button]];
+NatHubGUI["53"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIStroke
+NatHubGUI["54"] = Instance.new("UIStroke", NatHubGUI["53"]);
+NatHubGUI["54"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["54"]["Thickness"] = 1.5;
+NatHubGUI["54"]["Color"] = Color3.fromRGB(11, 136, 214);
+
+
+-- NatHub.Window.Tabs.Sample.Button.Title
+NatHubGUI["55"] = Instance.new("TextLabel", NatHubGUI["53"]);
+NatHubGUI["55"]["TextWrapped"] = true;
+NatHubGUI["55"]["Interactable"] = false;
+NatHubGUI["55"]["BorderSizePixel"] = 0;
+NatHubGUI["55"]["TextSize"] = 16;
+NatHubGUI["55"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["55"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["55"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["55"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["55"]["BackgroundTransparency"] = 1;
+NatHubGUI["55"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["55"]["Text"] = [[Button]];
+NatHubGUI["55"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Button.Title.ClickIcon
+NatHubGUI["56"] = Instance.new("ImageButton", NatHubGUI["55"]);
+NatHubGUI["56"]["BorderSizePixel"] = 0;
+NatHubGUI["56"]["AutoButtonColor"] = false;
+NatHubGUI["56"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["56"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["56"]["Image"] = [[rbxassetid://91877599529856]];
+NatHubGUI["56"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["56"]["Name"] = [[ClickIcon]];
+NatHubGUI["56"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIPadding
+NatHubGUI["57"] = Instance.new("UIPadding", NatHubGUI["53"]);
+NatHubGUI["57"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["57"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["57"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["57"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIListLayout
+NatHubGUI["58"] = Instance.new("UIListLayout", NatHubGUI["53"]);
+NatHubGUI["58"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["58"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Button.Description
+NatHubGUI["59"] = Instance.new("TextLabel", NatHubGUI["53"]);
+NatHubGUI["59"]["TextWrapped"] = true;
+NatHubGUI["59"]["Interactable"] = false;
+NatHubGUI["59"]["BorderSizePixel"] = 0;
+NatHubGUI["59"]["TextSize"] = 16;
+NatHubGUI["59"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["59"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["59"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["59"]["BackgroundTransparency"] = 1;
+NatHubGUI["59"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["59"]["Visible"] = false;
+NatHubGUI["59"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["59"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["59"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["59"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["5a"] = Instance.new("UIGradient", NatHubGUI["53"]);
+NatHubGUI["5a"]["Enabled"] = false;
+NatHubGUI["5a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["5b"] = Instance.new("UIGradient", NatHubGUI["53"]);
+NatHubGUI["5b"]["Enabled"] = false;
+NatHubGUI["5b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["5c"] = Instance.new("UIGradient", NatHubGUI["53"]);
+NatHubGUI["5c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button.Folder
+NatHubGUI["5d"] = Instance.new("Folder", NatHubGUI["53"]);
+
+
+
+-- NatHub.Window.Tabs.Sample.Button.UICorner
+NatHubGUI["5e"] = Instance.new("UICorner", NatHubGUI["53"]);
+NatHubGUI["5e"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Button
+NatHubGUI["5f"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["5f"]["BorderSizePixel"] = 0;
+NatHubGUI["5f"]["AutoButtonColor"] = false;
+NatHubGUI["5f"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 41);
+NatHubGUI["5f"]["Selectable"] = false;
+NatHubGUI["5f"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["5f"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["5f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["5f"]["Name"] = [[Button]];
+NatHubGUI["5f"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UICorner
+NatHubGUI["60"] = Instance.new("UICorner", NatHubGUI["5f"]);
+NatHubGUI["60"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIStroke
+NatHubGUI["61"] = Instance.new("UIStroke", NatHubGUI["5f"]);
+NatHubGUI["61"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["61"]["Thickness"] = 1.5;
+NatHubGUI["61"]["Color"] = Color3.fromRGB(48, 48, 59);
+
+
+-- NatHub.Window.Tabs.Sample.Button.Title
+NatHubGUI["62"] = Instance.new("TextLabel", NatHubGUI["5f"]);
+NatHubGUI["62"]["TextWrapped"] = true;
+NatHubGUI["62"]["Interactable"] = false;
+NatHubGUI["62"]["BorderSizePixel"] = 0;
+NatHubGUI["62"]["TextSize"] = 16;
+NatHubGUI["62"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["62"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["62"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["62"]["TextColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["62"]["BackgroundTransparency"] = 1;
+NatHubGUI["62"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["62"]["Text"] = [[Button]];
+NatHubGUI["62"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Button.Title.ClickIcon
+NatHubGUI["63"] = Instance.new("ImageButton", NatHubGUI["62"]);
+NatHubGUI["63"]["BorderSizePixel"] = 0;
+NatHubGUI["63"]["AutoButtonColor"] = false;
+NatHubGUI["63"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["63"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["63"]["ImageColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["63"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["63"]["Image"] = [[rbxassetid://91877599529856]];
+NatHubGUI["63"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["63"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["63"]["Name"] = [[ClickIcon]];
+NatHubGUI["63"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIPadding
+NatHubGUI["64"] = Instance.new("UIPadding", NatHubGUI["5f"]);
+NatHubGUI["64"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["64"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["64"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["64"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIListLayout
+NatHubGUI["65"] = Instance.new("UIListLayout", NatHubGUI["5f"]);
+NatHubGUI["65"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["65"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Button.Description
+NatHubGUI["66"] = Instance.new("TextLabel", NatHubGUI["5f"]);
+NatHubGUI["66"]["TextWrapped"] = true;
+NatHubGUI["66"]["Interactable"] = false;
+NatHubGUI["66"]["BorderSizePixel"] = 0;
+NatHubGUI["66"]["TextSize"] = 16;
+NatHubGUI["66"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["66"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["66"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["66"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["66"]["BackgroundTransparency"] = 1;
+NatHubGUI["66"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["66"]["Visible"] = false;
+NatHubGUI["66"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["66"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["66"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["66"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["67"] = Instance.new("UIGradient", NatHubGUI["5f"]);
+NatHubGUI["67"]["Enabled"] = false;
+NatHubGUI["67"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["68"] = Instance.new("UIGradient", NatHubGUI["5f"]);
+NatHubGUI["68"]["Enabled"] = false;
+NatHubGUI["68"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Button.UIGradient
+NatHubGUI["69"] = Instance.new("UIGradient", NatHubGUI["5f"]);
+NatHubGUI["69"]["Enabled"] = false;
+NatHubGUI["69"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.TextBox
+NatHubGUI["6a"] = Instance.new("Frame", NatHubGUI["3e"]);
+NatHubGUI["6a"]["BorderSizePixel"] = 0;
+NatHubGUI["6a"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["6a"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["6a"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["6a"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["6a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["6a"]["Name"] = [[TextBox]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UICorner
+NatHubGUI["6b"] = Instance.new("UICorner", NatHubGUI["6a"]);
+NatHubGUI["6b"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIStroke
+NatHubGUI["6c"] = Instance.new("UIStroke", NatHubGUI["6a"]);
+NatHubGUI["6c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["6c"]["Thickness"] = 1.5;
+NatHubGUI["6c"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.Title
+NatHubGUI["6d"] = Instance.new("TextLabel", NatHubGUI["6a"]);
+NatHubGUI["6d"]["TextWrapped"] = true;
+NatHubGUI["6d"]["Interactable"] = false;
+NatHubGUI["6d"]["BorderSizePixel"] = 0;
+NatHubGUI["6d"]["TextSize"] = 16;
+NatHubGUI["6d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["6d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["6d"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["6d"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["6d"]["BackgroundTransparency"] = 1;
+NatHubGUI["6d"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["6d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["6d"]["Text"] = [[Input Textbox]];
+NatHubGUI["6d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["6d"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIPadding
+NatHubGUI["6e"] = Instance.new("UIPadding", NatHubGUI["6a"]);
+NatHubGUI["6e"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["6e"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["6e"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["6e"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIListLayout
+NatHubGUI["6f"] = Instance.new("UIListLayout", NatHubGUI["6a"]);
+NatHubGUI["6f"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["6f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.Description
+NatHubGUI["70"] = Instance.new("TextLabel", NatHubGUI["6a"]);
+NatHubGUI["70"]["TextWrapped"] = true;
+NatHubGUI["70"]["Interactable"] = false;
+NatHubGUI["70"]["BorderSizePixel"] = 0;
+NatHubGUI["70"]["TextSize"] = 16;
+NatHubGUI["70"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["70"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["70"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["70"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["70"]["BackgroundTransparency"] = 1;
+NatHubGUI["70"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["70"]["Visible"] = false;
+NatHubGUI["70"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["70"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["70"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["70"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame
+NatHubGUI["71"] = Instance.new("Frame", NatHubGUI["6a"]);
+NatHubGUI["71"]["ZIndex"] = 0;
+NatHubGUI["71"]["BorderSizePixel"] = 0;
+NatHubGUI["71"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["71"]["Name"] = [[BoxFrame]];
+NatHubGUI["71"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.DropShadow
+NatHubGUI["72"] = Instance.new("ImageLabel", NatHubGUI["71"]);
+NatHubGUI["72"]["ZIndex"] = 0;
+NatHubGUI["72"]["BorderSizePixel"] = 0;
+NatHubGUI["72"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["72"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["72"]["ImageTransparency"] = 0.75;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["72"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["72"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["72"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["72"]["Size"] = UDim2.new(1, 35, 1, 35);
+NatHubGUI["72"]["BackgroundTransparency"] = 1;
+NatHubGUI["72"]["Name"] = [[DropShadow]];
+NatHubGUI["72"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame
+NatHubGUI["73"] = Instance.new("Frame", NatHubGUI["71"]);
+NatHubGUI["73"]["BorderSizePixel"] = 0;
+NatHubGUI["73"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["73"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["73"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["73"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UICorner
+NatHubGUI["74"] = Instance.new("UICorner", NatHubGUI["73"]);
+NatHubGUI["74"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UIStroke
+NatHubGUI["75"] = Instance.new("UIStroke", NatHubGUI["73"]);
+NatHubGUI["75"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["75"]["Thickness"] = 1.5;
+NatHubGUI["75"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UIListLayout
+NatHubGUI["76"] = Instance.new("UIListLayout", NatHubGUI["73"]);
+NatHubGUI["76"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["76"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.TextBox
+NatHubGUI["77"] = Instance.new("TextBox", NatHubGUI["73"]);
+NatHubGUI["77"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["77"]["BorderSizePixel"] = 0;
+NatHubGUI["77"]["TextWrapped"] = true;
+NatHubGUI["77"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+NatHubGUI["77"]["TextSize"] = 14;
+NatHubGUI["77"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["77"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["77"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["77"]["ClipsDescendants"] = true;
+NatHubGUI["77"]["PlaceholderText"] = [[Input here...]];
+NatHubGUI["77"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["77"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["77"]["Text"] = [[]];
+NatHubGUI["77"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.TextBox.UIPadding
+NatHubGUI["78"] = Instance.new("UIPadding", NatHubGUI["77"]);
+NatHubGUI["78"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["78"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["78"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["78"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown
+NatHubGUI["79"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["79"]["BorderSizePixel"] = 0;
+NatHubGUI["79"]["AutoButtonColor"] = false;
+NatHubGUI["79"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["79"]["Selectable"] = false;
+NatHubGUI["79"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["79"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["79"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["79"]["Name"] = [[Dropdown]];
+NatHubGUI["79"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.UICorner
+NatHubGUI["7a"] = Instance.new("UICorner", NatHubGUI["79"]);
+NatHubGUI["7a"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.UIStroke
+NatHubGUI["7b"] = Instance.new("UIStroke", NatHubGUI["79"]);
+NatHubGUI["7b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["7b"]["Thickness"] = 1.5;
+NatHubGUI["7b"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title
+NatHubGUI["7c"] = Instance.new("TextLabel", NatHubGUI["79"]);
+NatHubGUI["7c"]["TextWrapped"] = true;
+NatHubGUI["7c"]["Interactable"] = false;
+NatHubGUI["7c"]["BorderSizePixel"] = 0;
+NatHubGUI["7c"]["TextSize"] = 16;
+NatHubGUI["7c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["7c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["7c"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["7c"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["7c"]["BackgroundTransparency"] = 1;
+NatHubGUI["7c"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["7c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["7c"]["Text"] = [[Dropdown]];
+NatHubGUI["7c"]["Name"] = [[Title]];
+NatHubGUI["7c"]["Position"] = UDim2.new(0.03135, 0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.ClickIcon
+NatHubGUI["7d"] = Instance.new("ImageButton", NatHubGUI["7c"]);
+NatHubGUI["7d"]["BorderSizePixel"] = 0;
+NatHubGUI["7d"]["AutoButtonColor"] = false;
+NatHubGUI["7d"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["7d"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["7d"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["7d"]["Image"] = [[rbxassetid://77563793724007]];
+NatHubGUI["7d"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["7d"]["Name"] = [[ClickIcon]];
+NatHubGUI["7d"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame
+NatHubGUI["7e"] = Instance.new("ImageButton", NatHubGUI["7c"]);
+NatHubGUI["7e"]["BorderSizePixel"] = 0;
+NatHubGUI["7e"]["BackgroundTransparency"] = 1;
+NatHubGUI["7e"]["Selectable"] = false;
+NatHubGUI["7e"]["ZIndex"] = 0;
+NatHubGUI["7e"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["7e"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["7e"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["7e"]["Name"] = [[BoxFrame]];
+NatHubGUI["7e"]["Position"] = UDim2.new(1, -33, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame.DropShadow
+NatHubGUI["7f"] = Instance.new("ImageLabel", NatHubGUI["7e"]);
+NatHubGUI["7f"]["Interactable"] = false;
+NatHubGUI["7f"]["ZIndex"] = 0;
+NatHubGUI["7f"]["BorderSizePixel"] = 0;
+NatHubGUI["7f"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["7f"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["7f"]["ImageTransparency"] = 0.75;
+NatHubGUI["7f"]["AutomaticSize"] = Enum.AutomaticSize.X;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["7f"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["7f"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["7f"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["7f"]["Size"] = UDim2.new(1, 28, 1, 28);
+NatHubGUI["7f"]["Visible"] = false;
+NatHubGUI["7f"]["BackgroundTransparency"] = 1;
+NatHubGUI["7f"]["Name"] = [[DropShadow]];
+NatHubGUI["7f"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame.Frame
+NatHubGUI["80"] = Instance.new("Frame", NatHubGUI["7e"]);
+NatHubGUI["80"]["Interactable"] = false;
+NatHubGUI["80"]["BorderSizePixel"] = 0;
+NatHubGUI["80"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["80"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["80"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["80"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["80"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+NatHubGUI["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame.Frame.UICorner
+NatHubGUI["81"] = Instance.new("UICorner", NatHubGUI["80"]);
+NatHubGUI["81"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame.Frame.UIStroke
+NatHubGUI["82"] = Instance.new("UIStroke", NatHubGUI["80"]);
+NatHubGUI["82"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["82"]["Thickness"] = 1.5;
+NatHubGUI["82"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame.Frame.UIListLayout
+NatHubGUI["83"] = Instance.new("UIListLayout", NatHubGUI["80"]);
+NatHubGUI["83"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["83"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+NatHubGUI["83"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame.Frame.Title
+NatHubGUI["84"] = Instance.new("TextLabel", NatHubGUI["80"]);
+NatHubGUI["84"]["TextWrapped"] = true;
+NatHubGUI["84"]["Interactable"] = false;
+NatHubGUI["84"]["BorderSizePixel"] = 0;
+NatHubGUI["84"]["TextSize"] = 16;
+NatHubGUI["84"]["TextScaled"] = true;
+NatHubGUI["84"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["84"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["84"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["84"]["BackgroundTransparency"] = 1;
+NatHubGUI["84"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["84"]["Size"] = UDim2.new(0, 14, 0, 14);
+NatHubGUI["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["84"]["Text"] = [[]];
+NatHubGUI["84"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["84"]["Name"] = [[Title]];
+NatHubGUI["84"]["Position"] = UDim2.new(-0.59091, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Title.BoxFrame.Frame.UIPadding
+NatHubGUI["85"] = Instance.new("UIPadding", NatHubGUI["80"]);
+NatHubGUI["85"]["PaddingRight"] = UDim.new(0, 5);
+NatHubGUI["85"]["PaddingLeft"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.UIPadding
+NatHubGUI["86"] = Instance.new("UIPadding", NatHubGUI["79"]);
+NatHubGUI["86"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["86"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["86"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["86"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.UIListLayout
+NatHubGUI["87"] = Instance.new("UIListLayout", NatHubGUI["79"]);
+NatHubGUI["87"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["87"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.Description
+NatHubGUI["88"] = Instance.new("TextLabel", NatHubGUI["79"]);
+NatHubGUI["88"]["TextWrapped"] = true;
+NatHubGUI["88"]["Interactable"] = false;
+NatHubGUI["88"]["BorderSizePixel"] = 0;
+NatHubGUI["88"]["TextSize"] = 16;
+NatHubGUI["88"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["88"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["88"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["88"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["88"]["BackgroundTransparency"] = 1;
+NatHubGUI["88"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["88"]["Visible"] = false;
+NatHubGUI["88"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["88"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["88"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["88"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.UIGradient
+NatHubGUI["89"] = Instance.new("UIGradient", NatHubGUI["79"]);
+NatHubGUI["89"]["Enabled"] = false;
+NatHubGUI["89"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.UIGradient
+NatHubGUI["8a"] = Instance.new("UIGradient", NatHubGUI["79"]);
+NatHubGUI["8a"]["Enabled"] = false;
+NatHubGUI["8a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Dropdown.UIGradient
+NatHubGUI["8b"] = Instance.new("UIGradient", NatHubGUI["79"]);
+NatHubGUI["8b"]["Enabled"] = false;
+NatHubGUI["8b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Keybind
+NatHubGUI["8c"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["8c"]["BorderSizePixel"] = 0;
+NatHubGUI["8c"]["AutoButtonColor"] = false;
+NatHubGUI["8c"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["8c"]["Selectable"] = false;
+NatHubGUI["8c"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["8c"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["8c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["8c"]["Name"] = [[Keybind]];
+NatHubGUI["8c"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.UICorner
+NatHubGUI["8d"] = Instance.new("UICorner", NatHubGUI["8c"]);
+NatHubGUI["8d"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.UIStroke
+NatHubGUI["8e"] = Instance.new("UIStroke", NatHubGUI["8c"]);
+NatHubGUI["8e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["8e"]["Thickness"] = 1.5;
+NatHubGUI["8e"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title
+NatHubGUI["8f"] = Instance.new("TextLabel", NatHubGUI["8c"]);
+NatHubGUI["8f"]["TextWrapped"] = true;
+NatHubGUI["8f"]["BorderSizePixel"] = 0;
+NatHubGUI["8f"]["TextSize"] = 16;
+NatHubGUI["8f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["8f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["8f"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["8f"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["8f"]["BackgroundTransparency"] = 1;
+NatHubGUI["8f"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["8f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["8f"]["Text"] = [[Keybind]];
+NatHubGUI["8f"]["Name"] = [[Title]];
+NatHubGUI["8f"]["Position"] = UDim2.new(0.03135, 0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame
+NatHubGUI["90"] = Instance.new("ImageButton", NatHubGUI["8f"]);
+NatHubGUI["90"]["BorderSizePixel"] = 0;
+NatHubGUI["90"]["BackgroundTransparency"] = 1;
+NatHubGUI["90"]["Selectable"] = false;
+NatHubGUI["90"]["ZIndex"] = 0;
+NatHubGUI["90"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["90"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["90"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["90"]["Name"] = [[BoxFrame]];
+NatHubGUI["90"]["Position"] = UDim2.new(1, -33, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame.DropShadow
+NatHubGUI["91"] = Instance.new("ImageLabel", NatHubGUI["90"]);
+NatHubGUI["91"]["Interactable"] = false;
+NatHubGUI["91"]["ZIndex"] = 0;
+NatHubGUI["91"]["BorderSizePixel"] = 0;
+NatHubGUI["91"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["91"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["91"]["ImageTransparency"] = 0.75;
+NatHubGUI["91"]["AutomaticSize"] = Enum.AutomaticSize.X;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["91"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["91"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["91"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["91"]["Size"] = UDim2.new(1, 28, 1, 28);
+NatHubGUI["91"]["Visible"] = false;
+NatHubGUI["91"]["BackgroundTransparency"] = 1;
+NatHubGUI["91"]["Name"] = [[DropShadow]];
+NatHubGUI["91"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame.Frame
+NatHubGUI["92"] = Instance.new("Frame", NatHubGUI["90"]);
+NatHubGUI["92"]["Interactable"] = false;
+NatHubGUI["92"]["BorderSizePixel"] = 0;
+NatHubGUI["92"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["92"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["92"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["92"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["92"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+NatHubGUI["92"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame.Frame.UICorner
+NatHubGUI["93"] = Instance.new("UICorner", NatHubGUI["92"]);
+NatHubGUI["93"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame.Frame.UIStroke
+NatHubGUI["94"] = Instance.new("UIStroke", NatHubGUI["92"]);
+NatHubGUI["94"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["94"]["Thickness"] = 1.5;
+NatHubGUI["94"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame.Frame.UIListLayout
+NatHubGUI["95"] = Instance.new("UIListLayout", NatHubGUI["92"]);
+NatHubGUI["95"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["95"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+NatHubGUI["95"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame.Frame.Title
+NatHubGUI["96"] = Instance.new("TextLabel", NatHubGUI["92"]);
+NatHubGUI["96"]["TextWrapped"] = true;
+NatHubGUI["96"]["Interactable"] = false;
+NatHubGUI["96"]["BorderSizePixel"] = 0;
+NatHubGUI["96"]["TextSize"] = 16;
+NatHubGUI["96"]["TextScaled"] = true;
+NatHubGUI["96"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["96"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["96"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["96"]["BackgroundTransparency"] = 1;
+NatHubGUI["96"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["96"]["Size"] = UDim2.new(0, 14, 0, 14);
+NatHubGUI["96"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["96"]["Text"] = [[W]];
+NatHubGUI["96"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["96"]["Name"] = [[Title]];
+NatHubGUI["96"]["Position"] = UDim2.new(-0.59091, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.BoxFrame.Frame.UIPadding
+NatHubGUI["97"] = Instance.new("UIPadding", NatHubGUI["92"]);
+NatHubGUI["97"]["PaddingRight"] = UDim.new(0, 5);
+NatHubGUI["97"]["PaddingLeft"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Title.ClickIcon
+NatHubGUI["98"] = Instance.new("ImageButton", NatHubGUI["8f"]);
+NatHubGUI["98"]["BorderSizePixel"] = 0;
+NatHubGUI["98"]["AutoButtonColor"] = false;
+NatHubGUI["98"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["98"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["98"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["98"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["98"]["Image"] = [[rbxassetid://95517331027026]];
+NatHubGUI["98"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["98"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["98"]["Name"] = [[ClickIcon]];
+NatHubGUI["98"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.UIPadding
+NatHubGUI["99"] = Instance.new("UIPadding", NatHubGUI["8c"]);
+NatHubGUI["99"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["99"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["99"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["99"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.UIListLayout
+NatHubGUI["9a"] = Instance.new("UIListLayout", NatHubGUI["8c"]);
+NatHubGUI["9a"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["9a"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.Description
+NatHubGUI["9b"] = Instance.new("TextLabel", NatHubGUI["8c"]);
+NatHubGUI["9b"]["TextWrapped"] = true;
+NatHubGUI["9b"]["Interactable"] = false;
+NatHubGUI["9b"]["BorderSizePixel"] = 0;
+NatHubGUI["9b"]["TextSize"] = 16;
+NatHubGUI["9b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["9b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["9b"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["9b"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["9b"]["BackgroundTransparency"] = 1;
+NatHubGUI["9b"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["9b"]["Visible"] = false;
+NatHubGUI["9b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["9b"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["9b"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["9b"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.UIGradient
+NatHubGUI["9c"] = Instance.new("UIGradient", NatHubGUI["8c"]);
+NatHubGUI["9c"]["Enabled"] = false;
+NatHubGUI["9c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.UIGradient
+NatHubGUI["9d"] = Instance.new("UIGradient", NatHubGUI["8c"]);
+NatHubGUI["9d"]["Enabled"] = false;
+NatHubGUI["9d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Keybind.UIGradient
+NatHubGUI["9e"] = Instance.new("UIGradient", NatHubGUI["8c"]);
+NatHubGUI["9e"]["Enabled"] = false;
+NatHubGUI["9e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown
+NatHubGUI["9f"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["9f"]["BorderSizePixel"] = 0;
+NatHubGUI["9f"]["AutoButtonColor"] = false;
+NatHubGUI["9f"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["9f"]["Selectable"] = false;
+NatHubGUI["9f"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["9f"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["9f"]["Name"] = [[MultiDropdown]];
+NatHubGUI["9f"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.UICorner
+NatHubGUI["a0"] = Instance.new("UICorner", NatHubGUI["9f"]);
+NatHubGUI["a0"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.UIStroke
+NatHubGUI["a1"] = Instance.new("UIStroke", NatHubGUI["9f"]);
+NatHubGUI["a1"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["a1"]["Thickness"] = 1.5;
+NatHubGUI["a1"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title
+NatHubGUI["a2"] = Instance.new("TextLabel", NatHubGUI["9f"]);
+NatHubGUI["a2"]["TextWrapped"] = true;
+NatHubGUI["a2"]["BorderSizePixel"] = 0;
+NatHubGUI["a2"]["TextSize"] = 16;
+NatHubGUI["a2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["a2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["a2"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["a2"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["a2"]["BackgroundTransparency"] = 1;
+NatHubGUI["a2"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["a2"]["Text"] = [[Multi Dropdown]];
+NatHubGUI["a2"]["Name"] = [[Title]];
+NatHubGUI["a2"]["Position"] = UDim2.new(0.03135, 0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.ClickIcon
+NatHubGUI["a3"] = Instance.new("ImageButton", NatHubGUI["a2"]);
+NatHubGUI["a3"]["BorderSizePixel"] = 0;
+NatHubGUI["a3"]["AutoButtonColor"] = false;
+NatHubGUI["a3"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["a3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["a3"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["a3"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["a3"]["Image"] = [[rbxassetid://91415671397056]];
+NatHubGUI["a3"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["a3"]["Name"] = [[ClickIcon]];
+NatHubGUI["a3"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame
+NatHubGUI["a4"] = Instance.new("ImageButton", NatHubGUI["a2"]);
+NatHubGUI["a4"]["BorderSizePixel"] = 0;
+NatHubGUI["a4"]["BackgroundTransparency"] = 1;
+NatHubGUI["a4"]["Selectable"] = false;
+NatHubGUI["a4"]["ZIndex"] = 0;
+NatHubGUI["a4"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["a4"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["a4"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["a4"]["Name"] = [[BoxFrame]];
+NatHubGUI["a4"]["Position"] = UDim2.new(1, -33, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame.DropShadow
+NatHubGUI["a5"] = Instance.new("ImageLabel", NatHubGUI["a4"]);
+NatHubGUI["a5"]["Interactable"] = false;
+NatHubGUI["a5"]["ZIndex"] = 0;
+NatHubGUI["a5"]["BorderSizePixel"] = 0;
+NatHubGUI["a5"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["a5"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["a5"]["ImageTransparency"] = 0.75;
+NatHubGUI["a5"]["AutomaticSize"] = Enum.AutomaticSize.X;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["a5"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["a5"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["a5"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["a5"]["Size"] = UDim2.new(1, 28, 1, 28);
+NatHubGUI["a5"]["Visible"] = false;
+NatHubGUI["a5"]["BackgroundTransparency"] = 1;
+NatHubGUI["a5"]["Name"] = [[DropShadow]];
+NatHubGUI["a5"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame.Frame
+NatHubGUI["a6"] = Instance.new("Frame", NatHubGUI["a4"]);
+NatHubGUI["a6"]["Interactable"] = false;
+NatHubGUI["a6"]["BorderSizePixel"] = 0;
+NatHubGUI["a6"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["a6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["a6"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["a6"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["a6"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+NatHubGUI["a6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame.Frame.UICorner
+NatHubGUI["a7"] = Instance.new("UICorner", NatHubGUI["a6"]);
+NatHubGUI["a7"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame.Frame.UIStroke
+NatHubGUI["a8"] = Instance.new("UIStroke", NatHubGUI["a6"]);
+NatHubGUI["a8"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["a8"]["Thickness"] = 1.5;
+NatHubGUI["a8"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame.Frame.UIListLayout
+NatHubGUI["a9"] = Instance.new("UIListLayout", NatHubGUI["a6"]);
+NatHubGUI["a9"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["a9"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+NatHubGUI["a9"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame.Frame.Title
+NatHubGUI["aa"] = Instance.new("TextLabel", NatHubGUI["a6"]);
+NatHubGUI["aa"]["TextWrapped"] = true;
+NatHubGUI["aa"]["Interactable"] = false;
+NatHubGUI["aa"]["BorderSizePixel"] = 0;
+NatHubGUI["aa"]["TextSize"] = 16;
+NatHubGUI["aa"]["TextScaled"] = true;
+NatHubGUI["aa"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["aa"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["aa"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["aa"]["BackgroundTransparency"] = 1;
+NatHubGUI["aa"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["aa"]["Size"] = UDim2.new(0, 14, 0, 14);
+NatHubGUI["aa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["aa"]["Text"] = [[]];
+NatHubGUI["aa"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["aa"]["Name"] = [[Title]];
+NatHubGUI["aa"]["Position"] = UDim2.new(-0.59091, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Title.BoxFrame.Frame.UIPadding
+NatHubGUI["ab"] = Instance.new("UIPadding", NatHubGUI["a6"]);
+NatHubGUI["ab"]["PaddingRight"] = UDim.new(0, 5);
+NatHubGUI["ab"]["PaddingLeft"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.UIPadding
+NatHubGUI["ac"] = Instance.new("UIPadding", NatHubGUI["9f"]);
+NatHubGUI["ac"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["ac"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["ac"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["ac"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.UIListLayout
+NatHubGUI["ad"] = Instance.new("UIListLayout", NatHubGUI["9f"]);
+NatHubGUI["ad"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["ad"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.Description
+NatHubGUI["ae"] = Instance.new("TextLabel", NatHubGUI["9f"]);
+NatHubGUI["ae"]["TextWrapped"] = true;
+NatHubGUI["ae"]["Interactable"] = false;
+NatHubGUI["ae"]["BorderSizePixel"] = 0;
+NatHubGUI["ae"]["TextSize"] = 16;
+NatHubGUI["ae"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["ae"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["ae"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["ae"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["ae"]["BackgroundTransparency"] = 1;
+NatHubGUI["ae"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["ae"]["Visible"] = false;
+NatHubGUI["ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["ae"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["ae"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["ae"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.UIGradient
+NatHubGUI["af"] = Instance.new("UIGradient", NatHubGUI["9f"]);
+NatHubGUI["af"]["Enabled"] = false;
+NatHubGUI["af"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.UIGradient
+NatHubGUI["b0"] = Instance.new("UIGradient", NatHubGUI["9f"]);
+NatHubGUI["b0"]["Enabled"] = false;
+NatHubGUI["b0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.MultiDropdown.UIGradient
+NatHubGUI["b1"] = Instance.new("UIGradient", NatHubGUI["9f"]);
+NatHubGUI["b1"]["Enabled"] = false;
+NatHubGUI["b1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Toggle
+NatHubGUI["b2"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["b2"]["BorderSizePixel"] = 0;
+NatHubGUI["b2"]["AutoButtonColor"] = false;
+NatHubGUI["b2"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["b2"]["Selectable"] = false;
+NatHubGUI["b2"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["b2"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["b2"]["Name"] = [[Toggle]];
+NatHubGUI["b2"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UICorner
+NatHubGUI["b3"] = Instance.new("UICorner", NatHubGUI["b2"]);
+NatHubGUI["b3"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UIStroke
+NatHubGUI["b4"] = Instance.new("UIStroke", NatHubGUI["b2"]);
+NatHubGUI["b4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["b4"]["Thickness"] = 1.5;
+NatHubGUI["b4"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title
+NatHubGUI["b5"] = Instance.new("TextLabel", NatHubGUI["b2"]);
+NatHubGUI["b5"]["TextWrapped"] = true;
+NatHubGUI["b5"]["Interactable"] = false;
+NatHubGUI["b5"]["BorderSizePixel"] = 0;
+NatHubGUI["b5"]["TextSize"] = 16;
+NatHubGUI["b5"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["b5"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["b5"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["b5"]["BackgroundTransparency"] = 1;
+NatHubGUI["b5"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["b5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["b5"]["Text"] = [[Toggle]];
+NatHubGUI["b5"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill
+NatHubGUI["b6"] = Instance.new("ImageButton", NatHubGUI["b5"]);
+NatHubGUI["b6"]["BorderSizePixel"] = 0;
+NatHubGUI["b6"]["AutoButtonColor"] = false;
+NatHubGUI["b6"]["BackgroundColor3"] = Color3.fromRGB(193, 210, 200);
+NatHubGUI["b6"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["b6"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["b6"]["Size"] = UDim2.new(0, 45, 0, 25);
+NatHubGUI["b6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["b6"]["Name"] = [[Fill]];
+NatHubGUI["b6"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.UICorner
+NatHubGUI["b7"] = Instance.new("UICorner", NatHubGUI["b6"]);
+NatHubGUI["b7"]["CornerRadius"] = UDim.new(100, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.Ball
+NatHubGUI["b8"] = Instance.new("ImageButton", NatHubGUI["b6"]);
+NatHubGUI["b8"]["BorderSizePixel"] = 0;
+NatHubGUI["b8"]["AutoButtonColor"] = false;
+NatHubGUI["b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["b8"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["b8"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["b8"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["b8"]["Name"] = [[Ball]];
+NatHubGUI["b8"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.Ball.UICorner
+NatHubGUI["b9"] = Instance.new("UICorner", NatHubGUI["b8"]);
+NatHubGUI["b9"]["CornerRadius"] = UDim.new(100, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.UIPadding
+NatHubGUI["ba"] = Instance.new("UIPadding", NatHubGUI["b6"]);
+NatHubGUI["ba"]["PaddingTop"] = UDim.new(0, 2);
+NatHubGUI["ba"]["PaddingRight"] = UDim.new(0, 2);
+NatHubGUI["ba"]["PaddingLeft"] = UDim.new(0, 2);
+NatHubGUI["ba"]["PaddingBottom"] = UDim.new(0, 2);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UIPadding
+NatHubGUI["bb"] = Instance.new("UIPadding", NatHubGUI["b2"]);
+NatHubGUI["bb"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["bb"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["bb"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["bb"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UIListLayout
+NatHubGUI["bc"] = Instance.new("UIListLayout", NatHubGUI["b2"]);
+NatHubGUI["bc"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["bc"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Description
+NatHubGUI["bd"] = Instance.new("TextLabel", NatHubGUI["b2"]);
+NatHubGUI["bd"]["TextWrapped"] = true;
+NatHubGUI["bd"]["Interactable"] = false;
+NatHubGUI["bd"]["BorderSizePixel"] = 0;
+NatHubGUI["bd"]["TextSize"] = 16;
+NatHubGUI["bd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["bd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["bd"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["bd"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["bd"]["BackgroundTransparency"] = 1;
+NatHubGUI["bd"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["bd"]["Visible"] = false;
+NatHubGUI["bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["bd"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["bd"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["bd"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Toggle
+NatHubGUI["be"] = Instance.new("ImageButton", NatHubGUI["3e"]);
+NatHubGUI["be"]["BorderSizePixel"] = 0;
+NatHubGUI["be"]["AutoButtonColor"] = false;
+NatHubGUI["be"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["be"]["Selectable"] = false;
+NatHubGUI["be"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["be"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["be"]["Name"] = [[Toggle]];
+NatHubGUI["be"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UICorner
+NatHubGUI["bf"] = Instance.new("UICorner", NatHubGUI["be"]);
+NatHubGUI["bf"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UIStroke
+NatHubGUI["c0"] = Instance.new("UIStroke", NatHubGUI["be"]);
+NatHubGUI["c0"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["c0"]["Thickness"] = 1.5;
+NatHubGUI["c0"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title
+NatHubGUI["c1"] = Instance.new("TextLabel", NatHubGUI["be"]);
+NatHubGUI["c1"]["TextWrapped"] = true;
+NatHubGUI["c1"]["Interactable"] = false;
+NatHubGUI["c1"]["BorderSizePixel"] = 0;
+NatHubGUI["c1"]["TextSize"] = 16;
+NatHubGUI["c1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["c1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["c1"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["c1"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["c1"]["BackgroundTransparency"] = 1;
+NatHubGUI["c1"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["c1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["c1"]["Text"] = [[Toggle]];
+NatHubGUI["c1"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill
+NatHubGUI["c2"] = Instance.new("ImageButton", NatHubGUI["c1"]);
+NatHubGUI["c2"]["BorderSizePixel"] = 0;
+NatHubGUI["c2"]["AutoButtonColor"] = false;
+NatHubGUI["c2"]["BackgroundColor3"] = Color3.fromRGB(54, 57, 63);
+NatHubGUI["c2"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["c2"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["c2"]["Size"] = UDim2.new(0, 45, 0, 25);
+NatHubGUI["c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["c2"]["Name"] = [[Fill]];
+NatHubGUI["c2"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.UICorner
+NatHubGUI["c3"] = Instance.new("UICorner", NatHubGUI["c2"]);
+NatHubGUI["c3"]["CornerRadius"] = UDim.new(100, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.Ball
+NatHubGUI["c4"] = Instance.new("ImageButton", NatHubGUI["c2"]);
+NatHubGUI["c4"]["BorderSizePixel"] = 0;
+NatHubGUI["c4"]["AutoButtonColor"] = false;
+NatHubGUI["c4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["c4"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["c4"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["c4"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["c4"]["Name"] = [[Ball]];
+NatHubGUI["c4"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.Ball.UICorner
+NatHubGUI["c5"] = Instance.new("UICorner", NatHubGUI["c4"]);
+NatHubGUI["c5"]["CornerRadius"] = UDim.new(100, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.Ball.Icon
+NatHubGUI["c6"] = Instance.new("ImageLabel", NatHubGUI["c4"]);
+NatHubGUI["c6"]["BorderSizePixel"] = 0;
+NatHubGUI["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["c6"]["ImageColor3"] = Color3.fromRGB(54, 57, 63);
+NatHubGUI["c6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["c6"]["Size"] = UDim2.new(1, -5, 1, -5);
+NatHubGUI["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["c6"]["BackgroundTransparency"] = 1;
+NatHubGUI["c6"]["Name"] = [[Icon]];
+NatHubGUI["c6"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Title.Fill.UIPadding
+NatHubGUI["c7"] = Instance.new("UIPadding", NatHubGUI["c2"]);
+NatHubGUI["c7"]["PaddingTop"] = UDim.new(0, 2);
+NatHubGUI["c7"]["PaddingRight"] = UDim.new(0, 2);
+NatHubGUI["c7"]["PaddingLeft"] = UDim.new(0, 2);
+NatHubGUI["c7"]["PaddingBottom"] = UDim.new(0, 2);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UIPadding
+NatHubGUI["c8"] = Instance.new("UIPadding", NatHubGUI["be"]);
+NatHubGUI["c8"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["c8"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["c8"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["c8"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.UIListLayout
+NatHubGUI["c9"] = Instance.new("UIListLayout", NatHubGUI["be"]);
+NatHubGUI["c9"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["c9"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Toggle.Description
+NatHubGUI["ca"] = Instance.new("TextLabel", NatHubGUI["be"]);
+NatHubGUI["ca"]["TextWrapped"] = true;
+NatHubGUI["ca"]["Interactable"] = false;
+NatHubGUI["ca"]["BorderSizePixel"] = 0;
+NatHubGUI["ca"]["TextSize"] = 16;
+NatHubGUI["ca"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["ca"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["ca"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["ca"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["ca"]["BackgroundTransparency"] = 1;
+NatHubGUI["ca"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["ca"]["Visible"] = false;
+NatHubGUI["ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["ca"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["ca"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["ca"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Section
+NatHubGUI["cb"] = Instance.new("Frame", NatHubGUI["3e"]);
+NatHubGUI["cb"]["BorderSizePixel"] = 0;
+NatHubGUI["cb"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["cb"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["cb"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["cb"]["Position"] = UDim2.new(0, 0, 0.43728, 0);
+NatHubGUI["cb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["cb"]["Name"] = [[Section]];
+NatHubGUI["cb"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert SelectionImageObject, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button
+NatHubGUI["cc"] = Instance.new("ImageButton", NatHubGUI["cb"]);
+NatHubGUI["cc"]["BorderSizePixel"] = 0;
+NatHubGUI["cc"]["AutoButtonColor"] = false;
+NatHubGUI["cc"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["cc"]["Selectable"] = false;
+NatHubGUI["cc"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["cc"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["cc"]["Name"] = [[Button]];
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UICorner
+NatHubGUI["cd"] = Instance.new("UICorner", NatHubGUI["cc"]);
+NatHubGUI["cd"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIStroke
+NatHubGUI["ce"] = Instance.new("UIStroke", NatHubGUI["cc"]);
+NatHubGUI["ce"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["ce"]["Thickness"] = 1.5;
+NatHubGUI["ce"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.Title
+NatHubGUI["cf"] = Instance.new("TextLabel", NatHubGUI["cc"]);
+NatHubGUI["cf"]["TextWrapped"] = true;
+NatHubGUI["cf"]["Interactable"] = false;
+NatHubGUI["cf"]["BorderSizePixel"] = 0;
+NatHubGUI["cf"]["TextSize"] = 16;
+NatHubGUI["cf"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["cf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["cf"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["cf"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["cf"]["BackgroundTransparency"] = 1;
+NatHubGUI["cf"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["cf"]["Text"] = [[Section]];
+NatHubGUI["cf"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.Title.Arrow
+NatHubGUI["d0"] = Instance.new("ImageButton", NatHubGUI["cf"]);
+NatHubGUI["d0"]["BorderSizePixel"] = 0;
+NatHubGUI["d0"]["AutoButtonColor"] = false;
+NatHubGUI["d0"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["d0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["d0"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["d0"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["d0"]["Image"] = [[rbxassetid://120292618616139]];
+NatHubGUI["d0"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["d0"]["Name"] = [[Arrow]];
+NatHubGUI["d0"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIPadding
+NatHubGUI["d1"] = Instance.new("UIPadding", NatHubGUI["cc"]);
+NatHubGUI["d1"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["d1"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["d1"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["d1"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIListLayout
+NatHubGUI["d2"] = Instance.new("UIListLayout", NatHubGUI["cc"]);
+NatHubGUI["d2"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["d2"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.Description
+NatHubGUI["d3"] = Instance.new("TextLabel", NatHubGUI["cc"]);
+NatHubGUI["d3"]["TextWrapped"] = true;
+NatHubGUI["d3"]["Interactable"] = false;
+NatHubGUI["d3"]["BorderSizePixel"] = 0;
+NatHubGUI["d3"]["TextSize"] = 16;
+NatHubGUI["d3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["d3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["d3"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["d3"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["d3"]["BackgroundTransparency"] = 1;
+NatHubGUI["d3"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["d3"]["Visible"] = false;
+NatHubGUI["d3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["d3"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["d3"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["d3"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIGradient
+NatHubGUI["d4"] = Instance.new("UIGradient", NatHubGUI["cc"]);
+NatHubGUI["d4"]["Enabled"] = false;
+NatHubGUI["d4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIGradient
+NatHubGUI["d5"] = Instance.new("UIGradient", NatHubGUI["cc"]);
+NatHubGUI["d5"]["Enabled"] = false;
+NatHubGUI["d5"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 1),NumberSequenceKeypoint.new(1.000, 1)};
+NatHubGUI["d5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIGradient
+NatHubGUI["d6"] = Instance.new("UIGradient", NatHubGUI["cc"]);
+NatHubGUI["d6"]["Enabled"] = false;
+NatHubGUI["d6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIStroke
+NatHubGUI["d7"] = Instance.new("UIStroke", NatHubGUI["cc"]);
+NatHubGUI["d7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["d7"]["Thickness"] = 1.5;
+NatHubGUI["d7"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame
+NatHubGUI["d8"] = Instance.new("Frame", NatHubGUI["cb"]);
+NatHubGUI["d8"]["Visible"] = false;
+NatHubGUI["d8"]["BorderSizePixel"] = 0;
+NatHubGUI["d8"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["d8"]["Size"] = UDim2.new(1, 0, 0, 0);
+NatHubGUI["d8"]["Position"] = UDim2.new(0, 0, 0, 35);
+NatHubGUI["d8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["d8"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame.UIListLayout
+NatHubGUI["d9"] = Instance.new("UIListLayout", NatHubGUI["d8"]);
+NatHubGUI["d9"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+NatHubGUI["d9"]["Padding"] = UDim.new(0, 10);
+NatHubGUI["d9"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame.UIPadding
+NatHubGUI["da"] = Instance.new("UIPadding", NatHubGUI["d8"]);
+NatHubGUI["da"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["da"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["da"]["PaddingLeft"] = UDim.new(0, 5);
+NatHubGUI["da"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame.Divider
+NatHubGUI["db"] = Instance.new("Frame", NatHubGUI["d8"]);
+NatHubGUI["db"]["BorderSizePixel"] = 0;
+NatHubGUI["db"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["db"]["Size"] = UDim2.new(1, 0, 0, 3);
+NatHubGUI["db"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["db"]["Name"] = [[Divider]];
+
+
+-- NatHub.Window.Tabs.Sample.Section
+NatHubGUI["dc"] = Instance.new("Frame", NatHubGUI["3e"]);
+NatHubGUI["dc"]["BorderSizePixel"] = 0;
+NatHubGUI["dc"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["dc"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["dc"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["dc"]["Position"] = UDim2.new(0, 0, 0.43728, 0);
+NatHubGUI["dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["dc"]["Name"] = [[Section]];
+NatHubGUI["dc"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button
+NatHubGUI["dd"] = Instance.new("ImageButton", NatHubGUI["dc"]);
+NatHubGUI["dd"]["BorderSizePixel"] = 0;
+NatHubGUI["dd"]["AutoButtonColor"] = false;
+NatHubGUI["dd"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["dd"]["Selectable"] = false;
+NatHubGUI["dd"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["dd"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["dd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["dd"]["Name"] = [[Button]];
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UICorner
+NatHubGUI["de"] = Instance.new("UICorner", NatHubGUI["dd"]);
+NatHubGUI["de"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIStroke
+NatHubGUI["df"] = Instance.new("UIStroke", NatHubGUI["dd"]);
+NatHubGUI["df"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["df"]["Thickness"] = 1.5;
+NatHubGUI["df"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.Title
+NatHubGUI["e0"] = Instance.new("TextLabel", NatHubGUI["dd"]);
+NatHubGUI["e0"]["TextWrapped"] = true;
+NatHubGUI["e0"]["Interactable"] = false;
+NatHubGUI["e0"]["BorderSizePixel"] = 0;
+NatHubGUI["e0"]["TextSize"] = 16;
+NatHubGUI["e0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["e0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["e0"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["e0"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["e0"]["BackgroundTransparency"] = 1;
+NatHubGUI["e0"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["e0"]["Text"] = [[Section]];
+NatHubGUI["e0"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.Title.Arrow
+NatHubGUI["e1"] = Instance.new("ImageButton", NatHubGUI["e0"]);
+NatHubGUI["e1"]["BorderSizePixel"] = 0;
+NatHubGUI["e1"]["AutoButtonColor"] = false;
+NatHubGUI["e1"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["e1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["e1"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["e1"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["e1"]["Image"] = [[rbxassetid://120292618616139]];
+NatHubGUI["e1"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["e1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["e1"]["Name"] = [[Arrow]];
+NatHubGUI["e1"]["Rotation"] = 90;
+NatHubGUI["e1"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIPadding
+NatHubGUI["e2"] = Instance.new("UIPadding", NatHubGUI["dd"]);
+NatHubGUI["e2"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["e2"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["e2"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["e2"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIListLayout
+NatHubGUI["e3"] = Instance.new("UIListLayout", NatHubGUI["dd"]);
+NatHubGUI["e3"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["e3"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.Description
+NatHubGUI["e4"] = Instance.new("TextLabel", NatHubGUI["dd"]);
+NatHubGUI["e4"]["TextWrapped"] = true;
+NatHubGUI["e4"]["Interactable"] = false;
+NatHubGUI["e4"]["BorderSizePixel"] = 0;
+NatHubGUI["e4"]["TextSize"] = 16;
+NatHubGUI["e4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["e4"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["e4"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["e4"]["BackgroundTransparency"] = 1;
+NatHubGUI["e4"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["e4"]["Visible"] = false;
+NatHubGUI["e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["e4"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["e4"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["e4"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIGradient
+NatHubGUI["e5"] = Instance.new("UIGradient", NatHubGUI["dd"]);
+NatHubGUI["e5"]["Enabled"] = false;
+NatHubGUI["e5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIGradient
+NatHubGUI["e6"] = Instance.new("UIGradient", NatHubGUI["dd"]);
+NatHubGUI["e6"]["Enabled"] = false;
+NatHubGUI["e6"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 1),NumberSequenceKeypoint.new(1.000, 1)};
+NatHubGUI["e6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIGradient
+NatHubGUI["e7"] = Instance.new("UIGradient", NatHubGUI["dd"]);
+NatHubGUI["e7"]["Enabled"] = false;
+NatHubGUI["e7"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Section.Button.UIStroke
+NatHubGUI["e8"] = Instance.new("UIStroke", NatHubGUI["dd"]);
+NatHubGUI["e8"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["e8"]["Thickness"] = 1.5;
+NatHubGUI["e8"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame
+NatHubGUI["e9"] = Instance.new("Frame", NatHubGUI["dc"]);
+NatHubGUI["e9"]["BorderSizePixel"] = 0;
+NatHubGUI["e9"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["e9"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["e9"]["Size"] = UDim2.new(1, 0, 0, 0);
+NatHubGUI["e9"]["Position"] = UDim2.new(0, 0, 0, 35);
+NatHubGUI["e9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["e9"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame.UIListLayout
+NatHubGUI["ea"] = Instance.new("UIListLayout", NatHubGUI["e9"]);
+NatHubGUI["ea"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+NatHubGUI["ea"]["Padding"] = UDim.new(0, 10);
+NatHubGUI["ea"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame.UIPadding
+NatHubGUI["eb"] = Instance.new("UIPadding", NatHubGUI["e9"]);
+NatHubGUI["eb"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["eb"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["eb"]["PaddingLeft"] = UDim.new(0, 5);
+NatHubGUI["eb"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Section.Frame.Divider
+NatHubGUI["ec"] = Instance.new("Frame", NatHubGUI["e9"]);
+NatHubGUI["ec"]["BorderSizePixel"] = 0;
+NatHubGUI["ec"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["ec"]["Size"] = UDim2.new(1, 0, 0, 3);
+NatHubGUI["ec"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["ec"]["Name"] = [[Divider]];
+
+
+-- NatHub.Window.Tabs.Sample.Slider
+NatHubGUI["ed"] = Instance.new("Frame", NatHubGUI["3e"]);
+NatHubGUI["ed"]["BorderSizePixel"] = 0;
+NatHubGUI["ed"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 41);
+NatHubGUI["ed"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["ed"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["ed"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["ed"]["Name"] = [[Slider]];
+
+
+-- NatHub.Window.Tabs.Sample.Slider.UICorner
+NatHubGUI["ee"] = Instance.new("UICorner", NatHubGUI["ed"]);
+NatHubGUI["ee"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.UIStroke
+NatHubGUI["ef"] = Instance.new("UIStroke", NatHubGUI["ed"]);
+NatHubGUI["ef"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["ef"]["Thickness"] = 1.5;
+NatHubGUI["ef"]["Color"] = Color3.fromRGB(48, 48, 59);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.Title
+NatHubGUI["f0"] = Instance.new("TextLabel", NatHubGUI["ed"]);
+NatHubGUI["f0"]["TextWrapped"] = true;
+NatHubGUI["f0"]["Interactable"] = false;
+NatHubGUI["f0"]["BorderSizePixel"] = 0;
+NatHubGUI["f0"]["TextSize"] = 16;
+NatHubGUI["f0"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["f0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["f0"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["f0"]["TextColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["f0"]["BackgroundTransparency"] = 1;
+NatHubGUI["f0"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["f0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["f0"]["Text"] = [[Slider]];
+NatHubGUI["f0"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["f0"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.Slider.UIPadding
+NatHubGUI["f1"] = Instance.new("UIPadding", NatHubGUI["ed"]);
+NatHubGUI["f1"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["f1"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["f1"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["f1"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.UIListLayout
+NatHubGUI["f2"] = Instance.new("UIListLayout", NatHubGUI["ed"]);
+NatHubGUI["f2"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["f2"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.Slider.Description
+NatHubGUI["f3"] = Instance.new("TextLabel", NatHubGUI["ed"]);
+NatHubGUI["f3"]["TextWrapped"] = true;
+NatHubGUI["f3"]["Interactable"] = false;
+NatHubGUI["f3"]["BorderSizePixel"] = 0;
+NatHubGUI["f3"]["TextSize"] = 16;
+NatHubGUI["f3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["f3"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["f3"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["f3"]["BackgroundTransparency"] = 1;
+NatHubGUI["f3"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["f3"]["Visible"] = false;
+NatHubGUI["f3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["f3"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["f3"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["f3"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame
+NatHubGUI["f4"] = Instance.new("Frame", NatHubGUI["ed"]);
+NatHubGUI["f4"]["ZIndex"] = 0;
+NatHubGUI["f4"]["BorderSizePixel"] = 0;
+NatHubGUI["f4"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["f4"]["Name"] = [[SliderFrame]];
+NatHubGUI["f4"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame
+NatHubGUI["f5"] = Instance.new("Frame", NatHubGUI["f4"]);
+NatHubGUI["f5"]["ZIndex"] = 0;
+NatHubGUI["f5"]["BorderSizePixel"] = 0;
+NatHubGUI["f5"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["f5"]["Size"] = UDim2.new(1, 0, 0, 20);
+NatHubGUI["f5"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+NatHubGUI["f5"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.DropShadow
+NatHubGUI["f6"] = Instance.new("ImageLabel", NatHubGUI["f5"]);
+NatHubGUI["f6"]["ZIndex"] = 0;
+NatHubGUI["f6"]["BorderSizePixel"] = 0;
+NatHubGUI["f6"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["f6"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["f6"]["ImageTransparency"] = 0.75;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["f6"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["f6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["f6"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["f6"]["Size"] = UDim2.new(1, 25, 1, 25);
+NatHubGUI["f6"]["BackgroundTransparency"] = 1;
+NatHubGUI["f6"]["Name"] = [[DropShadow]];
+NatHubGUI["f6"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider
+NatHubGUI["f7"] = Instance.new("CanvasGroup", NatHubGUI["f5"]);
+NatHubGUI["f7"]["BorderSizePixel"] = 0;
+NatHubGUI["f7"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["f7"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["f7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["f7"]["Name"] = [[Slider]];
+NatHubGUI["f7"]["BackgroundTransparency"] = 0.5;
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.UICorner
+NatHubGUI["f8"] = Instance.new("UICorner", NatHubGUI["f7"]);
+NatHubGUI["f8"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.UIStroke
+NatHubGUI["f9"] = Instance.new("UIStroke", NatHubGUI["f7"]);
+NatHubGUI["f9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["f9"]["Thickness"] = 1.5;
+NatHubGUI["f9"]["Color"] = Color3.fromRGB(48, 48, 59);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.UIPadding
+NatHubGUI["fa"] = Instance.new("UIPadding", NatHubGUI["f7"]);
+NatHubGUI["fa"]["PaddingTop"] = UDim.new(0, 2);
+NatHubGUI["fa"]["PaddingRight"] = UDim.new(0, 2);
+NatHubGUI["fa"]["PaddingLeft"] = UDim.new(0, 2);
+NatHubGUI["fa"]["PaddingBottom"] = UDim.new(0, 2);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Trigger
+NatHubGUI["fb"] = Instance.new("TextButton", NatHubGUI["f7"]);
+NatHubGUI["fb"]["BorderSizePixel"] = 0;
+NatHubGUI["fb"]["TextSize"] = 14;
+NatHubGUI["fb"]["AutoButtonColor"] = false;
+NatHubGUI["fb"]["TextColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["fb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["fb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+NatHubGUI["fb"]["BackgroundTransparency"] = 1;
+NatHubGUI["fb"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["fb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["fb"]["Text"] = [[]];
+NatHubGUI["fb"]["Name"] = [[Trigger]];
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill
+NatHubGUI["fc"] = Instance.new("ImageButton", NatHubGUI["f7"]);
+NatHubGUI["fc"]["Active"] = false;
+NatHubGUI["fc"]["Interactable"] = false;
+NatHubGUI["fc"]["BorderSizePixel"] = 0;
+NatHubGUI["fc"]["AutoButtonColor"] = false;
+NatHubGUI["fc"]["BackgroundTransparency"] = 1;
+NatHubGUI["fc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["fc"]["Selectable"] = false;
+NatHubGUI["fc"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["fc"]["Size"] = UDim2.new(0.4127, 0, 1, 0);
+NatHubGUI["fc"]["ClipsDescendants"] = true;
+NatHubGUI["fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["fc"]["Name"] = [[Fill]];
+NatHubGUI["fc"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill.UICorner
+NatHubGUI["fd"] = Instance.new("UICorner", NatHubGUI["fc"]);
+NatHubGUI["fd"]["CornerRadius"] = UDim.new(0, 4);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill.UIStroke
+NatHubGUI["fe"] = Instance.new("UIStroke", NatHubGUI["fc"]);
+NatHubGUI["fe"]["Transparency"] = 0.5;
+NatHubGUI["fe"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["fe"]["Thickness"] = 1.5;
+NatHubGUI["fe"]["Color"] = Color3.fromRGB(11, 136, 214);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient
+NatHubGUI["ff"] = Instance.new("ImageButton", NatHubGUI["fc"]);
+NatHubGUI["ff"]["Active"] = false;
+NatHubGUI["ff"]["Interactable"] = false;
+NatHubGUI["ff"]["BorderSizePixel"] = 0;
+NatHubGUI["ff"]["AutoButtonColor"] = false;
+NatHubGUI["ff"]["BackgroundTransparency"] = 0.5;
+NatHubGUI["ff"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["ff"]["Selectable"] = false;
+NatHubGUI["ff"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["ff"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["ff"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["ff"]["Name"] = [[BackgroundGradient]];
+NatHubGUI["ff"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UICorner
+NatHubGUI["100"] = Instance.new("UICorner", NatHubGUI["ff"]);
+NatHubGUI["100"]["CornerRadius"] = UDim.new(0, 4);
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UIGradient
+NatHubGUI["101"] = Instance.new("UIGradient", NatHubGUI["ff"]);
+NatHubGUI["101"]["Enabled"] = false;
+NatHubGUI["101"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UIGradient
+NatHubGUI["102"] = Instance.new("UIGradient", NatHubGUI["ff"]);
+NatHubGUI["102"]["Enabled"] = false;
+NatHubGUI["102"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UIGradient
+NatHubGUI["103"] = Instance.new("UIGradient", NatHubGUI["ff"]);
+NatHubGUI["103"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Window.Tabs.Sample.Slider.SliderFrame.Frame.ValueText
+NatHubGUI["104"] = Instance.new("TextLabel", NatHubGUI["f5"]);
+NatHubGUI["104"]["TextWrapped"] = true;
+NatHubGUI["104"]["Interactable"] = false;
+NatHubGUI["104"]["ZIndex"] = 2;
+NatHubGUI["104"]["BorderSizePixel"] = 0;
+NatHubGUI["104"]["TextSize"] = 14;
+NatHubGUI["104"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["104"]["TextTransparency"] = 0.75;
+NatHubGUI["104"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["104"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["104"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["104"]["BackgroundTransparency"] = 1;
+NatHubGUI["104"]["RichText"] = true;
+NatHubGUI["104"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["104"]["Size"] = UDim2.new(1, -15, 1, 0);
+NatHubGUI["104"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["104"]["Text"] = [[0]];
+NatHubGUI["104"]["Name"] = [[ValueText]];
+NatHubGUI["104"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox
+NatHubGUI["105"] = Instance.new("Frame", NatHubGUI["3e"]);
+NatHubGUI["105"]["BorderSizePixel"] = 0;
+NatHubGUI["105"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["105"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["105"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["105"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["105"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["105"]["Name"] = [[TextBox]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UICorner
+NatHubGUI["106"] = Instance.new("UICorner", NatHubGUI["105"]);
+NatHubGUI["106"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIStroke
+NatHubGUI["107"] = Instance.new("UIStroke", NatHubGUI["105"]);
+NatHubGUI["107"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["107"]["Thickness"] = 1.5;
+NatHubGUI["107"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.Title
+NatHubGUI["108"] = Instance.new("TextLabel", NatHubGUI["105"]);
+NatHubGUI["108"]["TextWrapped"] = true;
+NatHubGUI["108"]["Interactable"] = false;
+NatHubGUI["108"]["BorderSizePixel"] = 0;
+NatHubGUI["108"]["TextSize"] = 16;
+NatHubGUI["108"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["108"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["108"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["108"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["108"]["BackgroundTransparency"] = 1;
+NatHubGUI["108"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["108"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["108"]["Text"] = [[Input Textbox]];
+NatHubGUI["108"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["108"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIPadding
+NatHubGUI["109"] = Instance.new("UIPadding", NatHubGUI["105"]);
+NatHubGUI["109"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["109"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["109"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["109"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIListLayout
+NatHubGUI["10a"] = Instance.new("UIListLayout", NatHubGUI["105"]);
+NatHubGUI["10a"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["10a"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.Description
+NatHubGUI["10b"] = Instance.new("TextLabel", NatHubGUI["105"]);
+NatHubGUI["10b"]["TextWrapped"] = true;
+NatHubGUI["10b"]["Interactable"] = false;
+NatHubGUI["10b"]["BorderSizePixel"] = 0;
+NatHubGUI["10b"]["TextSize"] = 16;
+NatHubGUI["10b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["10b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["10b"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["10b"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["10b"]["BackgroundTransparency"] = 1;
+NatHubGUI["10b"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["10b"]["Visible"] = false;
+NatHubGUI["10b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["10b"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["10b"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["10b"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame
+NatHubGUI["10c"] = Instance.new("Frame", NatHubGUI["105"]);
+NatHubGUI["10c"]["ZIndex"] = 0;
+NatHubGUI["10c"]["BorderSizePixel"] = 0;
+NatHubGUI["10c"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["10c"]["Name"] = [[BoxFrame]];
+NatHubGUI["10c"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.DropShadow
+NatHubGUI["10d"] = Instance.new("ImageLabel", NatHubGUI["10c"]);
+NatHubGUI["10d"]["ZIndex"] = 0;
+NatHubGUI["10d"]["BorderSizePixel"] = 0;
+NatHubGUI["10d"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["10d"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["10d"]["ImageTransparency"] = 0.75;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["10d"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["10d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["10d"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["10d"]["Size"] = UDim2.new(1, 35, 1, 35);
+NatHubGUI["10d"]["BackgroundTransparency"] = 1;
+NatHubGUI["10d"]["Name"] = [[DropShadow]];
+NatHubGUI["10d"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame
+NatHubGUI["10e"] = Instance.new("Frame", NatHubGUI["10c"]);
+NatHubGUI["10e"]["BorderSizePixel"] = 0;
+NatHubGUI["10e"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["10e"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["10e"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["10e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UICorner
+NatHubGUI["10f"] = Instance.new("UICorner", NatHubGUI["10e"]);
+NatHubGUI["10f"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UIStroke
+NatHubGUI["110"] = Instance.new("UIStroke", NatHubGUI["10e"]);
+NatHubGUI["110"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["110"]["Thickness"] = 1.5;
+NatHubGUI["110"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UIListLayout
+NatHubGUI["111"] = Instance.new("UIListLayout", NatHubGUI["10e"]);
+NatHubGUI["111"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["111"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.TextBox
+NatHubGUI["112"] = Instance.new("TextBox", NatHubGUI["10e"]);
+NatHubGUI["112"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["112"]["PlaceholderColor3"] = Color3.fromRGB(140, 140, 140);
+NatHubGUI["112"]["BorderSizePixel"] = 0;
+NatHubGUI["112"]["TextWrapped"] = true;
+NatHubGUI["112"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+NatHubGUI["112"]["TextSize"] = 14;
+NatHubGUI["112"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["112"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["112"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["112"]["ClipsDescendants"] = true;
+NatHubGUI["112"]["PlaceholderText"] = [[Input here...]];
+NatHubGUI["112"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["112"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["112"]["Text"] = [[]];
+NatHubGUI["112"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.TextBox.UIPadding
+NatHubGUI["113"] = Instance.new("UIPadding", NatHubGUI["112"]);
+NatHubGUI["113"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["113"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["113"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["113"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox
+NatHubGUI["114"] = Instance.new("Frame", NatHubGUI["3e"]);
+NatHubGUI["114"]["BorderSizePixel"] = 0;
+NatHubGUI["114"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 41);
+NatHubGUI["114"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["114"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["114"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["114"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["114"]["Name"] = [[TextBox]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UICorner
+NatHubGUI["115"] = Instance.new("UICorner", NatHubGUI["114"]);
+NatHubGUI["115"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.Title
+NatHubGUI["116"] = Instance.new("TextLabel", NatHubGUI["114"]);
+NatHubGUI["116"]["TextWrapped"] = true;
+NatHubGUI["116"]["Interactable"] = false;
+NatHubGUI["116"]["BorderSizePixel"] = 0;
+NatHubGUI["116"]["TextSize"] = 16;
+NatHubGUI["116"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["116"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["116"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["116"]["TextColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["116"]["BackgroundTransparency"] = 1;
+NatHubGUI["116"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["116"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["116"]["Text"] = [[Input Textbox]];
+NatHubGUI["116"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["116"]["Name"] = [[Title]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIPadding
+NatHubGUI["117"] = Instance.new("UIPadding", NatHubGUI["114"]);
+NatHubGUI["117"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["117"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["117"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["117"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIListLayout
+NatHubGUI["118"] = Instance.new("UIListLayout", NatHubGUI["114"]);
+NatHubGUI["118"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["118"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.Description
+NatHubGUI["119"] = Instance.new("TextLabel", NatHubGUI["114"]);
+NatHubGUI["119"]["TextWrapped"] = true;
+NatHubGUI["119"]["Interactable"] = false;
+NatHubGUI["119"]["BorderSizePixel"] = 0;
+NatHubGUI["119"]["TextSize"] = 16;
+NatHubGUI["119"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["119"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["119"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["119"]["TextColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["119"]["BackgroundTransparency"] = 1;
+NatHubGUI["119"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["119"]["Visible"] = false;
+NatHubGUI["119"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["119"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["119"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["119"]["Name"] = [[Description]];
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame
+NatHubGUI["11a"] = Instance.new("Frame", NatHubGUI["114"]);
+NatHubGUI["11a"]["ZIndex"] = 0;
+NatHubGUI["11a"]["BorderSizePixel"] = 0;
+NatHubGUI["11a"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["11a"]["Name"] = [[BoxFrame]];
+NatHubGUI["11a"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.DropShadow
+NatHubGUI["11b"] = Instance.new("ImageLabel", NatHubGUI["11a"]);
+NatHubGUI["11b"]["ZIndex"] = 0;
+NatHubGUI["11b"]["BorderSizePixel"] = 0;
+NatHubGUI["11b"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["11b"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["11b"]["ImageTransparency"] = 0.75;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["11b"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["11b"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["11b"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["11b"]["Size"] = UDim2.new(1, 35, 1, 35);
+NatHubGUI["11b"]["BackgroundTransparency"] = 1;
+NatHubGUI["11b"]["Name"] = [[DropShadow]];
+NatHubGUI["11b"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame
+NatHubGUI["11c"] = Instance.new("Frame", NatHubGUI["11a"]);
+NatHubGUI["11c"]["BorderSizePixel"] = 0;
+NatHubGUI["11c"]["BackgroundColor3"] = Color3.fromRGB(33, 36, 41);
+NatHubGUI["11c"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["11c"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["11c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UICorner
+NatHubGUI["11d"] = Instance.new("UICorner", NatHubGUI["11c"]);
+NatHubGUI["11d"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UIStroke
+NatHubGUI["11e"] = Instance.new("UIStroke", NatHubGUI["11c"]);
+NatHubGUI["11e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["11e"]["Thickness"] = 1.5;
+NatHubGUI["11e"]["Color"] = Color3.fromRGB(48, 48, 59);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.UIListLayout
+NatHubGUI["11f"] = Instance.new("UIListLayout", NatHubGUI["11c"]);
+NatHubGUI["11f"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["11f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.TextBox
+NatHubGUI["120"] = Instance.new("TextBox", NatHubGUI["11c"]);
+NatHubGUI["120"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["120"]["PlaceholderColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["120"]["BorderSizePixel"] = 0;
+NatHubGUI["120"]["TextWrapped"] = true;
+NatHubGUI["120"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+NatHubGUI["120"]["TextSize"] = 14;
+NatHubGUI["120"]["TextColor3"] = Color3.fromRGB(76, 78, 84);
+NatHubGUI["120"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["120"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["120"]["ClipsDescendants"] = true;
+NatHubGUI["120"]["PlaceholderText"] = [[Input here...]];
+NatHubGUI["120"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["120"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["120"]["Text"] = [[]];
+NatHubGUI["120"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.BoxFrame.Frame.TextBox.UIPadding
+NatHubGUI["121"] = Instance.new("UIPadding", NatHubGUI["120"]);
+NatHubGUI["121"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["121"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["121"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["121"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Window.Tabs.Sample.TextBox.UIStroke
+NatHubGUI["122"] = Instance.new("UIStroke", NatHubGUI["114"]);
+NatHubGUI["122"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["122"]["Thickness"] = 1.5;
+NatHubGUI["122"]["Color"] = Color3.fromRGB(48, 48, 59);
+
+
+-- NatHub.Library
+NatHubGUI["123"] = Instance.new("ModuleScript", NatHubGUI["1"]);
+NatHubGUI["123"]["Name"] = [[Library]];
+
+
+-- NatHub.Library.IconModule
+NatHubGUI["124"] = Instance.new("ModuleScript", NatHubGUI["123"]);
+NatHubGUI["124"]["Name"] = [[IconModule]];
+
+
+-- NatHub.Library.IconModule.Lucide
+NatHubGUI["125"] = Instance.new("ModuleScript", NatHubGUI["124"]);
+NatHubGUI["125"]["Name"] = [[Lucide]];
+
+
+-- NatHub.Templates
+NatHubGUI["126"] = Instance.new("Folder", NatHubGUI["1"]);
+NatHubGUI["126"]["Name"] = [[Templates]];
+
+
+-- NatHub.Templates.Divider
+NatHubGUI["127"] = Instance.new("Frame", NatHubGUI["126"]);
+NatHubGUI["127"]["Visible"] = false;
+NatHubGUI["127"]["BorderSizePixel"] = 0;
+NatHubGUI["127"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["127"]["Size"] = UDim2.new(1, 0, 0, 1);
+NatHubGUI["127"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["127"]["Name"] = [[Divider]];
+
+
+-- NatHub.Templates.Tab
+NatHubGUI["128"] = Instance.new("ScrollingFrame", NatHubGUI["126"]);
+NatHubGUI["128"]["Visible"] = false;
+NatHubGUI["128"]["Active"] = true;
+NatHubGUI["128"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+NatHubGUI["128"]["BorderSizePixel"] = 0;
+NatHubGUI["128"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+NatHubGUI["128"]["ElasticBehavior"] = Enum.ElasticBehavior.Never;
+NatHubGUI["128"]["TopImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["128"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["128"]["Name"] = [[Tab]];
+NatHubGUI["128"]["Selectable"] = false;
+NatHubGUI["128"]["BottomImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["128"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["128"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["128"]["ScrollBarImageColor3"] = Color3.fromRGB(99, 106, 122);
+NatHubGUI["128"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["128"]["ScrollBarThickness"] = 5;
+NatHubGUI["128"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Tab.UIListLayout
+NatHubGUI["129"] = Instance.new("UIListLayout", NatHubGUI["128"]);
+NatHubGUI["129"]["Padding"] = UDim.new(0, 15);
+NatHubGUI["129"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Tab.UIPadding
+NatHubGUI["12a"] = Instance.new("UIPadding", NatHubGUI["128"]);
+NatHubGUI["12a"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["12a"]["PaddingRight"] = UDim.new(0, 14);
+NatHubGUI["12a"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["12a"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.TabButton
+NatHubGUI["12b"] = Instance.new("ImageButton", NatHubGUI["126"]);
+NatHubGUI["12b"]["BorderSizePixel"] = 0;
+NatHubGUI["12b"]["AutoButtonColor"] = false;
+NatHubGUI["12b"]["Visible"] = false;
+NatHubGUI["12b"]["BackgroundTransparency"] = 1;
+NatHubGUI["12b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["12b"]["Selectable"] = false;
+NatHubGUI["12b"]["Size"] = UDim2.new(1, 0, 0, 36);
+NatHubGUI["12b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["12b"]["Name"] = [[TabButton]];
+
+
+-- NatHub.Templates.TabButton.ImageButton
+NatHubGUI["12c"] = Instance.new("ImageButton", NatHubGUI["12b"]);
+NatHubGUI["12c"]["BorderSizePixel"] = 0;
+NatHubGUI["12c"]["ImageTransparency"] = 0.5;
+NatHubGUI["12c"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["12c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["12c"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["12c"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["12c"]["Image"] = [[rbxassetid://113216930555884]];
+NatHubGUI["12c"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["12c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["12c"]["Position"] = UDim2.new(0, 12, 0, 18);
+
+
+-- NatHub.Templates.TabButton.ImageButton.UIAspectRatioConstraint
+NatHubGUI["12d"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["12c"]);
+
+
+
+-- NatHub.Templates.TabButton.TextLabel
+NatHubGUI["12e"] = Instance.new("TextLabel", NatHubGUI["12b"]);
+NatHubGUI["12e"]["TextWrapped"] = true;
+NatHubGUI["12e"]["BorderSizePixel"] = 0;
+NatHubGUI["12e"]["TextSize"] = 14;
+NatHubGUI["12e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["12e"]["TextTransparency"] = 0.5;
+NatHubGUI["12e"]["TextScaled"] = true;
+NatHubGUI["12e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["12e"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["12e"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["12e"]["BackgroundTransparency"] = 1;
+NatHubGUI["12e"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["12e"]["Size"] = UDim2.new(0, 103, 0, 16);
+NatHubGUI["12e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["12e"]["Text"] = [[]];
+NatHubGUI["12e"]["Position"] = UDim2.new(0, 42, 0.5, 0);
+
+
+-- NatHub.Templates.TabButton.Bar
+NatHubGUI["12f"] = Instance.new("Frame", NatHubGUI["12b"]);
+NatHubGUI["12f"]["BorderSizePixel"] = 0;
+NatHubGUI["12f"]["BackgroundColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["12f"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["12f"]["Size"] = UDim2.new(0, 5, 0, 0);
+NatHubGUI["12f"]["Position"] = UDim2.new(0, 8, 0, 18);
+NatHubGUI["12f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["12f"]["Name"] = [[Bar]];
+NatHubGUI["12f"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.TabButton.Bar.UICorner
+NatHubGUI["130"] = Instance.new("UICorner", NatHubGUI["12f"]);
+NatHubGUI["130"]["CornerRadius"] = UDim.new(0, 100);
+
+
+-- NatHub.Templates.Button
+NatHubGUI["131"] = Instance.new("ImageButton", NatHubGUI["126"]);
+NatHubGUI["131"]["BorderSizePixel"] = 0;
+NatHubGUI["131"]["AutoButtonColor"] = false;
+NatHubGUI["131"]["Visible"] = false;
+NatHubGUI["131"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["131"]["Selectable"] = false;
+NatHubGUI["131"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["131"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["131"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["131"]["Name"] = [[Button]];
+NatHubGUI["131"]["Position"] = UDim2.new(0, 0, 0.384, 0);
+
+
+-- NatHub.Templates.Button.UICorner
+NatHubGUI["132"] = Instance.new("UICorner", NatHubGUI["131"]);
+NatHubGUI["132"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Button.Frame
+NatHubGUI["133"] = Instance.new("Frame", NatHubGUI["131"]);
+NatHubGUI["133"]["BorderSizePixel"] = 0;
+NatHubGUI["133"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["133"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["133"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["133"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["133"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Button.Frame.UIListLayout
+NatHubGUI["134"] = Instance.new("UIListLayout", NatHubGUI["133"]);
+NatHubGUI["134"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["134"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Button.Frame.UIPadding
+NatHubGUI["135"] = Instance.new("UIPadding", NatHubGUI["133"]);
+NatHubGUI["135"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["135"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["135"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["135"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.Button.Frame.Title
+NatHubGUI["136"] = Instance.new("TextLabel", NatHubGUI["133"]);
+NatHubGUI["136"]["TextWrapped"] = true;
+NatHubGUI["136"]["Interactable"] = false;
+NatHubGUI["136"]["BorderSizePixel"] = 0;
+NatHubGUI["136"]["TextSize"] = 16;
+NatHubGUI["136"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["136"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["136"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["136"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["136"]["BackgroundTransparency"] = 1;
+NatHubGUI["136"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["136"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["136"]["Text"] = [[Button]];
+NatHubGUI["136"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.Button.Frame.Title.ClickIcon
+NatHubGUI["137"] = Instance.new("ImageButton", NatHubGUI["136"]);
+NatHubGUI["137"]["BorderSizePixel"] = 0;
+NatHubGUI["137"]["AutoButtonColor"] = false;
+NatHubGUI["137"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["137"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["137"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["137"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["137"]["Image"] = [[rbxassetid://91877599529856]];
+NatHubGUI["137"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["137"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["137"]["Name"] = [[ClickIcon]];
+NatHubGUI["137"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Button.Frame.Description
+NatHubGUI["138"] = Instance.new("TextLabel", NatHubGUI["133"]);
+NatHubGUI["138"]["TextWrapped"] = true;
+NatHubGUI["138"]["Interactable"] = false;
+NatHubGUI["138"]["BorderSizePixel"] = 0;
+NatHubGUI["138"]["TextSize"] = 16;
+NatHubGUI["138"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["138"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["138"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["138"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["138"]["BackgroundTransparency"] = 1;
+NatHubGUI["138"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["138"]["Visible"] = false;
+NatHubGUI["138"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["138"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["138"]["LayoutOrder"] = 1;
+NatHubGUI["138"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["138"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.Button.Frame.UIGradient
+NatHubGUI["139"] = Instance.new("UIGradient", NatHubGUI["133"]);
+NatHubGUI["139"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Button.Frame.UIGradient
+NatHubGUI["13a"] = Instance.new("UIGradient", NatHubGUI["133"]);
+NatHubGUI["13a"]["Enabled"] = false;
+NatHubGUI["13a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Button.Frame.UIGradient
+NatHubGUI["13b"] = Instance.new("UIGradient", NatHubGUI["133"]);
+NatHubGUI["13b"]["Enabled"] = false;
+NatHubGUI["13b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Button.Frame.UICorner
+NatHubGUI["13c"] = Instance.new("UICorner", NatHubGUI["133"]);
+NatHubGUI["13c"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Button.UIStroke
+NatHubGUI["13d"] = Instance.new("UIStroke", NatHubGUI["131"]);
+NatHubGUI["13d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["13d"]["Thickness"] = 1.5;
+NatHubGUI["13d"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Paragraph
+NatHubGUI["13e"] = Instance.new("Frame", NatHubGUI["126"]);
+NatHubGUI["13e"]["Visible"] = false;
+NatHubGUI["13e"]["BorderSizePixel"] = 0;
+NatHubGUI["13e"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["13e"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["13e"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["13e"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["13e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["13e"]["Name"] = [[Paragraph]];
+
+
+-- NatHub.Templates.Paragraph.UICorner
+NatHubGUI["13f"] = Instance.new("UICorner", NatHubGUI["13e"]);
+NatHubGUI["13f"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Paragraph.UIStroke
+NatHubGUI["140"] = Instance.new("UIStroke", NatHubGUI["13e"]);
+NatHubGUI["140"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["140"]["Thickness"] = 1.5;
+NatHubGUI["140"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Paragraph.Title
+NatHubGUI["141"] = Instance.new("TextLabel", NatHubGUI["13e"]);
+NatHubGUI["141"]["TextWrapped"] = true;
+NatHubGUI["141"]["Interactable"] = false;
+NatHubGUI["141"]["BorderSizePixel"] = 0;
+NatHubGUI["141"]["TextSize"] = 16;
+NatHubGUI["141"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["141"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["141"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["141"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["141"]["BackgroundTransparency"] = 1;
+NatHubGUI["141"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["141"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["141"]["Text"] = [[Title]];
+NatHubGUI["141"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["141"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.Paragraph.UIPadding
+NatHubGUI["142"] = Instance.new("UIPadding", NatHubGUI["13e"]);
+NatHubGUI["142"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["142"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["142"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["142"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.Paragraph.UIListLayout
+NatHubGUI["143"] = Instance.new("UIListLayout", NatHubGUI["13e"]);
+NatHubGUI["143"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["143"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Paragraph.Description
+NatHubGUI["144"] = Instance.new("TextLabel", NatHubGUI["13e"]);
+NatHubGUI["144"]["TextWrapped"] = true;
+NatHubGUI["144"]["Interactable"] = false;
+NatHubGUI["144"]["BorderSizePixel"] = 0;
+NatHubGUI["144"]["TextSize"] = 16;
+NatHubGUI["144"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["144"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["144"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["144"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["144"]["BackgroundTransparency"] = 1;
+NatHubGUI["144"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["144"]["Visible"] = false;
+NatHubGUI["144"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["144"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["144"]["LayoutOrder"] = 1;
+NatHubGUI["144"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["144"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.Toggle
+NatHubGUI["145"] = Instance.new("ImageButton", NatHubGUI["126"]);
+NatHubGUI["145"]["BorderSizePixel"] = 0;
+NatHubGUI["145"]["AutoButtonColor"] = false;
+NatHubGUI["145"]["Visible"] = false;
+NatHubGUI["145"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["145"]["Selectable"] = false;
+NatHubGUI["145"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["145"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["145"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["145"]["Name"] = [[Toggle]];
+NatHubGUI["145"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Templates.Toggle.UICorner
+NatHubGUI["146"] = Instance.new("UICorner", NatHubGUI["145"]);
+NatHubGUI["146"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Toggle.UIStroke
+NatHubGUI["147"] = Instance.new("UIStroke", NatHubGUI["145"]);
+NatHubGUI["147"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["147"]["Thickness"] = 1.5;
+NatHubGUI["147"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Toggle.UIPadding
+NatHubGUI["148"] = Instance.new("UIPadding", NatHubGUI["145"]);
+NatHubGUI["148"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["148"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["148"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["148"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.Toggle.UIListLayout
+NatHubGUI["149"] = Instance.new("UIListLayout", NatHubGUI["145"]);
+NatHubGUI["149"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["149"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Toggle.Description
+NatHubGUI["14a"] = Instance.new("TextLabel", NatHubGUI["145"]);
+NatHubGUI["14a"]["TextWrapped"] = true;
+NatHubGUI["14a"]["Interactable"] = false;
+NatHubGUI["14a"]["BorderSizePixel"] = 0;
+NatHubGUI["14a"]["TextSize"] = 16;
+NatHubGUI["14a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["14a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["14a"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["14a"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["14a"]["BackgroundTransparency"] = 1;
+NatHubGUI["14a"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["14a"]["Visible"] = false;
+NatHubGUI["14a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["14a"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["14a"]["LayoutOrder"] = 1;
+NatHubGUI["14a"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["14a"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.Toggle.Title
+NatHubGUI["14b"] = Instance.new("TextLabel", NatHubGUI["145"]);
+NatHubGUI["14b"]["TextWrapped"] = true;
+NatHubGUI["14b"]["BorderSizePixel"] = 0;
+NatHubGUI["14b"]["TextSize"] = 16;
+NatHubGUI["14b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["14b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["14b"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["14b"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["14b"]["BackgroundTransparency"] = 1;
+NatHubGUI["14b"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["14b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["14b"]["Text"] = [[Toggle]];
+NatHubGUI["14b"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.Toggle.Title.Fill
+NatHubGUI["14c"] = Instance.new("ImageButton", NatHubGUI["14b"]);
+NatHubGUI["14c"]["BorderSizePixel"] = 0;
+NatHubGUI["14c"]["AutoButtonColor"] = false;
+NatHubGUI["14c"]["BackgroundColor3"] = Color3.fromRGB(54, 57, 63);
+NatHubGUI["14c"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["14c"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["14c"]["Size"] = UDim2.new(0, 45, 0, 25);
+NatHubGUI["14c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["14c"]["Name"] = [[Fill]];
+NatHubGUI["14c"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Toggle.Title.Fill.UICorner
+NatHubGUI["14d"] = Instance.new("UICorner", NatHubGUI["14c"]);
+NatHubGUI["14d"]["CornerRadius"] = UDim.new(100, 0);
+
+
+-- NatHub.Templates.Toggle.Title.Fill.Ball
+NatHubGUI["14e"] = Instance.new("ImageButton", NatHubGUI["14c"]);
+NatHubGUI["14e"]["Active"] = false;
+NatHubGUI["14e"]["Interactable"] = false;
+NatHubGUI["14e"]["BorderSizePixel"] = 0;
+NatHubGUI["14e"]["AutoButtonColor"] = false;
+NatHubGUI["14e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["14e"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["14e"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["14e"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["14e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["14e"]["Name"] = [[Ball]];
+NatHubGUI["14e"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Toggle.Title.Fill.Ball.UICorner
+NatHubGUI["14f"] = Instance.new("UICorner", NatHubGUI["14e"]);
+NatHubGUI["14f"]["CornerRadius"] = UDim.new(100, 0);
+
+
+-- NatHub.Templates.Toggle.Title.Fill.Ball.Icon
+NatHubGUI["150"] = Instance.new("ImageLabel", NatHubGUI["14e"]);
+NatHubGUI["150"]["BorderSizePixel"] = 0;
+NatHubGUI["150"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["150"]["ImageColor3"] = Color3.fromRGB(54, 57, 63);
+NatHubGUI["150"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["150"]["Size"] = UDim2.new(1, -5, 1, -5);
+NatHubGUI["150"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["150"]["BackgroundTransparency"] = 1;
+NatHubGUI["150"]["Name"] = [[Icon]];
+NatHubGUI["150"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Toggle.Title.Fill.UIPadding
+NatHubGUI["151"] = Instance.new("UIPadding", NatHubGUI["14c"]);
+NatHubGUI["151"]["PaddingTop"] = UDim.new(0, 2);
+NatHubGUI["151"]["PaddingRight"] = UDim.new(0, 2);
+NatHubGUI["151"]["PaddingLeft"] = UDim.new(0, 2);
+NatHubGUI["151"]["PaddingBottom"] = UDim.new(0, 2);
+
+
+-- NatHub.Templates.Notification
+NatHubGUI["152"] = Instance.new("Frame", NatHubGUI["126"]);
+NatHubGUI["152"]["Visible"] = false;
+NatHubGUI["152"]["BorderSizePixel"] = 0;
+NatHubGUI["152"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["152"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["152"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["152"]["Size"] = UDim2.new(1, 0, 0, 65);
+NatHubGUI["152"]["Position"] = UDim2.new(0.8244, 0, 0.88221, 0);
+NatHubGUI["152"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["152"]["Name"] = [[Notification]];
+NatHubGUI["152"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Notification.Items
+NatHubGUI["153"] = Instance.new("CanvasGroup", NatHubGUI["152"]);
+NatHubGUI["153"]["ZIndex"] = 2;
+NatHubGUI["153"]["BorderSizePixel"] = 0;
+NatHubGUI["153"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["153"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["153"]["Size"] = UDim2.new(0, 265, 0, 70);
+NatHubGUI["153"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["153"]["Name"] = [[Items]];
+
+
+-- NatHub.Templates.Notification.Items.Frame
+NatHubGUI["154"] = Instance.new("Frame", NatHubGUI["153"]);
+NatHubGUI["154"]["BorderSizePixel"] = 0;
+NatHubGUI["154"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["154"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["154"]["Size"] = UDim2.new(0, 265, 0, 70);
+NatHubGUI["154"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["154"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Notification.Items.Frame.UIListLayout
+NatHubGUI["155"] = Instance.new("UIListLayout", NatHubGUI["154"]);
+NatHubGUI["155"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["155"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+NatHubGUI["155"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Notification.Items.Frame.UIPadding
+NatHubGUI["156"] = Instance.new("UIPadding", NatHubGUI["154"]);
+NatHubGUI["156"]["PaddingTop"] = UDim.new(0, 15);
+NatHubGUI["156"]["PaddingLeft"] = UDim.new(0, 15);
+NatHubGUI["156"]["PaddingBottom"] = UDim.new(0, 15);
+
+
+-- NatHub.Templates.Notification.Items.Frame.SubContent
+NatHubGUI["157"] = Instance.new("TextLabel", NatHubGUI["154"]);
+NatHubGUI["157"]["TextWrapped"] = true;
+NatHubGUI["157"]["BorderSizePixel"] = 0;
+NatHubGUI["157"]["TextSize"] = 12;
+NatHubGUI["157"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["157"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["157"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+NatHubGUI["157"]["TextColor3"] = Color3.fromRGB(181, 181, 181);
+NatHubGUI["157"]["BackgroundTransparency"] = 1;
+NatHubGUI["157"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["157"]["Size"] = UDim2.new(0, 218, 0, 10);
+NatHubGUI["157"]["Visible"] = false;
+NatHubGUI["157"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["157"]["Text"] = [[This is a notification]];
+NatHubGUI["157"]["LayoutOrder"] = 1;
+NatHubGUI["157"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["157"]["Name"] = [[SubContent]];
+NatHubGUI["157"]["Position"] = UDim2.new(0, 0, 0, 19);
+
+
+-- NatHub.Templates.Notification.Items.Frame.SubContent.UIGradient
+NatHubGUI["158"] = Instance.new("UIGradient", NatHubGUI["157"]);
+NatHubGUI["158"]["Enabled"] = false;
+NatHubGUI["158"]["Rotation"] = -90;
+NatHubGUI["158"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(3, 100, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 226))};
+
+
+-- NatHub.Templates.Notification.Items.Frame.Title
+NatHubGUI["159"] = Instance.new("TextLabel", NatHubGUI["154"]);
+NatHubGUI["159"]["TextWrapped"] = true;
+NatHubGUI["159"]["BorderSizePixel"] = 0;
+NatHubGUI["159"]["TextSize"] = 16;
+NatHubGUI["159"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["159"]["TextScaled"] = true;
+NatHubGUI["159"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["159"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["159"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["159"]["BackgroundTransparency"] = 1;
+NatHubGUI["159"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["159"]["Size"] = UDim2.new(0, 235, 0, 18);
+NatHubGUI["159"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["159"]["Text"] = [[Title]];
+NatHubGUI["159"]["Name"] = [[Title]];
+NatHubGUI["159"]["Position"] = UDim2.new(0, 0, 0, 9);
+
+
+-- NatHub.Templates.Notification.Items.Frame.Title.Close
+NatHubGUI["15a"] = Instance.new("ImageButton", NatHubGUI["159"]);
+NatHubGUI["15a"]["BorderSizePixel"] = 0;
+NatHubGUI["15a"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["15a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["15a"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["15a"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["15a"]["Image"] = [[rbxassetid://132453323679056]];
+NatHubGUI["15a"]["Size"] = UDim2.new(0.09706, 0, 1.33333, 0);
+NatHubGUI["15a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["15a"]["Name"] = [[Close]];
+NatHubGUI["15a"]["Position"] = UDim2.new(0.92, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Notification.Items.Frame.Title.Close.UIAspectRatioConstraint
+NatHubGUI["15b"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["15a"]);
+
+
+
+-- NatHub.Templates.Notification.Items.Frame.Title.UIPadding
+NatHubGUI["15c"] = Instance.new("UIPadding", NatHubGUI["159"]);
+NatHubGUI["15c"]["PaddingLeft"] = UDim.new(0, 30);
+
+
+-- NatHub.Templates.Notification.Items.Frame.Title.Icon
+NatHubGUI["15d"] = Instance.new("ImageButton", NatHubGUI["159"]);
+NatHubGUI["15d"]["BorderSizePixel"] = 0;
+NatHubGUI["15d"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["15d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["15d"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["15d"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["15d"]["Image"] = [[rbxassetid://92049322344253]];
+NatHubGUI["15d"]["Size"] = UDim2.new(0.09706, 0, 1.33333, 0);
+NatHubGUI["15d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["15d"]["Name"] = [[Icon]];
+NatHubGUI["15d"]["Position"] = UDim2.new(0, -30, 0.5, 0);
+
+
+-- NatHub.Templates.Notification.Items.Frame.Title.Icon.UIAspectRatioConstraint
+NatHubGUI["15e"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["15d"]);
+
+
+
+-- NatHub.Templates.Notification.Items.Frame.Content
+NatHubGUI["15f"] = Instance.new("TextLabel", NatHubGUI["154"]);
+NatHubGUI["15f"]["TextWrapped"] = true;
+NatHubGUI["15f"]["BorderSizePixel"] = 0;
+NatHubGUI["15f"]["TextSize"] = 16;
+NatHubGUI["15f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["15f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["15f"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["15f"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["15f"]["BackgroundTransparency"] = 1;
+NatHubGUI["15f"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["15f"]["Size"] = UDim2.new(0, 218, 0, 10);
+NatHubGUI["15f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["15f"]["Text"] = [[Content]];
+NatHubGUI["15f"]["LayoutOrder"] = 2;
+NatHubGUI["15f"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["15f"]["Name"] = [[Content]];
+NatHubGUI["15f"]["Position"] = UDim2.new(0, 0, 0, 19);
+
+
+-- NatHub.Templates.Notification.Items.Frame.Content.UIGradient
+NatHubGUI["160"] = Instance.new("UIGradient", NatHubGUI["15f"]);
+NatHubGUI["160"]["Enabled"] = false;
+NatHubGUI["160"]["Rotation"] = -90;
+NatHubGUI["160"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(3, 100, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 226))};
+
+
+-- NatHub.Templates.Notification.Items.TimerBarFill
+NatHubGUI["161"] = Instance.new("Frame", NatHubGUI["153"]);
+NatHubGUI["161"]["BorderSizePixel"] = 0;
+NatHubGUI["161"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["161"]["AnchorPoint"] = Vector2.new(0, 1);
+NatHubGUI["161"]["Size"] = UDim2.new(1, 0, 0, 5);
+NatHubGUI["161"]["Position"] = UDim2.new(0, 0, 1, 0);
+NatHubGUI["161"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["161"]["Name"] = [[TimerBarFill]];
+NatHubGUI["161"]["BackgroundTransparency"] = 0.7;
+
+
+-- NatHub.Templates.Notification.Items.TimerBarFill.UICorner
+NatHubGUI["162"] = Instance.new("UICorner", NatHubGUI["161"]);
+
+
+
+-- NatHub.Templates.Notification.Items.TimerBarFill.Bar
+NatHubGUI["163"] = Instance.new("Frame", NatHubGUI["161"]);
+NatHubGUI["163"]["BorderSizePixel"] = 0;
+NatHubGUI["163"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["163"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["163"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["163"]["Name"] = [[Bar]];
+
+
+-- NatHub.Templates.Notification.Items.TimerBarFill.Bar.UICorner
+NatHubGUI["164"] = Instance.new("UICorner", NatHubGUI["163"]);
+
+
+
+-- NatHub.Templates.Notification.Items.UIStroke
+NatHubGUI["165"] = Instance.new("UIStroke", NatHubGUI["153"]);
+NatHubGUI["165"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["165"]["Thickness"] = 1.5;
+NatHubGUI["165"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Notification.Items.UICorner
+NatHubGUI["166"] = Instance.new("UICorner", NatHubGUI["153"]);
+
+
+
+-- NatHub.Templates.Slider
+NatHubGUI["167"] = Instance.new("Frame", NatHubGUI["126"]);
+NatHubGUI["167"]["Visible"] = false;
+NatHubGUI["167"]["BorderSizePixel"] = 0;
+NatHubGUI["167"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["167"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["167"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["167"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["167"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["167"]["Name"] = [[Slider]];
+
+
+-- NatHub.Templates.Slider.UICorner
+NatHubGUI["168"] = Instance.new("UICorner", NatHubGUI["167"]);
+NatHubGUI["168"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Slider.UIStroke
+NatHubGUI["169"] = Instance.new("UIStroke", NatHubGUI["167"]);
+NatHubGUI["169"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["169"]["Thickness"] = 1.5;
+NatHubGUI["169"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Slider.Title
+NatHubGUI["16a"] = Instance.new("TextLabel", NatHubGUI["167"]);
+NatHubGUI["16a"]["TextWrapped"] = true;
+NatHubGUI["16a"]["Interactable"] = false;
+NatHubGUI["16a"]["BorderSizePixel"] = 0;
+NatHubGUI["16a"]["TextSize"] = 16;
+NatHubGUI["16a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["16a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["16a"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["16a"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["16a"]["BackgroundTransparency"] = 1;
+NatHubGUI["16a"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["16a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["16a"]["Text"] = [[Slider]];
+NatHubGUI["16a"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["16a"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.Slider.UIPadding
+NatHubGUI["16b"] = Instance.new("UIPadding", NatHubGUI["167"]);
+NatHubGUI["16b"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["16b"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["16b"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["16b"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.Slider.UIListLayout
+NatHubGUI["16c"] = Instance.new("UIListLayout", NatHubGUI["167"]);
+NatHubGUI["16c"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["16c"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Slider.Description
+NatHubGUI["16d"] = Instance.new("TextLabel", NatHubGUI["167"]);
+NatHubGUI["16d"]["TextWrapped"] = true;
+NatHubGUI["16d"]["Interactable"] = false;
+NatHubGUI["16d"]["BorderSizePixel"] = 0;
+NatHubGUI["16d"]["TextSize"] = 16;
+NatHubGUI["16d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["16d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["16d"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["16d"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["16d"]["BackgroundTransparency"] = 1;
+NatHubGUI["16d"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["16d"]["Visible"] = false;
+NatHubGUI["16d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["16d"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["16d"]["LayoutOrder"] = 1;
+NatHubGUI["16d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["16d"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.Slider.SliderFrame
+NatHubGUI["16e"] = Instance.new("Frame", NatHubGUI["167"]);
+NatHubGUI["16e"]["ZIndex"] = 0;
+NatHubGUI["16e"]["BorderSizePixel"] = 0;
+NatHubGUI["16e"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["16e"]["Name"] = [[SliderFrame]];
+NatHubGUI["16e"]["LayoutOrder"] = 2;
+NatHubGUI["16e"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame
+NatHubGUI["16f"] = Instance.new("Frame", NatHubGUI["16e"]);
+NatHubGUI["16f"]["ZIndex"] = 0;
+NatHubGUI["16f"]["BorderSizePixel"] = 0;
+NatHubGUI["16f"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["16f"]["Size"] = UDim2.new(1, 0, 0, 20);
+NatHubGUI["16f"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+NatHubGUI["16f"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.DropShadow
+NatHubGUI["170"] = Instance.new("ImageLabel", NatHubGUI["16f"]);
+NatHubGUI["170"]["ZIndex"] = 0;
+NatHubGUI["170"]["BorderSizePixel"] = 0;
+NatHubGUI["170"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["170"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["170"]["ImageTransparency"] = 0.75;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["170"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["170"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["170"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["170"]["Size"] = UDim2.new(1, 25, 1, 25);
+NatHubGUI["170"]["BackgroundTransparency"] = 1;
+NatHubGUI["170"]["Name"] = [[DropShadow]];
+NatHubGUI["170"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider
+NatHubGUI["171"] = Instance.new("CanvasGroup", NatHubGUI["16f"]);
+NatHubGUI["171"]["BorderSizePixel"] = 0;
+NatHubGUI["171"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["171"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["171"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["171"]["Name"] = [[Slider]];
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.UICorner
+NatHubGUI["172"] = Instance.new("UICorner", NatHubGUI["171"]);
+NatHubGUI["172"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.UIStroke
+NatHubGUI["173"] = Instance.new("UIStroke", NatHubGUI["171"]);
+NatHubGUI["173"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["173"]["Thickness"] = 1.5;
+NatHubGUI["173"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.UIPadding
+NatHubGUI["174"] = Instance.new("UIPadding", NatHubGUI["171"]);
+NatHubGUI["174"]["PaddingTop"] = UDim.new(0, 2);
+NatHubGUI["174"]["PaddingRight"] = UDim.new(0, 2);
+NatHubGUI["174"]["PaddingLeft"] = UDim.new(0, 2);
+NatHubGUI["174"]["PaddingBottom"] = UDim.new(0, 2);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Trigger
+NatHubGUI["175"] = Instance.new("TextButton", NatHubGUI["171"]);
+NatHubGUI["175"]["BorderSizePixel"] = 0;
+NatHubGUI["175"]["TextSize"] = 14;
+NatHubGUI["175"]["AutoButtonColor"] = false;
+NatHubGUI["175"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["175"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["175"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+NatHubGUI["175"]["BackgroundTransparency"] = 1;
+NatHubGUI["175"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["175"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["175"]["Text"] = [[]];
+NatHubGUI["175"]["Name"] = [[Trigger]];
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill
+NatHubGUI["176"] = Instance.new("ImageButton", NatHubGUI["171"]);
+NatHubGUI["176"]["Active"] = false;
+NatHubGUI["176"]["Interactable"] = false;
+NatHubGUI["176"]["BorderSizePixel"] = 0;
+NatHubGUI["176"]["AutoButtonColor"] = false;
+NatHubGUI["176"]["BackgroundTransparency"] = 1;
+NatHubGUI["176"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["176"]["Selectable"] = false;
+NatHubGUI["176"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["176"]["Size"] = UDim2.new(0, 0, 1, 0);
+NatHubGUI["176"]["ClipsDescendants"] = true;
+NatHubGUI["176"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["176"]["Name"] = [[Fill]];
+NatHubGUI["176"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill.UICorner
+NatHubGUI["177"] = Instance.new("UICorner", NatHubGUI["176"]);
+NatHubGUI["177"]["CornerRadius"] = UDim.new(0, 4);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill.UIStroke
+NatHubGUI["178"] = Instance.new("UIStroke", NatHubGUI["176"]);
+NatHubGUI["178"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["178"]["Thickness"] = 1.5;
+NatHubGUI["178"]["Color"] = Color3.fromRGB(11, 136, 214);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient
+NatHubGUI["179"] = Instance.new("ImageButton", NatHubGUI["176"]);
+NatHubGUI["179"]["Active"] = false;
+NatHubGUI["179"]["Interactable"] = false;
+NatHubGUI["179"]["BorderSizePixel"] = 0;
+NatHubGUI["179"]["AutoButtonColor"] = false;
+NatHubGUI["179"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["179"]["Selectable"] = false;
+NatHubGUI["179"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["179"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["179"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["179"]["Name"] = [[BackgroundGradient]];
+NatHubGUI["179"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UICorner
+NatHubGUI["17a"] = Instance.new("UICorner", NatHubGUI["179"]);
+NatHubGUI["17a"]["CornerRadius"] = UDim.new(0, 4);
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UIGradient
+NatHubGUI["17b"] = Instance.new("UIGradient", NatHubGUI["179"]);
+NatHubGUI["17b"]["Enabled"] = false;
+NatHubGUI["17b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UIGradient
+NatHubGUI["17c"] = Instance.new("UIGradient", NatHubGUI["179"]);
+NatHubGUI["17c"]["Enabled"] = false;
+NatHubGUI["17c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.UIGradient
+NatHubGUI["17d"] = Instance.new("UIGradient", NatHubGUI["179"]);
+NatHubGUI["17d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Slider.SliderFrame.Frame.ValueText
+NatHubGUI["17e"] = Instance.new("TextLabel", NatHubGUI["16f"]);
+NatHubGUI["17e"]["TextWrapped"] = true;
+NatHubGUI["17e"]["Interactable"] = false;
+NatHubGUI["17e"]["ZIndex"] = 2;
+NatHubGUI["17e"]["BorderSizePixel"] = 0;
+NatHubGUI["17e"]["TextSize"] = 14;
+NatHubGUI["17e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["17e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["17e"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["17e"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["17e"]["BackgroundTransparency"] = 1;
+NatHubGUI["17e"]["RichText"] = true;
+NatHubGUI["17e"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["17e"]["Size"] = UDim2.new(1, -15, 1, 0);
+NatHubGUI["17e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["17e"]["Text"] = [[0]];
+NatHubGUI["17e"]["Name"] = [[ValueText]];
+NatHubGUI["17e"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Templates.TextBox
+NatHubGUI["17f"] = Instance.new("Frame", NatHubGUI["126"]);
+NatHubGUI["17f"]["Visible"] = false;
+NatHubGUI["17f"]["BorderSizePixel"] = 0;
+NatHubGUI["17f"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["17f"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["17f"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["17f"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["17f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["17f"]["Name"] = [[TextBox]];
+
+
+-- NatHub.Templates.TextBox.UICorner
+NatHubGUI["180"] = Instance.new("UICorner", NatHubGUI["17f"]);
+NatHubGUI["180"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.TextBox.UIStroke
+NatHubGUI["181"] = Instance.new("UIStroke", NatHubGUI["17f"]);
+NatHubGUI["181"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["181"]["Thickness"] = 1.5;
+NatHubGUI["181"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.TextBox.Title
+NatHubGUI["182"] = Instance.new("TextLabel", NatHubGUI["17f"]);
+NatHubGUI["182"]["TextWrapped"] = true;
+NatHubGUI["182"]["Interactable"] = false;
+NatHubGUI["182"]["BorderSizePixel"] = 0;
+NatHubGUI["182"]["TextSize"] = 16;
+NatHubGUI["182"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["182"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["182"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["182"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["182"]["BackgroundTransparency"] = 1;
+NatHubGUI["182"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["182"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["182"]["Text"] = [[Input Textbox]];
+NatHubGUI["182"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["182"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.TextBox.UIPadding
+NatHubGUI["183"] = Instance.new("UIPadding", NatHubGUI["17f"]);
+NatHubGUI["183"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["183"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["183"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["183"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.TextBox.UIListLayout
+NatHubGUI["184"] = Instance.new("UIListLayout", NatHubGUI["17f"]);
+NatHubGUI["184"]["Padding"] = UDim.new(0, 10);
+NatHubGUI["184"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.TextBox.Description
+NatHubGUI["185"] = Instance.new("TextLabel", NatHubGUI["17f"]);
+NatHubGUI["185"]["TextWrapped"] = true;
+NatHubGUI["185"]["Interactable"] = false;
+NatHubGUI["185"]["BorderSizePixel"] = 0;
+NatHubGUI["185"]["TextSize"] = 16;
+NatHubGUI["185"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["185"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["185"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["185"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["185"]["BackgroundTransparency"] = 1;
+NatHubGUI["185"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["185"]["Visible"] = false;
+NatHubGUI["185"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["185"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["185"]["LayoutOrder"] = 1;
+NatHubGUI["185"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["185"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.TextBox.BoxFrame
+NatHubGUI["186"] = Instance.new("Frame", NatHubGUI["17f"]);
+NatHubGUI["186"]["ZIndex"] = 0;
+NatHubGUI["186"]["BorderSizePixel"] = 0;
+NatHubGUI["186"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["186"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["186"]["Name"] = [[BoxFrame]];
+NatHubGUI["186"]["LayoutOrder"] = 2;
+NatHubGUI["186"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.TextBox.BoxFrame.DropShadow
+NatHubGUI["187"] = Instance.new("ImageLabel", NatHubGUI["186"]);
+NatHubGUI["187"]["ZIndex"] = 0;
+NatHubGUI["187"]["BorderSizePixel"] = 0;
+NatHubGUI["187"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["187"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["187"]["ImageTransparency"] = 0.75;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["187"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["187"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["187"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["187"]["Size"] = UDim2.new(1, 35, 1, 30);
+NatHubGUI["187"]["BackgroundTransparency"] = 1;
+NatHubGUI["187"]["Name"] = [[DropShadow]];
+NatHubGUI["187"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Templates.TextBox.BoxFrame.Frame
+NatHubGUI["188"] = Instance.new("Frame", NatHubGUI["186"]);
+NatHubGUI["188"]["BorderSizePixel"] = 0;
+NatHubGUI["188"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["188"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["188"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["188"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Templates.TextBox.BoxFrame.Frame.UICorner
+NatHubGUI["189"] = Instance.new("UICorner", NatHubGUI["188"]);
+NatHubGUI["189"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Templates.TextBox.BoxFrame.Frame.UIStroke
+NatHubGUI["18a"] = Instance.new("UIStroke", NatHubGUI["188"]);
+NatHubGUI["18a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["18a"]["Thickness"] = 1.5;
+NatHubGUI["18a"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.TextBox.BoxFrame.Frame.UIListLayout
+NatHubGUI["18b"] = Instance.new("UIListLayout", NatHubGUI["188"]);
+NatHubGUI["18b"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+NatHubGUI["18b"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["18b"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+NatHubGUI["18b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.TextBox.BoxFrame.Frame.TextBox
+NatHubGUI["18c"] = Instance.new("TextBox", NatHubGUI["188"]);
+NatHubGUI["18c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["18c"]["PlaceholderColor3"] = Color3.fromRGB(140, 140, 140);
+NatHubGUI["18c"]["BorderSizePixel"] = 0;
+NatHubGUI["18c"]["TextWrapped"] = true;
+NatHubGUI["18c"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+NatHubGUI["18c"]["TextSize"] = 14;
+NatHubGUI["18c"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["18c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["18c"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["18c"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["18c"]["ClipsDescendants"] = true;
+NatHubGUI["18c"]["PlaceholderText"] = [[Input here...]];
+NatHubGUI["18c"]["Size"] = UDim2.new(1, 0, 0, 25);
+NatHubGUI["18c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["18c"]["Text"] = [[]];
+NatHubGUI["18c"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.TextBox.BoxFrame.Frame.TextBox.UIPadding
+NatHubGUI["18d"] = Instance.new("UIPadding", NatHubGUI["18c"]);
+NatHubGUI["18d"]["PaddingTop"] = UDim.new(0, 5);
+NatHubGUI["18d"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["18d"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["18d"]["PaddingBottom"] = UDim.new(0, 5);
+
+
+-- NatHub.Templates.Dropdown
+NatHubGUI["18e"] = Instance.new("ImageButton", NatHubGUI["126"]);
+NatHubGUI["18e"]["BorderSizePixel"] = 0;
+NatHubGUI["18e"]["AutoButtonColor"] = false;
+NatHubGUI["18e"]["Visible"] = false;
+NatHubGUI["18e"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["18e"]["Selectable"] = false;
+NatHubGUI["18e"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["18e"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["18e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["18e"]["Name"] = [[Dropdown]];
+NatHubGUI["18e"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+
+
+-- NatHub.Templates.Dropdown.UICorner
+NatHubGUI["18f"] = Instance.new("UICorner", NatHubGUI["18e"]);
+NatHubGUI["18f"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Dropdown.UIStroke
+NatHubGUI["190"] = Instance.new("UIStroke", NatHubGUI["18e"]);
+NatHubGUI["190"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["190"]["Thickness"] = 1.5;
+NatHubGUI["190"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Dropdown.Title
+NatHubGUI["191"] = Instance.new("TextLabel", NatHubGUI["18e"]);
+NatHubGUI["191"]["TextWrapped"] = true;
+NatHubGUI["191"]["Active"] = true;
+NatHubGUI["191"]["BorderSizePixel"] = 0;
+NatHubGUI["191"]["TextSize"] = 16;
+NatHubGUI["191"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["191"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["191"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["191"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["191"]["BackgroundTransparency"] = 1;
+NatHubGUI["191"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["191"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["191"]["Text"] = [[Dropdown]];
+NatHubGUI["191"]["Name"] = [[Title]];
+NatHubGUI["191"]["Position"] = UDim2.new(0.03135, 0, 0, 0);
+
+
+-- NatHub.Templates.Dropdown.Title.ClickIcon
+NatHubGUI["192"] = Instance.new("ImageButton", NatHubGUI["191"]);
+NatHubGUI["192"]["BorderSizePixel"] = 0;
+NatHubGUI["192"]["AutoButtonColor"] = false;
+NatHubGUI["192"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["192"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["192"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["192"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["192"]["Image"] = [[rbxassetid://77563793724007]];
+NatHubGUI["192"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["192"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["192"]["Name"] = [[ClickIcon]];
+NatHubGUI["192"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame
+NatHubGUI["193"] = Instance.new("ImageButton", NatHubGUI["191"]);
+NatHubGUI["193"]["BorderSizePixel"] = 0;
+NatHubGUI["193"]["BackgroundTransparency"] = 1;
+NatHubGUI["193"]["Selectable"] = false;
+NatHubGUI["193"]["ZIndex"] = 0;
+NatHubGUI["193"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["193"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["193"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["193"]["Name"] = [[BoxFrame]];
+NatHubGUI["193"]["Position"] = UDim2.new(1, -33, 0.5, 0);
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame.DropShadow
+NatHubGUI["194"] = Instance.new("ImageLabel", NatHubGUI["193"]);
+NatHubGUI["194"]["Interactable"] = false;
+NatHubGUI["194"]["ZIndex"] = 0;
+NatHubGUI["194"]["BorderSizePixel"] = 0;
+NatHubGUI["194"]["SliceCenter"] = Rect.new(49, 49, 450, 450);
+NatHubGUI["194"]["ScaleType"] = Enum.ScaleType.Slice;
+NatHubGUI["194"]["ImageTransparency"] = 0.75;
+NatHubGUI["194"]["AutomaticSize"] = Enum.AutomaticSize.X;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["194"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["194"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["194"]["Image"] = [[rbxassetid://6014261993]];
+NatHubGUI["194"]["Size"] = UDim2.new(1, 28, 1, 28);
+NatHubGUI["194"]["Visible"] = false;
+NatHubGUI["194"]["BackgroundTransparency"] = 1;
+NatHubGUI["194"]["Name"] = [[DropShadow]];
+NatHubGUI["194"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame.Frame
+NatHubGUI["195"] = Instance.new("Frame", NatHubGUI["193"]);
+NatHubGUI["195"]["Interactable"] = false;
+NatHubGUI["195"]["BorderSizePixel"] = 0;
+NatHubGUI["195"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["195"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["195"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["195"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["195"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+NatHubGUI["195"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame.Frame.UICorner
+NatHubGUI["196"] = Instance.new("UICorner", NatHubGUI["195"]);
+NatHubGUI["196"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame.Frame.UIStroke
+NatHubGUI["197"] = Instance.new("UIStroke", NatHubGUI["195"]);
+NatHubGUI["197"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["197"]["Thickness"] = 1.5;
+NatHubGUI["197"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame.Frame.UIListLayout
+NatHubGUI["198"] = Instance.new("UIListLayout", NatHubGUI["195"]);
+NatHubGUI["198"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["198"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+NatHubGUI["198"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame.Frame.Title
+NatHubGUI["199"] = Instance.new("TextLabel", NatHubGUI["195"]);
+NatHubGUI["199"]["TextWrapped"] = true;
+NatHubGUI["199"]["Interactable"] = false;
+NatHubGUI["199"]["BorderSizePixel"] = 0;
+NatHubGUI["199"]["TextSize"] = 16;
+NatHubGUI["199"]["TextScaled"] = true;
+NatHubGUI["199"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["199"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["199"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["199"]["BackgroundTransparency"] = 1;
+NatHubGUI["199"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["199"]["Size"] = UDim2.new(0, 14, 0, 14);
+NatHubGUI["199"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["199"]["Text"] = [[]];
+NatHubGUI["199"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["199"]["Name"] = [[Title]];
+NatHubGUI["199"]["Position"] = UDim2.new(-0.59091, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Dropdown.Title.BoxFrame.Frame.UIPadding
+NatHubGUI["19a"] = Instance.new("UIPadding", NatHubGUI["195"]);
+NatHubGUI["19a"]["PaddingRight"] = UDim.new(0, 5);
+NatHubGUI["19a"]["PaddingLeft"] = UDim.new(0, 5);
+
+
+-- NatHub.Templates.Dropdown.UIPadding
+NatHubGUI["19b"] = Instance.new("UIPadding", NatHubGUI["18e"]);
+NatHubGUI["19b"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["19b"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["19b"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["19b"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.Dropdown.UIListLayout
+NatHubGUI["19c"] = Instance.new("UIListLayout", NatHubGUI["18e"]);
+NatHubGUI["19c"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["19c"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Dropdown.Description
+NatHubGUI["19d"] = Instance.new("TextLabel", NatHubGUI["18e"]);
+NatHubGUI["19d"]["TextWrapped"] = true;
+NatHubGUI["19d"]["Interactable"] = false;
+NatHubGUI["19d"]["BorderSizePixel"] = 0;
+NatHubGUI["19d"]["TextSize"] = 16;
+NatHubGUI["19d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["19d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["19d"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["19d"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["19d"]["BackgroundTransparency"] = 1;
+NatHubGUI["19d"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["19d"]["Visible"] = false;
+NatHubGUI["19d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["19d"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["19d"]["LayoutOrder"] = 1;
+NatHubGUI["19d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["19d"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.Dropdown.UIGradient
+NatHubGUI["19e"] = Instance.new("UIGradient", NatHubGUI["18e"]);
+NatHubGUI["19e"]["Enabled"] = false;
+NatHubGUI["19e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Dropdown.UIGradient
+NatHubGUI["19f"] = Instance.new("UIGradient", NatHubGUI["18e"]);
+NatHubGUI["19f"]["Enabled"] = false;
+NatHubGUI["19f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Dropdown.UIGradient
+NatHubGUI["1a0"] = Instance.new("UIGradient", NatHubGUI["18e"]);
+NatHubGUI["1a0"]["Enabled"] = false;
+NatHubGUI["1a0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.DropdownList
+NatHubGUI["1a1"] = Instance.new("Folder", NatHubGUI["126"]);
+NatHubGUI["1a1"]["Name"] = [[DropdownList]];
+
+
+-- NatHub.Templates.DropdownList.DropdownItems
+NatHubGUI["1a2"] = Instance.new("ScrollingFrame", NatHubGUI["1a1"]);
+NatHubGUI["1a2"]["Visible"] = false;
+NatHubGUI["1a2"]["Active"] = true;
+NatHubGUI["1a2"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+NatHubGUI["1a2"]["BorderSizePixel"] = 0;
+NatHubGUI["1a2"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+NatHubGUI["1a2"]["ElasticBehavior"] = Enum.ElasticBehavior.Never;
+NatHubGUI["1a2"]["TopImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["1a2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1a2"]["Name"] = [[DropdownItems]];
+NatHubGUI["1a2"]["Selectable"] = false;
+NatHubGUI["1a2"]["BottomImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["1a2"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1a2"]["Size"] = UDim2.new(1, 0, 1, -50);
+NatHubGUI["1a2"]["ScrollBarImageColor3"] = Color3.fromRGB(99, 106, 122);
+NatHubGUI["1a2"]["Position"] = UDim2.new(0, 0, 0, 50);
+NatHubGUI["1a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1a2"]["ScrollBarThickness"] = 5;
+NatHubGUI["1a2"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.DropdownList.DropdownItems.UIListLayout
+NatHubGUI["1a3"] = Instance.new("UIListLayout", NatHubGUI["1a2"]);
+NatHubGUI["1a3"]["Padding"] = UDim.new(0, 15);
+NatHubGUI["1a3"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.DropdownList.DropdownItems.UIPadding
+NatHubGUI["1a4"] = Instance.new("UIPadding", NatHubGUI["1a2"]);
+NatHubGUI["1a4"]["PaddingTop"] = UDim.new(0, 2);
+NatHubGUI["1a4"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["1a4"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["1a4"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.DropdownList.DropdownItemsSearch
+NatHubGUI["1a5"] = Instance.new("ScrollingFrame", NatHubGUI["1a1"]);
+NatHubGUI["1a5"]["Visible"] = false;
+NatHubGUI["1a5"]["Active"] = true;
+NatHubGUI["1a5"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+NatHubGUI["1a5"]["BorderSizePixel"] = 0;
+NatHubGUI["1a5"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+NatHubGUI["1a5"]["ElasticBehavior"] = Enum.ElasticBehavior.Never;
+NatHubGUI["1a5"]["TopImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["1a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1a5"]["Name"] = [[DropdownItemsSearch]];
+NatHubGUI["1a5"]["Selectable"] = false;
+NatHubGUI["1a5"]["BottomImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+NatHubGUI["1a5"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1a5"]["Size"] = UDim2.new(1, 0, 1, -50);
+NatHubGUI["1a5"]["ScrollBarImageColor3"] = Color3.fromRGB(99, 106, 122);
+NatHubGUI["1a5"]["Position"] = UDim2.new(0, 0, 0, 50);
+NatHubGUI["1a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1a5"]["ScrollBarThickness"] = 5;
+NatHubGUI["1a5"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.DropdownList.DropdownItemsSearch.UIListLayout
+NatHubGUI["1a6"] = Instance.new("UIListLayout", NatHubGUI["1a5"]);
+NatHubGUI["1a6"]["Padding"] = UDim.new(0, 15);
+NatHubGUI["1a6"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.DropdownList.DropdownItemsSearch.UIPadding
+NatHubGUI["1a7"] = Instance.new("UIPadding", NatHubGUI["1a5"]);
+NatHubGUI["1a7"]["PaddingTop"] = UDim.new(0, 2);
+NatHubGUI["1a7"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["1a7"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["1a7"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.DropdownButton
+NatHubGUI["1a8"] = Instance.new("ImageButton", NatHubGUI["126"]);
+NatHubGUI["1a8"]["BorderSizePixel"] = 0;
+NatHubGUI["1a8"]["AutoButtonColor"] = false;
+NatHubGUI["1a8"]["Visible"] = false;
+NatHubGUI["1a8"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["1a8"]["Selectable"] = false;
+NatHubGUI["1a8"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1a8"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["1a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1a8"]["Name"] = [[DropdownButton]];
+NatHubGUI["1a8"]["Position"] = UDim2.new(0, 0, 0.384, 0);
+
+
+-- NatHub.Templates.DropdownButton.UICorner
+NatHubGUI["1a9"] = Instance.new("UICorner", NatHubGUI["1a8"]);
+NatHubGUI["1a9"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.DropdownButton.Frame
+NatHubGUI["1aa"] = Instance.new("Frame", NatHubGUI["1a8"]);
+NatHubGUI["1aa"]["BorderSizePixel"] = 0;
+NatHubGUI["1aa"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1aa"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1aa"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["1aa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1aa"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.DropdownButton.Frame.UIListLayout
+NatHubGUI["1ab"] = Instance.new("UIListLayout", NatHubGUI["1aa"]);
+NatHubGUI["1ab"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["1ab"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.DropdownButton.Frame.UIPadding
+NatHubGUI["1ac"] = Instance.new("UIPadding", NatHubGUI["1aa"]);
+NatHubGUI["1ac"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["1ac"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["1ac"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["1ac"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.DropdownButton.Frame.Title
+NatHubGUI["1ad"] = Instance.new("TextLabel", NatHubGUI["1aa"]);
+NatHubGUI["1ad"]["TextWrapped"] = true;
+NatHubGUI["1ad"]["Interactable"] = false;
+NatHubGUI["1ad"]["BorderSizePixel"] = 0;
+NatHubGUI["1ad"]["TextSize"] = 16;
+NatHubGUI["1ad"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1ad"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["1ad"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1ad"]["BackgroundTransparency"] = 1;
+NatHubGUI["1ad"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["1ad"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1ad"]["Text"] = [[Button]];
+NatHubGUI["1ad"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.DropdownButton.Frame.Description
+NatHubGUI["1ae"] = Instance.new("TextLabel", NatHubGUI["1aa"]);
+NatHubGUI["1ae"]["TextWrapped"] = true;
+NatHubGUI["1ae"]["Interactable"] = false;
+NatHubGUI["1ae"]["BorderSizePixel"] = 0;
+NatHubGUI["1ae"]["TextSize"] = 16;
+NatHubGUI["1ae"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["1ae"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1ae"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["1ae"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1ae"]["BackgroundTransparency"] = 1;
+NatHubGUI["1ae"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["1ae"]["Visible"] = false;
+NatHubGUI["1ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1ae"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["1ae"]["LayoutOrder"] = 1;
+NatHubGUI["1ae"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1ae"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.DropdownButton.Frame.UIGradient
+NatHubGUI["1af"] = Instance.new("UIGradient", NatHubGUI["1aa"]);
+NatHubGUI["1af"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.DropdownButton.Frame.UIGradient
+NatHubGUI["1b0"] = Instance.new("UIGradient", NatHubGUI["1aa"]);
+NatHubGUI["1b0"]["Enabled"] = false;
+NatHubGUI["1b0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.DropdownButton.Frame.UIGradient
+NatHubGUI["1b1"] = Instance.new("UIGradient", NatHubGUI["1aa"]);
+NatHubGUI["1b1"]["Enabled"] = false;
+NatHubGUI["1b1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.DropdownButton.Frame.UICorner
+NatHubGUI["1b2"] = Instance.new("UICorner", NatHubGUI["1aa"]);
+NatHubGUI["1b2"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.DropdownButton.UIStroke
+NatHubGUI["1b3"] = Instance.new("UIStroke", NatHubGUI["1a8"]);
+NatHubGUI["1b3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["1b3"]["Thickness"] = 1.5;
+NatHubGUI["1b3"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Code
+NatHubGUI["1b4"] = Instance.new("Frame", NatHubGUI["126"]);
+NatHubGUI["1b4"]["Visible"] = false;
+NatHubGUI["1b4"]["BorderSizePixel"] = 0;
+NatHubGUI["1b4"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["1b4"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1b4"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["1b4"]["Position"] = UDim2.new(-0.0375, 0, 0.38434, 0);
+NatHubGUI["1b4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1b4"]["Name"] = [[Code]];
+
+
+-- NatHub.Templates.Code.UICorner
+NatHubGUI["1b5"] = Instance.new("UICorner", NatHubGUI["1b4"]);
+NatHubGUI["1b5"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Code.UIStroke
+NatHubGUI["1b6"] = Instance.new("UIStroke", NatHubGUI["1b4"]);
+NatHubGUI["1b6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["1b6"]["Thickness"] = 1.5;
+NatHubGUI["1b6"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Code.Title
+NatHubGUI["1b7"] = Instance.new("TextLabel", NatHubGUI["1b4"]);
+NatHubGUI["1b7"]["TextWrapped"] = true;
+NatHubGUI["1b7"]["Interactable"] = false;
+NatHubGUI["1b7"]["BorderSizePixel"] = 0;
+NatHubGUI["1b7"]["TextSize"] = 16;
+NatHubGUI["1b7"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["1b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1b7"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+NatHubGUI["1b7"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1b7"]["BackgroundTransparency"] = 1;
+NatHubGUI["1b7"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["1b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1b7"]["Text"] = [[Title]];
+NatHubGUI["1b7"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1b7"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.Code.UIPadding
+NatHubGUI["1b8"] = Instance.new("UIPadding", NatHubGUI["1b4"]);
+NatHubGUI["1b8"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["1b8"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["1b8"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["1b8"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.Code.UIListLayout
+NatHubGUI["1b9"] = Instance.new("UIListLayout", NatHubGUI["1b4"]);
+NatHubGUI["1b9"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["1b9"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Code.Code
+NatHubGUI["1ba"] = Instance.new("TextBox", NatHubGUI["1b4"]);
+NatHubGUI["1ba"]["Name"] = [[Code]];
+NatHubGUI["1ba"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["1ba"]["BorderSizePixel"] = 0;
+NatHubGUI["1ba"]["TextEditable"] = false;
+NatHubGUI["1ba"]["TextWrapped"] = true;
+NatHubGUI["1ba"]["TextSize"] = 16;
+NatHubGUI["1ba"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1ba"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["1ba"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1ba"]["Selectable"] = false;
+NatHubGUI["1ba"]["MultiLine"] = true;
+NatHubGUI["1ba"]["ClearTextOnFocus"] = false;
+NatHubGUI["1ba"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["1ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1ba"]["Text"] = [[print("Hello World!")]];
+NatHubGUI["1ba"]["LayoutOrder"] = 1;
+NatHubGUI["1ba"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Section
+NatHubGUI["1bb"] = Instance.new("Frame", NatHubGUI["126"]);
+NatHubGUI["1bb"]["Visible"] = false;
+NatHubGUI["1bb"]["BorderSizePixel"] = 0;
+NatHubGUI["1bb"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["1bb"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1bb"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["1bb"]["Position"] = UDim2.new(0, 0, 0.43728, 0);
+NatHubGUI["1bb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1bb"]["Name"] = [[Section]];
+NatHubGUI["1bb"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert SelectionImageObject, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+
+
+-- NatHub.Templates.Section.Button
+NatHubGUI["1bc"] = Instance.new("ImageButton", NatHubGUI["1bb"]);
+NatHubGUI["1bc"]["BorderSizePixel"] = 0;
+NatHubGUI["1bc"]["AutoButtonColor"] = false;
+NatHubGUI["1bc"]["BackgroundColor3"] = Color3.fromRGB(43, 46, 53);
+NatHubGUI["1bc"]["Selectable"] = false;
+NatHubGUI["1bc"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1bc"]["Size"] = UDim2.new(1, 0, 0, 35);
+NatHubGUI["1bc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1bc"]["Name"] = [[Button]];
+
+
+-- NatHub.Templates.Section.Button.UICorner
+NatHubGUI["1bd"] = Instance.new("UICorner", NatHubGUI["1bc"]);
+NatHubGUI["1bd"]["CornerRadius"] = UDim.new(0, 6);
+
+
+-- NatHub.Templates.Section.Button.UIStroke
+NatHubGUI["1be"] = Instance.new("UIStroke", NatHubGUI["1bc"]);
+NatHubGUI["1be"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["1be"]["Thickness"] = 1.5;
+NatHubGUI["1be"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Section.Button.Title
+NatHubGUI["1bf"] = Instance.new("TextLabel", NatHubGUI["1bc"]);
+NatHubGUI["1bf"]["TextWrapped"] = true;
+NatHubGUI["1bf"]["Interactable"] = false;
+NatHubGUI["1bf"]["BorderSizePixel"] = 0;
+NatHubGUI["1bf"]["TextSize"] = 16;
+NatHubGUI["1bf"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["1bf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1bf"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["1bf"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1bf"]["BackgroundTransparency"] = 1;
+NatHubGUI["1bf"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["1bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1bf"]["Text"] = [[Section]];
+NatHubGUI["1bf"]["Name"] = [[Title]];
+
+
+-- NatHub.Templates.Section.Button.Title.Arrow
+NatHubGUI["1c0"] = Instance.new("ImageButton", NatHubGUI["1bf"]);
+NatHubGUI["1c0"]["BorderSizePixel"] = 0;
+NatHubGUI["1c0"]["AutoButtonColor"] = false;
+NatHubGUI["1c0"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["1c0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1c0"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1c0"]["AnchorPoint"] = Vector2.new(1, 0.5);
+NatHubGUI["1c0"]["Image"] = [[rbxassetid://120292618616139]];
+NatHubGUI["1c0"]["Size"] = UDim2.new(0, 23, 0, 23);
+NatHubGUI["1c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1c0"]["Name"] = [[Arrow]];
+NatHubGUI["1c0"]["Position"] = UDim2.new(1, 0, 0.5, 0);
+
+
+-- NatHub.Templates.Section.Button.UIPadding
+NatHubGUI["1c1"] = Instance.new("UIPadding", NatHubGUI["1bc"]);
+NatHubGUI["1c1"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["1c1"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["1c1"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["1c1"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- NatHub.Templates.Section.Button.UIListLayout
+NatHubGUI["1c2"] = Instance.new("UIListLayout", NatHubGUI["1bc"]);
+NatHubGUI["1c2"]["Padding"] = UDim.new(0, 5);
+NatHubGUI["1c2"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Section.Button.Description
+NatHubGUI["1c3"] = Instance.new("TextLabel", NatHubGUI["1bc"]);
+NatHubGUI["1c3"]["TextWrapped"] = true;
+NatHubGUI["1c3"]["Interactable"] = false;
+NatHubGUI["1c3"]["BorderSizePixel"] = 0;
+NatHubGUI["1c3"]["TextSize"] = 16;
+NatHubGUI["1c3"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+NatHubGUI["1c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1c3"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+NatHubGUI["1c3"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1c3"]["BackgroundTransparency"] = 1;
+NatHubGUI["1c3"]["Size"] = UDim2.new(1, 0, 0, 15);
+NatHubGUI["1c3"]["Visible"] = false;
+NatHubGUI["1c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1c3"]["Text"] = [[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat lacus in enim congue, fermentum euismod leo ultricies. Nulla sodales. ]];
+NatHubGUI["1c3"]["LayoutOrder"] = 1;
+NatHubGUI["1c3"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1c3"]["Name"] = [[Description]];
+
+
+-- NatHub.Templates.Section.Button.UIGradient
+NatHubGUI["1c4"] = Instance.new("UIGradient", NatHubGUI["1bc"]);
+NatHubGUI["1c4"]["Enabled"] = false;
+NatHubGUI["1c4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Section.Button.UIGradient
+NatHubGUI["1c5"] = Instance.new("UIGradient", NatHubGUI["1bc"]);
+NatHubGUI["1c5"]["Enabled"] = false;
+NatHubGUI["1c5"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 1),NumberSequenceKeypoint.new(1.000, 1)};
+NatHubGUI["1c5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Section.Button.UIGradient
+NatHubGUI["1c6"] = Instance.new("UIGradient", NatHubGUI["1bc"]);
+NatHubGUI["1c6"]["Enabled"] = false;
+NatHubGUI["1c6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.160, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(0.320, Color3.fromRGB(0, 158, 255)),ColorSequenceKeypoint.new(0.540, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(0.782, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 158, 255))};
+
+
+-- NatHub.Templates.Section.Button.UIStroke
+NatHubGUI["1c7"] = Instance.new("UIStroke", NatHubGUI["1bc"]);
+NatHubGUI["1c7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["1c7"]["Thickness"] = 1.5;
+NatHubGUI["1c7"]["Color"] = Color3.fromRGB(61, 61, 75);
+
+
+-- NatHub.Templates.Section.Frame
+NatHubGUI["1c8"] = Instance.new("Frame", NatHubGUI["1bb"]);
+NatHubGUI["1c8"]["Visible"] = false;
+NatHubGUI["1c8"]["BorderSizePixel"] = 0;
+NatHubGUI["1c8"]["BackgroundColor3"] = Color3.fromRGB(207, 222, 255);
+NatHubGUI["1c8"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+NatHubGUI["1c8"]["Size"] = UDim2.new(1, 0, 0, 30);
+NatHubGUI["1c8"]["Position"] = UDim2.new(0, 0, 0, 35);
+NatHubGUI["1c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1c8"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.Templates.Section.Frame.UIListLayout
+NatHubGUI["1c9"] = Instance.new("UIListLayout", NatHubGUI["1c8"]);
+NatHubGUI["1c9"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+NatHubGUI["1c9"]["Padding"] = UDim.new(0, 10);
+NatHubGUI["1c9"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.Templates.Section.Frame.UIPadding
+NatHubGUI["1ca"] = Instance.new("UIPadding", NatHubGUI["1c8"]);
+NatHubGUI["1ca"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["1ca"]["PaddingRight"] = UDim.new(0, 8);
+NatHubGUI["1ca"]["PaddingLeft"] = UDim.new(0, 8);
+
+
+-- NatHub.Templates.Section.Frame.Divider
+NatHubGUI["1cb"] = Instance.new("Frame", NatHubGUI["1c8"]);
+NatHubGUI["1cb"]["BorderSizePixel"] = 0;
+NatHubGUI["1cb"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["1cb"]["Size"] = UDim2.new(1, 0, 0, 3);
+NatHubGUI["1cb"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["1cb"]["Name"] = [[Divider]];
+
+
+-- NatHub.NotificationList
+NatHubGUI["1cc"] = Instance.new("Frame", NatHubGUI["1"]);
+NatHubGUI["1cc"]["BorderSizePixel"] = 0;
+NatHubGUI["1cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1cc"]["AnchorPoint"] = Vector2.new(0.5, 0);
+NatHubGUI["1cc"]["Size"] = UDim2.new(0, 630, 1, 0);
+NatHubGUI["1cc"]["Position"] = UDim2.new(1, 0, 0, 0);
+NatHubGUI["1cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1cc"]["Name"] = [[NotificationList]];
+NatHubGUI["1cc"]["BackgroundTransparency"] = 1;
+
+
+-- NatHub.NotificationList.UIListLayout
+NatHubGUI["1cd"] = Instance.new("UIListLayout", NatHubGUI["1cc"]);
+NatHubGUI["1cd"]["Padding"] = UDim.new(0, 12);
+NatHubGUI["1cd"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- NatHub.NotificationList.UIPadding
+NatHubGUI["1ce"] = Instance.new("UIPadding", NatHubGUI["1cc"]);
+NatHubGUI["1ce"]["PaddingTop"] = UDim.new(0, 10);
+NatHubGUI["1ce"]["PaddingRight"] = UDim.new(0, 40);
+NatHubGUI["1ce"]["PaddingLeft"] = UDim.new(0, 40);
+
+
+-- NatHub.FloatIcon
+NatHubGUI["1cf"] = Instance.new("Frame", NatHubGUI["1"]);
+NatHubGUI["1cf"]["Visible"] = false;
+NatHubGUI["1cf"]["ZIndex"] = 0;
+NatHubGUI["1cf"]["BorderSizePixel"] = 2;
+NatHubGUI["1cf"]["BackgroundColor3"] = Color3.fromRGB(37, 40, 47);
+NatHubGUI["1cf"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["1cf"]["ClipsDescendants"] = true;
+NatHubGUI["1cf"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["1cf"]["Size"] = UDim2.new(0, 85, 0, 45);
+NatHubGUI["1cf"]["Position"] = UDim2.new(0.5, 0, 0, 45);
+NatHubGUI["1cf"]["BorderColor3"] = Color3.fromRGB(61, 61, 75);
+NatHubGUI["1cf"]["Name"] = [[FloatIcon]];
+
+
+-- NatHub.FloatIcon.UICorner
+NatHubGUI["1d0"] = Instance.new("UICorner", NatHubGUI["1cf"]);
+NatHubGUI["1d0"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- NatHub.FloatIcon.UIStroke
+NatHubGUI["1d1"] = Instance.new("UIStroke", NatHubGUI["1cf"]);
+NatHubGUI["1d1"]["Transparency"] = 0.5;
+NatHubGUI["1d1"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+NatHubGUI["1d1"]["Thickness"] = 1.5;
+NatHubGUI["1d1"]["Color"] = Color3.fromRGB(95, 95, 117);
+
+
+-- NatHub.FloatIcon.UIPadding
+NatHubGUI["1d2"] = Instance.new("UIPadding", NatHubGUI["1cf"]);
+NatHubGUI["1d2"]["PaddingTop"] = UDim.new(0, 8);
+NatHubGUI["1d2"]["PaddingRight"] = UDim.new(0, 10);
+NatHubGUI["1d2"]["PaddingLeft"] = UDim.new(0, 10);
+NatHubGUI["1d2"]["PaddingBottom"] = UDim.new(0, 8);
+
+
+-- NatHub.FloatIcon.UIListLayout
+NatHubGUI["1d3"] = Instance.new("UIListLayout", NatHubGUI["1cf"]);
+NatHubGUI["1d3"]["Padding"] = UDim.new(0, 8);
+NatHubGUI["1d3"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+NatHubGUI["1d3"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+NatHubGUI["1d3"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- NatHub.FloatIcon.Icon
+NatHubGUI["1d4"] = Instance.new("ImageButton", NatHubGUI["1cf"]);
+NatHubGUI["1d4"]["Active"] = false;
+NatHubGUI["1d4"]["Interactable"] = false;
+NatHubGUI["1d4"]["BorderSizePixel"] = 0;
+NatHubGUI["1d4"]["AutoButtonColor"] = false;
+NatHubGUI["1d4"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["1d4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1d4"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["1d4"]["Image"] = [[rbxassetid://113216930555884]];
+NatHubGUI["1d4"]["Size"] = UDim2.new(1, 0, 1, 0);
+NatHubGUI["1d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1d4"]["Name"] = [[Icon]];
+NatHubGUI["1d4"]["Position"] = UDim2.new(0, 10, 0.5, 0);
+
+
+-- NatHub.FloatIcon.Icon.UIAspectRatioConstraint
+NatHubGUI["1d5"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["1d4"]);
+
+
+
+-- NatHub.FloatIcon.TextLabel
+NatHubGUI["1d6"] = Instance.new("TextLabel", NatHubGUI["1cf"]);
+NatHubGUI["1d6"]["Interactable"] = false;
+NatHubGUI["1d6"]["BorderSizePixel"] = 0;
+NatHubGUI["1d6"]["TextSize"] = 16;
+NatHubGUI["1d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1d6"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+NatHubGUI["1d6"]["TextColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1d6"]["BackgroundTransparency"] = 1;
+NatHubGUI["1d6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+NatHubGUI["1d6"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["1d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1d6"]["Text"] = [[NataX]];
+NatHubGUI["1d6"]["AutomaticSize"] = Enum.AutomaticSize.X;
+NatHubGUI["1d6"]["Position"] = UDim2.new(0.38615, 0, 0.53448, -1);
+
+
+-- NatHub.FloatIcon.Open
+NatHubGUI["1d7"] = Instance.new("ImageButton", NatHubGUI["1cf"]);
+NatHubGUI["1d7"]["BorderSizePixel"] = 0;
+NatHubGUI["1d7"]["AutoButtonColor"] = false;
+NatHubGUI["1d7"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+NatHubGUI["1d7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+NatHubGUI["1d7"]["ImageColor3"] = Color3.fromRGB(197, 204, 219);
+NatHubGUI["1d7"]["Selectable"] = false;
+NatHubGUI["1d7"]["AnchorPoint"] = Vector2.new(0, 0.5);
+NatHubGUI["1d7"]["Image"] = [[rbxassetid://122219713887461]];
+NatHubGUI["1d7"]["Size"] = UDim2.new(0, 20, 0, 20);
+NatHubGUI["1d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+NatHubGUI["1d7"]["Name"] = [[Open]];
+NatHubGUI["1d7"]["Position"] = UDim2.new(0, 128, 0.5, 0);
+
+
+-- NatHub.FloatIcon.Open.UIAspectRatioConstraint
+NatHubGUI["1d8"] = Instance.new("UIAspectRatioConstraint", NatHubGUI["1d7"]);
+
+
+
+-- NatHub.FloatIcon.Open.UICorner
+NatHubGUI["1d9"] = Instance.new("UICorner", NatHubGUI["1d7"]);
+
+
+
+-- Require NatHubGUI wrapper
+local NatHubGUI_REQUIRE = require;
+local NatHubGUI_MODULES = {};
+local function require(Module:ModuleScript)
+	local ModuleState = NatHubGUI_MODULES[Module];
+	if ModuleState then
+		if not ModuleState.Required then
+			ModuleState.Required = true;
+			ModuleState.Value = ModuleState.Closure();
+		end
+		return ModuleState.Value;
+	end;
+	return NatHubGUI_REQUIRE(Module);
+end
+
+NatHubGUI_MODULES[NatHubGUI["123"]] = {
+	Closure = function()
+		local script = NatHubGUI["123"];local LIB = {}
+		local GuiParent = pcall(protect_gui) or pcall(gethui) or pcall(game.CoreGui) or game.Players.LocalPlayer.PlayerGui
+		local IconModule = require(script.IconModule)
+
+		local Gui = script.Parent
+		local Templates = script.Parent.Templates
+		local oldWindow = script.Parent.Window
+		local oldFloatingIcon = script.Parent.FloatIcon
+
+		Templates.Parent = nil
+		Gui.Parent = GuiParent
+		oldWindow.Parent = nil
+		oldFloatingIcon.Parent = nil
+
+
+		local TweenConfigs = {
+			Global = {
+				Duration = 0.25,
+				EasingStyle = Enum.EasingStyle.Quart,
+				EasingDirection = Enum.EasingDirection.Out
+			},
+			Notification = {
+				Duration = 0.5,
+				EasingStyle = Enum.EasingStyle.Back,
+				EasingDirection = Enum.EasingDirection.Out
+			},
+			PopupOpen = {
+				Duration = 0.4,
+				EasingStyle = Enum.EasingStyle.Back,
+				EasingDirection = Enum.EasingDirection.Out
+			},
+			PopupClose = {
+				Duration = 0.4,
+				EasingStyle = Enum.EasingStyle.Back,
+				EasingDirection = Enum.EasingDirection.In
+			},
+		}
+		local function Tween(inst, props, config)
+			local twconfig = TweenInfo.new(config.Duration, config.EasingStyle or Enum.EasingStyle.Linear, config.EasingDirection or Enum.EasingDirection.Out)
+			local tw = game:GetService("TweenService"):Create(inst, twconfig, props)
+			tw:Play()
+			return tw
+		end
+
+		local function Draggable(topbarobject, object)
+			local funcs = {}
+
+			local tsv = game:GetService("TweenService")
+			local Dragging = nil
+			local DragInput = nil
+			local DragStart = nil
+			local StartPosition = nil
+
+			local allowDragging = true
+
+			local function Update(input)
+				local Delta = input.Position - DragStart
+				local pos =
+					UDim2.new(
+						StartPosition.X.Scale,
+						StartPosition.X.Offset + Delta.X,
+						StartPosition.Y.Scale,
+						StartPosition.Y.Offset + Delta.Y
+					)
+				tsv:Create(object, TweenInfo.new(0.2,Enum.EasingStyle.Quart), {Position = pos}):Play()
+				--object.Position = pos
+			end
+
+			topbarobject.InputBegan:Connect(
+				function(input)
+					if allowDragging and input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+						Dragging = true
+						DragStart = input.Position
+						StartPosition = object.Position
+
+						input.Changed:Connect(
+							function()
+								if input.UserInputState == Enum.UserInputState.End then
+									Dragging = false
+								end
+							end
+						)
+					end
+				end
+			)
+
+			topbarobject.InputChanged:Connect(
+				function(input)
+					if
+						allowDragging and
+						input.UserInputType == Enum.UserInputType.MouseMovement or
+						input.UserInputType == Enum.UserInputType.Touch
+					then
+						DragInput = input
+					end
+				end
+			)
+
+			game:GetService("UserInputService").InputChanged:Connect(
+				function(input)
+					if allowDragging and input == DragInput and Dragging then
+						Update(input)
+					end
+				end
+			)
+
+			function funcs:SetAllowDragging(state)
+				allowDragging = state
+			end
+
+			return funcs
+		end
+
+		local Windows = {}
+		function LIB:CreateWindow(data)
+			local Window = {
+				Title = data.Title,
+				Icon = data.Icon,
+				Version = data.Author,
+				Folder = data.Folder,
+				Size = data.Size,
+
+				LiveSearchDropdown = data.LiveSearchDropdown or false,
+			}
+
+			local windowFolder = Instance.new("Folder")
+			windowFolder.Parent = Gui
+			Gui.Name = Window.Title
+
+			local newFloatingIcon = oldFloatingIcon:Clone()
+			newFloatingIcon.Parent = windowFolder
+			newFloatingIcon.TextLabel.Text = Window.Title
+			newFloatingIcon.Visible = false
+			if not Window.Icon:find("rbxassetid") then
+				newFloatingIcon.Icon.Image = IconModule.Icon(Window.Icon)[1] or Window.Icon or ""
+				newFloatingIcon.Icon.ImageRectOffset = IconModule.Icon(Window.Icon)[2].ImageRectPosition or Vector2.new(0,0)
+				newFloatingIcon.Icon.ImageRectSize = IconModule.Icon(Window.Icon)[2].ImageRectSize or Vector2.new(0,0)
+			else
+				newFloatingIcon.Icon.Image = Window.Icon
+			end
+
+			local newWindow = oldWindow:Clone()
+			local mainFrame = newWindow
+			local TopFrame = mainFrame.TopFrame
+			local TabButtons = mainFrame.TabButtons
+			local Tabs = mainFrame.Tabs
+
+			newWindow.Name = Window.Title
+			TopFrame.TextLabel.Text = Window.Title.." - "..Window.Version
+			if not Window.Icon:find("rbxassetid") then
+				TopFrame.Icon.Image = IconModule.Icon(Window.Icon)[1] or Window.Icon or ""
+				TopFrame.Icon.ImageRectOffset = IconModule.Icon(Window.Icon)[2].ImageRectPosition or Vector2.new(0,0)
+				TopFrame.Icon.ImageRectSize = IconModule.Icon(Window.Icon)[2].ImageRectSize or Vector2.new(0,0)
+			else
+				TopFrame.Icon.Image = Window.Icon
+			end
+
+			newWindow.Size = Window.Size
+			newWindow.Visible = false
+			newWindow.Parent = windowFolder
+
+			table.insert(Windows, newWindow)
+
+			-- Functions
+
+			local selected
+			local TabLists = {}
+			local TabIndexList = {}
+			local function AddTabToList(name: string, tab: ScrollingFrame, tabbtn: GuiButton, hasicon: boolean)
+				local data = {
+					Name = name,
+					TabObject = tab,
+					TabButton = tabbtn,
+					HasIcon = hasicon
+				}
+				TabLists[name] = data
+				table.insert(TabIndexList, TabLists[name])
+			end
+
+			-- dropdown, the hardest part lol
+			local SelectedDropdown = nil
+			local DropdownState = false
+			local function DropdownPopup(state, name)
+				if name and DropdownState == false then
+					SelectedDropdown = name
+					for _,v in newWindow.DropdownSelection.Dropdowns:GetChildren() do
+						if v:IsA("Folder") then
+							v:FindFirstChild("DropdownItems").Visible = false
+							v:FindFirstChild("DropdownItemsSearch").Visible = false
+						end
+					end
+					newWindow.DropdownSelection.TopBar.Title.Text = name
+					newWindow.DropdownSelection.Dropdowns:FindFirstChild(name):FindFirstChild("DropdownItems").Visible = true
+					newWindow.DropdownSelection.Dropdowns:FindFirstChild(name):FindFirstChild("DropdownItemsSearch").Visible = false
+				end
+				if state == true then
+					-- open
+					newWindow.DropdownSelection.Size = UDim2.new(0,0,0,0)
+					newWindow.DarkOverlay.BackgroundTransparency = 1
+
+					newWindow.DropdownSelection.Visible = true
+					newWindow.DarkOverlay.Visible = true
+
+					Tween(newWindow.DropdownSelection, {Size = UDim2.new(0.728, 0,0.684, 0)}, TweenConfigs.PopupOpen)
+					Tween(newWindow.DarkOverlay, {BackgroundTransparency = 0.6}, TweenConfigs.PopupOpen)
+					DropdownState = state
+				elseif state == false then
+					-- close
+					local tw1 = Tween(newWindow.DropdownSelection, {Size = UDim2.new(0,0,0,0)}, TweenConfigs.PopupClose)
+					local tw2 = Tween(newWindow.DarkOverlay, {BackgroundTransparency = 1}, TweenConfigs.PopupClose)
+
+					tw2.Completed:Wait()
+
+					newWindow.DropdownSelection.Visible = false
+					newWindow.DarkOverlay.Visible = false
+
+					DropdownState = state
+				else
+					if DropdownState then
+						-- close
+						local tw1 = Tween(newWindow.DropdownSelection, {Size = UDim2.new(0,0,0,0)}, TweenConfigs.PopupClose)
+						local tw2 = Tween(newWindow.DarkOverlay, {BackgroundTransparency = 1}, TweenConfigs.PopupClose)
+
+						tw2.Completed:Wait()
+
+						newWindow.DropdownSelection.Visible = false
+						newWindow.DarkOverlay.Visible = false
+
+						DropdownState = false
+					else
+						-- open
+						newWindow.DropdownSelection.Size = UDim2.new(0,0,0,0)
+						newWindow.DarkOverlay.BackgroundTransparency = 1
+
+						newWindow.DropdownSelection.Visible = true
+						newWindow.DarkOverlay.Visible = true
+
+						Tween(newWindow.DropdownSelection, {Size = UDim2.new(0.728, 0,0.684, 0)}, TweenConfigs.PopupOpen)
+						Tween(newWindow.DarkOverlay, {BackgroundTransparency = 0.6}, TweenConfigs.PopupOpen)
+
+						DropdownState = true
+					end
+				end
+			end
+
+			local function SelectTab(tabName)
+				for tablistname, tab in pairs(TabLists) do
+
+					if tablistname ~= tabName then
+						tab.TabObject.Visible = false
+						-- Close
+						Tween(tab.TabButton.TextLabel, {Position = UDim2.new(0, 42,0.5, 0), Size = UDim2.new(0, 103,0, 16), TextTransparency = 0.5}, TweenConfigs.Global)
+						Tween(tab.TabButton.ImageButton, {Position = UDim2.new(0,12,0,18), ImageTransparency = 0.5}, TweenConfigs.Global)
+						Tween(tab.TabButton.Bar, {Size = UDim2.new(0, 5,0, 0), BackgroundTransparency = 1}, TweenConfigs.Global)
+					elseif tablistname == tabName then
+						selected = tabName
+						tab.TabObject.Visible = true
+						-- open
+						Tween(tab.TabButton.TextLabel, {Position = UDim2.new(0, 57,0.5, 0), Size = UDim2.new(0, 88,0, 16), TextTransparency = 0}, TweenConfigs.Global)
+						Tween(tab.TabButton.ImageButton, {Position = UDim2.new(0,25,0,18), ImageTransparency = 0}, TweenConfigs.Global)
+						Tween(tab.TabButton.Bar, {Size = UDim2.new(0, 5,0, 25), BackgroundTransparency = 0}, TweenConfigs.Global)
+
+						local objectCount = 0
+						for _, obj in ipairs(tab.TabObject:GetChildren()) do
+							if obj:IsA("GuiObject") then
+								objectCount = objectCount + 1
+							end
+						end
+						if objectCount == 0 then
+							Tabs.NoObjectFoundText.Visible = true
+						else
+							Tabs.NoObjectFoundText.Visible = false
+						end
+					end
+				end
+			end
+
+			newWindow.DropdownSelection.TopBar.Close.MouseButton1Click:Connect(function() DropdownPopup(false) end)
+
+			local textbox = newWindow.DropdownSelection.TopBar.BoxFrame.Frame.TextBox
+
+			textbox:GetPropertyChangedSignal("Text"):Connect(function()
+				if not Window.LiveSearchDropdown then return end
+				local currentFolder = newWindow.DropdownSelection.Dropdowns:FindFirstChild(SelectedDropdown)
+				if string.gsub(textbox.Text, " ", "") ~= "" then
+					if not currentFolder then return end
+					currentFolder:FindFirstChild("DropdownItems").Visible = false
+					currentFolder:FindFirstChild("DropdownItemsSearch").Visible = true
+
+					for _,button in currentFolder:FindFirstChild("DropdownItemsSearch"):GetChildren() do
+						if button:IsA("GuiButton") then
+							if string.find(button.Name:lower(), textbox.Text:lower()) then
+								button.Visible = true
+							else
+								button.Visible = false
+							end
+						end
+
+					end
+				else
+					currentFolder:FindFirstChild("DropdownItems").Visible = true
+					currentFolder:FindFirstChild("DropdownItemsSearch").Visible = false
+				end
+			end)
+
+			textbox.FocusLost:Connect(function()
+				if Window.LiveSearchDropdown then return end
+				local currentFolder = newWindow.DropdownSelection.Dropdowns:FindFirstChild(SelectedDropdown)
+				if string.gsub(textbox.Text, " ", "") ~= "" then
+					if not currentFolder then return end
+					currentFolder:FindFirstChild("DropdownItems").Visible = false
+					currentFolder:FindFirstChild("DropdownItemsSearch").Visible = true
+
+					for _,button in currentFolder:FindFirstChild("DropdownItemsSearch"):GetChildren() do
+						if button:IsA("GuiButton") then
+							if string.find(button.Name:lower(), textbox.Text:lower()) then
+								button.Visible = true
+							else
+								button.Visible = false
+							end
+						end
+
+					end
+				else
+					currentFolder:FindFirstChild("DropdownItems").Visible = true
+					currentFolder:FindFirstChild("DropdownItemsSearch").Visible = false
+				end
+			end)
+
+			-- window misc top bar
+			local oldFloatingSize = newFloatingIcon.Size
+			local oldWindowSize = Window.Size
+
+			local oldWindowSizeMaximize = Window.Size
+			local oldWindowPositionMaximize = newWindow.Position
+			local maximizedWindow = false
+
+			local windowDraggable = Draggable(newWindow.TopFrame, newWindow)
+			Draggable(newFloatingIcon, newFloatingIcon)
+
+			newWindow.Visible = true
+			newWindow.Size = UDim2.fromOffset(0,0)
+
+			newWindow.TopFrame.Hide.MouseButton1Click:Connect(function()
+				oldWindowSize = newWindow.Size
+
+				newFloatingIcon.Size = UDim2.fromOffset(0,0)
+				newFloatingIcon.Visible = true
+
+				Tween(newFloatingIcon, {Size = oldFloatingSize}, TweenConfigs.Global)
+				Tween(newWindow, {Size = UDim2.fromOffset(0,0)}, TweenConfigs.Global)
+					.Completed:Wait()
+				newWindow.Visible = false
+			end)
+
+			newFloatingIcon.Open.MouseButton1Click:Connect(function()
+				oldFloatingIcon = newFloatingIcon.Size
+
+				newWindow.Size = UDim2.fromOffset(0,0)
+				newWindow.Visible = true
+
+				Tween(newFloatingIcon, {Size = UDim2.new(0,0,0,0)}, TweenConfigs.Global)
+				Tween(newWindow, {Size = oldWindowSize}, TweenConfigs.Global)
+					.Completed:Wait()
+				newFloatingIcon.Visible = false
+			end)
+
+			newWindow.TopFrame.Close.MouseButton1Click:Connect(function()
+				-- :Destroy() will in result of errors
+				windowFolder.Parent = nil
+			end)
+
+			newWindow.TopFrame.Maximize.MouseButton1Click:Connect(function()
+				if not maximizedWindow then
+					-- maximizing
+					windowDraggable:SetAllowDragging(false)
+					oldWindowSizeMaximize = newWindow.Size
+					oldWindowPositionMaximize = newWindow.Position
+					Tween(newWindow, {Size = UDim2.new(1,0,1,0)}, TweenConfigs.Global)
+					Tween(newWindow, {Position = UDim2.new(0.5,0,0.5,0)}, TweenConfigs.Global)
+
+					Tween(newWindow.UICorner, {CornerRadius = UDim.new(0,0)}, TweenConfigs.Global)
+
+					maximizedWindow = true
+				else
+					-- minimizing
+					windowDraggable:SetAllowDragging(true)
+					Tween(newWindow, {Size = oldWindowSizeMaximize}, TweenConfigs.Global)
+					Tween(newWindow, {Position = oldWindowPositionMaximize}, TweenConfigs.Global)
+
+					Tween(newWindow.UICorner, {CornerRadius = UDim.new(0,10)}, TweenConfigs.Global)
+
+					maximizedWindow = false
+				end
+			end)
+
+			Tween(newWindow, {Size = oldWindowSize}, TweenConfigs.Global)
+
+			function Window:Tab(data)
+				local Tab = {}
+				local TabData = {
+					Title = data.Title,
+					Icon = data.Icon,
+					Callback = data.Callback or function() end
+				}
+
+				local newTabButton = Templates.TabButton:Clone()
+				newTabButton.Name = TabData.Title
+
+				newTabButton.Parent = newWindow.TabButtons.Lists
+				newTabButton.Visible = true
+
+				newTabButton.TextLabel.Text = TabData.Title
+				newTabButton.ImageButton.Image = (IconModule.Icon(TabData.Icon) and IconModule.Icon(TabData.Icon)[1]) or TabData.Icon or ""
+				newTabButton.ImageButton.ImageRectOffset = (IconModule.Icon(TabData.Icon) and IconModule.Icon(TabData.Icon)[2].ImageRectPosition) or Vector2.new(0,0)
+				newTabButton.ImageButton.ImageRectSize = (IconModule.Icon(TabData.Icon) and IconModule.Icon(TabData.Icon)[2].ImageRectSize) or Vector2.new(0,0)
+
+
+
+				local newTab = Templates.Tab:Clone()
+				newTab.Name = TabData.Title
+
+				newTab.Parent = newWindow.Tabs
+				newTab.Visible = false
+
+				AddTabToList(data.Title, newTab, newTabButton)
+
+				--if not selected then selected = TabData.Title end
+
+				if selected == TabData.Title then
+					newTab.Visible = true
+
+					-- Open
+
+					-- Textlabel
+					newTabButton.TextLabel.Position =  UDim2.new(0, 57,0.5, 0)
+					newTabButton.TextLabel.Size = UDim2.new(0, 88,0, 16)
+					newTabButton.TextLabel.TextTransparency = 0
+
+					-- icon
+					newTabButton.ImageButton.Position = UDim2.new(0,25,0,18)
+					newTabButton.ImageButton.ImageTransparency = 0
+
+					-- Bar
+					newTabButton.Bar.Size = UDim2.new(0, 5,0, 25)
+					newTabButton.Bar.BackgroundTransparency = 0
+				else
+					-- Close
+
+					-- Textlabel
+					newTabButton.TextLabel.Position =  UDim2.new(0, 42,0.5, 0)
+					newTabButton.TextLabel.Size = UDim2.new(0, 103,0, 16)
+					newTabButton.TextLabel.TextTransparency = 0.5
+
+					-- icon
+					newTabButton.ImageButton.Position = UDim2.new(0,12,0,18)
+					newTabButton.ImageButton.ImageTransparency = 0.5
+
+					-- Bar
+					newTabButton.Bar.Size = UDim2.new(0, 5,0, 0)
+					newTabButton.Bar.BackgroundTransparency = 1
+				end
+
+				newTabButton.MouseButton1Click:Connect(function()
+					SelectTab(TabData.Title)
+				end)
+
+				local function GetCurrentElementObjects()
+					local objects = {}
+					for _,v in pairs(newTab:GetChildren()) do
+						if v:IsA("GuiObject") then
+							table.insert(objects, v)
+						end
+					end
+					return objects
+				end
+
+				local parentElement = newTab
+
+				function Tab:Section(data)
+					local Section = {
+						Title = data.Title,
+						State = data.Default or false,
+						TextXAlignment = data.TextXAlignment or "Left",
+					}
+
+					local newSection = Templates.Section:Clone()
+					newSection.Name = Section.Title
+					newSection.Button.Title.Text = Section.Title
+					newSection.Button.Title.TextXAlignment = Enum.TextXAlignment[Section.TextXAlignment]
+
+					newSection.Visible = true
+					newSection.Parent = newTab
+
+					newSection.Button.MouseButton1Click:Connect(function()
+						if Section.State == true then
+							-- close
+							newSection.Frame.Visible = false
+							Tween(newSection.Button.Title.Arrow, {Rotation = 0}, TweenConfigs.Global)
+							Section.State = false
+						elseif Section.State == false then
+							-- open
+							newSection.Frame.Visible = true
+							Tween(newSection.Button.Title.Arrow, {Rotation = 90}, TweenConfigs.Global)
+							Section.State = true
+						end
+					end)
+
+					function Section:SetTitle(newTitle)
+						Section.Title = newTitle
+						newSection.Button.Title.Text = newTitle
+					end
+
+					function Section:Destroy()
+						parentElement:Destroy()
+					end
+
+					parentElement = newSection.Frame
+
+					return Section
+				end
+
+				function Tab:Button(data)
+					local Button = {}
+
+					local ButtonData = {
+						Title = data.Title,
+						Desc = data.Desc,
+						Locked = data.Locked or false,
+						Callback = data.Callback or function() end
+					}
+
+					local newButton = Templates.Button:Clone()
+					newButton.Name = ButtonData.Title
+					newButton.Parent = parentElement
+
+					newButton.Frame.Title.Text = ButtonData.Title
+
+					if ButtonData.Desc and ButtonData.Desc ~= "" then
+						newButton.Frame.Description.Visible = true
+						newButton.Frame.Description.Text = ButtonData.Desc
+					end
+
+					if ButtonData.Locked then
+						-- greyed out
+						newButton.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newButton.BackgroundColor3 = Color3.fromRGB(32, 35, 40)
+
+						newButton.Frame.Title.TextColor3 = Color3.fromRGB(75, 77, 83)
+						newButton.Frame.Title.ClickIcon.ImageColor3 = Color3.fromRGB(75, 77, 83)
+
+						newButton.Frame.Description.TextColor3 = Color3.fromRGB(75, 77, 83)
+					end
+
+					newButton.Visible = true
+
+					local function GetRandomGradient()
+						local gradient = {}
+						for _, g in ipairs(newButton.Frame:GetChildren()) do
+							if g:IsA("UIGradient") then
+								g.Enabled = false
+								table.insert(gradient, g)
+							end
+						end
+						local selectedGrad = gradient[math.random(1, #gradient)]
+						selectedGrad.Enabled = true
+						return selectedGrad
+					end
+
+					GetRandomGradient()
+
+					newButton.MouseEnter:Connect(function()
+						if not ButtonData.Locked then
+							Tween(newButton.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+						end
+					end)
+
+					newButton.MouseLeave:Connect(function()
+						if not ButtonData.Locked then
+							Tween(newButton.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+							newButton.BackgroundColor3 = Color3.fromRGB(42, 45, 52)
+							Tween(newButton.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+							Tween(newButton.Frame.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						end
+					end)
+
+					newButton.MouseButton1Down:Connect(function()
+						if not ButtonData.Locked then
+							GetRandomGradient()
+							Tween(newButton.Frame.Title, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+							Tween(newButton.Frame.Title.ClickIcon, {ImageColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+							Tween(newButton.Frame.Description, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+							Tween(newButton.Frame, {BackgroundTransparency = 0}, TweenConfigs.Global)
+						end
+					end)
+
+					newButton.MouseButton1Up:Connect(function()
+						if not ButtonData.Locked then
+							Tween(newButton.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+							Tween(newButton.Frame.Title.ClickIcon, {ImageColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+							Tween(newButton.Frame.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+							local tw = Tween(newButton.Frame, {BackgroundTransparency = 1}, TweenConfigs.Global)
+						end
+					end)
+
+					newButton.MouseButton1Click:Connect(function()
+						if not ButtonData.Locked then
+							ButtonData.Callback()
+						end
+					end)
+
+					newTab.ChildAdded:Connect(function()
+						if #GetCurrentElementObjects() > 0 then
+							Tabs.NoObjectFoundText.Visible = false
+						else
+							Tabs.NoObjectFoundText.Visible = true
+						end
+					end)
+
+					newTab.ChildRemoved:Connect(function()
+						if #GetCurrentElementObjects() > 0 then
+							Tabs.NoObjectFoundText.Visible = false
+						else
+							Tabs.NoObjectFoundText.Visible = true
+						end
+					end)
+
+					function Button:SetTitle(newText)
+						newButton.Frame.Title.Text = newText
+					end
+
+					function Button:SetDesc(newDesc)
+						if newDesc and newDesc ~= "" then
+							newButton.Frame.Description.Text = newDesc
+						end
+					end
+
+					function Button:Lock()
+						ButtonData.Locked = true
+						Tween(newButton, {BackgroundColor3 = Color3.fromRGB(32, 35, 40)}, TweenConfigs.Global)
+						Tween(newButton.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+						Tween(newButton.Frame.Title, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+						Tween(newButton.Frame.Title.ClickIcon, {ImageColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+						Tween(newButton.Frame.Description, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+					end
+
+					function Button:Unlock()
+						ButtonData.Locked = false
+						Tween(newButton, {BackgroundColor3 = Color3.fromRGB(42, 45, 52)}, TweenConfigs.Global)
+						Tween(newButton.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						Tween(newButton.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						Tween(newButton.Frame.Title.ClickIcon, {ImageColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						Tween(newButton.Frame.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+					end
+
+					function Button:Destroy()
+						newButton:Destroy()
+					end
+
+					return Button
+				end
+
+				function Tab:Code(data)
+					local Code = {
+						Title = data.Title,
+						Code = data.Code
+					}
+
+					local newCode = Templates.Code:Clone()
+					newCode.Name = Code.Title
+					newCode.Parent = parentElement
+
+					newCode.Title.Text = Code.Title
+					newCode.Code.Text  = Code.Code
+					newCode.Code.Visible = true
+					newCode.Code.Font = Enum.Font.Code
+
+					newCode.Visible = true
+
+					function Code:SetTitle(newText)
+						Code.Title = newText
+						newCode.Title.Text = newText
+					end
+
+					function Code:SetCode(code)
+						Code.Code = code
+						newCode.Code.Text = code
+					end
+
+					function Code:Destroy()
+						newCode:Destroy()
+					end
+
+					return Code
+				end
+
+				function Tab:Paragraph(data)
+					local Paragraph = {
+						Title = data.Title,
+						Desc = data.Desc
+					}
+
+					local newParagraph = Templates.Paragraph:Clone()
+					newParagraph.Name = Paragraph.Title
+					newParagraph.Parent = parentElement
+
+					newParagraph.Title.Text = Paragraph.Title
+
+					if Paragraph.Desc and Paragraph.Desc ~= "" then
+						newParagraph.Description.Text = Paragraph.Desc
+						newParagraph.Description.Visible = true
+					else
+						newParagraph.Description.Visible = false
+					end
+
+					newParagraph.Visible = true
+
+					function Paragraph:SetTitle(title)
+						Paragraph.Title = title
+						newParagraph.Title.Text = title
+					end
+
+					function Paragraph:SetDesc(desc)
+						Paragraph.Desc = desc
+						newParagraph.Description.Text = desc
+						if desc ~= "" then
+							newParagraph.Visible = true
+						else
+							newParagraph.Visible = false
+						end
+					end
+
+					function Paragraph:Destroy()
+						newParagraph:Destroy()
+					end
+
+					return Paragraph
+				end
+
+
+				function Tab:Colorpicker()
+
+				end
+
+				function Tab:Toggle(data)
+					local Toggle = {
+						Title = data.Title,
+						Desc = data.Desc,
+						State = data.Default or false,
+						Locked = data.Locked or false,
+						Icon = data.Icon,
+						Callback = data.Callback or function() end
+					}
+
+					local newToggle = Templates.Toggle:Clone()
+					newToggle.Name = Toggle.Title
+					newToggle.Parent = parentElement
+					newToggle.Title.Text = Toggle.Title
+
+					newToggle.Title.Fill.Ball.Icon.Image = (IconModule.Icon(Toggle.Icon) and IconModule.Icon(Toggle.Icon)[1]) or Toggle.Icon or ""
+					newToggle.Title.Fill.Ball.Icon.ImageRectOffset = (IconModule.Icon(Toggle.Icon) and IconModule.Icon(Toggle.Icon)[2].ImageRectPosition) or Vector2.new(0,0)
+					newToggle.Title.Fill.Ball.Icon.ImageRectSize = (IconModule.Icon(Toggle.Icon) and IconModule.Icon(Toggle.Icon)[2].ImageRectSize) or Vector2.new(0,0)
+
+					if Toggle.Desc and Toggle.Desc ~= "" then
+						newToggle.Description.Visible = true
+						newToggle.Description.Text = Toggle.Desc
+					end
+
+					if Toggle.State == true then
+						newToggle.Title.Fill.Ball.Position = UDim2.new(0.5, 0,0.5, 0)
+						newToggle.Title.Fill.BackgroundColor3 = Color3.fromRGB(192, 209, 199)
+						newToggle.Title.Fill.Ball.Icon.ImageTransparency = 0
+					else
+						newToggle.Title.Fill.Ball.Position = UDim2.new(0, 0,0.5, 0)
+						newToggle.Title.Fill.BackgroundColor3 = Color3.fromRGB(53, 56, 62)
+						newToggle.Title.Fill.Ball.Icon.ImageTransparency = 1
+					end
+
+					if Toggle.Locked then
+						-- greyed out
+						newToggle.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newToggle.BackgroundColor3 = Color3.fromRGB(32, 35, 40)
+
+						newToggle.Title.TextColor3 = Color3.fromRGB(75, 77, 83)
+						--newToggle.Title.ClickIcon.ImageColor3 = Color3.fromRGB(75, 77, 83)
+
+						newToggle.Description.TextColor3 = Color3.fromRGB(75, 77, 83)
+
+						newToggle.Title.Fill.BackgroundTransparency = 0.7
+						newToggle.Title.Fill.Ball.BackgroundTransparency = 0.7
+					end
+
+					newToggle.Visible = true
+
+					newToggle.Title.Fill.MouseEnter:Connect(function()
+						if not Toggle.Locked then
+							Tween(newToggle.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+						end
+					end)
+
+					newToggle.Title.Fill.MouseLeave:Connect(function()
+						if not Toggle.Locked then
+							Tween(newToggle.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+
+							newToggle.BackgroundColor3 = Color3.fromRGB(42, 45, 52)
+							Tween(newToggle.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+							Tween(newToggle.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						end
+					end)
+
+					local function AnimateSwitch(targetState)
+						if targetState == true then
+							Tween(newToggle.Title.Fill.Ball, {Position = UDim2.new(0.5, 0,0.5, 0)}, TweenConfigs.Global)
+							Tween(newToggle.Title.Fill, {BackgroundColor3 = Color3.fromRGB(192, 209, 199)}, TweenConfigs.Global)
+
+							Tween(newToggle.Title.Fill.Ball.Icon, {ImageTransparency = 0}, TweenConfigs.Global)
+						elseif targetState == false then
+							Tween(newToggle.Title.Fill.Ball, {Position = UDim2.new(0, 0,0.5, 0)}, TweenConfigs.Global)
+							Tween(newToggle.Title.Fill, {BackgroundColor3 = Color3.fromRGB(53, 56, 62)}, TweenConfigs.Global)
+
+							Tween(newToggle.Title.Fill.Ball.Icon, {ImageTransparency = 1}, TweenConfigs.Global)
+						end
+					end
+
+					local function SetState(newState)
+						if newState then
+							AnimateSwitch(newState)
+						else
+							AnimateSwitch(not Toggle.State)
+						end
+						Toggle.State = newState or not Toggle.State
+						Toggle.Callback(Toggle.State)
+						-- no arg will switch the state
+					end
+
+					newToggle.Title.Fill.MouseButton1Click:Connect(function()
+						if not Toggle.Locked then
+							SetState()
+						end
+					end)
+
+					function Toggle:SetTitle(newText)
+						Toggle.Title = newText
+						newToggle.Title.Text = newText
+					end
+
+					function Toggle:SetDesc(newDesc)
+						if newDesc and newDesc ~= "" then
+							Toggle.Desc = newDesc
+							newToggle.Description.Text = newDesc
+						end
+					end
+
+					function Toggle:Set(newState)
+						SetState(newState)
+					end
+
+					function Toggle:Lock()
+						Toggle.Locked = true
+						Tween(newToggle, {BackgroundColor3 = Color3.fromRGB(32, 35, 40)}, TweenConfigs.Global)
+						Tween(newToggle.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+						Tween(newToggle.Title, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+						Tween(newToggle.Description, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+
+						Tween(newToggle.Title.Fill, {BackgroundTransparency = 0.7}, TweenConfigs.Global)
+						Tween(newToggle.Title.Fill.Ball, {BackgroundTransparency = 0.7}, TweenConfigs.Global)
+					end
+
+					function Toggle:Unlock()
+						Toggle.Locked = false
+						Tween(newToggle, {BackgroundColor3 = Color3.fromRGB(42, 45, 52)}, TweenConfigs.Global)
+						Tween(newToggle.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						Tween(newToggle.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						Tween(newToggle.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+
+						Tween(newToggle.Title.Fill, {BackgroundTransparency = 0}, TweenConfigs.Global)
+						Tween(newToggle.Title.Fill.Ball, {BackgroundTransparency = 0}, TweenConfigs.Global)
+					end
+
+					function Toggle:Destroy()
+						newToggle:Destroy()
+					end
+
+					Toggle.Callback(Toggle.State)
+
+					return Toggle
+				end
+
+				function Tab:Slider(data)
+					local Slider = {
+						Title = data.Title,
+						Desc = data.Desc,
+						Step = data.Step or 1,
+						Value = {
+							Min = data.Value.Min or 0,
+							Max = data.Value.Max or nil,
+							Default = nil,
+						},
+
+						Locked = data.Locked,
+						Callback = data.Callback or function() end
+					}
+					Slider.Value.Default = data.Value.Default or data.Value.Min
+
+					local increment = Slider.Step
+
+					local newSlider = Templates.Slider:Clone()
+
+
+
+					-- Source slider daur ulang awkoakwoawkaowkaowo
+
+					local Mouse = game.Players.LocalPlayer:GetMouse()
+
+					local newSlider = Templates.Slider:Clone()
+					newSlider.Parent = parentElement
+					newSlider.Name = Slider.Title
+					newSlider.Title.Text = Slider.Title
+					if Slider.Desc and Slider.Desc ~= "" then
+						newSlider.Description.Visible = true
+						newSlider.Description.Text = Slider.Desc
+					end
+					newSlider.Visible = true
+
+					local function GetRandomGradient()
+						local gradient = {}
+						for _, g in ipairs(newSlider.SliderFrame.Frame.Slider.Fill.BackgroundGradient:GetChildren()) do
+							if g:IsA("UIGradient") then
+								g.Enabled = false
+								table.insert(gradient, g)
+							end
+						end
+						local selectedGrad = gradient[math.random(1, #gradient)]
+						selectedGrad.Enabled = true
+						return selectedGrad
+					end
+
+					newSlider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.Size = UDim2.new(0, newSlider.SliderFrame.Frame.Slider.AbsoluteSize.X, 1, 0)
+					newSlider.SliderFrame.Frame.Slider:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+						newSlider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.Size = UDim2.new(0, newSlider.SliderFrame.Frame.Slider.AbsoluteSize.X, 1, 0)
+					end)
+
+					local lastprop = nil
+					newSlider.SliderFrame.Frame.Slider.Fill:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+						if newSlider.SliderFrame.Frame.Slider.Fill.AbsoluteSize.X <= 3 then
+							lastprop = newSlider.SliderFrame.Frame.Slider.Fill.AbsoluteSize.X
+
+						end
+						if lastprop and newSlider.SliderFrame.Frame.Slider.Fill.AbsoluteSize.X > lastprop then
+							GetRandomGradient()
+							lastprop = nil
+						end
+					end)
+
+					GetRandomGradient()
+
+
+					if Slider.Locked then
+						-- greyed out
+						newSlider.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newSlider.BackgroundColor3 = Color3.fromRGB(32, 35, 40)
+
+						newSlider.Title.TextColor3 = Color3.fromRGB(75, 77, 83)
+						newSlider.Description.TextColor3 = Color3.fromRGB(75, 77, 83)
+
+						newSlider.SliderFrame.Frame.Slider.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newSlider.SliderFrame.Frame.Slider.BackgroundTransparency = 0.5
+						newSlider.SliderFrame.Frame.Slider.Fill.UIStroke.Transparency = 0.5
+						newSlider.SliderFrame.Frame.Slider.Fill.BackgroundGradient.BackgroundTransparency = 0.5
+						newSlider.SliderFrame.Frame.ValueText.TextTransparency = 0.6
+					end
+
+					local Trigger = newSlider.SliderFrame.Frame.Slider.Trigger
+					local Label = newSlider.SliderFrame.Frame.ValueText
+					local Fill = newSlider.SliderFrame.Frame.Slider.Fill
+					local Parent = newSlider
+
+					local default = Slider.Value.Default
+					local min = Slider.Value.Min
+					local max = Slider.Value.Max
+					local increment = increment or 1
+
+					local perc = Slider.Value.Default
+					local Percent
+					local MouseDown = false
+
+					local Hovering = false			
+
+
+
+					local function convertValueToScale(value)
+						return (value - min) / (max - min) * (1 - 0) + 0
+					end
+
+
+					Label.Text = tostring(default) or tostring(min)
+					--Fill.Size = UDim2.fromScale(1, 1)
+					Fill.Size = UDim2.fromScale(convertValueToScale(default), 1)
+
+					-- this also update
+					local function Slide()
+						MouseDown = true
+						if Slider.Locked then return end
+						repeat
+							task.wait()
+							Percent = math.clamp((Mouse.X - Parent.AbsolutePosition.X) / Parent.AbsoluteSize.X, 0, 1)
+							perc = min + (Percent * (max - min))
+
+					--[[ New: precision based rounding
+					local multiplier = 10 ^ increment
+					perc = math.floor(perc * multiplier + 0.5) / multiplier
+					perc = math.clamp(perc, min, max)
+
+					-- Format output text
+					if perc % 1 == 0 then
+						Label.Text = tostring(perc) -- integer, no decimal
+					else
+						Label.Text = string.format("%."..increment.."f", perc) -- decimal format
+					end]]
+
+							-- increment based
+							local roundedValue = math.round(perc / increment) * increment
+							perc = math.clamp(roundedValue, min, max)
+
+							Tween(Fill, {Size = UDim2.fromScale(convertValueToScale(perc), 1) }, TweenConfigs.Global)
+
+							Label.Text = tostring(perc)
+							Slider.Value = perc
+							task.spawn(Slider.Callback, perc)
+						until MouseDown == false or Slider.Locked == true
+
+						if not Hovering then
+							Tween(newSlider.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						end
+					end
+
+
+					local function Update(value)
+						if not value or value > max or value < min then
+							return
+						end
+
+						local roundedValue = math.round(value / increment) * increment
+						perc = math.clamp(roundedValue, min, max)
+
+						Tween(Fill, {Size = UDim2.fromScale(convertValueToScale(value), 1) }, TweenConfigs.Global)
+						perc = value
+
+						Label.Text = tostring(perc)
+						Slider.Value = perc
+						task.spawn(Slider.Callback, perc)
+					end
+
+					Trigger.MouseEnter:Connect(function()
+						Hovering = true
+						if not Slider.Locked then
+							Tween(newSlider.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+						end
+					end)
+
+					Trigger.MouseLeave:Connect(function()
+						Hovering = false
+						if not Slider.Locked and not MouseDown then
+							Tween(newSlider.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						end
+					end)
+
+					-- start sliding
+					Trigger.MouseButton1Down:Connect(function()
+						Slide()
+					end)
+
+
+
+					-- stop sliding
+					game:GetService("UserInputService").InputEnded:Connect(function(input)
+						if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+							MouseDown = false
+						end
+					end)
+
+					function Slider:SetTitle(newText)
+						Slider.Title = newText
+						newSlider.Title.Text = newText
+					end
+
+					function Slider:SetDesc(newDesc)
+						if newDesc and newDesc ~= "" then
+							Slider.Desc = newDesc
+							newSlider.Description.Text = newDesc
+						end
+					end
+
+
+					function Slider:Set(value)
+						Update(value)
+					end
+
+
+					function Slider:Lock()
+						Slider.Locked = true
+						Tween(newSlider, {BackgroundColor3 = Color3.fromRGB(32, 35, 40)}, TweenConfigs.Global)
+						Tween(newSlider.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+						Tween(newSlider.Title, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+						Tween(newSlider.Description, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+
+						Tween(newSlider.SliderFrame.Frame.Slider.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.Slider, {BackgroundTransparency = 0.5}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.Slider.Fill.UIStroke, {Transparency = 0.5}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.Slider.Fill.BackgroundGradient, {BackgroundTransparency = 0.5}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.ValueText, {TextTransparency = 0.6}, TweenConfigs.Global)
+					end
+
+					function Slider:Unlock()
+						Slider.Locked = false
+
+						Tween(newSlider, {BackgroundColor3 = Color3.fromRGB(42, 45, 52)}, TweenConfigs.Global)
+						Tween(newSlider.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						Tween(newSlider.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						Tween(newSlider.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+
+						Tween(newSlider.SliderFrame.Frame.Slider.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.Slider, {BackgroundTransparency = 0}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.Slider.Fill.UIStroke, {Transparency = 0}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.Slider.Fill.BackgroundGradient, {BackgroundTransparency = 0}, TweenConfigs.Global)
+						Tween(newSlider.SliderFrame.Frame.ValueText, {TextTransparency = 0}, TweenConfigs.Global)
+					end
+
+					function Slider:Destroy()
+						newSlider:Destroy()
+					end
+
+					Slider.Callback(default)
+
+					return Slider
+				end
+
+				function Tab:Input(data)
+					local Input = {
+						Title = data.Title,
+						Desc = data.Desc,
+						Placeholder = data.Placeholder or "",
+						Default = data.Default or data.Value or "",
+						Text = data.Default or data.Value or "",
+						ClearTextOnFocus = data.ClearTextOnFocus or true,
+						Locked = data.Locked or false,
+						MultiLine = data.MultiLine or true,
+						Callback = data.Callback or function() end
+					}
+
+					local newInput = Templates.TextBox:Clone()
+					newInput.Name = Input.Title
+					newInput.Parent = parentElement
+					newInput.Title.Text = Input.Title
+					if Input.Desc and Input.Desc ~= "" then
+						newInput.Description.Text = Input.Desc
+						newInput.Description.Visible = true
+					else
+						newInput.Description.Visible = false
+					end
+
+					if Input.Locked then
+						-- greyed out
+						newInput.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newInput.BackgroundColor3 = Color3.fromRGB(32, 35, 40)
+
+						newInput.Title.TextColor3 = Color3.fromRGB(75, 77, 83)
+						newInput.Description.TextColor3 = Color3.fromRGB(75, 77, 83)
+
+						newInput.BoxFrame.Frame.BackgroundColor3 = Color3.fromRGB(32, 35, 40)
+						newInput.BoxFrame.Frame.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newInput.BoxFrame.Frame.TextBox.TextColor3 = Color3.fromRGB(75, 77, 83)
+						newInput.BoxFrame.Frame.TextBox.PlaceholderColor3 = Color3.fromRGB(75, 77, 83)
+
+						newInput.BoxFrame.Frame.TextBox.Active = false
+						newInput.BoxFrame.Frame.TextBox.Interactable = false
+						newInput.BoxFrame.Frame.TextBox.TextEditable = false
+					end
+
+					newInput.BoxFrame.Frame.TextBox.Text = Input.Default
+					newInput.BoxFrame.Frame.TextBox.PlaceholderText = Input.Placeholder
+					newInput.BoxFrame.Frame.TextBox.MultiLine = Input.MultiLine
+					newInput.BoxFrame.Frame.TextBox.ClearTextOnFocus = Input.ClearTextOnFocus
+
+					newInput.Visible = true
+
+					newInput.BoxFrame.Frame.TextBox.MouseEnter:Connect(function()
+						if not Input.Locked then
+							Tween(newInput.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+						end
+					end)
+
+					newInput.BoxFrame.Frame.TextBox.MouseLeave:Connect(function()
+						if not Input.Locked then
+							Tween(newInput.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						end
+					end)
+
+					newInput.BoxFrame.Frame.TextBox.Focused:Connect(function()
+						if not Input.Locked then
+							Tween(newInput.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+							Tween(newInput.BoxFrame.Frame.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+						end
+					end)
+
+					newInput.BoxFrame.Frame.TextBox.FocusLost:Connect(function()
+						if not Input.Locked then
+							Tween(newInput.BoxFrame.Frame.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+							Input.Text = newInput.BoxFrame.Frame.TextBox.Text
+							Input.Callback(Input.Text)
+						end
+					end)
+
+					function Input:Set(newText)
+						newInput.BoxFrame.Frame.TextBox.Text = newText
+						Input.Text = newText
+						Input.Callback(newText)
+					end
+
+					function Input:SetTitle(newText)
+						newInput.Title.Text = newText
+					end
+
+					function Input:SetDesc(newDesc)
+						if newDesc and newDesc ~= "" then
+							newInput.Description.Text = newDesc
+						end
+					end
+
+					function Input:Lock()
+						Input.Locked = true
+
+						Tween(newInput.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+						Tween(newInput, {BackgroundColor3 = Color3.fromRGB(32, 35, 40)}, TweenConfigs.Global)
+
+						Tween(newInput.Title, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+						Tween(newInput.Description, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+
+						Tween(newInput.BoxFrame.Frame, {BackgroundColor3 = Color3.fromRGB(32, 35, 40)}, TweenConfigs.Global)
+						Tween(newInput.BoxFrame.Frame.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+
+						Tween(newInput.BoxFrame.Frame.TextBox, {
+							TextColor3 = Color3.fromRGB(75, 77, 83),
+							PlaceholderColor3 = Color3.fromRGB(75, 77, 83)
+						}, TweenConfigs.Global)
+
+						newInput.BoxFrame.Frame.TextBox.Active = false
+						newInput.BoxFrame.Frame.TextBox.Interactable = false
+						newInput.BoxFrame.Frame.TextBox.TextEditable = false
+					end
+
+					function Input:Unlock()
+						Input.Locked = false
+
+						Tween(newInput.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						Tween(newInput, {BackgroundColor3 = Color3.fromRGB(42, 45, 52)}, TweenConfigs.Global)
+
+						Tween(newInput.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						Tween(newInput.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+
+						Tween(newInput.BoxFrame.Frame, {BackgroundColor3 = Color3.fromRGB(42, 45, 52)}, TweenConfigs.Global)
+						Tween(newInput.BoxFrame.Frame.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+
+						Tween(newInput.BoxFrame.Frame.TextBox, {
+							TextColor3 = Color3.fromRGB(196, 203, 218),
+							PlaceholderColor3 = Color3.fromRGB(139, 139, 139)
+						}, TweenConfigs.Global)
+
+						newInput.BoxFrame.Frame.TextBox.Active = true
+						newInput.BoxFrame.Frame.TextBox.Interactable = true
+						newInput.BoxFrame.Frame.TextBox.TextEditable = true
+					end
+
+					function Input:Destroy()
+						newInput:Destroy()
+					end
+
+					Input.Callback(Input.Text)
+
+					return Input
+				end
+
+				local function AddDropdownButton(name, folder)
+					local newButton = Templates.DropdownButton:Clone()
+					newButton.Parent = folder or nil
+					newButton.Name = name
+					newButton.Frame.Title.Text = name
+
+					local function GetRandomGradient()
+						local gradient = {}
+						for _, g in ipairs(newButton.Frame:GetChildren()) do
+							if g:IsA("UIGradient") then
+								g.Enabled = false
+								table.insert(gradient, g)
+							end
+						end
+						local selectedGrad = gradient[math.random(1, #gradient)]
+						selectedGrad.Enabled = true
+						return selectedGrad
+					end
+
+					GetRandomGradient()
+
+					return newButton
+				end
+
+				local function TableToString(tbl)
+					return table.concat(tbl, ", ")
+				end
+
+				function Tab:Dropdown(data)
+					-- TODO: almost done just make the Locked func and prop work, and also allownone 
+					local Dropdown = {
+						Title = data.Title,
+						Desc = data.Desc,
+
+						Multi = data.Multi or false,
+						Values = data.Values or {},
+						Value = data.Value,
+
+						AllowNone = data.AllowNone or false, -- multidropdown only
+						Locked = data.Locked or false,
+						Callback = data.Callback or function() end
+					}
+
+					local selected = nil
+
+					local newDropdown = Templates.Dropdown:Clone()
+					local dropdownFolder = Templates.DropdownList:Clone()
+					dropdownFolder.Name = Dropdown.Title
+					dropdownFolder.Parent = newWindow.DropdownSelection.Dropdowns
+
+					newDropdown.Parent = parentElement
+					newDropdown.Name = Dropdown.Title
+					newDropdown.Title.Text = Dropdown.Title
+
+					if Dropdown.Desc and Dropdown.Desc ~= "" then
+						newDropdown.Description.Visible = true
+						newDropdown.Description.Text = Dropdown.Desc
+					else
+						newDropdown.Description.Visible = false
+					end
+
+					if Dropdown.Locked then
+						-- greyed out
+						newDropdown.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newDropdown.BackgroundColor3 = Color3.fromRGB(32, 35, 40)
+
+						newDropdown.Title.TextColor3 = Color3.fromRGB(75, 77, 83)
+						newDropdown.Description.TextColor3 = Color3.fromRGB(75, 77, 83)
+						newDropdown.Title.ClickIcon.ImageColor3 = Color3.fromRGB(75, 77, 83)
+
+						newDropdown.Title.BoxFrame.Frame.BackgroundColor3 = Color3.fromRGB(32, 35, 40)
+						newDropdown.Title.BoxFrame.Frame.UIStroke.Color = Color3.fromRGB(47, 47, 58)
+						newDropdown.Title.BoxFrame.Frame.Title.TextColor3 = Color3.fromRGB(75, 77, 83)
+
+						newDropdown.Active = false
+						newDropdown.Interactable = false
+					end
+
+					newDropdown.Visible = true
+
+					local function SelectValue(multi, newvalue)
+						if not multi then
+							local targetButton = dropdownFolder.DropdownItems:FindFirstChild(newvalue)
+							local targetbuttonSearch = dropdownFolder.DropdownItemsSearch:FindFirstChild(newvalue)
+
+							selected = newvalue
+							Dropdown.Value = selected
+							newDropdown.Title.BoxFrame.Frame.Title.Text = selected
+
+							for _,otherButton in dropdownFolder.DropdownItems:GetChildren() do
+								if otherButton:IsA("GuiButton") and otherButton.Name ~= newvalue then
+									Tween(otherButton.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+									Tween(otherButton.Frame.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+									Tween(otherButton.Frame, {BackgroundTransparency = 1}, TweenConfigs.Global)
+									Tween(otherButton.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+								end
+							end
+							for _,otherButton in dropdownFolder.DropdownItemsSearch:GetChildren() do
+								if otherButton:IsA("GuiButton") and otherButton.Name ~= newvalue then
+									Tween(otherButton.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+									Tween(otherButton.Frame.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+									Tween(otherButton.Frame, {BackgroundTransparency = 1}, TweenConfigs.Global)
+									Tween(otherButton.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+								end
+							end
+
+							Tween(targetButton.Frame.Title, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+							Tween(targetButton.Frame.Description, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+							Tween(targetButton.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+							Tween(targetButton.Frame, {BackgroundTransparency = 0}, TweenConfigs.Global)
+
+							Tween(targetbuttonSearch.Frame.Title, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+							Tween(targetbuttonSearch.Frame.Description, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+							Tween(targetbuttonSearch.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+							Tween(targetbuttonSearch.Frame, {BackgroundTransparency = 0}, TweenConfigs.Global)
+							return selected	
+						elseif multi then
+							for _, newSelected in newvalue do
+								local targetButton = dropdownFolder.DropdownItems:FindFirstChild(newSelected)
+								local targetbuttonSearch = dropdownFolder.DropdownItemsSearch:FindFirstChild(newSelected)
+
+								local idx = table.find(selected, newSelected) if idx then
+									-- unselect
+
+									-- if allownone is false, this will block the selection if the predicted table is empty
+									if not Dropdown.AllowNone and #Dropdown.Value == 1 then return end
+
+									table.remove(selected, idx)
+
+									Tween(targetButton.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+									Tween(targetButton.Frame.Description, {TextColor3 = Color3.fromRGB(196, 203, 2185)}, TweenConfigs.Global)
+									Tween(targetButton.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+									Tween(targetButton.Frame, {BackgroundTransparency = 1}, TweenConfigs.Global)
+
+									Tween(targetbuttonSearch.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+									Tween(targetbuttonSearch.Frame.Description, {TextColor3 = Color3.fromRGB(196, 203, 2185)}, TweenConfigs.Global)
+									Tween(targetbuttonSearch.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+									Tween(targetbuttonSearch.Frame, {BackgroundTransparency = 1}, TweenConfigs.Global)
+								else
+									-- select
+									table.insert(selected, newSelected)
+
+									Tween(targetButton.Frame.Title, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+									Tween(targetButton.Frame.Description, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+									Tween(targetButton.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+									Tween(targetButton.Frame, {BackgroundTransparency = 0}, TweenConfigs.Global)
+
+									Tween(targetbuttonSearch.Frame.Title, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+									Tween(targetbuttonSearch.Frame.Description, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
+									Tween(targetbuttonSearch.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
+									Tween(targetbuttonSearch.Frame, {BackgroundTransparency = 0}, TweenConfigs.Global)
+								end
+							end
+
+							Dropdown.Value = selected
+							newDropdown.Title.BoxFrame.Frame.Title.Text = TableToString(selected)
+							return selected
+						end
+					end
+
+					local function AddButtons(buttonList, refresh)
+						if refresh then
+							Dropdown.Values = buttonList
+
+							for _,oldButton in dropdownFolder.DropdownItems:GetChildren() do
+								if oldButton:IsA("GuiButton") then
+									oldButton:Destroy()
+								end
+							end
+							for _,oldButton in dropdownFolder.DropdownItemsSearch:GetChildren() do
+								if oldButton:IsA("GuiButton") then
+									oldButton:Destroy()
+								end
+							end
+						end
+
+
+						if not Dropdown.Multi then
+							if refresh then
+								selected = nil
+								newDropdown.Title.BoxFrame.Frame.Title.Text = ""
+							end
+
+							for _, buttonName in buttonList do
+								local newDropdownButton = AddDropdownButton(buttonName, dropdownFolder.DropdownItems)
+								local newDropdownButtonSearch = AddDropdownButton(buttonName, dropdownFolder.DropdownItemsSearch)
+
+								newDropdownButton.Visible = true
+								newDropdownButtonSearch.Visible = true
+
+								if selected == buttonName then
+									newDropdownButton.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButton.Frame.Description.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButton.UIStroke.Color = Color3.fromRGB(10, 135, 213)
+									newDropdownButton.Frame.BackgroundTransparency = 0
+									newDropdownButton.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+
+									newDropdownButtonSearch.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButtonSearch.Frame.Description.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButtonSearch.UIStroke.Color = Color3.fromRGB(10, 135, 213)
+									newDropdownButtonSearch.Frame.BackgroundTransparency = 0
+									newDropdownButtonSearch.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+								end
+
+
+								newDropdownButton.MouseButton1Click:Connect(function()
+									if not Dropdown.Locked then
+										local value = SelectValue(false, buttonName)
+										if value then
+											Dropdown.Callback(value)
+										end
+									end
+								end)
+
+								-- search button
+
+								newDropdownButtonSearch.MouseButton1Click:Connect(function()
+									if not Dropdown.Locked then
+										local value = SelectValue(false, buttonName)
+										if value then
+											Dropdown.Callback(value)
+										end
+									end
+								end)
+							end
+						elseif Dropdown.Multi then
+
+							if refresh then
+								selected = {}
+								newDropdown.Title.BoxFrame.Frame.Title.Text = TableToString(selected)
+							end
+
+							for _, buttonName in buttonList do
+								local newDropdownButton = AddDropdownButton(buttonName, dropdownFolder.DropdownItems)
+								local newDropdownButtonSearch = AddDropdownButton(buttonName, dropdownFolder.DropdownItemsSearch)
+
+								newDropdownButton.Visible = true
+								newDropdownButtonSearch.Visible = true
+
+								if table.find(selected, buttonName) then
+									newDropdownButton.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButton.Frame.Description.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButton.UIStroke.Color = Color3.fromRGB(10, 135, 213)
+									newDropdownButton.Frame.BackgroundTransparency = 0
+									newDropdownButton.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+
+									newDropdownButtonSearch.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButtonSearch.Frame.Description.TextColor3 = Color3.fromRGB(255,255,255)
+									newDropdownButtonSearch.UIStroke.Color = Color3.fromRGB(10, 135, 213)
+									newDropdownButtonSearch.Frame.BackgroundTransparency = 0
+									newDropdownButtonSearch.Frame.Title.TextColor3 = Color3.fromRGB(255,255,255)
+								end
+
+
+								newDropdownButton.MouseButton1Click:Connect(function()
+									if not Dropdown.Locked then
+										local value = SelectValue(true, {buttonName})
+										if value then
+											Dropdown.Callback(value)
+										end
+									end
+								end)
+
+								-- search button
+
+								newDropdownButtonSearch.MouseButton1Click:Connect(function()
+									if not Dropdown.Locked then
+										local value = SelectValue(true, {buttonName})
+										if value then
+											Dropdown.Callback(value)
+										end
+									end
+								end)
+							end
+						end
+					end
+
+					if not Dropdown.Multi then
+						-- non multi
+						selected = Dropdown.Value or nil
+						newDropdown.Title.BoxFrame.Frame.Title.Text = selected
+
+						AddButtons(Dropdown.Values)
+					elseif Dropdown.Multi then
+						-- multi
+						newDropdown.Title.ClickIcon.Image = "rbxassetid://91415671397056"
+
+						selected = Dropdown.Value or {}
+						newDropdown.Title.BoxFrame.Frame.Title.Text = TableToString(selected)
+
+						AddButtons(Dropdown.Values)
+					end
+
+					newDropdown.Title.BoxFrame.MouseButton1Click:Connect(function()
+						DropdownPopup(nil, Dropdown.Title)
+					end)
+
+					function Dropdown:SetTitle(newText)
+						Dropdown.Title = newText
+						newDropdown.Title.Text = newText
+					end
+
+					function Dropdown:SetDesc(newDesc)
+						if newDesc and newDesc ~= "" then
+							Dropdown.Desc = newDesc
+							newDropdown.Description.Text = newDesc
+						end
+					end
+
+					function Dropdown:Refresh(newvals)
+						AddButtons(newvals, true)
+					end
+
+					function Dropdown:Select(newval)
+						Dropdown.Callback(SelectValue(Dropdown.Multi, newval))
+					end
+
+					function Dropdown:Lock()
+						Dropdown.Locked = true
+						Tween(newDropdown.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+						Tween(newDropdown, {BackgroundColor3 = Color3.fromRGB(32, 35, 40)}, TweenConfigs.Global)
+
+						Tween(newDropdown.Title, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+						Tween(newDropdown.Description, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+						Tween(newDropdown.Title.ClickIcon, {ImageColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+
+						Tween(newDropdown.Title.BoxFrame.Frame, {BackgroundColor3 = Color3.fromRGB(32, 35, 40)}, TweenConfigs.Global)
+						Tween(newDropdown.Title.BoxFrame.Frame.UIStroke, {Color = Color3.fromRGB(47, 47, 58)}, TweenConfigs.Global)
+						Tween(newDropdown.Title.BoxFrame.Frame.Title, {TextColor3 = Color3.fromRGB(75, 77, 83)}, TweenConfigs.Global)
+
+						newDropdown.Active = false
+						newDropdown.Interactable = false
+					end
+
+					function Dropdown:Unlock()
+						Dropdown.Locked = false
+						Tween(newDropdown.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						Tween(newDropdown, {BackgroundColor3 = Color3.fromRGB(42, 45, 52)}, TweenConfigs.Global)
+
+						Tween(newDropdown.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						Tween(newDropdown.Description, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+						Tween(newDropdown.Title.ClickIcon, {ImageColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+
+						Tween(newDropdown.Title.BoxFrame.Frame, {BackgroundColor3 = Color3.fromRGB(42, 45, 52)}, TweenConfigs.Global)
+						Tween(newDropdown.Title.BoxFrame.Frame.UIStroke, {Color = Color3.fromRGB(60, 60, 74)}, TweenConfigs.Global)
+						Tween(newDropdown.Title.BoxFrame.Frame.Title, {TextColor3 = Color3.fromRGB(196, 203, 218)}, TweenConfigs.Global)
+
+						newDropdown.Active = true
+						newDropdown.Interactable = true
+					end
+
+					function Dropdown:Destroy()
+						newDropdown:Destroy()
+					end
+
+					Dropdown.Callback(Dropdown.Value)
+
+					return Dropdown
+				end
+
+				return Tab
+			end
+
+
+			function Window:SelectTab(index)
+				local tabtarget = TabIndexList[index]
+				if tabtarget then
+					SelectTab(tabtarget.Name)
+				end
+			end
+
+			function Window:Divider()
+				local newDivier = Templates.Divider:Clone()
+				newDivier.Parent = newWindow.TabButtons.Lists
+				newDivier.Visible = true
+			end
+
+
+
+			function Window:EditOpenButton()
+
+			end
+
+
+			return Window
+		end
+
+		function LIB:Notify(data)
+			local Notification = {}
+
+			local Notif = {
+				Title = data.Title,
+				Content = data.Content,
+				Icon = data.Icon,
+				Duration = data.Duration or 5
+			}
+
+			local new = Templates.Notification:Clone()
+
+			if #Windows == 1 then
+				new.Parent = Windows[1].NotificationList
+			else
+				new.Parent = Gui.NotificationList
+			end
+			new.Items.Frame.Title.Text = Notif.Title
+			new.Items.Frame.Content.Text = Notif.Content 
+
+			new.Items.Frame.Title.Icon.Image = (IconModule.Icon(Notif.Icon) and IconModule.Icon(Notif.Icon)[1]) or Notif.Icon or ""
+			new.Items.Frame.Title.Icon.ImageRectOffset = (IconModule.Icon(Notif.Icon) and IconModule.Icon(Notif.Icon)[2].ImageRectPosition) or Vector2.new(0,0)
+			new.Items.Frame.Title.Icon.ImageRectSize = (IconModule.Icon(Notif.Icon) and IconModule.Icon(Notif.Icon)[2].ImageRectSize) or Vector2.new(0,0)
+
+			new.Items.Position = UDim2.new(0.75, 0, 0, 0)
+			new.Visible = true
+
+			local function Close()
+				if new then
+					local close = Tween(new.Items, {Position = UDim2.new(0.75,0,0,0)}, TweenConfigs.Notification)
+					task.wait(TweenConfigs.Notification.Duration - (TweenConfigs.Notification.Duration / 2))
+					new:Destroy()
+					new = nil
+				end
+			end
+
+			new.Items.Frame.Title.Close.MouseButton1Click:Connect(Close)
+
+			local open = Tween(new.Items, {Position = UDim2.new(0,0,0,0)}, TweenConfigs.Notification)
+			open.Completed:Connect(function()
+				Tween(new.Items.TimerBarFill.Bar, {Size = UDim2.new(0,0,1,0)}, {Duration = Notif.Duration})
+				task.delay(Notif.Duration, Close)
+			end)
+
+			function Notification:Close()
+				Close()
+			end
+
+			return Notification
+		end
+
+		return LIB
+
+	end;
+};
+NatHubGUI_MODULES[NatHubGUI["124"]] = {
+	Closure = function()
+		local script = NatHubGUI["124"];
+		-- https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/lucide/dist/Icons.lua
+
+		local Icons = {
+			["lucide"] = require(script.Lucide),
+		}
+
+
+		local IconModule = {
+			IconsType = "lucide"
+		}
+
+		function IconModule.SetIconsType(iconType)
+			IconModule.IconsType = iconType
+		end
+
+		function IconModule.Icon(Icon, Type) -- Type: optional
+			local iconType = Icons[Type or IconModule.IconsType]
+
+			if iconType.Icons[Icon] then
+				return { iconType.Spritesheets[tostring(iconType.Icons[Icon].Image)], iconType.Icons[Icon] }
+			end
+			return nil
+		end
+
+		return IconModule
+
+	end;
+};
+NatHubGUI_MODULES[NatHubGUI["125"]] = {
+	Closure = function()
+		local script = NatHubGUI["125"];-- Generated by .ftgs 
+		-- Github: https://github.com/Footagesus
+
+		return { Spritesheets = {
+			["1"] = "rbxassetid://131526378523863",
+			["10"] = "rbxassetid://98656588890340",
+			["11"] = "rbxassetid://122516128999742",
+			["12"] = "rbxassetid://136045238860745",
+			["13"] = "rbxassetid://138056954680929",
+			["14"] = "rbxassetid://139241675471365",
+			["15"] = "rbxassetid://120281540002144",
+			["16"] = "rbxassetid://122481504913348",
+			["2"] = "rbxassetid://125136326597802",
+			["3"] = "rbxassetid://132619645919851",
+			["4"] = "rbxassetid://124546836680911",
+			["5"] = "rbxassetid://138714413596023",
+			["6"] = "rbxassetid://95318701976229",
+			["7"] = "rbxassetid://87465848394141",
+			["8"] = "rbxassetid://77771201330939",
+			["9"] = "rbxassetid://126006375824005",
+		}, Icons = {
+				["a-arrow-down"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["a-arrow-up"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["a-large-small"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["accessibility"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["activity"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["air-vent"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["airplay"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["alarm-clock-check"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["alarm-clock-minus"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["alarm-clock-off"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["alarm-clock-plus"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["alarm-clock"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["alarm-smoke"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["album"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-center-horizontal"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-center-vertical"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-center"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-end-horizontal"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-end-vertical"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-distribute-center"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-distribute-end"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-distribute-start"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-justify-center"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-justify-end"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-justify-start"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-space-around"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-horizontal-space-between"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-justify"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-left"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-right"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-start-horizontal"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-start-vertical"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-distribute-center"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-distribute-end"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-distribute-start"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-justify-center"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-justify-end"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-justify-start"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-space-around"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["align-vertical-space-between"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["ambulance"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["ampersand"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["ampersands"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["amphora"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["anchor"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["angry"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["annoyed"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["antenna"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["anvil"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["aperture"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["app-window-mac"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["app-window"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["apple"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["archive-restore"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["archive-x"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["archive"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["armchair"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-down-dash"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-down"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-left-dash"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-left"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-right-dash"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-right"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-up-dash"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-big-up"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-0-1"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-1-0"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-a-z"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-from-line"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-left"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-narrow-wide"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-right"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-to-dot"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-to-line"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-up"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-wide-narrow"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down-z-a"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-down"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-left-from-line"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-left-right"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-left-to-line"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-left"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-right-from-line"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-right-left"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-right-to-line"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-right"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-0-1"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-1-0"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-a-z"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-down"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-from-dot"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-from-line"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-left"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-narrow-wide"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-right"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-to-line"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-wide-narrow"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up-z-a"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrow-up"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["arrows-up-from-line"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 1,
+				},
+				["asterisk"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["at-sign"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["atom"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["audio-lines"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["audio-waveform"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["award"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["axe"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["axis-3d"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["baby"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["backpack"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-alert"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-cent"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-check"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-dollar-sign"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-euro"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-help"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-indian-rupee"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-info"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-japanese-yen"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-minus"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-percent"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-plus"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-pound-sterling"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-russian-ruble"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-swiss-franc"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge-x"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["badge"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["baggage-claim"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["ban"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["banana"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bandage"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["banknote"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["barcode"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["baseline"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bath"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["battery-charging"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["battery-full"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["battery-low"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["battery-medium"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["battery-plus"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["battery-warning"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["battery"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["beaker"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bean-off"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bean"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bed-double"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bed-single"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bed"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["beef"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["beer-off"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["beer"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bell-dot"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bell-electric"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bell-minus"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bell-off"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bell-plus"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bell-ring"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bell"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["between-horizontal-end"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["between-horizontal-start"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["between-vertical-end"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["between-vertical-start"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["biceps-flexed"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bike"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["binary"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["binoculars"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["biohazard"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bird"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bitcoin"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["blend"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["blinds"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["blocks"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bluetooth-connected"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bluetooth-off"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bluetooth-searching"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bluetooth"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bold"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bolt"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bomb"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["bone"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-a"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-audio"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-check"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-copy"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-dashed"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-down"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-headphones"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-heart"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-image"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-key"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-lock"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-marked"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-minus"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-open-check"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-open-text"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-open"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-plus"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-text"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-type"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-up-2"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 2,
+				},
+				["book-up"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["book-user"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["book-x"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["book"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bookmark-check"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bookmark-minus"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bookmark-plus"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bookmark-x"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bookmark"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["boom-box"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bot-message-square"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bot-off"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bot"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["box"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["boxes"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["braces"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["brackets"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["brain-circuit"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["brain-cog"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["brain"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["brick-wall"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["briefcase-business"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["briefcase-conveyor-belt"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["briefcase-medical"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["briefcase"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bring-to-front"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["brush"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bug-off"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bug-play"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bug"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["building-2"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["building"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bus-front"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["bus"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cable-car"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cable"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cake-slice"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cake"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calculator"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-1"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-arrow-down"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-arrow-up"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-check-2"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-check"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-clock"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-cog"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-days"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-fold"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-heart"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-minus-2"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-minus"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-off"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-plus-2"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-plus"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-range"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-search"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-sync"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-x-2"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar-x"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["calendar"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["camera-off"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["camera"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["candy-cane"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["candy-off"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["candy"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cannabis"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["captions-off"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["captions"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["car-front"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["car-taxi-front"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["car"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["caravan"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["carrot"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["case-lower"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["case-sensitive"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["case-upper"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cassette-tape"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cast"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["castle"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cat"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["cctv"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-area"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-bar-big"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-bar-decreasing"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-bar-increasing"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-bar-stacked"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-bar"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-candlestick"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-column-big"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-column-decreasing"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-column-increasing"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-column-stacked"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-column"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-gantt"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-line"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-network"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-no-axes-column-decreasing"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-no-axes-column-increasing"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-no-axes-column"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-no-axes-combined"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 3,
+				},
+				["chart-no-axes-gantt"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chart-pie"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chart-scatter"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chart-spline"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["check-check"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["check"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chef-hat"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["cherry"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevron-down"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevron-first"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevron-last"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevron-left"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevron-right"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevron-up"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-down-up"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-down"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-left-right-ellipsis"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-left-right"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-left"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-right-left"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-right"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-up-down"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chevrons-up"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["chrome"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["church"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["cigarette-off"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["cigarette"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-alert"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-down"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-left"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-out-down-left"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-out-down-right"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-out-up-left"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-out-up-right"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-right"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-arrow-up"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-check-big"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-check"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-chevron-down"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-chevron-left"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-chevron-right"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-chevron-up"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-dashed"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-divide"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-dollar-sign"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-dot-dashed"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-dot"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-ellipsis"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-equal"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-fading-arrow-up"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-fading-plus"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-gauge"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-help"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-minus"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-off"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-parking-off"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-parking"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-pause"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-percent"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-play"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-plus"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-power"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-slash-2"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-slash"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-stop"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-user-round"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-user"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle-x"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circle"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["circuit-board"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["citrus"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clapperboard"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-check"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-copy"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-list"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-minus"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-paste"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-pen-line"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-pen"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-plus"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-type"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard-x"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clipboard"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-1"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-10"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-11"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-12"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-2"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-3"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-4"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-5"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-6"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-7"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-8"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-9"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-alert"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-arrow-down"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock-arrow-up"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["clock"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["cloud-alert"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 4,
+				},
+				["cloud-cog"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-download"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-drizzle"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-fog"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-hail"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-lightning"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-moon-rain"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-moon"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-off"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-rain-wind"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-rain"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-snow"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-sun-rain"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-sun"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud-upload"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloud"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cloudy"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["clover"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["club"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["code-xml"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["code"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["codepen"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["codesandbox"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["coffee"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cog"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["coins"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["columns-2"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["columns-3"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["columns-4"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["combine"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["command"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["compass"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["component"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["computer"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["concierge-bell"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cone"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["construction"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["contact-round"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["contact"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["container"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["contrast"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cookie"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cooking-pot"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copy-check"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copy-minus"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copy-plus"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copy-slash"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copy-x"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copy"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copyleft"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["copyright"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-down-left"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-down-right"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-left-down"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-left-up"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-right-down"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-right-up"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-up-left"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["corner-up-right"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cpu"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["creative-commons"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["credit-card"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["croissant"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["crop"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cross"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["crosshair"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["crown"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cuboid"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cup-soda"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["currency"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["cylinder"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dam"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["database-backup"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["database-zap"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["database"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["delete"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dessert"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["diameter"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["diamond-minus"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["diamond-percent"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["diamond-plus"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["diamond"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dice-1"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dice-2"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dice-3"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dice-4"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dice-5"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dice-6"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dices"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["diff"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["disc-2"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["disc-3"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["disc-album"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["disc"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["divide"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dna-off"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dna"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dock"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dog"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["dollar-sign"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 5,
+				},
+				["donut"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["door-closed"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["door-open"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["dot"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["download"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["drafting-compass"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["drama"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["dribbble"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["drill"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["droplet-off"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["droplet"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["droplets"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["drum"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["drumstick"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["dumbbell"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["ear-off"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["ear"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["earth-lock"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["earth"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["eclipse"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["egg-fried"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["egg-off"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["egg"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["ellipsis-vertical"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["ellipsis"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["equal-approximately"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["equal-not"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["equal"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["eraser"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["ethernet-port"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["euro"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["expand"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["external-link"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["eye-closed"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["eye-off"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["eye"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["facebook"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["factory"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["fan"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["fast-forward"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["feather"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["fence"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["ferris-wheel"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["figma"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-archive"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-audio-2"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-audio"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-axis-3d"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-badge-2"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-badge"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-box"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-chart-column-increasing"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-chart-column"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-chart-line"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-chart-pie"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-check-2"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-check"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-clock"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-code-2"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-code"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-cog"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-diff"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-digit"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-down"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-heart"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-image"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-input"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-json-2"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-json"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-key-2"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-key"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-lock-2"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-lock"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-minus-2"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-minus"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-music"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-output"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-pen-line"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-pen"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-plus-2"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-plus"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-question"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-scan"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-search-2"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-search"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-sliders"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-spreadsheet"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-stack"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-symlink"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-terminal"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-text"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-type-2"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-type"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-up"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-user"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-video-2"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-video"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-volume-2"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-volume"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-warning"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 6,
+				},
+				["file-x-2"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["file-x"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["file"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["files"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["film"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["filter-x"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["filter"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fingerprint"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fire-extinguisher"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fish-off"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fish-symbol"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fish"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flag-off"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flag-triangle-left"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flag-triangle-right"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flag"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flame-kindling"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flame"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flashlight-off"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flashlight"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flask-conical-off"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flask-conical"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flask-round"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flip-horizontal-2"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flip-horizontal"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flip-vertical-2"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flip-vertical"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flower-2"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["flower"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["focus"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fold-horizontal"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fold-vertical"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-archive"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-check"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-clock"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-closed"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-code"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-cog"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-dot"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-down"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-git-2"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-git"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-heart"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-input"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-kanban"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-key"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-lock"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-minus"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-open-dot"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-open"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-output"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-pen"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-plus"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-root"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-search-2"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-search"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-symlink"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-sync"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-tree"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-up"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder-x"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folder"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["folders"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["footprints"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["forklift"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["forward"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["frame"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["framer"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["frown"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fuel"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["fullscreen"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gallery-horizontal-end"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gallery-horizontal"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gallery-thumbnails"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gallery-vertical-end"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gallery-vertical"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gamepad-2"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gamepad"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gauge"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gavel"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gem"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["ghost"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gift"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-branch-plus"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-branch"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-commit-horizontal"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-commit-vertical"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-compare-arrows"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-compare"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-fork"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-graph"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-merge"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-pull-request-arrow"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-pull-request-closed"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-pull-request-create-arrow"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-pull-request-create"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-pull-request-draft"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["git-pull-request"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["github"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["gitlab"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 7,
+				},
+				["glass-water"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["glasses"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["globe-lock"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["globe"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["goal"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grab"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["graduation-cap"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grape"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grid-2x2-check"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grid-2x2-plus"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grid-2x2-x"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grid-2x2"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grid-3x3"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grip-horizontal"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grip-vertical"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["grip"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["group"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["guitar"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["ham"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hammer"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hand-coins"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hand-heart"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hand-helping"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hand-metal"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hand-platter"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hand"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["handshake"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hard-drive-download"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hard-drive-upload"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hard-drive"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hard-hat"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hash"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["haze"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hdmi-port"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heading-1"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heading-2"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heading-3"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heading-4"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heading-5"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heading-6"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heading"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["headphone-off"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["headphones"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["headset"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heart-crack"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heart-handshake"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heart-off"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heart-pulse"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heart"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["heater"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hexagon"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["highlighter"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["history"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hop-off"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hop"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hospital"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hotel"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["hourglass"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["house-plug"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["house-plus"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["house-wifi"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["house"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["ice-cream-bowl"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["ice-cream-cone"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["id-card"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image-down"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image-minus"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image-off"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image-play"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image-plus"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image-up"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image-upscale"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["image"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["images"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["import"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["inbox"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["indent-decrease"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["indent-increase"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["indian-rupee"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["infinity"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["info"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["inspection-panel"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["instagram"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["italic"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["iteration-ccw"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["iteration-cw"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["japanese-yen"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["joystick"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["kanban"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["key-round"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["key-square"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["key"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["keyboard-music"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["keyboard-off"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["keyboard"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["lamp-ceiling"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["lamp-desk"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["lamp-floor"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["lamp-wall-down"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["lamp-wall-up"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 8,
+				},
+				["lamp"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["land-plot"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["landmark"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["languages"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["laptop-minimal-check"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["laptop-minimal"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["laptop"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lasso-select"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lasso"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["laugh"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layers-2"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layers"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layout-dashboard"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layout-grid"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layout-list"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layout-panel-left"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layout-panel-top"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["layout-template"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["leaf"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["leafy-green"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lectern"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["letter-text"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["library-big"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["library"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["life-buoy"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["ligature"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lightbulb-off"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lightbulb"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["link-2-off"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["link-2"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["link"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["linkedin"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-check"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-checks"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-collapse"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-end"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-filter-plus"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-filter"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-minus"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-music"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-ordered"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-plus"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-restart"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-start"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-todo"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-tree"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-video"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list-x"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["list"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["loader-circle"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["loader-pinwheel"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["loader"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["locate-fixed"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["locate-off"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["locate"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lock-keyhole-open"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lock-keyhole"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lock-open"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lock"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["log-in"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["log-out"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["logs"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["lollipop"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["luggage"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["magnet"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-check"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-minus"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-open"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-plus"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-question"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-search"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-warning"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail-x"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mail"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mailbox"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["mails"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-check-inside"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-check"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-house"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-minus-inside"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-minus"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-off"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-plus-inside"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-plus"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-x-inside"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin-x"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pin"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-pinned"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map-plus"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["map"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["martini"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["maximize-2"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["maximize"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["medal"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["megaphone-off"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["megaphone"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["meh"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["memory-stick"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["menu"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["merge"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 9,
+				},
+				["message-circle-code"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-dashed"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-heart"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-more"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-off"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-plus"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-question"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-reply"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-warning"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle-x"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-circle"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-code"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-dashed"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-diff"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-dot"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-heart"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-lock"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-more"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-off"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-plus"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-quote"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-reply"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-share"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-text"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-warning"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square-x"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["message-square"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["messages-square"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mic-off"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mic-vocal"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mic"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["microchip"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["microscope"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["microwave"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["milestone"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["milk-off"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["milk"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["minimize-2"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["minimize"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["minus"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-check"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-cog"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-dot"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-down"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-off"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-pause"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-play"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-smartphone"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-speaker"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-stop"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-up"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor-x"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["monitor"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["moon-star"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["moon"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mountain-snow"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mountain"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mouse-off"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mouse-pointer-2"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mouse-pointer-ban"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mouse-pointer-click"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mouse-pointer"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["mouse"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-3d"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-diagonal-2"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-diagonal"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-down-left"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-down-right"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-down"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-horizontal"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-left"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-right"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-up-left"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-up-right"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-up"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move-vertical"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["move"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["music-2"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["music-3"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["music-4"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["music"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["navigation-2-off"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["navigation-2"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["navigation-off"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["navigation"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["network"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["newspaper"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["nfc"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["notebook-pen"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["notebook-tabs"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["notebook-text"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["notebook"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["notepad-text-dashed"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["notepad-text"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["nut-off"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["nut"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["octagon-alert"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["octagon-minus"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["octagon-pause"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["octagon-x"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 10,
+				},
+				["octagon"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["omega"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["option"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["orbit"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["origami"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package-2"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package-check"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package-minus"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package-open"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package-plus"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package-search"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package-x"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["package"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["paint-bucket"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["paint-roller"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["paintbrush-vertical"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["paintbrush"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["palette"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-bottom-close"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-bottom-dashed"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-bottom-open"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-bottom"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-left-close"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-left-dashed"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-left-open"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-left"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-right-close"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-right-dashed"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-right-open"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-right"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-top-close"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-top-dashed"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-top-open"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panel-top"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panels-left-bottom"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panels-right-bottom"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["panels-top-left"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["paperclip"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["parentheses"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["parking-meter"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["party-popper"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pause"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["paw-print"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pc-case"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pen-line"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pen-off"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pen-tool"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pen"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pencil-line"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pencil-off"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pencil-ruler"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pencil"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pentagon"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["percent"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["person-standing"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["philippine-peso"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["phone-call"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["phone-forwarded"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["phone-incoming"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["phone-missed"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["phone-off"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["phone-outgoing"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["phone"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pi"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["piano"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pickaxe"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["picture-in-picture-2"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["picture-in-picture"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["piggy-bank"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pilcrow-left"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pilcrow-right"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pilcrow"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pill-bottle"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pill"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pin-off"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pin"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pipette"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pizza"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["plane-landing"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["plane-takeoff"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["plane"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["play"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["plug-2"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["plug-zap"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["plug"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["plus"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pocket-knife"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pocket"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["podcast"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pointer-off"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pointer"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["popcorn"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["popsicle"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["pound-sterling"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["power-off"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["power"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["presentation"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["printer-check"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["printer"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["projector"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 11,
+				},
+				["proportions"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["puzzle"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["pyramid"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["qr-code"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["quote"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rabbit"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["radar"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["radiation"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["radical"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["radio-receiver"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["radio-tower"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["radio"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["radius"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rail-symbol"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rainbow"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rat"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["ratio"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-cent"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-euro"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-indian-rupee"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-japanese-yen"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-pound-sterling"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-russian-ruble"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-swiss-franc"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt-text"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["receipt"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rectangle-ellipsis"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rectangle-horizontal"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rectangle-vertical"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["recycle"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["redo-2"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["redo-dot"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["redo"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["refresh-ccw-dot"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["refresh-ccw"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["refresh-cw-off"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["refresh-cw"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["refrigerator"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["regex"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["remove-formatting"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["repeat-1"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["repeat-2"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["repeat"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["replace-all"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["replace"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["reply-all"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["reply"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rewind"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["ribbon"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rocket"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rocking-chair"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["roller-coaster"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rotate-3d"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rotate-ccw-square"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rotate-ccw"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rotate-cw-square"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rotate-cw"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["route-off"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["route"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["router"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rows-2"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rows-3"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rows-4"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["rss"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["ruler"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["russian-ruble"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["sailboat"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["salad"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["sandwich"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["satellite-dish"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["satellite"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["save-all"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["save-off"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["save"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scale-3d"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scale"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scaling"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-barcode"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-eye"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-face"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-heart"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-line"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-qr-code"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-search"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan-text"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scan"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["school"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scissors-line-dashed"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scissors"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["screen-share-off"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["screen-share"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scroll-text"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["scroll"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["search-check"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["search-code"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["search-slash"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["search-x"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["search"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["section"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["send-horizontal"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 12,
+				},
+				["send-to-back"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["send"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["separator-horizontal"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["separator-vertical"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["server-cog"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["server-crash"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["server-off"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["server"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["settings-2"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["settings"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shapes"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["share-2"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["share"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sheet"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shell"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-alert"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-ban"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-check"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-ellipsis"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-half"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-minus"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-off"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-plus"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-question"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield-x"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shield"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["ship-wheel"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["ship"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shirt"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shopping-bag"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shopping-basket"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shopping-cart"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shovel"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shower-head"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shrink"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shrub"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["shuffle"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sigma"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signal-high"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signal-low"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signal-medium"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signal-zero"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signal"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signature"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signpost-big"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["signpost"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["siren"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["skip-back"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["skip-forward"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["skull"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["slack"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["slash"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["slice"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sliders-horizontal"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sliders-vertical"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["smartphone-charging"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["smartphone-nfc"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["smartphone"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["smile-plus"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["smile"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["snail"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["snowflake"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sofa"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["soup"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["space"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["spade"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sparkle"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sparkles"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["speaker"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["speech"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["spell-check-2"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["spell-check"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["spline"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["split"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["spray-can"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["sprout"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-activity"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-down-left"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-down-right"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-down"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-left"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-out-down-left"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-out-down-right"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-out-up-left"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-out-up-right"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-right"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-up-left"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-up-right"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-arrow-up"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-asterisk"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-bottom-dashed-scissors"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-chart-gantt"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-check-big"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-check"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-chevron-down"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-chevron-left"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-chevron-right"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-chevron-up"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-code"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-dashed-bottom-code"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 13,
+				},
+				["square-dashed-bottom"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-dashed-kanban"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-dashed-mouse-pointer"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-dashed"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-divide"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-dot"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-equal"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-function"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-kanban"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-library"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-m"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-menu"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-minus"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-mouse-pointer"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-parking-off"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-parking"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-pen"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-percent"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-pi"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-pilcrow"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-play"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-plus"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-power"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-radical"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-scissors"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-sigma"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-slash"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-split-horizontal"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-split-vertical"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-square"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-stack"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-terminal"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-user-round"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-user"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square-x"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["square"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["squircle"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["squirrel"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["stamp"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["star-half"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["star-off"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["star"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["step-back"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["step-forward"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["stethoscope"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sticker"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sticky-note"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["store"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["stretch-horizontal"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["stretch-vertical"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["strikethrough"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["subscript"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sun-dim"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sun-medium"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sun-moon"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sun-snow"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sun"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sunrise"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sunset"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["superscript"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["swatch-book"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["swiss-franc"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["switch-camera"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["sword"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["swords"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["syringe"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table-2"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table-cells-merge"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table-cells-split"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table-columns-split"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table-of-contents"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table-properties"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table-rows-split"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["table"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tablet-smartphone"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tablet"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tablets"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tag"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tags"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tally-1"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tally-2"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tally-3"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tally-4"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tally-5"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tangent"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["target"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["telescope"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tent-tree"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["tent"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["terminal"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["test-tube-diagonal"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["test-tube"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["test-tubes"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["text-cursor-input"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["text-cursor"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["text-quote"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["text-search"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["text-select"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["text"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["theater"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 14,
+				},
+				["thermometer-snowflake"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["thermometer-sun"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["thermometer"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["thumbs-down"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["thumbs-up"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ticket-check"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ticket-minus"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ticket-percent"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ticket-plus"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ticket-slash"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ticket-x"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ticket"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tickets-plane"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tickets"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["timer-off"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["timer-reset"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["timer"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["toggle-left"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["toggle-right"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["toilet"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tornado"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["torus"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["touchpad-off"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["touchpad"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tower-control"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["toy-brick"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tractor"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["traffic-cone"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["train-front-tunnel"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["train-front"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["train-track"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tram-front"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trash-2"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trash"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tree-deciduous"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tree-palm"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tree-pine"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trees"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trello"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trending-down"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trending-up-down"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trending-up"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["triangle-alert"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["triangle-dashed"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["triangle-right"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["triangle"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["trophy"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["truck"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["turtle"] = {
+					ImageRectPosition = Vector2.new(768, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tv-minimal-play"] = {
+					ImageRectPosition = Vector2.new(864, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tv-minimal"] = {
+					ImageRectPosition = Vector2.new(0, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["tv"] = {
+					ImageRectPosition = Vector2.new(96, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["twitch"] = {
+					ImageRectPosition = Vector2.new(192, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["twitter"] = {
+					ImageRectPosition = Vector2.new(288, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["type-outline"] = {
+					ImageRectPosition = Vector2.new(384, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["type"] = {
+					ImageRectPosition = Vector2.new(480, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["umbrella-off"] = {
+					ImageRectPosition = Vector2.new(576, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["umbrella"] = {
+					ImageRectPosition = Vector2.new(672, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["underline"] = {
+					ImageRectPosition = Vector2.new(768, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["undo-2"] = {
+					ImageRectPosition = Vector2.new(864, 480),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["undo-dot"] = {
+					ImageRectPosition = Vector2.new(0, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["undo"] = {
+					ImageRectPosition = Vector2.new(96, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["unfold-horizontal"] = {
+					ImageRectPosition = Vector2.new(192, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["unfold-vertical"] = {
+					ImageRectPosition = Vector2.new(288, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["ungroup"] = {
+					ImageRectPosition = Vector2.new(384, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["university"] = {
+					ImageRectPosition = Vector2.new(480, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["unlink-2"] = {
+					ImageRectPosition = Vector2.new(576, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["unlink"] = {
+					ImageRectPosition = Vector2.new(672, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["unplug"] = {
+					ImageRectPosition = Vector2.new(768, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["upload"] = {
+					ImageRectPosition = Vector2.new(864, 576),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["usb"] = {
+					ImageRectPosition = Vector2.new(0, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-check"] = {
+					ImageRectPosition = Vector2.new(96, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-cog"] = {
+					ImageRectPosition = Vector2.new(192, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-minus"] = {
+					ImageRectPosition = Vector2.new(288, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-pen"] = {
+					ImageRectPosition = Vector2.new(384, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-plus"] = {
+					ImageRectPosition = Vector2.new(480, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round-check"] = {
+					ImageRectPosition = Vector2.new(576, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round-cog"] = {
+					ImageRectPosition = Vector2.new(672, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round-minus"] = {
+					ImageRectPosition = Vector2.new(768, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round-pen"] = {
+					ImageRectPosition = Vector2.new(864, 672),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round-plus"] = {
+					ImageRectPosition = Vector2.new(0, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round-search"] = {
+					ImageRectPosition = Vector2.new(96, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round-x"] = {
+					ImageRectPosition = Vector2.new(192, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-round"] = {
+					ImageRectPosition = Vector2.new(288, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-search"] = {
+					ImageRectPosition = Vector2.new(384, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user-x"] = {
+					ImageRectPosition = Vector2.new(480, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["user"] = {
+					ImageRectPosition = Vector2.new(576, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["users-round"] = {
+					ImageRectPosition = Vector2.new(672, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["users"] = {
+					ImageRectPosition = Vector2.new(768, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["utensils-crossed"] = {
+					ImageRectPosition = Vector2.new(864, 768),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["utensils"] = {
+					ImageRectPosition = Vector2.new(0, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["utility-pole"] = {
+					ImageRectPosition = Vector2.new(96, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["variable"] = {
+					ImageRectPosition = Vector2.new(192, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["vault"] = {
+					ImageRectPosition = Vector2.new(288, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["vegan"] = {
+					ImageRectPosition = Vector2.new(384, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["venetian-mask"] = {
+					ImageRectPosition = Vector2.new(480, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["vibrate-off"] = {
+					ImageRectPosition = Vector2.new(576, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["vibrate"] = {
+					ImageRectPosition = Vector2.new(672, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["video-off"] = {
+					ImageRectPosition = Vector2.new(768, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["video"] = {
+					ImageRectPosition = Vector2.new(864, 864),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 15,
+				},
+				["videotape"] = {
+					ImageRectPosition = Vector2.new(0, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["view"] = {
+					ImageRectPosition = Vector2.new(96, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["voicemail"] = {
+					ImageRectPosition = Vector2.new(192, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["volleyball"] = {
+					ImageRectPosition = Vector2.new(288, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["volume-1"] = {
+					ImageRectPosition = Vector2.new(384, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["volume-2"] = {
+					ImageRectPosition = Vector2.new(480, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["volume-off"] = {
+					ImageRectPosition = Vector2.new(576, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["volume-x"] = {
+					ImageRectPosition = Vector2.new(672, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["volume"] = {
+					ImageRectPosition = Vector2.new(768, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["vote"] = {
+					ImageRectPosition = Vector2.new(864, 0),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wallet-cards"] = {
+					ImageRectPosition = Vector2.new(0, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wallet-minimal"] = {
+					ImageRectPosition = Vector2.new(96, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wallet"] = {
+					ImageRectPosition = Vector2.new(192, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wallpaper"] = {
+					ImageRectPosition = Vector2.new(288, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wand-sparkles"] = {
+					ImageRectPosition = Vector2.new(384, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wand"] = {
+					ImageRectPosition = Vector2.new(480, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["warehouse"] = {
+					ImageRectPosition = Vector2.new(576, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["washing-machine"] = {
+					ImageRectPosition = Vector2.new(672, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["watch"] = {
+					ImageRectPosition = Vector2.new(768, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["waves-ladder"] = {
+					ImageRectPosition = Vector2.new(864, 96),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["waves"] = {
+					ImageRectPosition = Vector2.new(0, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["waypoints"] = {
+					ImageRectPosition = Vector2.new(96, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["webcam"] = {
+					ImageRectPosition = Vector2.new(192, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["webhook-off"] = {
+					ImageRectPosition = Vector2.new(288, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["webhook"] = {
+					ImageRectPosition = Vector2.new(384, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["weight"] = {
+					ImageRectPosition = Vector2.new(480, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wheat-off"] = {
+					ImageRectPosition = Vector2.new(576, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wheat"] = {
+					ImageRectPosition = Vector2.new(672, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["whole-word"] = {
+					ImageRectPosition = Vector2.new(768, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wifi-high"] = {
+					ImageRectPosition = Vector2.new(864, 192),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wifi-low"] = {
+					ImageRectPosition = Vector2.new(0, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wifi-off"] = {
+					ImageRectPosition = Vector2.new(96, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wifi-zero"] = {
+					ImageRectPosition = Vector2.new(192, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wifi"] = {
+					ImageRectPosition = Vector2.new(288, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wind-arrow-down"] = {
+					ImageRectPosition = Vector2.new(384, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wind"] = {
+					ImageRectPosition = Vector2.new(480, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wine-off"] = {
+					ImageRectPosition = Vector2.new(576, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wine"] = {
+					ImageRectPosition = Vector2.new(672, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["workflow"] = {
+					ImageRectPosition = Vector2.new(768, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["worm"] = {
+					ImageRectPosition = Vector2.new(864, 288),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wrap-text"] = {
+					ImageRectPosition = Vector2.new(0, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["wrench"] = {
+					ImageRectPosition = Vector2.new(96, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["x"] = {
+					ImageRectPosition = Vector2.new(192, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["youtube"] = {
+					ImageRectPosition = Vector2.new(288, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["zap-off"] = {
+					ImageRectPosition = Vector2.new(384, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["zap"] = {
+					ImageRectPosition = Vector2.new(480, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["zoom-in"] = {
+					ImageRectPosition = Vector2.new(576, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+				["zoom-out"] = {
+					ImageRectPosition = Vector2.new(672, 384),
+					ImageRectSize = Vector2.new(96, 96),
+					Image = 16,
+				},
+			}
+		}
+	end;
+};
+
+return require(NatHubGUI["123"])
