@@ -3628,12 +3628,13 @@ NatHub_MODULES[NatHub["3e"]] = {
 					end
 
 					local function SetState(newState)
-						if newState then
-							AnimateSwitch(newState)
-						else
-							AnimateSwitch(not Toggle.State)
-						end
-						Toggle.State = newState or not Toggle.State
+                        if newState == nil then
+                            newState = not Toggle.State
+                        end
+
+                        AnimateSwitch(newState)
+
+						Toggle.State = newState
 						Toggle.Callback(Toggle.State)
                         CONFIG[NAMETAB][name] = Toggle.State
                         SAVECONFIG()
