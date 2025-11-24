@@ -3968,9 +3968,9 @@ NatHub_MODULES[NatHub["3e"]] = {
 
                     local name = Input.Title
                     if CONFIGLOADED and CONFIG[NAMETAB][name] ~= nil then
-                        Input.Text = CONFIG[NAMETAB][name]
+                        Input.Default = CONFIG[NAMETAB][name]
                     elseif not CONFIGLOADED or CONFIG[NAMETAB][name] == nil then
-                        CONFIG[NAMETAB][name] = Input.Text
+                        CONFIG[NAMETAB][name] = Input.Default
                     end
 
 					local newInput = Templates.TextBox:Clone()
@@ -4117,7 +4117,7 @@ NatHub_MODULES[NatHub["3e"]] = {
 						newInput:Destroy()
 					end
 
-					Input.Callback(Input.Text)
+					Input.Callback(Input.Default)
 
 					return Input
 				end
