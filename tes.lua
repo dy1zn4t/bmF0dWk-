@@ -6,13 +6,13 @@
 	| |\  | (_| | |_| |__| |_| |_ 
 	|_| \_|\__,_|\__|\____/|_____|
 
+    Rewrited from Wind UI (Footagesus)
+    Github: https://github.com/Footagesus/WindUI
+
 	Developed by: .chill.z. (Chillz)
 	Owned by: ardyxz (NatHub)
 
-	This User Interface is not for public usage.
-	
-	Copyright (c) 2025 Chillz & NatHub
-	All rights reserved. Not for public distribution.
+	This User Interface is open source and for public usage.
 ]]
 
 -- Instances: 271 | Scripts: 0 | Modules: 3 | Tags: 0
@@ -4166,6 +4166,10 @@ NatHub_MODULES[NatHub["3e"]] = {
 						Callback = data.Callback or function() end
 					}
 
+					if not Dropdown.Multi and Dropdown.AllowNone then
+						Dropdown.Values = {"None", unpack(Dropdown.Values)}
+					end
+
                     local name = Dropdown.Title
                     if CONFIGLOADED and CONFIG[NAMETAB][name] ~= nil then
                         Dropdown.Value = CONFIG[NAMETAB][name]
@@ -4245,6 +4249,7 @@ NatHub_MODULES[NatHub["3e"]] = {
 							Tween(targetbuttonSearch.Frame.Description, {TextColor3 = Color3.fromRGB(255,255,255)}, TweenConfigs.Global)
 							Tween(targetbuttonSearch.UIStroke, {Color = Color3.fromRGB(10, 135, 213)}, TweenConfigs.Global)
 							Tween(targetbuttonSearch.Frame, {BackgroundTransparency = 0}, TweenConfigs.Global)
+                            if selected == "None" then return "" end
 							return selected	
 						elseif multi then
 							for _, newSelected in newvalue do
@@ -4513,7 +4518,12 @@ NatHub_MODULES[NatHub["3e"]] = {
 						newDropdown:Destroy()
 					end
 
-					Dropdown.Callback(Dropdown.Value)
+                    if (not Dropdown.Multi and Dropdown.AllowNone) and Dropdown.Value == "" then
+                        Dropdown.Value = "None"
+                        Dropdown.Callback("")
+                    else
+                        Dropdown.Callback(Dropdown.Value)
+                    end
 
 					return Dropdown
 				end
