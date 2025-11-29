@@ -4177,6 +4177,8 @@ NatHub_MODULES[NatHub["3e"]] = {
                         CONFIG[NAMETAB][name] = Dropdown.Value
                     end
 
+                    if (not Dropdown.Multi and Dropdown.AllowNone) and Dropdown.Value == "" then Dropdown.Value = "None" end
+
 					local selected = nil
 
 					local newDropdown = Templates.Dropdown:Clone()
@@ -4518,8 +4520,7 @@ NatHub_MODULES[NatHub["3e"]] = {
 						newDropdown:Destroy()
 					end
 
-                    if (not Dropdown.Multi and Dropdown.AllowNone) and Dropdown.Value == "" then
-                        Dropdown.Value = "None"
+                    if (not Dropdown.Multi and Dropdown.AllowNone) and Dropdown.Value == "None" then
                         Dropdown.Callback("")
                     else
                         Dropdown.Callback(Dropdown.Value)
