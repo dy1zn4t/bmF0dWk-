@@ -16,8 +16,11 @@ writefile then EnsureConfigFolder()ConfigData._version=CURRENT_VERSION local ok=
 pcall(function()writefile(path,HttpService:JSONEncode(ConfigData))end)return ok
 end return false end function LoadConfigFromFile()if not CURRENT_VERSION then
 return end ConfigData={_version=CURRENT_VERSION}end function LoadConfigElements(
-)for key,element in pairs(Elements)do if ConfigData[key]~=nil and element.Set
-then element:Set(ConfigData[key],true)end end end local Icons={player=
+)local deferredToggles={}for key,element in pairs(Elements)do if ConfigData[key]
+~=nil and element.Set then if string.sub(key,1,7)=='Toggle_'then deferredToggles
+[#deferredToggles+1]={element=element,value=ConfigData[key]}else element:Set(
+ConfigData[key],true)end end end for _,item in ipairs(deferredToggles)do item.
+element:Set(item.value,true)end end local Icons={player=
 'rbxassetid://12120698352',web='rbxassetid://137601480983962',bag=
 'rbxassetid://8601111810',shop='rbxassetid://4985385964',cart=
 'rbxassetid://128874923961846',plug='rbxassetid://137601480983962',settings=
